@@ -1,0 +1,30 @@
+{
+    "name": "FortPostMaxPhoenixLevelRewardData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIsMajorReward",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VisibleReward",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortRewardQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "EventTag",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

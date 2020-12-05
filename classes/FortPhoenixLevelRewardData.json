@@ -1,0 +1,48 @@
+{
+    "name": "FortPhoenixLevelRewardData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TotalRequiredXP",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIsMajorReward",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VisibleReward",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortRewardQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "HiddenRewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortRewardQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "EventTag",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}
