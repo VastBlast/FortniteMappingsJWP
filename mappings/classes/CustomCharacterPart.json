@@ -10,6 +10,14 @@
             }
         },
         {
+            "index": 1,
+            "name": "BodyTypesPermitted",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enumName": "EFortCustomBodyType"
+            }
+        },
+        {
             "index": 2,
             "name": "CharacterPartType",
             "mapping_type": {
@@ -50,6 +58,34 @@
             "name": "SkeletalMesh",
             "mapping_type": {
                 "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "MasterSkeletalMeshes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "MaterialOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomPartMaterialOverrideData"
+                }
+            }
+        },
+        {
+            "index": 24,
+            "name": "MaterialOverrideFlags",
+            "mapping_type": {
+                "type": "IntProperty"
             }
         }
     ]

@@ -1,0 +1,23 @@
+{
+    "name": "FortHeroSpecialization",
+    "properties": [
+        {
+            "index": 1,
+            "name": "CharacterParts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "AlterationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enumName": "EFortAlteration"
+            }
+        }
+    ]
+}
