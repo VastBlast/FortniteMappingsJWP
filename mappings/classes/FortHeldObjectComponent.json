@@ -1,0 +1,72 @@
+{
+    "name": "FortHeldObjectComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EquippedWeaponItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HeldObjectThrownData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HeldObjectThrownData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttachmentOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PlayerAttachmentScaleRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttachmentRule"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bBlocksVehicleDriverSeat",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bApplyAngularImpulseOnThrow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ThrowAngularImpulseRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PreviewMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PlacementPreviewClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

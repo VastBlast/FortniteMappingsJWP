@@ -1,0 +1,61 @@
+{
+    "name": "FortDetailedPerfReport",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BadMatchTriggers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortBadMatchTrigger"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PhasesToInclude",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ReportProbability",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bEnableCsvProfile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bUploadAllCsvs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bAllowForcedPerformanceReport",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

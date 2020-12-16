@@ -1,0 +1,38 @@
+{
+    "name": "AFortGameplayMutator_SetCVars",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CVarsToSet",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SetCVarParams"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CVarsToSet_ClientOnly",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SetCVarParams"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CVarsToSet_ServerOnly",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SetCVarParams"
+                }
+            }
+        }
+    ]
+}

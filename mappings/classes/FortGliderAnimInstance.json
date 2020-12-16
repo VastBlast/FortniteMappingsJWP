@@ -1,0 +1,30 @@
+{
+    "name": "FortGliderAnimInstance",
+    "properties": [
+        {
+            "index": 4,
+            "name": "bForceOpen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bForceOpen_SkipInto",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        }
+    ]
+}

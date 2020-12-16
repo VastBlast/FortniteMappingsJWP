@@ -1,0 +1,66 @@
+{
+    "name": "AFortGameModeOutpost",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OwnerItemRefundCache",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentCoreInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortOutpostCoreInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSavePlayerBuiltStructuresAtAllTimes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinTotalContinuousOneHitResourcesDistributedForForcedSave",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxContinuousOneHitResourcesDistributedBeforeForcedSave",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnableLargeScaleDisassemblyForcedSaves",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bEnableUnsupportedStructureDisassembly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bCheckNavMeshAvailability",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "FortGeneratedEncounterSequence",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TransitionSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEncounterTransitionSettings"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StartingGeneratedEncounterProfileIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumEncountersInSequence",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EncounterSequenceTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

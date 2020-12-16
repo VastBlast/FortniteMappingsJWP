@@ -1,0 +1,20 @@
+{
+    "name": "McpChangeAttributesRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Attributes",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "JsonObjectWrapper"
+            }
+        }
+    ]
+}

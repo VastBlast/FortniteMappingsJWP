@@ -1,0 +1,42 @@
+{
+    "name": "AAthenaBigBaseWall",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WallGravity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TimeUntilWallComesDown",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bResetBool",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BarrierState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBarrierState"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ZKillLevel",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

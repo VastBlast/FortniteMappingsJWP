@@ -1,0 +1,37 @@
+{
+    "name": "ContextPosition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Platform",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EContextPositionPlatform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HorizontalAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHorizontalAlignment"
+            }
+        },
+        {
+            "index": 3,
+            "name": "VerticalAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVerticalAlignment"
+            }
+        }
+    ]
+}

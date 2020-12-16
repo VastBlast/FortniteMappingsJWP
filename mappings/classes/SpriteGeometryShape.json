@@ -1,0 +1,54 @@
+{
+    "name": "SpriteGeometryShape",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ShapeType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESpriteShapeType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Vertices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector2D"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "BoxSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BoxPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bNegativeWinding",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,190 @@
+{
+    "name": "ABuildingFoundation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BuildingGroups",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "AdditionalWorlds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "BuildingDeconstructorOrigin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BuildingDeconstructorExtent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bConditionalFoundation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bShowHLODWhenDisabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bOverrideNavigationGraphCells",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bHasExcludedZone",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bForceDitheringTransition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "DynamicFoundationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDynamicFoundationType"
+            }
+        },
+        {
+            "index": 13,
+            "name": "FoundationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingFoundationType"
+            }
+        },
+        {
+            "index": 14,
+            "name": "NavExclusionMinX",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "NavExclusionMaxX",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "NavExclusionMinY",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "NavExclusionMaxY",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "StreamingBoundingBox",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 20,
+            "name": "BuildingGroupFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 21,
+            "name": "MapLocationTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 22,
+            "name": "LandIcon",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 23,
+            "name": "LandIconWorldOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 24,
+            "name": "MapLocationText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "MapLocationTextOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 32,
+            "name": "ProxyMeshMaxDrawDistanceMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "DynamicFoundationRepData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DynamicBuildingFoundationRepData"
+            }
+        }
+    ]
+}

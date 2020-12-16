@@ -1,0 +1,430 @@
+{
+    "name": "AFortWeaponRanged",
+    "properties": [
+        {
+            "index": 1,
+            "name": "TracerTemplate",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAllowAutomaticWeaponCatchup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScopeTargetingMuzzleOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MaxTargetingAimAdjustment",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bShouldDisplayAmmoCounter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bShouldAimFromMuzzleAtCloseRange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bAlwaysAimFromMuzzle",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bMaintainAimLocationDuringTargeting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bUseScopeTargeting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bUseFirstPersonTargeting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bPersistentFireFX",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bUseBeamParticles",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bUseImpactFXForProjectiles",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bUseImpactFXForProjectileOverlaps",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bUseImpactDecals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bUsePersistentBeam",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "MuzzleTraceNearWallThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "BeamSignificance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEffectDistanceQuality"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ImpactSignificance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEffectDistanceQuality"
+            }
+        },
+        {
+            "index": 24,
+            "name": "DecalSignificance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEffectDistanceQuality"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ScopeImpactEffectDistanceOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "BeamParticleSystem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "BeamNiagaraSystemAsset",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "BeamSourceSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "FortSpawnPropOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "FortSpawnPropAnimOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "DecalSizeMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 32,
+            "name": "DecalSizeMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 33,
+            "name": "DecalLifespanMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "DecalLifespanMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "DecalMaterial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "DecalTexture",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "SurfaceAcceptingDecals",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 43,
+            "name": "ScopePostProcessEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "ScopePostProcessBlendWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "ScopePostProcessMaterial",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WeightedBlendable"
+                }
+            }
+        },
+        {
+            "index": 46,
+            "name": "BulletPattern",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortBulletPatternEntry"
+                }
+            }
+        },
+        {
+            "index": 48,
+            "name": "bUseAthenaRecoil",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "bUseAthenaPerfectADSAim",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "bFirstShotAccuracyCheckVehicleMovement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "FirstShotAccuracyMinWaitTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "FireAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "FireDownsightsAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "FireFromCrouchWalkAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "CockingAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "WeaponFireMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "WeaponFireDownsightsMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "WeaponFireFromCrouchWalkMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "WeaponCockingMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "CrouchWalkSpeedThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "bEnableRecoilDelay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "OverheatedAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "WeaponOverheatedAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 67,
+            "name": "bCooldownWhileOverheated",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 68,
+            "name": "OverheatValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "TimeOverheatedBegan",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 71,
+            "name": "bCacheAimPointOnFire",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "CachedAimPoint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

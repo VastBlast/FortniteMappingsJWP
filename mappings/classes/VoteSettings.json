@@ -1,0 +1,38 @@
+{
+    "name": "VoteSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VoteId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bLocksSelection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VoteText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "VoteSelections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VoteSelectionSettings"
+                }
+            }
+        }
+    ]
+}

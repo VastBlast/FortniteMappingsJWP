@@ -1,0 +1,23 @@
+{
+    "name": "PapayaServerMigrationComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AlertDataList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ServerMigrationAlertData"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "bSubscribeToMeshNetwork",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,264 @@
+{
+    "name": "MultiLineEditableText",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Text",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HintText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WidgetStyle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TextBlockStyle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsReadOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Font",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateFontInfo"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SelectAllTextWhenFocused",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ClearTextSelectionOnFocusLoss",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RevertTextOnEscape",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ClearKeyboardFocusOnCommit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "AllowContextMenu",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "VirtualKeyboardOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VirtualKeyboardOptions"
+            }
+        },
+        {
+            "index": 12,
+            "name": "VirtualKeyboardDismissAction",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVirtualKeyboardDismissAction"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ShapedTextOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ShapedTextOptions"
+            }
+        },
+        {
+            "index": 16,
+            "name": "Justification",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextJustify"
+            }
+        },
+        {
+            "index": 17,
+            "name": "WrappingPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextWrappingPolicy"
+            }
+        },
+        {
+            "index": 18,
+            "name": "AutoWrapText",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "WrapTextAt",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "Margin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Margin"
+            }
+        },
+        {
+            "index": 21,
+            "name": "LineHeightPercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "Slot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ToolTipText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "ToolTipWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "RenderTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WidgetTransform"
+            }
+        },
+        {
+            "index": 30,
+            "name": "RenderTransformPivot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bIsVariable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bOverride_Cursor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "AccessibleWidgetData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bIsVolatile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "Cursor",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMouseCursor"
+            }
+        },
+        {
+            "index": 38,
+            "name": "Clipping",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWidgetClipping"
+            }
+        },
+        {
+            "index": 39,
+            "name": "Visibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 40,
+            "name": "RenderOpacity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "Navigation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "FlowDirectionPreference",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFlowDirectionPreference"
+            }
+        }
+    ]
+}

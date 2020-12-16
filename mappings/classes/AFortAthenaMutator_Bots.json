@@ -1,0 +1,84 @@
+{
+    "name": "AFortAthenaMutator_Bots",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BotSpawningDataItemClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bBotHostileToHumanPlayersOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MMRSpawnSpec",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OverrideTableInfo",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ABTestOverrideTableInfo",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AllPossibleOverrideTables",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoftObjectPath"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "bSpawnInAir",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MinHeightFromGround",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MaxAroundBotDistanceToSearchPOIToLand",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "OverridePOISpreadingSquadCount",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

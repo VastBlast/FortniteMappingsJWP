@@ -1,0 +1,62 @@
+{
+    "name": "AFortAthenaMutator_GameModeBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bAutomaticallyFinishInitialization",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GameMsg_AircraftPhaseIntroMessage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Stinger_MatchStart",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMutatorAudioStinger"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Stinger_MatchEnd",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMutatorAudioStinger"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Stinger_MatchEndWin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMutatorAudioStinger"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Stinger_MatchEndLose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMutatorAudioStinger"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FortSquadStartActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

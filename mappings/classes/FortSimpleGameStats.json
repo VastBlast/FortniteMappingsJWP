@@ -1,0 +1,48 @@
+{
+    "name": "FortSimpleGameStats",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GamesPlayed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SecondsPlayed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "KillCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BestResult",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LastReviewPromptDay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CampaignGamesPlayed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "AFortAthenaMutator_SafezoneBlacklist",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MasterDisableSwitch",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BlacklistEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "FortContentEncryptionSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Collections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortContentEncryptionCollection"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "EncryptedGameFeaturePluginNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "BackendURLs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

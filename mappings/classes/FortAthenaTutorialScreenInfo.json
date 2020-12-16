@@ -1,0 +1,134 @@
+{
+    "name": "FortAthenaTutorialScreenInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Substep",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAthenaTutorialSubstep"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TextPromptPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TextPromptPosition_AthenaHUD",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TextPromptAnchors",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Anchors"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TextPromptAnchors_AthenaHUD",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Anchors"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TextPromptText_Touch",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TextPromptText_Gamepad",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TextPromptText_TouchLegacy",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ActionWidget_DataTableRow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 9,
+            "name": "KeybindWidget_NameArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "KeybindWidget_GamepadNameArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "ForceSingleInputKeybind",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "HighlightInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAthenaTutorialHighlightInfo"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "DisplayNextButton",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "DisplayTextPromptTarget",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ExtraWidget",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAthenaTutorialScreenExtraWidget"
+            }
+        }
+    ]
+}

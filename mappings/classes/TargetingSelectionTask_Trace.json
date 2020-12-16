@@ -1,0 +1,80 @@
+{
+    "name": "TargetingSelectionTask_Trace",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TraceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETargetingTraceType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TraceChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETraceTypeQuery"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CollisionProfileName",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CollisionProfileName"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DefaultSweptTraceRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultTraceLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DefaultSourceOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ExplicitTraceDirection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bComplexTrace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIgnoreSourceActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bIgnoreInstigatorActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

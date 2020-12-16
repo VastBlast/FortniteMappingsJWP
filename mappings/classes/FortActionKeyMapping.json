@@ -1,0 +1,58 @@
+{
+    "name": "FortActionKeyMapping",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActionName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActionGroup",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortInputActionGroup"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SubGameUsedIn",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubGame"
+            }
+        },
+        {
+            "index": 5,
+            "name": "KeyBind1",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Key"
+            }
+        },
+        {
+            "index": 6,
+            "name": "KeyBind2",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Key"
+            }
+        },
+        {
+            "index": 7,
+            "name": "InputScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsAxisMapping",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

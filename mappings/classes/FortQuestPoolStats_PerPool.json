@@ -1,0 +1,27 @@
+{
+    "name": "FortQuestPoolStats_PerPool",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PoolName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NextRefresh",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RerollsRemaining",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

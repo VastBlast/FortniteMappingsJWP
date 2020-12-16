@@ -1,0 +1,58 @@
+{
+    "name": "BuildingRequirements",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequiredAccountLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentAccountLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttributeRequirements",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AttributeRequirement"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "RequiredPower",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrentPower",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RequiredManufacturing",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CurrentManufacturing",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

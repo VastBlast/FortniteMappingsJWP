@@ -1,0 +1,55 @@
+{
+    "name": "AFortAthenaMutator_PlayerDamage",
+    "properties": [
+        {
+            "index": 1,
+            "name": "DamageTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DamageMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BoneDamageMultipliers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BonePlayerDamageMultiplier"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "DetectionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPlayerDamageHeightRatioDetectionType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HeightRatio",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "HeightRatioDamageMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

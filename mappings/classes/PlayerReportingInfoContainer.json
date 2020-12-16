@@ -1,0 +1,32 @@
+{
+    "name": "PlayerReportingInfoContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Owner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AllPlayerInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "AllIslandInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

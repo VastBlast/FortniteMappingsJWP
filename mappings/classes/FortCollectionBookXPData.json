@@ -1,0 +1,41 @@
+{
+    "name": "FortCollectionBookXPData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "XpToNextLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TotalXpToGetToThisLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Rewards",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRewardInfo"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIsMajorReward",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAutoOpenRewardCardPacks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

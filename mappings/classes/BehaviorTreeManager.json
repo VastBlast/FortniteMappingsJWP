@@ -1,0 +1,33 @@
+{
+    "name": "BehaviorTreeManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaxDebuggerSteps",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LoadedTemplates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BehaviorTreeTemplateInfo"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActiveComponents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

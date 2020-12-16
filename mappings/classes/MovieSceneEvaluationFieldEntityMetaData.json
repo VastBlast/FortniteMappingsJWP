@@ -1,0 +1,35 @@
+{
+    "name": "MovieSceneEvaluationFieldEntityMetaData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ForcedTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumber"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Flags",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESectionEvaluationFlags"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bEvaluateInSequencePreRoll",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bEvaluateInSequencePostRoll",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

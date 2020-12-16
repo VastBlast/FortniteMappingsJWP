@@ -1,0 +1,28 @@
+{
+    "name": "LootTierGroupTagOverride",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IsEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrideLootTierGroup",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayerTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        }
+    ]
+}

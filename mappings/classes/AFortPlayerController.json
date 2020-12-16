@@ -1,0 +1,801 @@
+{
+    "name": "AFortPlayerController",
+    "properties": [
+        {
+            "index": 2,
+            "name": "bAllowPcbBenefits",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AircraftInputComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MiniMapInputComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bFailedToRespawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsDisconnecting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bIsBeingKicked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bHasInitiallySpawned",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bAssignedStartSpawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bReadyToStartMatch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bClientPawnIsLoaded",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "NumPreviousSpawns",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "SimpleLoadingScreenSoundMix",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bHasClientFinishedLoading",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bHasServerFinishedLoading",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "MaterialParameterCollection",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "PendingSpectatorLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 37,
+            "name": "LastActiveTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bRevertPlayerListenerChange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bHoldingPrimaryFireFromTouch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bSupportNextPieceAssist",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bAutoBuildForTrapPlacement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bAutoBuildForFloorTrapPlacement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bAutoBuildForWallTrapPlacement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bAutoBuildForCeilingTrapPlacement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bNoControllerLighting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "ReturnToMainMenuTimeoutDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "LastDamagerCreditThresholdDropElim",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "LastDamagerCreditThresholdSelfElim",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "LastDamagerCreditThresholdStormElim",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "bGiveLastDamagerElimCreditOnDrop",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "bGiveLastDamagerElimCreditOnSelfDamage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "bGiveLastDamagerElimCreditOnStormDamage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "DBNOCarryInputComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "HeldObjectsInputComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "bAllowHoldForAmmoCrafting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "ClientTimeoutBlockInputTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "bShowHitMarkersForFriendlyFire",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 91,
+            "name": "bServerSideHitMarkers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 96,
+            "name": "bForceAllowCursorMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 97,
+            "name": "bForceAllowCameraMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "bSuppressEventNotifications",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 102,
+            "name": "PreviewAbility",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "IntensityGraphInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDirectorDebugInfo"
+            }
+        },
+        {
+            "index": 104,
+            "name": "PIDValuesGraphInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDirectorDebugInfo"
+            }
+        },
+        {
+            "index": 105,
+            "name": "PIDContributionsGraphInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDirectorDebugInfo"
+            }
+        },
+        {
+            "index": 106,
+            "name": "AIDirectorDataManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 107,
+            "name": "MusicManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 110,
+            "name": "bUsePredictedBuildingActors",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 111,
+            "name": "bRegisterPredictedBuildingActorsWithGrid",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 112,
+            "name": "PredictedActorLifespan",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 114,
+            "name": "BuildPreviewModeInputComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 117,
+            "name": "bAllowBuildingPreviewAutoRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 118,
+            "name": "bRequireTraceToExistingBuildingToSetContext",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 119,
+            "name": "bAllowTraceToExistingBuildingToSetContextToRedirectToBlockingBuilding",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 120,
+            "name": "bRequireTraceToExistingBuildingToSetContextExcludeCurrentContext",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 143,
+            "name": "EditModeInputComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 149,
+            "name": "PickerInputComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 151,
+            "name": "TouchEditResults",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HitResult"
+                }
+            }
+        },
+        {
+            "index": 152,
+            "name": "bBuildingPlacementTraceSkipInitialPenetrationOfBuildingSMActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 153,
+            "name": "bBuildingPlacementTraceSkipInitialPenetrationOfStaticMesh",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 154,
+            "name": "ClientQuickBars",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 156,
+            "name": "DelayedQuickBarActions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DelayedQuickBarActionContainer"
+            }
+        },
+        {
+            "index": 160,
+            "name": "bAutoEquipBetterItems",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 161,
+            "name": "WorldInventory",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 162,
+            "name": "OutpostInventory",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 163,
+            "name": "ViewTargetInventory",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 164,
+            "name": "bHasInitializedWorldInventory",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 165,
+            "name": "bHasInitializedHeroInventory",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 166,
+            "name": "bAccountInventoryWasUpdated",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 167,
+            "name": "bForceWorldInventoryUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 168,
+            "name": "bIsSavingGadgetLoadout",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 171,
+            "name": "ClientBotManagerClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 172,
+            "name": "CosmeticLoadoutPC",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaLoadout"
+            }
+        },
+        {
+            "index": 174,
+            "name": "bDropWeaponsDuringAllMissionStates",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 175,
+            "name": "LatestRewardReport",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRewardReport"
+            }
+        },
+        {
+            "index": 176,
+            "name": "MyPlayerInfo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 177,
+            "name": "UpdatedObjectiveStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortUpdatedObjectiveStat"
+                }
+            }
+        },
+        {
+            "index": 178,
+            "name": "bHasUnsavedPrimaryMissionProgress",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 179,
+            "name": "StatManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 180,
+            "name": "HeartbeatManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 181,
+            "name": "StatEventManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 182,
+            "name": "CachedPersistentGameplayStats",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPersistentGameplayStatContainer"
+            }
+        },
+        {
+            "index": 196,
+            "name": "bShouldReceiveCriticalMatchBonus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 215,
+            "name": "AimHelpMode",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 218,
+            "name": "bHideHudEnglishText",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 219,
+            "name": "bAutoChangeMaterial",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 220,
+            "name": "bServerAutoChangeMaterial",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 228,
+            "name": "bSyncPeripheralLightingWithEmoteMusic",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 229,
+            "name": "bPushEmoteAudioDataToCosmeticMaterials",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 232,
+            "name": "EmoteMusicBeatThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 236,
+            "name": "bClientSideEditPrediction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 237,
+            "name": "ClientSideEditPredictionTimeout",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 241,
+            "name": "bSupportQuickEdit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 243,
+            "name": "bUsesWidgetForFPSDisplay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 244,
+            "name": "bShowFPS",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 246,
+            "name": "bShowTemperature",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 250,
+            "name": "IndicatorManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 251,
+            "name": "bFinalXPUpdateFailed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 254,
+            "name": "BattleMapSpectatorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 255,
+            "name": "bReleaseBuildingContextOnPlace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 256,
+            "name": "TurboPlaceFirstInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 257,
+            "name": "TurboPlaceInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 258,
+            "name": "bCreativeTurboDelete",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 259,
+            "name": "TurboDeleteFirstInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 260,
+            "name": "TurboDeleteInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 261,
+            "name": "bTurboBuild",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 262,
+            "name": "TurboBuildFirstInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 263,
+            "name": "TurboBuildRequestFailedInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 264,
+            "name": "TurboBuildInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 270,
+            "name": "QuickHealItemPickerClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 271,
+            "name": "MeshParentIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

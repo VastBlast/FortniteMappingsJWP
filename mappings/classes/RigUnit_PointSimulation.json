@@ -1,0 +1,128 @@
+{
+    "name": "RigUnit_PointSimulation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Points",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CRSimPoint"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Links",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CRSimLinearSpring"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Forces",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CRSimPointForce"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "CollisionVolumes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CRSimSoftCollision"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "SimulatedStepsPerSecond",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "IntegratorType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECRSimPointIntegrateType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "VerletBlend",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BoneTargets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RigUnit_PointSimulation_BoneTarget"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "bLimitLocalPosition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bPropagateToChildren",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PrimaryAimAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SecondaryAimAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 12,
+            "name": "DebugSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigUnit_PointSimulation_DebugSettings"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Bezier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CRFourPointBezier"
+            }
+        }
+    ]
+}

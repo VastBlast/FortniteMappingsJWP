@@ -1,0 +1,152 @@
+{
+    "name": "FortAthenaMutator_SpawningPolicyDataObjective",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ObjectiveClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObjectiveTrackingTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ObjectiveCollisionProfile",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CollisionProfileName"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ObjectiveMinTraceHeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ObjectiveMaxTraceHeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ObjectiveMinInitialDeliveryDelayTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ObjectiveMaxInitialDeliveryDelayTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ObjectiveMinTimeBetweenSpawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ObjectiveMaxTimeBetweenSpawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bDisplayOnMapAndCompass",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SpecialActorTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SpecialActorMinimapIconBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SpecialActorMinimapIconScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 13,
+            "name": "SpecialActorCompassIconBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 14,
+            "name": "SpecialActorCompassIconScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 15,
+            "name": "NumItemsToSpawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 16,
+            "name": "ItemPlacementQuery",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ItemRemovalQuery",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "RemovalQueryInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

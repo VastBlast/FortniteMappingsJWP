@@ -1,0 +1,58 @@
+{
+    "name": "LayerBlendInput",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LayerName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BlendType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELandscapeLayerBlendType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LayerInput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExpressionInput"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HeightInput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExpressionInput"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PreviewWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ConstLayerInput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ConstHeightInput",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

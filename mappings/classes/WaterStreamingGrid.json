@@ -1,0 +1,56 @@
+{
+    "name": "WaterStreamingGrid",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Cells",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WaterStreamingCell"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "LandscapeLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LandscapeScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumCells",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntPoint"
+            }
+        },
+        {
+            "index": 4,
+            "name": "InvWorldCellDimensions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CellTextureSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntPoint"
+            }
+        }
+    ]
+}

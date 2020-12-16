@@ -1,0 +1,21 @@
+{
+    "name": "ConcertDataStore_Response",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ResultCode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertDataStoreResultCode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Value",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertDataStore_StoreValue"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "ABuildingPropWall",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AreaPatternOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BuildingActorNavArea"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AreaShapeType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingWallArea"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AreaWidthOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bOverrideAreaWidth",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "name": "AFortAthenaMutator_Tag",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TimerLength",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RedTeamVisuals",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TagVisualsData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BlueTeamVisuals",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TagVisualsData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BlueTeamMapBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BlueTeamMapScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ServerEndTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RedTeam",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BlueTeam",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RedTeamSquad",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TagTeamInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TagTeamInfoArray"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SeenControllers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

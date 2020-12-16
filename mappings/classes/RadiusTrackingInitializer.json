@@ -1,0 +1,57 @@
+{
+    "name": "RadiusTrackingInitializer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActorTarget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxCenterOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MinimumRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaximumRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TimeBetweenUpdatesInSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RadiusAmountToShrinkEachUpdate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TargetTrackers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

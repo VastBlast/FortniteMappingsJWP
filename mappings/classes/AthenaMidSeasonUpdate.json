@@ -1,0 +1,66 @@
+{
+    "name": "AthenaMidSeasonUpdate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SeasonLevelRequirement",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BookLevelRequirement",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SeasonPurchasedRequirement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ItemRequirements",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaMidSeasonUpdateItemReq"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "QuestRequirements",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaMidSeasonUpdateQuestReq"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Grants",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaRewardScheduleLevel"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Removals",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        }
+    ]
+}

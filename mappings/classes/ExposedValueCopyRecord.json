@@ -1,0 +1,20 @@
+{
+    "name": "ExposedValueCopyRecord",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CopyIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PostCopyOperation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPostCopyOperation"
+            }
+        }
+    ]
+}

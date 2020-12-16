@@ -2,11 +2,33 @@
     "name": "FortMusicAsset",
     "properties": [
         {
-            "index": 1,
+            "index": 0,
             "name": "Sections",
             "mapping_type": {
                 "type": "StructProperty",
                 "struct_type": "FortMusicSection"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "StopBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMusicSectionStopBehavior"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsStinger",
+            "mapping_type": {
+                "type": "BoolProperty"
             }
         }
     ]

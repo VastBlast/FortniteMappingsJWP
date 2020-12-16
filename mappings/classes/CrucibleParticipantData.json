@@ -1,0 +1,25 @@
+{
+    "name": "CrucibleParticipantData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AthenaPC",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LatestRetrievedRawStats",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

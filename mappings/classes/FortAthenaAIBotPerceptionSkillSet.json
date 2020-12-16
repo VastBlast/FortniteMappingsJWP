@@ -1,0 +1,351 @@
+{
+    "name": "FortAthenaAIBotPerceptionSkillSet",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SightReactionTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SightRandomDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SightRandomAddition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LoseSightTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LoseSightRandomDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SightSuspicionTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SightSuspicionRandomDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EnemyMarkedReactionTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "EnemyMarkedReactionRandomDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ChancesToHelpOnMarkedEnemy",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DamageReactionTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 11,
+            "name": "DamageRandomDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 12,
+            "name": "HearingReactionTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 13,
+            "name": "HearingRandomDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 14,
+            "name": "MaxHearingLocationError",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ThreatSeeingPerceptionSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerceptionStateSettings"
+            }
+        },
+        {
+            "index": 16,
+            "name": "ThreatLKPPerceptionSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerceptionStateSettings"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ThreatAlertedPerceptionSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerceptionStateSettings"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ThreatDamageWeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 19,
+            "name": "ThreatDamageWeightMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ObstacleDistanceOverrideTargeting",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 21,
+            "name": "ObstacleForgetDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 22,
+            "name": "DBNOWeightModifier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 23,
+            "name": "SoundSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundPerceptionSetting"
+            }
+        },
+        {
+            "index": 30,
+            "name": "AlertedAccumulatedLoudnessLimit",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 31,
+            "name": "LKPAccumulatedLoudnessLimit",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 32,
+            "name": "EnemyMarkingDelay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 33,
+            "name": "EnemyMarkingDelayRandomDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 34,
+            "name": "AdditionalMarkedEnemyLKPForgetTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 35,
+            "name": "AdditionalMarkedEnemyLKPForgetDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 36,
+            "name": "AlertLevelConfigs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 37,
+            "name": "ProjectileThreatForgetTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 38,
+            "name": "TrapDetectionDistanceMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 39,
+            "name": "TrapDetectionDistanceMaxDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 40,
+            "name": "TrapDetectionChanceWhenPerpendicular",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 41,
+            "name": "TrapDetectionChanceWhenParallel",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 42,
+            "name": "TrapDetectionEvaluationAngleThreshold",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 43,
+            "name": "TrapDetectionAutomaticIfWithinCreationTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 44,
+            "name": "StealthMeterEnable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 45,
+            "name": "StealthMeterThreshold",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 46,
+            "name": "StealthMeterIncreaseSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 47,
+            "name": "StealthMeterDecreaseSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 48,
+            "name": "StealthMeterAllowSharedTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

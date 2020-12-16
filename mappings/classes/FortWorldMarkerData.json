@@ -1,0 +1,109 @@
+{
+    "name": "FortWorldMarkerData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MarkerID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkerID"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Owner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MarkerType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWorldMarkerType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BasePosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BasePositionOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "WorldNormal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ItemCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MarkedActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MarkedActorClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bIncludeSquad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bHasCustomDisplayInfo",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bUseHoveredMarkerDetail",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "CustomDisplayInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkedActorDisplayInfo"
+            }
+        }
+    ]
+}

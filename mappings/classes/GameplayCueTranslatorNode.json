@@ -1,0 +1,39 @@
+{
+    "name": "GameplayCueTranslatorNode",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Links",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayCueTranslationLink"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CachedIndex",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayCueTranslatorNodeIndex"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CachedGameplayTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CachedGameplayTagName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

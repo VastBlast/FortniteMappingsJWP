@@ -1,0 +1,41 @@
+{
+    "name": "FortFeedbackEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Instigator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Recipient",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Handle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortFeedbackHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Delay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bOverriddenQueuing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "BuildingCategoryOptionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BuildingType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBuildingType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Label",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Brush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SoftIcon",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

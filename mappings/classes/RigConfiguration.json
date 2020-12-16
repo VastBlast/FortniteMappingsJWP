@@ -1,0 +1,23 @@
+{
+    "name": "RigConfiguration",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Rig",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoneMappingTable",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NameMapping"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "RecentPlayerEncounterSerialized",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LocalUserId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UserId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EncounterTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        }
+    ]
+}

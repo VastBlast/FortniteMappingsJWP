@@ -1,0 +1,194 @@
+{
+    "name": "FortGameInstance",
+    "properties": [
+        {
+            "index": 6,
+            "name": "bBattleRoyaleMatchmakingEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bCreativeModeProfileEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PlaylistOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlaylistOverrideData"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "DynamicSoundData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AudioDynamicSoundData"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "FrontEndPlaylistData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlaylistFrontEndSettings"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "AthenaDataTables",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaDataTableSet"
+            }
+        },
+        {
+            "index": 18,
+            "name": "KairosHeartbeatManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "ProfileManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "InventoryManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "RegisteredPlayers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 40,
+            "name": "BroadcastFeatureStatusRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "KairosUIResX",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "KairosUIResY",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "KairosWebUrls",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WebEnvUrl"
+                }
+            }
+        },
+        {
+            "index": 47,
+            "name": "KairosMinSupportedAppVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "KairosHotfixCheckTimer",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "KairosHotfixCheckVariance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "StoreSupport",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 53,
+            "name": "StoreSupport_Android_Samsung",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 54,
+            "name": "StoreSupport_Android_SideloadSamsung",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 55,
+            "name": "StoreSupport_Android_SideloadOther",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 56,
+            "name": "StoreSupportPartner",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        }
+    ]
+}

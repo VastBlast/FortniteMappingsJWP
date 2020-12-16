@@ -1,0 +1,35 @@
+{
+    "name": "AutomationExecutionEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Event",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AutomationEvent"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Filename",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LineNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Timestamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        }
+    ]
+}

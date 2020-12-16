@@ -1,0 +1,64 @@
+{
+    "name": "SimulationStageMetaData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SimulationStageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IterationSource",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSpawnOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bWritesParticles",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bPartialParticleUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "OutputDestinations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "MinStage",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MaxStage",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

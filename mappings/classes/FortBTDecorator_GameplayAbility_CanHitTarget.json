@@ -1,0 +1,43 @@
+{
+    "name": "FortBTDecorator_GameplayAbility_CanHitTarget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UseIdealYawRotationToTarget",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GameplayAbilityTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Target",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ActiveAbilityTagsToSkipTesting",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bUseTarget",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

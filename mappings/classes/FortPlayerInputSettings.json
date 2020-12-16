@@ -1,0 +1,157 @@
+{
+    "name": "FortPlayerInputSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FriendlyName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SubDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ActionMappings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "InputActionKeyMapping"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ActionKeyAliases",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortInputActionKeyAlias"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "ActionsThatShouldAlwaysBeBound",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortInputActionThatShouldAlwaysBeBound"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "HoldInputTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "HoldCraftAmmoTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "HoldHudChatTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "HoldVoteDialogTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bBuildingPickerOnlyChoosesCategories",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bWeaponPickerShowOnlySlottedItems",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bTrapPickerUsesRadial",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bRadialClosesOnRelease",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "NumActiveTrapSlots",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bWeaponSlotsAreSharedWhenUsingGamepad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bEditModeUsableFromCombatMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bOnlyShowNextPrevBuildingSlotKeybinds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bEnabledForCampaign",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bEnabledForAthena",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "name": "FortAnimNotifyState_SpawnArrow",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LocationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RotationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Scale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ActorProp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SkeletalMeshProp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SkeletalMeshPropAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SkeletalMeshPropAnimClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bInheritScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bAbsoluteScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bPropAnimLooping",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bSyncMontage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bPrestreamTextures",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "PrestreamTextureDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "StaticMeshProp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "PropMaterialScalarParams",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EmotePropMaterialScalarParam"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "PropId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "VariantsCosmeticItemDef",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bApplyVariantsToSpawnedItems",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bTrackComponentPropInGC",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "PersistComponents",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

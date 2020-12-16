@@ -1,0 +1,120 @@
+{
+    "name": "GameMapsSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LocalMapOptions",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TransitionMap",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUseSplitscreen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TwoPlayerSplitscreenLayout",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETwoPlayerSplitScreenType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ThreePlayerSplitscreenLayout",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EThreePlayerSplitScreenType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FourPlayerSplitscreenLayout",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFourPlayerSplitScreenType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bOffsetPlayerGamepadIds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "GameInstanceClass",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftClassPath"
+            }
+        },
+        {
+            "index": 8,
+            "name": "GameDefaultMap",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ServerDefaultMap",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 10,
+            "name": "GlobalDefaultGameMode",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftClassPath"
+            }
+        },
+        {
+            "index": 11,
+            "name": "GlobalDefaultServerGameMode",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftClassPath"
+            }
+        },
+        {
+            "index": 12,
+            "name": "GameModeMapPrefixes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameModeName"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "GameModeClassAliases",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameModeName"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "KSphereElem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Center",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Radius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RestOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bContributeToMass",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CollisionEnabled",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionEnabled"
+            }
+        }
+    ]
+}

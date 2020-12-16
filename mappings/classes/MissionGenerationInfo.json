@@ -1,0 +1,27 @@
+{
+    "name": "MissionGenerationInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumMissionsRequired",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxMissionsAllowed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MissionTagRequirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        }
+    ]
+}

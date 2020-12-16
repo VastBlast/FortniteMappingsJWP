@@ -1,0 +1,39 @@
+{
+    "name": "AthenaMatchSetStatView",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OwningSeason",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlaylistId",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BestMatches",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "WeaponStatViews",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

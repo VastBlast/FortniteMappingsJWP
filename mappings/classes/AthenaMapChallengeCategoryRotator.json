@@ -1,0 +1,82 @@
+{
+    "name": "AthenaMapChallengeCategoryRotator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Button_Next",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Button_Previous",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EntryBox_TabButtons",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NextInput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PreviousInput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bShowTabsWithCompletedChallenges",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxSuggestedEntries",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BangTrackerTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RewardTabsData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RewardCategoryTabData"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "DefaultTabDisplayAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

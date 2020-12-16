@@ -1,0 +1,88 @@
+{
+    "name": "ABrush",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BrushType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBrushType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BrushColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PolyFlags",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bColored",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bSolidWhenSelected",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bPlaceableFromClassBrowser",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bNotForClientOrServer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Brush",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "BrushComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bInManipulation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SavedSelections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GeomSelection"
+                }
+            }
+        }
+    ]
+}

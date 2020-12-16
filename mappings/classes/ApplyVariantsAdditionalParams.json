@@ -1,0 +1,75 @@
+{
+    "name": "ApplyVariantsAdditionalParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WeakPlayerPawn",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AdditionalVariantComponents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bApplyToAdditionalVariantComponentsOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDeriveMIDNameFromParent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bShouldResetOverrideMaterialsOnMeshSwap",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PreviouslyActiveVariants",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CosmeticVariantInfo"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "bBackpackReliesOnVariantsFromCID",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bGliderReliesOnVariantsFromCID",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bForbidParticleSwapping",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

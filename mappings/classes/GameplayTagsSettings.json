@@ -1,0 +1,119 @@
+{
+    "name": "GameplayTagsSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ImportTagsFromConfig",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WarnOnInvalidTags",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FastReplication",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InvalidTagCharacters",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CategoryRemapping",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayTagCategoryRemap"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "GameplayTagTableList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoftObjectPath"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "GameplayTagRedirects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayTagRedirect"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "CommonlyReplicatedTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "NumBitsForContainerSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "NetIndexFirstBitSegment",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "RestrictedConfigFiles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RestrictedConfigInfo"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "ConfigFileName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "GameplayTagList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayTagTableRow"
+                }
+            }
+        }
+    ]
+}

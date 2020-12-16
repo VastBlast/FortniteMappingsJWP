@@ -1,0 +1,23 @@
+{
+    "name": "FortSpecialEventOverrideParts",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OverrideParts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "GameplayEffectToApplyOnSwap",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSpecialEventGEData"
+            }
+        }
+    ]
+}

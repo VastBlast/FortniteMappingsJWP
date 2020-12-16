@@ -1,0 +1,41 @@
+{
+    "name": "FortAthenaLivingWorldCategory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EventTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bExcludeFromGlobalAIBudget",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RequirePlaylistTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

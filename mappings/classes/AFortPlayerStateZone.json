@@ -1,0 +1,113 @@
+{
+    "name": "AFortPlayerStateZone",
+    "properties": [
+        {
+            "index": 1,
+            "name": "SpectatingTarget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Spectators",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSpectatorZoneArray"
+            }
+        },
+        {
+            "index": 7,
+            "name": "KickedFromSessionReason",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortKickReason"
+            }
+        },
+        {
+            "index": 9,
+            "name": "CarriedObject",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "NumRejoins",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bInvincibleDueToUI",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "CurrentHealth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "MaxHealth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "CurrentShield",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "MaxShield",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "CurrentSignalInStorm",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "MaxSignalInStorm",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "AccumulatedItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AccumulatedItemEntry"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "SimulatedAttributes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SimulatedAttributeEntry"
+                }
+            }
+        }
+    ]
+}

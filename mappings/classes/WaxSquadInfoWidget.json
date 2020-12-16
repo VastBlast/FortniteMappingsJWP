@@ -1,0 +1,51 @@
+{
+    "name": "WaxSquadInfoWidget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MutatorClassToWaitFor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PrioritizationData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPrioritizedWidgetData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ElementTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HUDElementTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "HiddenVisibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TutorialHighlight",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

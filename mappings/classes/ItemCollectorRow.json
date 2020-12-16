@@ -1,0 +1,41 @@
+{
+    "name": "ItemCollectorRow",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OverrideItemsTable",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrideRarity",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRarity"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OverrideGoal",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bOverrideLootRules",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bUseOverrideRarity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "PaperFlipbook",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FramesPerSecond",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "KeyFrames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PaperFlipbookKeyFrame"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultMaterial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CollisionSource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFlipbookCollisionMode"
+            }
+        }
+    ]
+}

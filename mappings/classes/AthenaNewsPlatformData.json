@@ -1,0 +1,27 @@
+{
+    "name": "AthenaNewsPlatformData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Platform",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Message",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaNewsData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "_type",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "LiveLinkBaseFrameData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WorldTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkWorldTime"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkMetaData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PropertyValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
+}

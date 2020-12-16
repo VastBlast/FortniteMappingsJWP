@@ -1,0 +1,37 @@
+{
+    "name": "FortCurieExecutionEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ExecutionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCurieExecutionType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ApplicationEvent",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCurieApplicationEvent"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExecutionFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieExecutionFilter"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ExecutionParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieExecutionParams"
+            }
+        }
+    ]
+}

@@ -1,0 +1,230 @@
+{
+    "name": "FortGameFeatureData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UIStateWidgetClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UIExtensions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "UIExtension"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "MobileHUDWidgetRegistry",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PrimaryAssetTypesToScan",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PrimaryAssetTypeInfo"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "GameplayCueNotifyPaths",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "CheatManagers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "PlaylistBaseCurveTableOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameFeatureDataBaseCurveTableOverrides"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "PlaylistBaseDataTableOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameFeatureDataBaseDataTableOverrides"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "DefaultLootTableData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameFeatureLootTableData"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DefaultGameData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "DefaultRangedWeapons",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ComponentList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameFeatureComponentEntry"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "PlayspaceConfig",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "LevelOverlayConfig",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "AdditionalLevels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "AdditionalLevelsServerOnly",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "PlayerAbilitySet",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "FortDeathCauseData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "ContextualTutorials",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "FactionMapping",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "WeaponUpgradesDataTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "PawnGoalSelectionTable",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PawnGoalSelectionTableEntry"
+                }
+            }
+        },
+        {
+            "index": 25,
+            "name": "SharedItemsToFullyLoad",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 26,
+            "name": "PlaylistItemsToFullyLoad",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameFeatureItemsToFullyLoadData"
+                }
+            }
+        },
+        {
+            "index": 27,
+            "name": "ExternalContentDependencies",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

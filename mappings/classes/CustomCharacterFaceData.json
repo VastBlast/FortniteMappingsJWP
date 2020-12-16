@@ -1,0 +1,85 @@
+{
+    "name": "CustomCharacterFaceData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PartAttachedToOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCustomPartType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HatMorphData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CustomAccessoryHatReactiveMorphs"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttachSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AttachOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AttachmentOverrideData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bUseClothCollisionFromOtherParts",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bCollideWithOtherPartsCloth",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AnimClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FrontEndAnimClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MannequinAnimClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "AccessoryColors",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

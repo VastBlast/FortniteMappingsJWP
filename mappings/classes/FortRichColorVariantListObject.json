@@ -1,0 +1,49 @@
+{
+    "name": "FortRichColorVariantListObject",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ColorName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VariantChannel",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VariantTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "VariantCustomData",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bOwned",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CosmeticDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

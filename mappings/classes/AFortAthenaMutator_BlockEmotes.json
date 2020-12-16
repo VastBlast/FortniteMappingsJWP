@@ -1,0 +1,22 @@
+{
+    "name": "AFortAthenaMutator_BlockEmotes",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bGlobalEmoteBlock",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpecificEmotesToBlock",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

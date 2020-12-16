@@ -1,0 +1,95 @@
+{
+    "name": "CobaltTournamentBracketWidgetBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LocalTeamNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "EnemyTeamNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CobaltMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RoundNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "InvalidRoundText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MutatorClassToWaitFor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PrioritizationData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPrioritizedWidgetData"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ElementTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 8,
+            "name": "HUDElementTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 9,
+            "name": "HiddenVisibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TutorialHighlight",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

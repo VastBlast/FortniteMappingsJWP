@@ -1,0 +1,263 @@
+{
+    "name": "AFortProjectileBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VerticleFireOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "InitialSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChargeUpInitialSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "InitialGravityScaleOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MomentumTransfer",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bAddOwnerVelocity",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bSpawnPointCanBeUsedByOtherPlayers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PlayerSpawnOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bRegisterInPerceptionSystem",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bCanBePickedUpWhenStopped",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "CapsuleComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "ProjectileMovementComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "WaterInteractionComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bDummyProjectile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bStopSimulatingOnHit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "TouchWaterBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EProjectileWaterHitBehavior"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bDisableCollisionOnStop",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bReplicateStopSimulationLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bReplicateStopSimulationLocationOptimized",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bClientInterpMovement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bClientInterpRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bUseClientsidePrediction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bAutoSelectAttachedForInterp",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "SimulationStoppingHit",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HitResult"
+            }
+        },
+        {
+            "index": 33,
+            "name": "SyncId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "WeaponResponseType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBaseWeaponDamage"
+            }
+        },
+        {
+            "index": 35,
+            "name": "DefaultTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 36,
+            "name": "ProjectileGameplayCues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortProjectileCues"
+            }
+        },
+        {
+            "index": 38,
+            "name": "SkyTubeForceMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "BulletWhipTrackerComponentClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bResetOverlapRestrictionsOnBounce",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "MaxLifespanOnStop",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "BulletWhipTrackerComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "ProjectileThrownStatCategoryNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

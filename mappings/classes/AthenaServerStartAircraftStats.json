@@ -1,0 +1,70 @@
+{
+    "name": "AthenaServerStartAircraftStats",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WarmupDurationSec",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumPlayersMissing",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumPlayersQuitting",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bStartedEarly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "StartReason",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAircraftLaunchReason"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ExpectedPlayers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PlayersReadied",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PlayersLoadingScreenDropped",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "GoldenPoisTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

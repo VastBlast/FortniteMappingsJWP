@@ -1,0 +1,87 @@
+{
+    "name": "AnimationStateEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "State",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AnimationSetups",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimationSetup"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOnDemand",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAdditive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BlendTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bReturnToPreviousState",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bSetNextState",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NextState",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MaximumNumberOfConcurrentInstances",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformInt"
+            }
+        },
+        {
+            "index": 9,
+            "name": "WiggleTimePercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bRequiresCurves",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

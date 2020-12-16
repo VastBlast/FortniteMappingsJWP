@@ -1,0 +1,42 @@
+{
+    "name": "PickupInstigatorData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TeamIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TargetAttitude",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETeamAttitude"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AccentColorParam",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ScoreValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ItemOptionData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PropertyOverrideData"
+            }
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "name": "AnimNode_SequencePlayer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Sequence",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayRateBasis",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PlayRateScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        },
+        {
+            "index": 4,
+            "name": "StartPosition",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bLoopAnimation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "GroupIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "GroupRole",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimGroupRole"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIgnoreForRelevancyTest",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

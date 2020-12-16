@@ -1,0 +1,30 @@
+{
+    "name": "VehicleSpecificUIDetails",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WidgetClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Slot",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUIExtensionSlot"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ValidSeats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        }
+    ]
+}

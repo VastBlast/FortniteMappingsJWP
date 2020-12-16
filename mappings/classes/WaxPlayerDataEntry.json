@@ -1,0 +1,62 @@
+{
+    "name": "WaxPlayerDataEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerState",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bPermanentlyWaxed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TokenBasedPlacement",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrentTokens",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CurrentTeamTokens",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CurrentKills",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "CurrentLives",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "PreviousVictimLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "ConstraintNodeData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RelativeParent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ConstraintOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConstraintOffset"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LinkedNode",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Constraints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TransformConstraint"
+                }
+            }
+        }
+    ]
+}

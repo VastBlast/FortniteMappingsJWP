@@ -1,0 +1,60 @@
+{
+    "name": "AshtonStoneData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StoneType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAshtonStoneType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StoneItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StoneIconBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MapIconScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GameplayTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PickupTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 6,
+            "name": "InitialStoneState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAshtonStoneStateType"
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "ReplayDataMoveSnapshot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MovementStyle",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMovementStyle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WorldTime",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "FortUIXpInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InitialLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "InitialDisplayXp",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChangeInXp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortExperienceDelta"
+            }
+        }
+    ]
+}

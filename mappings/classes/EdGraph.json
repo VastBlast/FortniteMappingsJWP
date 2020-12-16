@@ -1,0 +1,43 @@
+{
+    "name": "EdGraph",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Schema",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Nodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bEditable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAllowDeletion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAllowRenaming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

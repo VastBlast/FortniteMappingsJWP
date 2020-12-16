@@ -1,0 +1,24 @@
+{
+    "name": "PhysicsConstraintTemplate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConstraintInstance"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ProfileHandles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PhysicsConstraintProfileHandle"
+                }
+            }
+        }
+    ]
+}

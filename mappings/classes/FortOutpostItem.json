@@ -1,0 +1,56 @@
+{
+    "name": "FortOutpostItem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "outpost_core_info",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortOutpostCoreInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "cloud_save_info",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCloudSaveInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Level",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InstanceID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TemplateId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Quantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

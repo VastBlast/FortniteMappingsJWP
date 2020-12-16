@@ -1,0 +1,21 @@
+{
+    "name": "FortAIEncounterRequirements",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AssociatedMissionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMissionType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "ProceduralHitPoint",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIsTraceDone",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Normal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Component",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

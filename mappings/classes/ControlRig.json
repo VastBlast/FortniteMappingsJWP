@@ -1,0 +1,35 @@
+{
+    "name": "ControlRig",
+    "properties": [
+        {
+            "index": 1,
+            "name": "VM",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Hierarchy",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigHierarchyContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "GizmoLibrary",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DrawContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ControlRigDrawContainer"
+            }
+        }
+    ]
+}

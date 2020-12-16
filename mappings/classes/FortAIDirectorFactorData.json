@@ -1,0 +1,31 @@
+{
+    "name": "FortAIDirectorFactorData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AIDirectorFactor",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAIDirectorFactor"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ContributingEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIDirectorFactorContribution"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "name": "AFortAthenaMutator_RoundHelper",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumOfRounds",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumOfTeams",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StartingTeamNum",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RoundInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "POIRoundInfo"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "GeneratedRoundInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "POIRoundInfo"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "UsedSpawnSlots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

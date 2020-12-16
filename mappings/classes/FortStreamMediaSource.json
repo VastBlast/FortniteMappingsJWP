@@ -1,0 +1,140 @@
+{
+    "name": "FortStreamMediaSource",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VideoStreamSource",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VideoStreamSourceAB",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VideoId",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIsLive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bBlurlLive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxResolution",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxBandwidth",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AspectRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bShareLock",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bAudioOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bPartySync",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MediaDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "CDNDistribution",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "bAutoClearCDNDistribution",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "FortDownloadLocalizedOverlays",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "StreamID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "StreamID_Development",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LocalFilePlaybackAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

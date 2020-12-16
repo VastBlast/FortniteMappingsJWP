@@ -1,0 +1,43 @@
+{
+    "name": "GameplayModifierEvaluatedData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Attribute",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAttribute"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ModifierOp",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayModOp"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Magnitude",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Handle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActiveGameplayEffectHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "IsValid",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

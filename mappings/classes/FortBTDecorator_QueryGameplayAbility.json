@@ -1,0 +1,36 @@
+{
+    "name": "FortBTDecorator_QueryGameplayAbility",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GameplayAbilityTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Target",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActiveAbilityTagsToSkipTesting",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseTarget",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

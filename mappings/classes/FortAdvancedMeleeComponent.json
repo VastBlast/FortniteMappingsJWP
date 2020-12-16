@@ -1,0 +1,72 @@
+{
+    "name": "FortAdvancedMeleeComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AttackRangePrimary",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttackRangeJab",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttackRangeSpin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AttackRangeSecondary",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PrimarySwing",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "JabSwing",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SpinSwing",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SecondarySwing",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FightListHandles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayAbilitySpecHandle"
+                }
+            }
+        }
+    ]
+}

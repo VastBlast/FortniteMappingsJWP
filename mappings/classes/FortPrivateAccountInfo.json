@@ -1,0 +1,48 @@
+{
+    "name": "FortPrivateAccountInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MtxBalance",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Level",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LevelXp",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LevelXpForLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BattleRoyaleLevel",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaLevelInfo"
+            }
+        }
+    ]
+}

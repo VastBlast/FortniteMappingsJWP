@@ -1,0 +1,44 @@
+{
+    "name": "AFortWaypointInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Waypoints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SplineLocations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ContextArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlayerWaypointContext"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Spline",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

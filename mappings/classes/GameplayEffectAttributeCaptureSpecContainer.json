@@ -1,0 +1,34 @@
+{
+    "name": "GameplayEffectAttributeCaptureSpecContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourceAttributes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectAttributeCaptureSpec"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TargetAttributes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectAttributeCaptureSpec"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bHasNonSnapshottedAttributes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

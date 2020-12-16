@@ -1,0 +1,27 @@
+{
+    "name": "ImagePlateFileSequence",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SequencePath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DirectoryPath"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FileWildcard",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FrameRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

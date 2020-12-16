@@ -1,0 +1,263 @@
+{
+    "name": "AthenaCarPlayerSlot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SeatSocket",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SeatChoiceSocket",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SeatIndicatorSocket",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SeatChoiceDisplayText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SeatCollision",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ExitSockets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "ShootingCone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaVehicleShootingCone"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SoundOnEnter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SoundOnExit",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "AnimInstanceOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "AnimLayerOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bUsePerSeatAnimInstanceOverride",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bIsSelectable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bUseGroundMotion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bUseVehicleIsOnGround",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bCanEmote",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bCanCarryDBNOPlayer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bForceCrouch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bPlayEnterSoundForTransition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bPlayExitSoundForTransition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bIsPushDriver",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bCanOnlyFireWhenTargeting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ActorSpaceCameraOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 23,
+            "name": "VehicleSpaceCameraOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 24,
+            "name": "SlopeCompensationCameraOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "StandingFiringOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 26,
+            "name": "CrouchingFiringOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 27,
+            "name": "EmoteOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bConstrainPawnToSeatTransform",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bConstrainPawnToSeatDuringTransitionMontage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bOffsetPlayerRelativeAttachLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bUseExitTimer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "CameraPitchConstraint",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "CameraYawConstraint",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "ActionDefForUI",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ActionDefForUI"
+                }
+            }
+        }
+    ]
+}

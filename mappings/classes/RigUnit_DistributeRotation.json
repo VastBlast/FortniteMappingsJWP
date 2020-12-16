@@ -1,0 +1,45 @@
+{
+    "name": "RigUnit_DistributeRotation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StartBone",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EndBone",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Rotations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RigUnit_DistributeRotation_Rotation"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "RotationEaseType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigAnimEasingType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bPropagateToChildren",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

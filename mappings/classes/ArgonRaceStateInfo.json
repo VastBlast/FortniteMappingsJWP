@@ -1,0 +1,24 @@
+{
+    "name": "ArgonRaceStateInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentRacePhase",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EArgonRacePhase"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FinishedTeamLeaderInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ArgonFinishedPlayerInfo"
+                }
+            }
+        }
+    ]
+}

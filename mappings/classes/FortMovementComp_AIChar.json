@@ -1,0 +1,351 @@
+{
+    "name": "FortMovementComp_AIChar",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bDeimos",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LandHardSoundFallSpeedThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LandSoundFallSpeedThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PushBumpedPawnClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NetworkSmoothingVisibilityThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NetworkSmoothingThrottleProxyUpdateForPawnLOD",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NetworkSmoothingViewAngleThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NetworkSmoothingViewAngleThresholdSmall",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "NetworkSmoothingNoThrottleWithinDistanceInMeters",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PlayerLodRequiredForFloorCheckWhenRendered",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "AILodRequiredForFloorCheckWhenRendered",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAILODLevel"
+            }
+        },
+        {
+            "index": 11,
+            "name": "VelocityBasedStrafeCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "VelocityBasedTurnCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "VelocityBasedBackupCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bWasUsingVelocityBasedTurnCurve",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "RotationYawRateToRestore",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "FallingSlopeSafeSlideAngleScalable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 17,
+            "name": "FallingSlopeSafeSlideMaxSpeedScalable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 18,
+            "name": "FallingSlopeDamageScalarMinScalable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 21,
+            "name": "SkydivingControlParamsPassive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 22,
+            "name": "SkydivingControlParamsActive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ParachuteControlParamsSkydive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ParachuteControlParamsJump",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ParachuteControlParamsGliderRedeploy",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 26,
+            "name": "BalloonControlParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 27,
+            "name": "FloatingControlParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 28,
+            "name": "VortexSkydivingControlParamsPassive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 29,
+            "name": "VortexSkydivingControlParamsActive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 30,
+            "name": "VortexSkydivingControlParamsActiveUpward",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 31,
+            "name": "VortexParachuteControlParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 32,
+            "name": "SkyTubeSkydivingControlParamsPassive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 33,
+            "name": "SkyTubeSkydivingControlParamsActive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 34,
+            "name": "SkyTubeSkydivingControlParamsActiveUpward",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AirControlParams"
+            }
+        },
+        {
+            "index": 35,
+            "name": "SkyTubeUpwardAccelerationScalar",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 36,
+            "name": "SkyTubeDownwardAccelerationScalar",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 37,
+            "name": "SurfaceSwimmingWaterControlParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WaterControlParams"
+            }
+        },
+        {
+            "index": 38,
+            "name": "WaterJumpParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WaterJumpParams"
+            }
+        },
+        {
+            "index": 39,
+            "name": "WaterJumpParamsSprint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WaterJumpParams"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bComputeWaterSplineDataOnSimulatedMovement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "WaterSprintBoostParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WaterSprintBoostParams"
+            }
+        },
+        {
+            "index": 42,
+            "name": "SkydivingMaxSmoothUpdateDistanceScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "SlideTimeUntilReset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "SlideIfVelocityLessThanZ",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "GravityCeilingRelation",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "bUpdatesFloorWhenNotInFullSimulation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "bUpdatesFloorWhenNotInFullSimulationOnlyOnNetUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

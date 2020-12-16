@@ -1,0 +1,151 @@
+{
+    "name": "AChaosSolverActor",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Properties",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ChaosSolverConfiguration"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TimeStepMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CollisionIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PushOutIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PushOutPairIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ClusterConnectionFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ClusterUnionConnectionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EClusterConnectionTypeEnum"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DoGenerateCollisionData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CollisionFilterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SolverCollisionFilterSettings"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DoGenerateBreakingData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "BreakingFilterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SolverBreakingFilterSettings"
+            }
+        },
+        {
+            "index": 11,
+            "name": "DoGenerateTrailingData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "TrailingFilterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SolverTrailingFilterSettings"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MassScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bGenerateContactGraph",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bHasFloor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "FloorHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ChaosDebugSubstepControl",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ChaosDebugSubstepControl"
+            }
+        },
+        {
+            "index": 18,
+            "name": "SpriteComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "GameplayEventDispatcherComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

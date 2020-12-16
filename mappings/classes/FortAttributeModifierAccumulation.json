@@ -1,0 +1,36 @@
+{
+    "name": "FortAttributeModifierAccumulation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GameplayTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Attribute",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAttribute"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ModifierOp",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayModOp"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Magnitude",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

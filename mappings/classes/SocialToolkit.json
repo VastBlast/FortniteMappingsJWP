@@ -1,0 +1,36 @@
+{
+    "name": "SocialToolkit",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LocalUser",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AllUsers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "LocalPlayerOwner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SocialChatManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "PlaylistFrontEndSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlaylistName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlaylistAccess",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PlaylistAccess"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AccessOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlaylistAccessOverride"
+                }
+            }
+        }
+    ]
+}

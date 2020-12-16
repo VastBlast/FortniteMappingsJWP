@@ -1,0 +1,115 @@
+{
+    "name": "NiagaraComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Asset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TickBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraTickBehavior"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OverrideParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraUserRedirectionParameterStore"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bForceSolo",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bEnableGpuComputeDebug",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAutoDestroy",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bRenderingEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bAutoManageAttachment",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bAutoAttachWeldSimulatedBodies",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MaxTimeBeforeForceUpdateTransform",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "AutoAttachParent",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AutoAttachSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "AutoAttachLocationRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttachmentRule"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AutoAttachRotationRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttachmentRule"
+            }
+        },
+        {
+            "index": 16,
+            "name": "AutoAttachScaleRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttachmentRule"
+            }
+        }
+    ]
+}

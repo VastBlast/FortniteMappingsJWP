@@ -1,0 +1,30 @@
+{
+    "name": "AAthenaCreativeRift",
+    "properties": [
+        {
+            "index": 1,
+            "name": "ParentTrap",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OverrideEncounterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEncounterSettings"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DespawnPlayerOverlaps",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

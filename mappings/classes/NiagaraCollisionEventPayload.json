@@ -1,0 +1,43 @@
+{
+    "name": "NiagaraCollisionEventPayload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CollisionPos",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CollisionNormal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CollisionVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ParticleIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PhysicalMaterialIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

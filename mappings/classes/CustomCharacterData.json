@@ -1,0 +1,43 @@
+{
+    "name": "CustomCharacterData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WasPartReplicatedFlags",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RequiredVariantPartFlags",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Parts",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Charms",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "VariantRequiredCharacterParts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

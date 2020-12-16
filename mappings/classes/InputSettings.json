@@ -1,0 +1,213 @@
+{
+    "name": "InputSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AxisConfig",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "InputAxisConfigEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAltEnterTogglesFullscreen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bF11TogglesFullscreen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseMouseForTouch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bEnableMouseSmoothing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnableFOVScaling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bCaptureMouseOnLaunch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bDefaultViewportMouseLock",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bAlwaysShowTouchInterface",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bShowConsoleOnFourFingerTap",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bEnableGestureRecognizer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bUseAutocorrect",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ExcludedAutocorrectOS",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "ExcludedAutocorrectCultures",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "ExcludedAutocorrectDeviceModels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "DefaultViewportMouseCaptureMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMouseCaptureMode"
+            }
+        },
+        {
+            "index": 16,
+            "name": "DefaultViewportMouseLockMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMouseLockMode"
+            }
+        },
+        {
+            "index": 17,
+            "name": "FOVScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "DoubleClickTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "ActionMappings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "InputActionKeyMapping"
+                }
+            }
+        },
+        {
+            "index": 20,
+            "name": "AxisMappings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "InputAxisKeyMapping"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "SpeechMappings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "InputActionSpeechMapping"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "DefaultTouchInterface",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ConsoleKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Key"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ConsoleKeys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Key"
+                }
+            }
+        }
+    ]
+}

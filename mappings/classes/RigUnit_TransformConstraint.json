@@ -1,0 +1,53 @@
+{
+    "name": "RigUnit_TransformConstraint",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Bone",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BaseTransformSpace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETransformSpaceMode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BaseTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BaseBone",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Targets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConstraintTarget"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bUseInitialTransforms",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

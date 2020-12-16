@@ -1,0 +1,39 @@
+{
+    "name": "FortAudioAnalysisSubsystem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AudioAnalysisSettingsPath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SubmixAnalyzers",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "SubmixRefCount",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

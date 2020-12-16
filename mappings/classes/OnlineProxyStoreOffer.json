@@ -1,0 +1,105 @@
+{
+    "name": "OnlineProxyStoreOffer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OfferId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LongDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RegularPriceText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RegularPrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PriceText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NumericPrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CurrencyCode",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ReleaseDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ExpirationDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 11,
+            "name": "DiscountType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EOnlineProxyStoreOfferDiscountType"
+            }
+        },
+        {
+            "index": 12,
+            "name": "DynamicFields",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

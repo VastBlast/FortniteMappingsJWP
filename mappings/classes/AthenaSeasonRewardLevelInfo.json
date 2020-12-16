@@ -1,0 +1,38 @@
+{
+    "name": "AthenaSeasonRewardLevelInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Track",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaSeasonRewardTrack"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Level",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "XpToNextLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Rewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaRewardItemReference"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "name": "MovieSceneComponentMaterialSectionTemplate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaterialIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Scalars",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ScalarParameterNameAndCurve"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Bools",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BoolParameterNameAndCurve"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Vector2Ds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector2DParameterNameAndCurves"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "Vectors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VectorParameterNameAndCurves"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Colors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ColorParameterNameAndCurves"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "Transforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TransformParameterNameAndCurves"
+                }
+            }
+        }
+    ]
+}

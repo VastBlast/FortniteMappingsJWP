@@ -1,0 +1,32 @@
+{
+    "name": "PerDifficultyMissionGenerationInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinDifficulty",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxDifficulty",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MissionGenerationInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MissionGenerationInfo"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "name": "FortAthenaAIBotEvaluator_FreeFalling",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DiveExecutionStatusKeyName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DiveDestinationKeyName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GlideExecutionStatusKeyName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "GlideDestinationKeyName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "JumpOffBusDestinationName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bRandomlySelectFreeFallingMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "IdleWeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RandomWeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TowardNearestAllyWeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 9,
+            "name": "FreeFallingMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFreeFallingMode"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MaxOffsetRangeFromNearestAlly",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bShouldRecomputeDestinationWhenTowardNearestAlly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bShouldSearchAllyInSquad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bShouldSearchAllyInTeam",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bGlideAllowed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "OverrideNavigationFilterClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "CachedOwnerComp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "CachedBotController",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ExecutionStatusName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

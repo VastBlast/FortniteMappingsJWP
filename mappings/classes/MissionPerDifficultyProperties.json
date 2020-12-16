@@ -1,0 +1,32 @@
+{
+    "name": "MissionPerDifficultyProperties",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ValidDifficulties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DataTableRowHandle"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrideTimeOfDayTheme",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTimeOfDayTheme"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OverrideGlobalWindInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGlobalWindInfo"
+            }
+        }
+    ]
+}

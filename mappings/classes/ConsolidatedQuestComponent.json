@@ -1,0 +1,65 @@
+{
+    "name": "ConsolidatedQuestComponent",
+    "properties": [
+        {
+            "index": 6,
+            "name": "CalendarEnableEvent",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BlockedPlaylistTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ObjectiveBackendName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ComponentResponse",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EQuestVisibilityResponse"
+            }
+        },
+        {
+            "index": 10,
+            "name": "UpdateType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EQuestUpdateType"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bIsInteractable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "DelayUntilCurrentQuestsReady",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimerHandle"
+            }
+        },
+        {
+            "index": 13,
+            "name": "QuestItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

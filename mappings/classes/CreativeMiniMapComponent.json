@@ -1,0 +1,109 @@
+{
+    "name": "CreativeMiniMapComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IndicatorTextProperties",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMiniMapIndicatorTextProperties"
+            }
+        },
+        {
+            "index": 2,
+            "name": "IconList",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LoadedMIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "MiniMapData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMiniMapData"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MinimapIndicator",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MinimapIndicatorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bRegisterWithVisibilityManager",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bObserver",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bDistanceCheck2D",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bCheckFacing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bCheckLOS",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bRevealWithMap",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "VisibilityBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortVisibilityBehavior"
+            }
+        },
+        {
+            "index": 16,
+            "name": "Radius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

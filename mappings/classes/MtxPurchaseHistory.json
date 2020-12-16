@@ -1,0 +1,30 @@
+{
+    "name": "MtxPurchaseHistory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Purchases",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MtxPurchaseHistoryEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "RefundCredits",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RefundsUsed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

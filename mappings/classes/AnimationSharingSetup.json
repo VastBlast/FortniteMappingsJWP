@@ -1,0 +1,24 @@
+{
+    "name": "AnimationSharingSetup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SkeletonSetups",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerSkeletonAnimationSharingSetup"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ScalabilitySettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AnimationSharingScalability"
+            }
+        }
+    ]
+}

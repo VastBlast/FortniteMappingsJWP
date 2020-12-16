@@ -1,0 +1,110 @@
+{
+    "name": "FortGridWidgetBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ClearWidgetType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TileWidth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TileHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TilesAcross",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TilesDown",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bShrinkToFit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PeekOverflowTilePercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TilePadding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Margin"
+            }
+        },
+        {
+            "index": 8,
+            "name": "GridBackground",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 9,
+            "name": "GridBackgroundPadding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Margin"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DataProvider",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "TileWidgetType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "SortKind",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGridSortKind"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bReversed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

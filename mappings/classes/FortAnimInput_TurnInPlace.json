@@ -1,0 +1,72 @@
+{
+    "name": "FortAnimInput_TurnInPlace",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TurnInitiatingStates",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CachedAnimStateArray"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TurnTransitionStates",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CachedAnimStateArray"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TurnRotationAmountCurveName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AllowTurnInPlaceCurveName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EmoteYawOffsetSofteningInputRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 5,
+            "name": "EmoteYawOffsetSofteningOutputRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TurnThreshold90",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "InitialTurnCurveValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MaxAllowedRootYawOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

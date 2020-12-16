@@ -1,0 +1,38 @@
+{
+    "name": "FortPOIAmbientAudioOneShot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OneShotSound",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RetriggerTimeRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TriggerDistanceRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AllowedDayPhases",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        }
+    ]
+}

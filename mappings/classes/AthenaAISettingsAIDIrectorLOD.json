@@ -1,0 +1,59 @@
+{
+    "name": "AthenaAISettingsAIDIrectorLOD",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerLODViewConeConfigs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlayerLODViewConeConfig"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerLODViewConeHysteresisConfig",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PlayerLODViewConeHysteresisConfig"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CouldBeVisibleViewConeAngleDegrees",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CouldBeVisibleMaxDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LODSortHysteresisDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FortAIDirectorLODConfigs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIDirectorPerLODConfig"
+                }
+            }
+        }
+    ]
+}

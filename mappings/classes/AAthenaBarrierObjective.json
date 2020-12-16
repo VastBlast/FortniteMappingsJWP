@@ -1,0 +1,51 @@
+{
+    "name": "AAthenaBarrierObjective",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FoodDisplayData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BarrierObjectiveDisplayData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FoodTeam",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBarrierFoodTeam"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ObjectiveDamageState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBarrierObjectiveDamageState"
+            }
+        },
+        {
+            "index": 4,
+            "name": "HeadRotationYaw",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAllowDamage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DamageFromSword",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

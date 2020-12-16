@@ -1,0 +1,41 @@
+{
+    "name": "BuildingOptionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ClassSuffix",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ClassMirrored",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Label",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Brush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SoftIcon",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

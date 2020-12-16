@@ -1,0 +1,181 @@
+{
+    "name": "AthenaRebootVanIndicator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpawnMachineIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnMachineState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESpawnMachineState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpawnMachineCooldownStartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpawnMachineCooldownEndTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MarkerData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortWorldMarkerData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MarkerDisplay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkedActorDisplayInfo"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DetailsTable",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FreshLargeItemShowTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "IndicatorDotSizeThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Switcher_IndicatorSize",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Panel_SmallIndicator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Panel_LargeIndicator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "Text_Distance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "RelativeLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 16,
+            "name": "MaxDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bClampOnScreen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bShowClampToScreenArrow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bUseScreenSpacePosition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ScreenSpaceRelativeOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 21,
+            "name": "ScreenPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ElementTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 23,
+            "name": "HUDElementTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 24,
+            "name": "HiddenVisibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 25,
+            "name": "TutorialHighlight",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

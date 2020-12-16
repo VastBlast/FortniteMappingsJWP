@@ -1,0 +1,38 @@
+{
+    "name": "AFortWeaponBoardBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RangedWeaponDisplaySlots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortWeaponBoardDisplaySlot"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "MeleeWeaponDisplaySlots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortWeaponBoardDisplaySlot"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "DisplaySlotItemList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortWeaponBoardDisplaySlotItem"
+                }
+            }
+        }
+    ]
+}

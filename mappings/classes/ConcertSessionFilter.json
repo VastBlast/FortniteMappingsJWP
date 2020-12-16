@@ -1,0 +1,60 @@
+{
+    "name": "ConcertSessionFilter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActivityIdLowerBound",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActivityIdUpperBound",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActivityIdsToExclude",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ActivityIdsToInclude",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bOnlyLiveData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bMetaDataOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIncludeIgnoredActivities",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

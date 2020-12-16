@@ -1,0 +1,33 @@
+{
+    "name": "LiveLinkVirtualSubject",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Role",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Subjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LiveLinkSubjectName"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "FrameTranslators",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

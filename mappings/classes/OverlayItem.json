@@ -1,0 +1,36 @@
+{
+    "name": "OverlayItem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Timespan"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EndTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Timespan"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Text",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "ChunkInfoData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Guid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Hash",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ShaHash",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SHAHashData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FileSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GroupNumber",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        }
+    ]
+}

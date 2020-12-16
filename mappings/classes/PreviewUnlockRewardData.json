@@ -1,0 +1,55 @@
+{
+    "name": "PreviewUnlockRewardData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Currency",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumAdditionalRewards",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TotalRewards",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumCharacters",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Characters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PreviewRewardData"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "AdditionalRewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PreviewRewardData"
+                }
+            }
+        }
+    ]
+}

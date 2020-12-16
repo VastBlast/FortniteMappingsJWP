@@ -1,0 +1,35 @@
+{
+    "name": "ConcertEventData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ConcertEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MessageID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MessageOrderIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ChannelId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

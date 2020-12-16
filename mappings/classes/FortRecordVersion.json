@@ -1,0 +1,27 @@
+{
+    "name": "FortRecordVersion",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DataVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PackageFileVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EngineVersion",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ReflectedEngineVersion"
+            }
+        }
+    ]
+}

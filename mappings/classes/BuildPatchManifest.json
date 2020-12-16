@@ -1,0 +1,108 @@
+{
+    "name": "BuildPatchManifest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ManifestFileVersion",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIsFileData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AppID",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AppName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BuildVersion",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LaunchExe",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "LaunchCommand",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PrereqName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PrereqPath",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PrereqArgs",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "FileManifestList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FileManifestData"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "ChunkList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ChunkInfoData"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "CustomFields",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomFieldData"
+                }
+            }
+        }
+    ]
+}

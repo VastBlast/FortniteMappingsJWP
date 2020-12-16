@@ -1,0 +1,54 @@
+{
+    "name": "MovieSceneEntityComponentField",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PersistentEntityTree",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneEvaluationFieldEntityTree"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OneShotEntityTree",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneEvaluationFieldEntityTree"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Entities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneEvaluationFieldEntity"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "EntityMetaData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneEvaluationFieldEntityMetaData"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "SharedMetaData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneEvaluationFieldSharedEntityMetaData"
+                }
+            }
+        }
+    ]
+}

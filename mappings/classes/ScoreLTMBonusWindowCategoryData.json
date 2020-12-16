@@ -1,0 +1,38 @@
+{
+    "name": "ScoreLTMBonusWindowCategoryData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Category",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EScoreLTMBonusWindowCategory"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ScoreEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScoreMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CategoryText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "AIDirectorEventData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Event",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAIDirectorEvent"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DataMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CoolDownRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ContributionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAIDirectorEventContribution"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OwnerParticipantType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAIDirectorEventParticipant"
+            }
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "name": "FortGameplayEffectDescription",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EffectDisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EffectWrittenDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ModDescriptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayEffectModifierDescription"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "GrantedTagDescriptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        }
+    ]
+}

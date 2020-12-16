@@ -1,0 +1,207 @@
+{
+    "name": "AFortAthenaMutator_Heist",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ExitCraftInfo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HeistExitCraftSpawnData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HeistExitCraftSpawnData"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "HeistBlingDropSpawnData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HeistBlingDropSpawnData"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "HeistVictorySoundCue",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpawnExitCraftInitialDelay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BlingCarryingEnemiesVisibleTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 30,
+            "name": "MinTimeAllowedBetweenAcquiredEnemyMessages",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "GameMsg_Intro",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 32,
+            "name": "GameMsg_InitialBlingIncoming",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 33,
+            "name": "GameMsg_InitialExitCraftsIncoming",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 34,
+            "name": "GameMsg_FinalExitCraftIncoming",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 35,
+            "name": "GameMsg_HeistCompleted",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 36,
+            "name": "GameMsg_HeistCompletedOneRemains",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 37,
+            "name": "GameMsg_DiamondAcquiredByEnemy",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 38,
+            "name": "GameMsg_DiamondAcquiredByAlly",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 39,
+            "name": "GameMsg_DiamondAcquiredByAllyNoVans",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 40,
+            "name": "GameMsg_DiamondAcquiredByLocalPlayer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 41,
+            "name": "GameMsg_DiamondAcquiredByLocalPlayerNoVans",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 42,
+            "name": "FriendlyCarrierBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 43,
+            "name": "FriendlyCarrierBrushScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 44,
+            "name": "CompassFriendlyCarrierBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 45,
+            "name": "EnemyCarrierBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 46,
+            "name": "EnemyCarrierBrushScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 47,
+            "name": "CompassEnemyCarrierBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 48,
+            "name": "IconToShowInSquadBar",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

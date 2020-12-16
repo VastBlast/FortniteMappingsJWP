@@ -1,0 +1,46 @@
+{
+    "name": "AudioImpulseResponse",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ImpulseResponse",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumChannels",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SampleRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NormalizationVolumeDb",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "IRData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
+}

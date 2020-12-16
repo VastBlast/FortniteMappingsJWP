@@ -1,0 +1,47 @@
+{
+    "name": "FortMobileLocalPlayer",
+    "properties": [
+        {
+            "index": 1,
+            "name": "CachedRewardReport",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRewardReport"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CachedScoreReports",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlayerScoreReport"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bControllerAttached",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PlatformUID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PlayerReportingInfoContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PlayerReportingInfoContainer"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "SoundNodeDialoguePlayer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DialogueWaveParameter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DialogueWaveParameter"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bLooping",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChildNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "FortAthenaAISpawnerDataComponent_AIAnalytic",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AnalyticData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaAIAnalyticData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bUseDescriptorTagSuffix",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OnDeathGameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

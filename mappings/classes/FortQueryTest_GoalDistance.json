@@ -1,0 +1,78 @@
+{
+    "name": "FortQueryTest_GoalDistance",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DistanceMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDistanceMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DistanceTo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TestMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvTestDistance"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bScoreEnemies",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bScoreEncounterGoals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bScoreWorldGoals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bScoreSpecificAssignments",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AssignmentIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIAssignmentIdentifier"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "ProhibitedAssignmentIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIAssignmentIdentifier"
+                }
+            }
+        }
+    ]
+}

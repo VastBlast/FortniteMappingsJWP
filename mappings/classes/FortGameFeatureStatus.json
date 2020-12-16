@@ -1,0 +1,86 @@
+{
+    "name": "FortGameFeatureStatus",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Feature",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortGameFeature"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortGameFeatureState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RequestedState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortGameFeatureState"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ErrorCode",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ErrorText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsUsingBackgroundDownloads",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIsProgressPaused",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PauseReason",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ProgressSummary",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CombinedFeatureProgressSummary"
+            }
+        },
+        {
+            "index": 11,
+            "name": "IsActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "IsPendingActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

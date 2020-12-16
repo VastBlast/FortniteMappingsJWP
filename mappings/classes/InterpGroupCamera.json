@@ -1,0 +1,58 @@
+{
+    "name": "InterpGroupCamera",
+    "properties": [
+        {
+            "index": 1,
+            "name": "CompressTolerance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InterpTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "GroupName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GroupColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bCollapsed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsFolder",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsParented",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

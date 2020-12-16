@@ -1,0 +1,48 @@
+{
+    "name": "ConcertSyncTransactionActivitySummary",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TransactionSummaryType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertSyncTransactionActivitySummaryType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TransactionTitle",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PrimaryObjectName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PrimaryPackageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NewObjectName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NumActions",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

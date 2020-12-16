@@ -1,0 +1,23 @@
+{
+    "name": "AFortAthenaMutator_PhosphorusWipeout",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OutsideSafeZoneEliminatedOverlayText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AllPlayersKnockBackData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PhosphorusWipeoutKnockBackData"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "name": "FortAthenaLivingWorldEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EventData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IsEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxCount",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxSpawnedCount",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "Weight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MinRespawnTime",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxRespawnTime",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "bOnlyInSafeZone",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ActivationGamePhaseStep",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaGamePhaseStep"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ActivationSafeZoneIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ActivationMinDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ActivationMaxDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bCheckForActorDensity",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "RequirePlaylistTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

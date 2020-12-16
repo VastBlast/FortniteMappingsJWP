@@ -1,0 +1,24 @@
+{
+    "name": "SkeletalMeshSamplingInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Regions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SkeletalMeshSamplingRegion"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "BuiltData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SkeletalMeshSamplingBuiltData"
+            }
+        }
+    ]
+}

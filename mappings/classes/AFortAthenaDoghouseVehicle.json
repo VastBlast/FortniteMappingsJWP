@@ -1,0 +1,157 @@
+{
+    "name": "AFortAthenaDoghouseVehicle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CameraYawInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AirbrakeDragCoefficient",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BoostAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRechargingActionTimer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AileronRoll",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AileronRoll"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AileronRollDoubleClickSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bFreelookAutoRecenter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FreelookPitchConstraintDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "FreelookYawConstraintDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "FreelookSensitivity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MouseSteerSensitivity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "FreelookInterpolation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "FreelookReturnAcceleration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "FreelookReturnDecelleration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ShootCenterPointSocket",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "ShootAimAheadDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "FuelComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "VehicleFuelSystemState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVehicleFuelState"
+            }
+        },
+        {
+            "index": 20,
+            "name": "CustomUI",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VehicleSpecificUIDetails"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "CustomFuelUI",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VehicleSpecificUIDetails"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "ControlState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ReplicatedControlState"
+            }
+        }
+    ]
+}

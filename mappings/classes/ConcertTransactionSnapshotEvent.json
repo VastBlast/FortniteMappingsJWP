@@ -1,0 +1,72 @@
+{
+    "name": "ConcertTransactionSnapshotEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TransactionId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OperationId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TransactionEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TransactionUpdateIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "VersionIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ModifiedPackages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "PrimaryObjectId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertObjectId"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ExportedObjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConcertExportedObject"
+                }
+            }
+        }
+    ]
+}

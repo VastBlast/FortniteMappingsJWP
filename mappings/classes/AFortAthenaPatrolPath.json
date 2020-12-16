@@ -1,0 +1,124 @@
+{
+    "name": "AFortAthenaPatrolPath",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Mode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPatrollingMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PatrolPoints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUseRandomStartupPatrolPoint",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseRandomStartupDirection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RadialLeashLocationActorOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RadialLeashInnerRadiusOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RadialLeashOuterRadiusOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bLeashEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LeashWidth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "LeashHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "WaterLevelIndexMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 12,
+            "name": "WaterLevelIndexMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MaxConcurrentUsage",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "DebugLinkWidthSelected",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "DebugLinkWidthNotSelected",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

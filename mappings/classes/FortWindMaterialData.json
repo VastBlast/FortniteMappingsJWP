@@ -1,0 +1,66 @@
+{
+    "name": "FortWindMaterialData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Mid",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IntenseStateMID",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaterialParameterPairIndices",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WindVectorParameterIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScalarInterpolationData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WindScalarMaterialInterpolationData"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "VectorInterpolationData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WindVectorMaterialInterpolationData"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "ParametersToSet",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortWindMaterialParameterPairID"
+                }
+            }
+        }
+    ]
+}

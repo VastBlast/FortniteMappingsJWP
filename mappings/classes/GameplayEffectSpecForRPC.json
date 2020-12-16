@@ -1,0 +1,61 @@
+{
+    "name": "GameplayEffectSpecForRPC",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Def",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ModifiedAttributes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectModifiedAttribute"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "EffectContext",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEffectContextHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AggregatedSourceTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AggregatedTargetTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Level",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AbilityLevel",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

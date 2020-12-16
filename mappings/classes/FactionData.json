@@ -1,0 +1,87 @@
+{
+    "name": "FactionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Name",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FactionTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultAttitude",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFactionAttitude"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAreFactionMemberAllies",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bShouldSpecificRelationsApplyToEntireFaction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bMembersCanResetSpecificRelation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ResetSpecificRelationUnawareDelay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ResetSpecificRelationNoDamageDelay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "RelationExceptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

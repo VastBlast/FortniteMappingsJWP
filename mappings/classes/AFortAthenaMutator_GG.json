@@ -1,0 +1,65 @@
+{
+    "name": "AFortAthenaMutator_GG",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UseInfiniteAmmo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GameIsReverse",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ElimsWithFinalTierToWin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WeaponEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GunGameGunEntry"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScoreToWin",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "IntroMessages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaGameMessageData"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "CachedContext",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

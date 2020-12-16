@@ -1,0 +1,32 @@
+{
+    "name": "ProximityBasedGEDeliveryInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EffectsToApply",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectApplicationInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DeliveryRequirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortDeliveryInfoRequirementsFilter"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ProximityApplicationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortProximityBasedGEApplicationType"
+            }
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "name": "CatalogDynamicBundleItem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Item",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ItemQuantity"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bCanOwnMultiple",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RegularPrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DiscountedPrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AlreadyOwnedPriceReduction",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

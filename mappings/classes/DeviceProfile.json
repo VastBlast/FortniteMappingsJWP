@@ -1,0 +1,47 @@
+{
+    "name": "DeviceProfile",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DeviceType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BaseProfileName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Parent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CVars",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "TextureLODGroups",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TextureLODGroup"
+                }
+            }
+        }
+    ]
+}

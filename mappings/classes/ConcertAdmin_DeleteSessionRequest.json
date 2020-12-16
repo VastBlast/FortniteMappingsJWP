@@ -1,0 +1,27 @@
+{
+    "name": "ConcertAdmin_DeleteSessionRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SessionId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UserName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DeviceName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

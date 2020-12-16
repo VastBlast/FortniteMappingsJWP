@@ -1,0 +1,51 @@
+{
+    "name": "KairosBobbleTimeParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Background",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Characters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "KairosAvatarMcpData"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SnippetPath",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ContainerType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ContainerID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MessageID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

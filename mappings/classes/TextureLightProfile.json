@@ -1,0 +1,172 @@
+{
+    "name": "TextureLightProfile",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Brightness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TextureMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FirstResourceMemMip",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AddressX",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureAddress"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AddressY",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureAddress"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ImportedSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntPoint"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LightingGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LodBias",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "CompressionSettings",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureCompressionSettings"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Filter",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureFilter"
+            }
+        },
+        {
+            "index": 12,
+            "name": "MipLoadOptions",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureMipLoadOptions"
+            }
+        },
+        {
+            "index": 13,
+            "name": "LODGroup",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureGroup"
+            }
+        },
+        {
+            "index": 14,
+            "name": "Downscale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformFloat"
+            }
+        },
+        {
+            "index": 15,
+            "name": "DownscaleOptions",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureDownscaleOptions"
+            }
+        },
+        {
+            "index": 16,
+            "name": "SRGB",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bNoTiling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "VirtualTextureStreaming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "CompressionYCoCg",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 24,
+            "name": "NumCinematicMipLevels",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "NeverStream",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "bGlobalForceMipLevelsToBeResident",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "PartyPrivacySettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PartyType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPartyType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PartyInviteRestriction",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPartyInviteRestriction"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOnlyLeaderFriendsCanJoin",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "BroadphaseSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bUseMBPOnClient",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bUseMBPOnServer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUseMBPOuterBounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MBPBounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MBPOuterBounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MBPNumSubdivs",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

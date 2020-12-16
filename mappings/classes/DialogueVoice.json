@@ -1,0 +1,29 @@
+{
+    "name": "DialogueVoice",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Gender",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGrammaticalGender"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Plurality",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGrammaticalNumber"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LocalizationGUID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        }
+    ]
+}

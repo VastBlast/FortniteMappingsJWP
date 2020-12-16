@@ -1,0 +1,23 @@
+{
+    "name": "ValkyrieContentServiceListResults",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Limit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Results",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ValkyrieContentServiceListInfo"
+                }
+            }
+        }
+    ]
+}

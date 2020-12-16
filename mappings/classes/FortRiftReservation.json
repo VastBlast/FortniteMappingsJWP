@@ -1,0 +1,27 @@
+{
+    "name": "FortRiftReservation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bDesiredVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bDesiredActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ReservationHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRiftReservationHandle"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "LevelViewportInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CamPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CamRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CamOrthoZoom",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CamUpdated",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

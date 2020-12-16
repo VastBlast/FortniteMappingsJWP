@@ -1,0 +1,55 @@
+{
+    "name": "FortAIEncounterWaveProgressEstimation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SectionProgressEstimate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SectionStartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LastWaveProgressUpdateTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PeakAndFadeWavePercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxAdjustmentPerSecond",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CurrentSection",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAIWaveProgressSection"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NumberOfWaveSegments",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

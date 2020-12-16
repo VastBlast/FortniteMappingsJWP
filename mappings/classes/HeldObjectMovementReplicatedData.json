@@ -1,0 +1,36 @@
+{
+    "name": "HeldObjectMovementReplicatedData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RepIncrement",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DetachLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DetachRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MovementVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

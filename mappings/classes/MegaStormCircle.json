@@ -1,0 +1,103 @@
+{
+    "name": "MegaStormCircle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GridCenter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BuildingSupportCellIndex"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumCellsFromCenter",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrentQuadrant",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "GridAt",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BuildingSupportCellIndex"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RadiusInGridCells",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "XAdvanceAccumulation",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "YAdvanceAccumulation",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "GridRadiusSquaredX4",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "NumPlots",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "WorldCenter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 10,
+            "name": "WorldRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ActorsInMegaStorm",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "MegaStormState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMegaStormState"
+            }
+        }
+    ]
+}

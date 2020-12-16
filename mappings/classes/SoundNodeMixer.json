@@ -1,0 +1,25 @@
+{
+    "name": "SoundNodeMixer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InputVolume",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ChildNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

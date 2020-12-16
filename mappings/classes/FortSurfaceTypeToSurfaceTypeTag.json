@@ -1,0 +1,36 @@
+{
+    "name": "FortSurfaceTypeToSurfaceTypeTag",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FootSurfaceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFootstepSurfaceType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SurfaceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPhysicalSurface"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SurfaceTypeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAllowsSurfaceRetriggerOfEvents",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "name": "FortTrackMovementComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OptionalEditorPlacedTrack",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TrackSnapExtent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TurnSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SplineLocationOffsetZ",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DiscoverSplineFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TrackVelocity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bReverseYawWhenReversedOnSpline",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ReplicatedTrackMovement",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RepTrackMovement"
+            }
+        }
+    ]
+}

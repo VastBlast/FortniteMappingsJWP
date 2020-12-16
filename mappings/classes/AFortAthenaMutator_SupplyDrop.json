@@ -1,0 +1,52 @@
+{
+    "name": "AFortAthenaMutator_SupplyDrop",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpawnFailureLockoutTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BasePlacementQuery",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BaseQueryingAttemptIntervalTimeSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SafeZoneMutatorData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortSupplyDropMutatorData"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "SupplyDropRemovalQuery",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SupplyDropRemovalQueryInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

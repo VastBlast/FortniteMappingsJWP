@@ -1,0 +1,32 @@
+{
+    "name": "EventChannelState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ValidFrom",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActiveEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EventRecord"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "State",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "JsonObjectWrapper"
+            }
+        }
+    ]
+}

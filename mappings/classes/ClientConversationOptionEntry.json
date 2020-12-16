@@ -1,0 +1,47 @@
+{
+    "name": "ClientConversationOptionEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ChoiceText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ChoiceTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChoiceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConversationChoiceType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ChoiceReference",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConversationChoiceReference"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ExtraData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConversationNodeParameterPair"
+                }
+            }
+        }
+    ]
+}

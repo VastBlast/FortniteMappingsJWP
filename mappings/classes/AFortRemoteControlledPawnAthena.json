@@ -1,0 +1,66 @@
+{
+    "name": "AFortRemoteControlledPawnAthena",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RCTeam",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ControllingPlayerPawn",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "EffectContainerSpecToApplyOnKills",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayEffectContainerSpec"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "RemoteControlPawnSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AttributeInitKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAttributeInitializationKey"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RemoteControlledPawnDefaultCameraClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "RemoteControlledPawnTriggeredCameraClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ControllingPlayerEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

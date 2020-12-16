@@ -1,0 +1,22 @@
+{
+    "name": "InterpGroupActorInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ObjectName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Actors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

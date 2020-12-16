@@ -1,0 +1,77 @@
+{
+    "name": "FortReplayMetadata",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ReplayName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlaylistName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ReplayLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RecordingPlayer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PlayerMatchReportToName",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "KillSummaries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ReplayKillSummary"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "GameInformation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameStateInformation"
+            }
+        },
+        {
+            "index": 12,
+            "name": "WorldLogEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaTravelLogEntry"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "name": "NiagaraVariableMetaData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CategoryName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAdvancedDisplay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EditorSortPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bInlineEditConditionToggle",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "EditCondition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraInputConditionMetadata"
+            }
+        },
+        {
+            "index": 6,
+            "name": "VisibleCondition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraInputConditionMetadata"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PropertyMetaData",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "ParentAttribute",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ScopeName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Usage",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraScriptParameterUsage"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bIsStaticSwitch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "StaticSwitchDefaultValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bOutputIsPersistent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "CachedNamespacelessVariableName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bCreatedInSystemEditor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bUseLegacyNameString",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

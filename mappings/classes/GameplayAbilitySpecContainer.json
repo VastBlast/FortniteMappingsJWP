@@ -1,0 +1,23 @@
+{
+    "name": "GameplayAbilitySpecContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Items",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayAbilitySpec"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Owner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

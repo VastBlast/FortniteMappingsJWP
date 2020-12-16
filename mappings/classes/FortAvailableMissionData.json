@@ -1,0 +1,58 @@
+{
+    "name": "FortAvailableMissionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionGuid",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MissionRewards",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpLootResult"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BonusMissionRewards",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpLootResult"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MissionGenerator",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MissionDifficultyInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TileIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AvailableUntil",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        }
+    ]
+}

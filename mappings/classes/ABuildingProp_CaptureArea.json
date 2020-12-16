@@ -1,0 +1,23 @@
+{
+    "name": "ABuildingProp_CaptureArea",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CaptureAreaTeamsInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CaptureAreaTeamInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CaptureComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

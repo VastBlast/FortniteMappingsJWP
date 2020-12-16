@@ -1,0 +1,46 @@
+{
+    "name": "FortWeaponPickupSpawnAmmoData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WeaponPickupAmmoCountArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WeaponPickupAmmoCountData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultWeaponAmmoMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WeaponPickupAmmoMultiplierOverrideArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WeaponPickupAmmoMultiplierOverrideData"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "SourceToAmmoMultiplierOverrideArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SourceToAmmoMultiplierOverrideData"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "FortMcpProfileAthenaStats",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LifeTimeStats",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LifeTimeAndSeasonStatsList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

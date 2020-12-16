@@ -1,0 +1,45 @@
+{
+    "name": "FortPatrolAnimLayer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentAnimSet",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAnimInput_PatrolAnimSet"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentSpeedInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PatrolForceEnableSpeedThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PatrolLocomotionStateMachineName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        }
+    ]
+}

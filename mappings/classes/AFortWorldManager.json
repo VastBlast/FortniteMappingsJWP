@@ -1,0 +1,255 @@
+{
+    "name": "AFortWorldManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StreamedLevels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortLevelStreamingInfo"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSavingEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bStreamInBuildings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bConstructTileWorld",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseSimMaps",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NumNonAutoconstructedTiles",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "GameDifficultyRowPIEOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ZoneThemeForPIE",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "TileManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "X_Size",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "Y_Size",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "Z_StructuralGrid_Size",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "VerticalCellNumOffsetFromOrigin",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "TileEdgeSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "Theme",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "DefaultLootQuotaCategory",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LootData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTileLootData"
+            }
+        },
+        {
+            "index": 21,
+            "name": "MaxTiles",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bUseFixedSeed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "FixedSeed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "Y",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WorldTileSubArray"
+                }
+            }
+        },
+        {
+            "index": 25,
+            "name": "FriendlyPlayerSpawnExtent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 26,
+            "name": "PadPlayerSpawnExtent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 27,
+            "name": "DangerPlayerSpawnExclusionRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "ObjectivePlayerSpawnExclusionRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "OverrideInitialPlayerSpawnTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 30,
+            "name": "OverrideBackupPlayerSpawnTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 31,
+            "name": "StartingMissionInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortStartingMissionInfo"
+            }
+        },
+        {
+            "index": 32,
+            "name": "CurrentWorldRecord",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "CurrentZoneRecord",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "DeferredActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortDeferredNewActorData"
+                }
+            }
+        },
+        {
+            "index": 47,
+            "name": "MaxConsecutiveFails",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "bClearOutpostMapStats",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

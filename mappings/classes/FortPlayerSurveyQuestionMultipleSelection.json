@@ -1,0 +1,45 @@
+{
+    "name": "FortPlayerSurveyQuestionMultipleSelection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Choices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlayerSurveyQuestionChoice"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinNumAnswers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxNumAnswers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PresentationStyle",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPlayerSurveyQuestionPresentationStyle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "QuestionText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "ProcMeshSection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ProcVertexBuffer",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProcMeshVertex"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ProcIndexBuffer",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SectionLocalBox",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bEnableCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bSectionVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

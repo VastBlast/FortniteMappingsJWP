@@ -1,0 +1,79 @@
+{
+    "name": "FortRewardActivity",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActivityType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRewardActivityType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActivityGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TitleText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DescriptionText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RewardDisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RewardItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemEntry"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "MissedRewardItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemEntry"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "ActivityCompletionResult",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCompletionResult"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AdditionalCompletionMissionPoints",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

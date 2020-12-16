@@ -1,0 +1,39 @@
+{
+    "name": "RadialDamageEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Params",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RadialDamageParams"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Origin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ComponentHits",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HitResult"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "DamageTypeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

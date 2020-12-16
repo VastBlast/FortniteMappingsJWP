@@ -1,0 +1,64 @@
+{
+    "name": "MediaTexture",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AddressX",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureAddress"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AddressY",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureAddress"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AutoClear",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EnableGenMips",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NumMips",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NewStyleOutput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "OutputFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMediaTextureOutputFormat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MediaPlayer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

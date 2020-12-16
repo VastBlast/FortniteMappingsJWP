@@ -1,0 +1,40 @@
+{
+    "name": "FullyLoadedPackagesInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FullyLoadType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFullyLoadPackageType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Tag",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PackagesToLoad",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "LoadedObjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

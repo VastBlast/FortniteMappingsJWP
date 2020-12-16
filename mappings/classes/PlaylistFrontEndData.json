@@ -1,0 +1,57 @@
+{
+    "name": "PlaylistFrontEndData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WeakPlaylistData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Visibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPlaylistVisibilityState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bDisplayAsDefault",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AdvertiseType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPlaylistAdvertisementType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bDisplayAsLimitedTime",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CategoryIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EndDateUTC",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        }
+    ]
+}

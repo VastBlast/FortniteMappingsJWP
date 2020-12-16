@@ -1,0 +1,72 @@
+{
+    "name": "InterpTrack",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SubTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TrackInstClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActiveCondition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETrackActiveCondition"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TrackTitle",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bOnePerGroup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bDirGroupOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bDisableTrack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsAnimControlTrack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bSubTrackOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

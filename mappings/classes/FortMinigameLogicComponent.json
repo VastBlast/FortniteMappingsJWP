@@ -1,0 +1,37 @@
+{
+    "name": "FortMinigameLogicComponent",
+    "properties": [
+        {
+            "index": 6,
+            "name": "MinigameTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DesiredStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsRelevantForMinigameInitialization",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bAlwaysTryHandleDelayedStateChange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

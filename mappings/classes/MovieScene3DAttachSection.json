@@ -1,0 +1,83 @@
+{
+    "name": "MovieScene3DAttachSection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AttachSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttachComponentName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttachmentLocationRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttachmentRule"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AttachmentRotationRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttachmentRule"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AttachmentScaleRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttachmentRule"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DetachmentLocationRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDetachmentRule"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DetachmentRotationRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDetachmentRule"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DetachmentScaleRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDetachmentRule"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ConstraintId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ConstraintBindingID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneObjectBindingID"
+            }
+        }
+    ]
+}

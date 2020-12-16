@@ -1,0 +1,103 @@
+{
+    "name": "FortClientEventsState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SeasonNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SeasonTemplateId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MatchXpBonusPoints",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SeasonBegin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SeasonEnd",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SeasonDisplayedEnd",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 6,
+            "name": "WeeklyStoreEnd",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DailyStoreEnd",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 8,
+            "name": "StwDailyStoreEnd",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 9,
+            "name": "StwEventStoreEnd",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 10,
+            "name": "StwWeeklyStoreEnd",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 14,
+            "name": "EventNamedWeights",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
+}

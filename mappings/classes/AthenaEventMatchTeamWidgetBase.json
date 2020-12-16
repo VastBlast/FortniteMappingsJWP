@@ -1,0 +1,36 @@
+{
+    "name": "AthenaEventMatchTeamWidgetBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerWidgets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SquadId",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxTeamSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PlayerWidgetClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

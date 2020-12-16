@@ -1,0 +1,95 @@
+{
+    "name": "NiagaraDataInterfaceVectorCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "XCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RichCurve"
+            }
+        },
+        {
+            "index": 1,
+            "name": "YCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RichCurve"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ZCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RichCurve"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ShaderLUT",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "LUTMinTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LUTMaxTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "LUTInvTimeRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LUTNumSamplesMinusOne",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bUseLUT",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bExposeCurve",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ExposedName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ExposedTexture",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

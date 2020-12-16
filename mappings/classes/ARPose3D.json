@@ -1,0 +1,42 @@
+{
+    "name": "ARPose3D",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SkeletonDefinition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ARSkeletonDefinition"
+            }
+        },
+        {
+            "index": 1,
+            "name": "JointTransforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "IsJointTracked",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "JointTransformSpace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARJointTransformSpace"
+            }
+        }
+    ]
+}

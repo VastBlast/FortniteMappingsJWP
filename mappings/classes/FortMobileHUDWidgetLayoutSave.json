@@ -1,0 +1,24 @@
+{
+    "name": "FortMobileHUDWidgetLayoutSave",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LayoutData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AnchorData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CustomProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMobileHUDWidgetCustomPropertySave"
+                }
+            }
+        }
+    ]
+}

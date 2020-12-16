@@ -1,0 +1,21 @@
+{
+    "name": "TransformConstraintDescription",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TransformType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETransformConstraintType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AxesFilterOption",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilterOptionPerAxis"
+            }
+        }
+    ]
+}

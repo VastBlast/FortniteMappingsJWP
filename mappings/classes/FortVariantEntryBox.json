@@ -1,0 +1,30 @@
+{
+    "name": "FortVariantEntryBox",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentItem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentItemDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrentItemVariants",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpVariantChannelInfo"
+                }
+            }
+        }
+    ]
+}

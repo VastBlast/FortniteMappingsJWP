@@ -1,0 +1,16 @@
+{
+    "name": "FortAttributeCategory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Categories",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MyFortCategoryData"
+                }
+            }
+        }
+    ]
+}

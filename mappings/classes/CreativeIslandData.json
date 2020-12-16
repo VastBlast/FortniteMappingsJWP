@@ -1,0 +1,56 @@
+{
+    "name": "CreativeIslandData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "McpId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IslandName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PublishedIslandCode",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PublishedIslandVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LastLoadedDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DeletedAt",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIsDeleted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

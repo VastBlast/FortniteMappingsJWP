@@ -1,0 +1,43 @@
+{
+    "name": "StaticMeshSocket",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RelativeLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RelativeRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RelativeScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Tag",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

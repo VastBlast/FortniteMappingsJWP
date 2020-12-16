@@ -1,0 +1,306 @@
+{
+    "name": "AthenaItemSelectorScreenBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TabButtonType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VariantButtonLabelInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTabButtonLabelInfo"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ApplyToAllInputActionRow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ToggleFavoriteActionRow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Button_ConfirmSelection",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Button_EditStyle",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Button_ConfirmStyle",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Picker_ItemSelector",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ItemInfo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Item_HeaderInfo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bVariantZoomUsesSnap",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "CurrentPreviewItem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "CurrentPreviewItemDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CurrentPreviewVariantChannels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpVariantChannelInfo"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "CachedVariantChannels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpVariantChannelInfo"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "Picker_VariantSelector",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "UnlockingInfo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "CustomizeCategory",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaCustomizationCategory"
+            }
+        },
+        {
+            "index": 19,
+            "name": "SubslotIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ItemViewUnifiedSupportsCameraControlInputAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 21,
+            "name": "ItemViewUnifiedZoomInputAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ItemViewZoomOutInputAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ItemViewZoomInInputAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ItemViewRotateInputAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 25,
+            "name": "AnimationToHideItemInfo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bAutoShowDetails",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "HideItemInfoHeaderDurationSecs",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bAllowItemRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "bAllowItemZooming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "FrontEndCamera",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFrontEndCamera"
+            }
+        },
+        {
+            "index": 32,
+            "name": "PreviewSceneChangerTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 35,
+            "name": "CameraEntryTransitionDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "CameraEntryTransitionCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "Widget_CameraFrame",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "Button_PreviewAction",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bIsPushedOnToContentPanelStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bIsAlreadyOnContentPanelStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "InputPriority",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInputPriority"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bIsClosableByPlayerInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "PrimaryContentSetup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryContentSetup"
+            }
+        }
+    ]
+}

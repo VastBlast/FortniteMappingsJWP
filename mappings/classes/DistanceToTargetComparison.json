@@ -27,14 +27,16 @@
             "index": 3,
             "name": "Operator",
             "mapping_type": {
-                "type": "ByteProperty"
+                "type": "EnumProperty",
+                "enum_type": "EArithmeticKeyOperation"
             }
         },
         {
             "index": 4,
             "name": "ComparisonType",
             "mapping_type": {
-                "type": "ByteProperty"
+                "type": "EnumProperty",
+                "enum_type": "ETargetDistanceComparisonType"
             }
         }
     ]

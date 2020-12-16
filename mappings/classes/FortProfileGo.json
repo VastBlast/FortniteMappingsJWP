@@ -1,0 +1,76 @@
+{
+    "name": "FortProfileGo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ProfileGoScenarios",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProfileGoScenario"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ProfileGoGeneratedScenarios",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProfileGoGeneratedScenario"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ProfileGoCollections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProfileGoCollection"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "AllCommands",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProfileGoCommand"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "AnimProfilingAssetsBlacklist",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "AnimProfilingCosmeticsWhitelist",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "DefaultSettleTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

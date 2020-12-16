@@ -1,0 +1,29 @@
+{
+    "name": "FortGameplayDataTrackerEventConfiguration",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EventTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CoolDownRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ContributionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortGameplayDataTrackerEventContributionType"
+            }
+        }
+    ]
+}

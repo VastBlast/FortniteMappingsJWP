@@ -1,0 +1,172 @@
+{
+    "name": "AthenaRewardEventGraphItem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "player_random_seed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "reward_graph_purchased_timestamp",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "unlock_epoch",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 3,
+            "name": "unlock_keys_used",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "reward_graph_purchased",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "reward_nodes_claimed",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayTag"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "player_state",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "reward_keys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RewardKeyState"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "Level",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "XP",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "item_seen",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "favorite",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "max_level_bonus",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "inventory_overflow_date",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "creation_time",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bIsPendingBeingMarkedAsSeen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bNeedsResolveMarkedAsSeen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "InstanceID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "TemplateId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "Quantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bIsLocalOnlyItem",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

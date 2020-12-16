@@ -1,0 +1,40 @@
+{
+    "name": "ClientConversationMessagePayload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Message",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ClientConversationMessage"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Participants",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConversationParticipants"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrentNode",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConversationNodeHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Options",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ClientConversationOptionEntry"
+                }
+            }
+        }
+    ]
+}

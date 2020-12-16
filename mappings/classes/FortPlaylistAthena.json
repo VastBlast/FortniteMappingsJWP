@@ -3,27 +3,47 @@
     "properties": [
         {
             "index": 0,
+            "name": "ChildPlaylists",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SuperPlaylistParents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
             "name": "bRewardsTrackPlacement",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 1,
+            "index": 3,
             "name": "bRewardsAllowXPProgression",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 2,
+            "index": 4,
             "name": "bRewardForRevivingTeammates",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 3,
+            "index": 5,
             "name": "RewardPlacementBonusType",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -31,14 +51,14 @@
             }
         },
         {
-            "index": 4,
+            "index": 6,
             "name": "RewardsPlacementThreshold",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 5,
+            "index": 7,
             "name": "RewardTimePlayedType",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -46,21 +66,21 @@
             }
         },
         {
-            "index": 6,
+            "index": 8,
             "name": "RewardTimePlayedXPPerMinute",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 7,
+            "index": 9,
             "name": "RewardTimePlayedXPFlatValue",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 8,
+            "index": 10,
             "name": "InMatchXPRewardScalar",
             "mapping_type": {
                 "type": "StructProperty",
@@ -68,7 +88,14 @@
             }
         },
         {
-            "index": 10,
+            "index": 11,
+            "name": "QuestEventXPTableOverride",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 12,
             "name": "FirstWinRewards",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -78,70 +105,80 @@
             }
         },
         {
-            "index": 12,
+            "index": 13,
+            "name": "CalendarEventsForEndOfMatchUpdate",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 14,
             "name": "bAllowSinglePartyMatches",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 13,
+            "index": 15,
             "name": "bRequeueAfterFailedSessionAssignment",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 14,
+            "index": 16,
             "name": "bIsTournament",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 15,
+            "index": 17,
             "name": "bUseMultidivisionQueues",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 16,
+            "index": 18,
             "name": "CompetitivePointClamp",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 17,
+            "index": 19,
             "name": "Strategy",
             "mapping_type": {
                 "type": "StrProperty"
             }
         },
         {
-            "index": 18,
+            "index": 20,
             "name": "BotVersionPlaylistName",
             "mapping_type": {
                 "type": "NameProperty"
             }
         },
         {
-            "index": 19,
+            "index": 21,
             "name": "MaxBucketCapacity",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 20,
+            "index": 22,
             "name": "MaxPendingMatches",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 21,
+            "index": 23,
             "name": "PriorityRatingExpansion",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -152,98 +189,98 @@
             }
         },
         {
-            "index": 22,
+            "index": 24,
             "name": "bUseInputRules",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 23,
+            "index": 25,
             "name": "bAllowBackfill",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 24,
+            "index": 26,
             "name": "MinBackfillMatchPlayers",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 25,
+            "index": 27,
             "name": "MaxTeamScoreAllowedForBackfill",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 26,
+            "index": 28,
             "name": "MaxTeamScoreDiscrepancyPercent",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
-            "index": 27,
+            "index": 29,
             "name": "bUsePlayerRating",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 28,
+            "index": 30,
             "name": "bEnableDynamicBotBackfill",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 29,
+            "index": 31,
             "name": "RatingType",
             "mapping_type": {
                 "type": "StrProperty"
             }
         },
         {
-            "index": 30,
+            "index": 32,
             "name": "bRequireCrossplayEnabled",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 31,
+            "index": 33,
             "name": "bLimitedPoolMatchmakingEnabled",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 32,
+            "index": 34,
             "name": "bAllowedInLeto",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 33,
+            "index": 35,
             "name": "bAllowInGameMatchMaking",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 34,
+            "index": 36,
             "name": "bAllowReturnToMatchmakingOriginOnMatchEnd",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 35,
+            "index": 37,
             "name": "bAllowBotsInHumanTeams",
             "mapping_type": {
                 "type": "BoolProperty"
@@ -251,6 +288,20 @@
         },
         {
             "index": 38,
+            "name": "bForceNewPlayerStateOnReconnect",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "DADTestValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 40,
             "name": "WinConditionType",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -258,7 +309,7 @@
             }
         },
         {
-            "index": 39,
+            "index": 41,
             "name": "TimedWinConditionTime",
             "mapping_type": {
                 "type": "StructProperty",
@@ -266,7 +317,7 @@
             }
         },
         {
-            "index": 40,
+            "index": 42,
             "name": "FinalWinConditionTime",
             "mapping_type": {
                 "type": "StructProperty",
@@ -274,7 +325,7 @@
             }
         },
         {
-            "index": 41,
+            "index": 43,
             "name": "ScoringData",
             "mapping_type": {
                 "type": "StructProperty",
@@ -282,15 +333,8 @@
             }
         },
         {
-            "index": 43,
-            "name": "WinConditionPlayersRemaining",
-            "mapping_type": {
-                "type": "IntProperty"
-            }
-        },
-        {
             "index": 44,
-            "name": "NumWinningTeamsCN",
+            "name": "TimedSafeZonePhaseTime",
             "mapping_type": {
                 "type": "StructProperty",
                 "struct_type": "ScalableFloat"
@@ -298,34 +342,70 @@
         },
         {
             "index": 45,
+            "name": "WinConditionPlayersRemaining",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "NumWinningTeamsCN",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 47,
             "name": "bIsLargeTeamGame",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 46,
+            "index": 48,
             "name": "bShouldSpreadTeams",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 47,
+            "index": 49,
             "name": "bIgnoreDefaultQuests",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
+            "index": 50,
+            "name": "bDisallowMultipleWeaponsOfType",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 51,
+            "name": "bAllowEditingEnemyWalls",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "LootDropRounds",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 53,
             "name": "ForceKickAfterDeathTime",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
-            "index": 52,
+            "index": 54,
             "name": "ForceKickAfterDeathMode",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -334,6 +414,22 @@
         },
         {
             "index": 55,
+            "name": "QuickbarSelectionPreservationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWeaponSelectionPreservationType"
+            }
+        },
+        {
+            "index": 56,
+            "name": "AlwaysAllowedNativeActions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 57,
             "name": "PawnForcedCullDistance",
             "mapping_type": {
                 "type": "StructProperty",
@@ -342,55 +438,115 @@
         },
         {
             "index": 58,
+            "name": "InventoryItemsToGrant",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemAndCount"
+                }
+            }
+        },
+        {
+            "index": 59,
+            "name": "bIgnoreGameModeStartingInventory",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 60,
             "name": "bRequirePickaxeInStartingInventory",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
+            "index": 61,
+            "name": "DestructedBuildingInGridTimeout",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "bTeamFilterDestructedBuildingsInGrid",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 63,
+            "name": "bOwnerFilterDestructedBuildingsInGrid",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "bEnableBuildingCreatedEvent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 65,
             "name": "MaximumAspectRatio",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
-            "index": 65,
+            "index": 66,
+            "name": "bVehiclesDestroyAllBuildingSMActorsOnContact",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 67,
             "name": "VehicleBoundsXYSplineClass",
             "mapping_type": {
                 "type": "ObjectProperty"
             }
         },
         {
-            "index": 67,
-            "name": "SoundMix",
-            "mapping_type": {
-                "type": "ObjectProperty"
-            }
-        },
-        {
             "index": 68,
-            "name": "bAllowHardcoreModifiers",
+            "name": "bAutoAcquireSpawnChip",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
             "index": 69,
+            "name": "SoundMix",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "bAllowHardcoreModifiers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 71,
             "name": "bForceCameraFadeOnRespawn",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 70,
+            "index": 72,
             "name": "MinTimeBeforeRespawnCameraFade",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
-            "index": 71,
+            "index": 73,
             "name": "RespawnType",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -398,7 +554,7 @@
             }
         },
         {
-            "index": 72,
+            "index": 74,
             "name": "RespawnHeight",
             "mapping_type": {
                 "type": "StructProperty",
@@ -406,7 +562,7 @@
             }
         },
         {
-            "index": 73,
+            "index": 75,
             "name": "MaxRespawnHeight",
             "mapping_type": {
                 "type": "StructProperty",
@@ -414,7 +570,7 @@
             }
         },
         {
-            "index": 74,
+            "index": 76,
             "name": "RespawnTime",
             "mapping_type": {
                 "type": "StructProperty",
@@ -422,14 +578,14 @@
             }
         },
         {
-            "index": 75,
+            "index": 77,
             "name": "bRespawnInAir",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 76,
+            "index": 78,
             "name": "RespawnLevelStreamDistanceToForceSceenFade",
             "mapping_type": {
                 "type": "StructProperty",
@@ -437,28 +593,28 @@
             }
         },
         {
-            "index": 77,
+            "index": 79,
             "name": "bSkipWarmup",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 78,
+            "index": 80,
             "name": "bSkipAircraft",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 79,
+            "index": 81,
             "name": "WarmupEarlyRequiredPlayerPercent",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
-            "index": 80,
+            "index": 82,
             "name": "AirCraftBehavior",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -466,21 +622,28 @@
             }
         },
         {
-            "index": 81,
+            "index": 83,
             "name": "bUseCustomAircraftPathSelection",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 83,
+            "index": 84,
+            "name": "bUseSameDirectionForOpposingAircraft",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 85,
             "name": "bAircraftDropOnlyWithinSafeZone",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 84,
+            "index": 86,
             "name": "AircraftSafetyMarginPct",
             "mapping_type": {
                 "type": "StructProperty",
@@ -489,48 +652,83 @@
         },
         {
             "index": 87,
-            "name": "AircraftPathMidpointSelectionRadiusMin",
+            "name": "AircraftPathOffsetFromMapCenterMin",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
             "index": 88,
+            "name": "AircraftPathOffsetFromMapCenterMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "AircraftPathMidpointSelectionRadiusMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 90,
             "name": "AircraftPathMidpointSelectionRadiusMax",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
+            "index": 91,
+            "name": "LastStepPushAircraftCenterLine_Magnitude",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
             "index": 92,
-            "name": "NonRenderedCharacterAnimationScale",
+            "name": "LastStepPushAircraftCenterLine_Direction",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
             "index": 93,
+            "name": "bDisableAudioShapes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 94,
+            "name": "NonRenderedCharacterAnimationScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 95,
             "name": "PlaylistMissionGen",
             "mapping_type": {
                 "type": "ObjectProperty"
             }
         },
         {
-            "index": 94,
+            "index": 96,
             "name": "bForceLTMLoadingScreenBackground",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 95,
+            "index": 97,
             "name": "LoadingScreenWidget",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 96,
+            "index": 98,
             "name": "UIExtensions",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -541,56 +739,56 @@
             }
         },
         {
-            "index": 97,
+            "index": 99,
             "name": "PlaylistUIData",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 98,
+            "index": 100,
             "name": "MissionIcon",
             "mapping_type": {
                 "type": "ObjectProperty"
             }
         },
         {
-            "index": 99,
+            "index": 101,
             "name": "UIDisplaySubName",
             "mapping_type": {
                 "type": "TextProperty"
             }
         },
         {
-            "index": 100,
+            "index": 102,
             "name": "bLimitedTimeMode",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 101,
+            "index": 103,
             "name": "bDisplayScoreInHUD",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 102,
+            "index": 104,
             "name": "bDisplayRespawnWidget",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 103,
+            "index": 105,
             "name": "bDisableMatchStatsDisplay",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 104,
+            "index": 106,
             "name": "SpecialActorInputActionDataTableRow",
             "mapping_type": {
                 "type": "StructProperty",
@@ -598,35 +796,49 @@
             }
         },
         {
-            "index": 105,
+            "index": 107,
             "name": "bEnforceFullSquadInUI",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 106,
+            "index": 108,
             "name": "bShowEliminationIndicatorForSquadmates",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 107,
+            "index": 109,
             "name": "bShowEliminationIndicatorForTeammates",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 109,
-            "name": "bLeaderboardDisplaysIndividuals",
+            "index": 110,
+            "name": "bShowEliminationIndicatorForEnemies",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
             "index": 111,
+            "name": "bLeaderboardDisplaysIndividuals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 112,
+            "name": "bUsePointLeaderAsTeamLeaderInLeaderboard",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 113,
             "name": "TypeOfLeaderboard",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -634,7 +846,7 @@
             }
         },
         {
-            "index": 112,
+            "index": 114,
             "name": "OnlyRespectsGlobalSettingForReplayRecording",
             "mapping_type": {
                 "type": "StructProperty",
@@ -642,7 +854,7 @@
             }
         },
         {
-            "index": 113,
+            "index": 115,
             "name": "DisableReplays",
             "mapping_type": {
                 "type": "StructProperty",
@@ -650,7 +862,15 @@
             }
         },
         {
-            "index": 114,
+            "index": 116,
+            "name": "EnableServerReplays",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 117,
             "name": "ShouldUseCustomGameChannel",
             "mapping_type": {
                 "type": "StructProperty",
@@ -658,14 +878,23 @@
             }
         },
         {
-            "index": 116,
-            "name": "CustomGameChannel",
+            "index": 118,
+            "name": "ShouldRejectDefaultGameChat",
             "mapping_type": {
-                "type": "EnumProperty"
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
             }
         },
         {
-            "index": 117,
+            "index": 119,
+            "name": "CustomGameChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECustomGameVoiceChannel"
+            }
+        },
+        {
+            "index": 120,
             "name": "ShouldRecommendCustomGameChannel",
             "mapping_type": {
                 "type": "StructProperty",
@@ -674,13 +903,42 @@
         },
         {
             "index": 121,
+            "name": "MapImageOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 122,
+            "name": "MapScaleOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 123,
+            "name": "bDrawCreativeDynamicIslands",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 124,
             "name": "MapManagerClass",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 123,
+            "index": 125,
+            "name": "bUseAsyncPhysics",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 126,
             "name": "SafeZoneStartUp",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -688,42 +946,42 @@
             }
         },
         {
-            "index": 124,
+            "index": 127,
             "name": "bWarmUpInStorm",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 125,
+            "index": 128,
             "name": "StormEffectDelay",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
-            "index": 126,
+            "index": 129,
             "name": "bDisplayFinalStormPosition",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 127,
+            "index": 130,
             "name": "bDrawLineToStormCircleIfOutside",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 128,
+            "index": 131,
             "name": "LastSafeZoneIndex",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 129,
+            "index": 132,
             "name": "SafeZoneLocationBlacklist",
             "mapping_type": {
                 "type": "SoftObjectProperty"
@@ -731,13 +989,34 @@
         },
         {
             "index": 133,
+            "name": "CreativeItemListSource",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 134,
+            "name": "UpgradeBenchData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 135,
+            "name": "HeroStats",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 136,
             "name": "bUseDefaultSupplyDrops",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 134,
+            "index": 137,
             "name": "SupplyDropModifierList",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -748,7 +1027,7 @@
             }
         },
         {
-            "index": 135,
+            "index": 138,
             "name": "SupplyDropInfoList",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -758,21 +1037,41 @@
             }
         },
         {
-            "index": 138,
+            "index": 139,
+            "name": "QueryNameToLootChanceScaleTables",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 140,
+            "name": "QueryNameToLootCountScaleTables",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 141,
             "name": "ExitCraftInfo",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 139,
+            "index": 142,
             "name": "bPlaylistUsesCustomCharacterParts",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 140,
+            "index": 143,
             "name": "CharactersToPreload",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -783,7 +1082,29 @@
             }
         },
         {
-            "index": 143,
+            "index": 144,
+            "name": "CharacterFallbackTagsToPreload",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CharacterFallbackPreloadBlock"
+                }
+            }
+        },
+        {
+            "index": 145,
+            "name": "AIPawnCustomizationFallbackTagsToPreload",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayTag"
+                }
+            }
+        },
+        {
+            "index": 146,
             "name": "SpawnActorInfoList",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -793,154 +1114,175 @@
             }
         },
         {
-            "index": 144,
+            "index": 147,
             "name": "NetActorDiscoveryBudgetInKBytesPerSec",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 146,
+            "index": 148,
+            "name": "NetDormancyNumFramesUntilObsolete",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 149,
             "name": "bEnableCreativeMode",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 147,
+            "index": 150,
             "name": "bEnableSpawningStartup",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 148,
+            "index": 151,
             "name": "bAllowTeamSwitching",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 149,
+            "index": 152,
             "name": "bShowTeamSelectButton",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 150,
+            "index": 153,
             "name": "bAllowLayoutRequirementsFeature",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 151,
+            "index": 154,
             "name": "bUseCreativeStarterIsland",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 152,
+            "index": 155,
             "name": "bForceCustomMinigame",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 153,
+            "index": 156,
             "name": "bUsesAnimationSharing",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 154,
+            "index": 157,
             "name": "AnimationSharingSetup",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 155,
+            "index": 158,
             "name": "bAllowBroadcasting",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 156,
+            "index": 159,
             "name": "bAllowSpectateAPartyMember",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 157,
+            "index": 160,
             "name": "bActivateCurie",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 159,
+            "index": 161,
+            "name": "CurieSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 162,
             "name": "PlaylistStatId",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 160,
+            "index": 163,
             "name": "bAccumulateToProfileStats",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 161,
+            "index": 164,
             "name": "bSaveToRecentGameList",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 162,
+            "index": 165,
             "name": "bEnableStatsV2Stats",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 163,
+            "index": 166,
             "name": "AISettings",
             "mapping_type": {
                 "type": "ObjectProperty"
             }
         },
         {
-            "index": 164,
+            "index": 167,
             "name": "ServerBotManagerClass",
             "mapping_type": {
                 "type": "ObjectProperty"
             }
         },
         {
-            "index": 166,
+            "index": 168,
+            "name": "DefaultCreativeTOD",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 169,
             "name": "PlaylistId",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 167,
+            "index": 170,
             "name": "PlaylistName",
             "mapping_type": {
                 "type": "NameProperty"
             }
         },
         {
-            "index": 168,
+            "index": 171,
             "name": "GameType",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -949,147 +1291,168 @@
             }
         },
         {
-            "index": 169,
+            "index": 172,
             "name": "MinPlayers",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 170,
+            "index": 173,
             "name": "MaxPlayers",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 171,
+            "index": 174,
             "name": "bUnderfillMatchmaking",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 172,
+            "index": 175,
             "name": "UnderfilledMaxPlayers",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 173,
+            "index": 176,
             "name": "bOverrideMaxPlayers",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 174,
+            "index": 177,
             "name": "MaxHumanAndBotParticipants",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 175,
+            "index": 178,
             "name": "MaxTeamCount",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 176,
+            "index": 179,
             "name": "MaxTeamSize",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 177,
+            "index": 180,
             "name": "MaxSocialPartySize",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 178,
+            "index": 181,
             "name": "MaxSquadSize",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 179,
+            "index": 182,
             "name": "MaxSquads",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 180,
+            "index": 183,
             "name": "EnforceSquadFill",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 181,
+            "index": 184,
             "name": "bAllowSquadFillOption",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 182,
+            "index": 185,
             "name": "bShouldFillWhenNoSquadFillOption",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 183,
+            "index": 186,
             "name": "bAllowJoinInProgress",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 184,
+            "index": 187,
             "name": "JoinInProgressMatchType",
             "mapping_type": {
                 "type": "TextProperty"
             }
         },
         {
-            "index": 186,
+            "index": 188,
+            "name": "EndOfMatchXpFirstElim",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 189,
             "name": "EndOfMatchXpMultiplier",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 187,
+            "index": 190,
             "name": "UserOptions",
             "mapping_type": {
                 "type": "ObjectProperty"
             }
         },
         {
-            "index": 188,
+            "index": 191,
             "name": "bEnableBackfillDuringWarmupPhase",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 190,
+            "index": 192,
+            "name": "TimeAfterWarmupToDisableBackfill",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 193,
             "name": "RichPresenceAssetName",
             "mapping_type": {
                 "type": "NameProperty"
             }
         },
         {
-            "index": 192,
+            "index": 194,
+            "name": "PreloadPersistentLevel",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 195,
             "name": "AdditionalLevels",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -1099,7 +1462,7 @@
             }
         },
         {
-            "index": 193,
+            "index": 196,
             "name": "AdditionalLevelsServerOnly",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -1109,7 +1472,7 @@
             }
         },
         {
-            "index": 194,
+            "index": 197,
             "name": "BuiltInGameFeaturePluginsToLoad",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -1119,21 +1482,28 @@
             }
         },
         {
-            "index": 195,
-            "name": "DownloadGameFeaturePluginToLoad",
+            "index": 198,
+            "name": "RootExternalContent",
             "mapping_type": {
-                "type": "StrProperty"
+                "type": "ObjectProperty"
             }
         },
         {
-            "index": 198,
+            "index": 200,
+            "name": "DefaultFirstTeam",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 201,
             "name": "DefaultLastTeam",
             "mapping_type": {
                 "type": "ByteProperty"
             }
         },
         {
-            "index": 199,
+            "index": 202,
             "name": "GameplayTagContainer",
             "mapping_type": {
                 "type": "StructProperty",
@@ -1141,21 +1511,44 @@
             }
         },
         {
-            "index": 201,
+            "index": 203,
+            "name": "FriendlyFireType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFriendlyFireType"
+            }
+        },
+        {
+            "index": 204,
             "name": "bUseFriendlyFireAimAssist",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 202,
+            "index": 205,
             "name": "LootLevel",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 205,
+            "index": 206,
+            "name": "LootTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 207,
+            "name": "BuildingLevelOverride",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 208,
             "name": "DBNOType",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -1163,7 +1556,7 @@
             }
         },
         {
-            "index": 206,
+            "index": 209,
             "name": "SpawnImmunityTime",
             "mapping_type": {
                 "type": "StructProperty",
@@ -1171,17 +1564,17 @@
             }
         },
         {
-            "index": 207,
+            "index": 210,
             "name": "SkippedGamePhaseNotification",
             "mapping_type": {
                 "type": "ArrayProperty",
                 "sub_type": {
-                    "type": "NameProperty"
+                    "type": "EnumProperty"
                 }
             }
         },
         {
-            "index": 208,
+            "index": 211,
             "name": "ModifierList",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -1191,21 +1584,21 @@
             }
         },
         {
-            "index": 209,
+            "index": 212,
             "name": "TimeOfDayManager",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 210,
+            "index": 213,
             "name": "bIgnoreWeatherEvents",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 211,
+            "index": 214,
             "name": "ItemsToFullyLoad",
             "mapping_type": {
                 "type": "ArrayProperty",
@@ -1215,42 +1608,42 @@
             }
         },
         {
-            "index": 212,
+            "index": 215,
             "name": "SharedAssetGroup",
             "mapping_type": {
                 "type": "ObjectProperty"
             }
         },
         {
-            "index": 213,
+            "index": 216,
             "name": "ConditionalAssetGroup",
             "mapping_type": {
                 "type": "ObjectProperty"
             }
         },
         {
-            "index": 214,
+            "index": 217,
             "name": "bIsDefaultPlaylist",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 215,
+            "index": 218,
             "name": "UIDisplayName",
             "mapping_type": {
                 "type": "TextProperty"
             }
         },
         {
-            "index": 216,
+            "index": 219,
             "name": "UIDescription",
             "mapping_type": {
                 "type": "TextProperty"
             }
         },
         {
-            "index": 217,
+            "index": 220,
             "name": "HUDElementsToHide",
             "mapping_type": {
                 "type": "StructProperty",
@@ -1258,70 +1651,106 @@
             }
         },
         {
-            "index": 218,
+            "index": 221,
             "name": "LootTierData",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 219,
+            "index": 222,
             "name": "LootPackages",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 220,
+            "index": 223,
+            "name": "BaseCurveTableOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlaylistBaseCurveTableOverride"
+                }
+            }
+        },
+        {
+            "index": 224,
+            "name": "BaseDataTablesOverride",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlaylistBaseDataTableOverride"
+                }
+            }
+        },
+        {
+            "index": 225,
             "name": "RangedWeapons",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 221,
+            "index": 226,
             "name": "GameData",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 222,
+            "index": 227,
             "name": "ResourceRates",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 223,
+            "index": 228,
             "name": "SkydiveMusic",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 224,
+            "index": 229,
             "name": "SkydiveMusicOutroStinger",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 226,
+            "index": 230,
+            "name": "RespawnStinger",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 231,
             "name": "GarbageCollectionFrequency",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
-            "index": 227,
+            "index": 232,
             "name": "ServerPerformanceEventFrequency",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
-            "index": 229,
+            "index": 233,
+            "name": "ServerMetricsEventFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 234,
             "name": "bUseLocalizationService",
             "mapping_type": {
                 "type": "BoolProperty"

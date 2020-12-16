@@ -1,0 +1,133 @@
+{
+    "name": "InterpTrackSound",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Sounds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundTrackKey"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bPlayOnReverse",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bContinueSoundOnMatineeEnd",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bSuppressSubtitles",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bTreatAsDialogue",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAttach",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "VectorTrack",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveVector"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CurveTension",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SubTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "TrackInstClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ActiveCondition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETrackActiveCondition"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TrackTitle",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bOnePerGroup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bDirGroupOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bDisableTrack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bIsAnimControlTrack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bSubTrackOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

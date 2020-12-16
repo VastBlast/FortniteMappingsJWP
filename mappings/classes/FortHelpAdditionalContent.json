@@ -1,0 +1,42 @@
+{
+    "name": "FortHelpAdditionalContent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ContentLocation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortHelpContentLocation"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ShowAdditionalImage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ImageToDisplay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ShowAdditionalWidget",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WidgetToDisplay",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

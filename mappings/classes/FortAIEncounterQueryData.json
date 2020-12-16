@@ -1,0 +1,26 @@
+{
+    "name": "FortAIEncounterQueryData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QueryLocations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "QueryActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

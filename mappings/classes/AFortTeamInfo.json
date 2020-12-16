@@ -1,0 +1,30 @@
+{
+    "name": "AFortTeamInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TeamMembers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "TeamSpottedActors",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TeamSpottedActorInfoArray"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PrivateInfo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

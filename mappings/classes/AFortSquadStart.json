@@ -1,0 +1,23 @@
+{
+    "name": "AFortSquadStart",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerStarts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

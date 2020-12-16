@@ -1,0 +1,246 @@
+{
+    "name": "ClothConfigNv",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ClothingWindMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EClothingWindMethodNv"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VerticalConstraint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ClothConstraintSetupNv"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HorizontalConstraint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ClothConstraintSetupNv"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BendConstraint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ClothConstraintSetupNv"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ShearConstraint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ClothConstraintSetupNv"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SelfCollisionRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SelfCollisionStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SelfCollisionCullScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Damping",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Friction",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "WindDragCoefficient",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "WindLiftCoefficient",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "LinearDrag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AngularDrag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 14,
+            "name": "LinearInertiaScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AngularInertiaScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 16,
+            "name": "CentrifugalInertiaScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 17,
+            "name": "SolverFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "StiffnessFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "GravityScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "GravityOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bUseGravityOverride",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "TetherStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "TetherLimit",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "CollisionThickness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "AnimDriveSpringStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "AnimDriveDamperStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "WindMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EClothingWindMethod_Legacy"
+            }
+        },
+        {
+            "index": 28,
+            "name": "VerticalConstraintConfig",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ClothConstraintSetup_Legacy"
+            }
+        },
+        {
+            "index": 29,
+            "name": "HorizontalConstraintConfig",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ClothConstraintSetup_Legacy"
+            }
+        },
+        {
+            "index": 30,
+            "name": "BendConstraintConfig",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ClothConstraintSetup_Legacy"
+            }
+        },
+        {
+            "index": 31,
+            "name": "ShearConstraintConfig",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ClothConstraintSetup_Legacy"
+            }
+        }
+    ]
+}

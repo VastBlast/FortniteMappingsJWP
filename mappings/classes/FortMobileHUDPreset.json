@@ -1,0 +1,36 @@
+{
+    "name": "FortMobileHUDPreset",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HUDLayoutPreset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMobileHUDLayoutProfileSave"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HUDProfileIdentifier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMobileHUDProfileIdentifier"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HUDProfileName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HUDProfileBaseType",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

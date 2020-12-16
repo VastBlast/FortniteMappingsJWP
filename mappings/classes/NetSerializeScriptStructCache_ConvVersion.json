@@ -1,0 +1,28 @@
+{
+    "name": "NetSerializeScriptStructCache_ConvVersion",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScriptStructsToIndex",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "IndexToScriptStructs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

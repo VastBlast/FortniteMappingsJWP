@@ -1,0 +1,35 @@
+{
+    "name": "FortAttributeDetailsInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequiredTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Icon",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMultiSizeBrush"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "name": "FortAIAssignmentSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GoalSelectionQueryInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GoalSelectionQueryInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bGoalLocationsAlwaysKnown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsEnemyAssignment",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RequiredTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ProhibitedTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxAIAllowedForAssignment",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxAIAllowedPerGoal",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

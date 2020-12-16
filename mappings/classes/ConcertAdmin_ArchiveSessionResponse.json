@@ -1,0 +1,35 @@
+{
+    "name": "ConcertAdmin_ArchiveSessionResponse",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SessionId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SessionName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ArchiveId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ArchiveName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

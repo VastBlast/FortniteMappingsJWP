@@ -1,0 +1,22 @@
+{
+    "name": "FortStatsOverviewDetailsBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OverviewStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DetailedStats",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

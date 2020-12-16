@@ -1,0 +1,28 @@
+{
+    "name": "FortSpline",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bConstantVelocity",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Spline",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCatmullRomSpline"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SplineLookupTable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveFloat"
+            }
+        }
+    ]
+}

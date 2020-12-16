@@ -1,0 +1,27 @@
+{
+    "name": "Card",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuantityReceived",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Item",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PauseType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPauseType"
+            }
+        }
+    ]
+}

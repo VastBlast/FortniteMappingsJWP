@@ -1,0 +1,23 @@
+{
+    "name": "GameplayCueTranslationManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TranslationLUT",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayCueTranslatorNode"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "TagManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

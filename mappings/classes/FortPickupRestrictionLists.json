@@ -1,0 +1,21 @@
+{
+    "name": "FortPickupRestrictionLists",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WhiteList",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPickupTagTestContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Blacklist",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPickupTagTestContainer"
+            }
+        }
+    ]
+}

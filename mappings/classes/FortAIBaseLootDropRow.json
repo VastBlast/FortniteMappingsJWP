@@ -1,0 +1,48 @@
+{
+    "name": "FortAIBaseLootDropRow",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemDropChance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WorldItemLootTierGroup",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WorldItemInstancedLootTierGroup",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AccountItemLootTierGroup",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AITagsContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

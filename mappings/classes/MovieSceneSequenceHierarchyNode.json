@@ -1,0 +1,24 @@
+{
+    "name": "MovieSceneSequenceHierarchyNode",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ParentID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSequenceID"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Children",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneSequenceID"
+                }
+            }
+        }
+    ]
+}

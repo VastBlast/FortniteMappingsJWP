@@ -1,0 +1,79 @@
+{
+    "name": "FortQueryTwoPointSolver",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QueryPointA",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QueryPointB",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "QueryParamsA",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EnvNamedValue"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "QueryParamsB",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EnvNamedValue"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "RotationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETwoPointSolverRotationA"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MinRotationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MaxRotationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bUseNegativeAngleOffsets",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bUsePositiveAngleOffsets",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "CustomChannelSetup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Channel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionChannel"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultResponse",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionResponse"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bTraceType",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bStaticObject",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "name": "AudioAnalysisSpectralAnalysisSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BandSettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundSubmixSpectralAnalysisBandSettings"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "UpdateRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DecibalNoiseFloor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDoNormalize",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bDoAutoRange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AutoRangeAttackTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AutoRangeReleaseTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

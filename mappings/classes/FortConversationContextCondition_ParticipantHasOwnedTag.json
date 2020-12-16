@@ -1,0 +1,21 @@
+{
+    "name": "FortConversationContextCondition_ParticipantHasOwnedTag",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ParticipantID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OwnedTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

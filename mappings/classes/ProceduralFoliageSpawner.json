@@ -1,0 +1,44 @@
+{
+    "name": "ProceduralFoliageSpawner",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RandomSeed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TileSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumUniqueTiles",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinimumQuadTreeSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FoliageTypes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FoliageTypeObject"
+                }
+            }
+        }
+    ]
+}

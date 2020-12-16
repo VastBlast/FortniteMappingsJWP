@@ -1,0 +1,45 @@
+{
+    "name": "FortMcpCollectedItemProperties",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VariantTag",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ContextTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Properties",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "JsonObjectWrapper"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SeenState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCollectedState"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Count",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

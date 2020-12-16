@@ -1,0 +1,82 @@
+{
+    "name": "BPVariableDescription",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VarName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VarGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VarType",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EdGraphPinType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FriendlyName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Category",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PropertyFlags",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RepNotifyFunc",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ReplicationCondition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELifetimeCondition"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MetaDataArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BPVariableMetaDataEntry"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "DefaultValue",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

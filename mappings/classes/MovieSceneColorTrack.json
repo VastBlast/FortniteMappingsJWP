@@ -1,0 +1,37 @@
+{
+    "name": "MovieSceneColorTrack",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIsSlateColor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SectionToKey",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PropertyBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieScenePropertyBinding"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Sections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

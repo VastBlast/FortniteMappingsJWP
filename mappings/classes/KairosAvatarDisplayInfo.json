@@ -1,0 +1,138 @@
+{
+    "name": "KairosAvatarDisplayInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EKairosAvatarCaptureState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TargetState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EKairosAvatarCaptureState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpawnTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AvatarData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "KairosAvatarMcpData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Loadout",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaLoadout"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AnimToPlay",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SnippetPathToPlay",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "HeroItem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CaptureParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "KairosCaptureParams"
+            }
+        },
+        {
+            "index": 10,
+            "name": "KairosHero",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Pawn",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bIsCurrentUser",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "HeadBoneTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bSpawnTransformIsAbsolute",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bIsNewCharacter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "HeroPawnClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bUseDefaultFrontendAnimClass",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

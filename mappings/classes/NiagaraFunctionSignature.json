@@ -1,0 +1,131 @@
+{
+    "name": "NiagaraFunctionSignature",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Inputs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraVariable"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Outputs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraVariable"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "OwnerName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bRequiresContext",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bRequiresExecPin",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bMemberFunction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bExperimental",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bSupportsCPU",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bSupportsGPU",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bWriteFunction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bSoftDeprecatedFunction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ModuleUsageBitmask",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ContextStageMinIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ContextStageMaxIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "FunctionSpecifiers",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "name": "RigUnit_FitChainToCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StartBone",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EndBone",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Bezier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CRFourPointBezier"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Alignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigCurveAlignment"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Minimum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Maximum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SamplingPrecision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PrimaryAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SecondaryAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PoleVectorPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Rotations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RigUnit_FitChainToCurve_Rotation"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "RotationEaseType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigAnimEasingType"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bPropagateToChildren",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "DebugSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigUnit_FitChainToCurve_DebugSettings"
+            }
+        }
+    ]
+}

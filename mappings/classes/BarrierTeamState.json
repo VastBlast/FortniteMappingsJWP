@@ -1,0 +1,41 @@
+{
+    "name": "BarrierTeamState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TeamNum",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FoodTeam",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBarrierFoodTeam"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ObjectiveFlag",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ObjectiveObject",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bRespawnEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

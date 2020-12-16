@@ -1,0 +1,71 @@
+{
+    "name": "NiagaraDataInterfaceGrid2DCollection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RenderTargetUserParameter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraUserParameterBinding"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrideBufferFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraGpuBufferFormat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOverrideFormat",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumCellsX",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NumCellsY",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NumCellsMaxAxis",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NumAttributes",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SetGridFromMaxAxis",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "WorldBBoxSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        }
+    ]
+}

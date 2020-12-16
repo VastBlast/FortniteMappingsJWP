@@ -1,0 +1,22 @@
+{
+    "name": "SocialChatChannelConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SocialUser",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ListenChannels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

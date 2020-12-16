@@ -1,0 +1,23 @@
+{
+    "name": "HierarchicalLODSetup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HierarchicalLODSetup",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HierarchicalSimplification"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrideBaseMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

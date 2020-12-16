@@ -1,0 +1,50 @@
+{
+    "name": "BuildingActorHotSpotDirection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HotSpotConfig",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Offset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bMirrorX",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bMirrorY",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Direction",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortHotSpotDirection"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TypeConfigUsage",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHotspotTypeConfigMode"
+            }
+        }
+    ]
+}

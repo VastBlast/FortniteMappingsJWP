@@ -1,0 +1,63 @@
+{
+    "name": "FortLoadingConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LoadingScreenFallback",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSubGameLoadingScreen"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LoadingScreens",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSubGameLoadingScreen"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LoadingScreenEA",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEarlyAcessLoadingScreen"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LoadingScreenMissionBackground",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LoadingScreenTipBackground",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PSALoadingScreens",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPSALoadingScreen"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "LoadingMusic",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

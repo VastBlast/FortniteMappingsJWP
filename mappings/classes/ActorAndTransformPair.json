@@ -1,0 +1,27 @@
+{
+    "name": "ActorAndTransformPair",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Actor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Transform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bHasValidTransform",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

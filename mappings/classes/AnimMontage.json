@@ -1,0 +1,222 @@
+{
+    "name": "AnimMontage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BlendIn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AlphaBlend"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BlendInTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BlendOut",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AlphaBlend"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BlendOutTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BlendOutTriggerTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SyncGroup",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SyncSlotIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MarkerData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkerSyncData"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CompositeSections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CompositeSection"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "SlotAnimTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SlotAnimationTrack"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "BranchingPoints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BranchingPoint"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "bEnableRootMotionTranslation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bEnableRootMotionRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bEnableAutoBlendOut",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "RootMotionRootLock",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERootMotionRootLock"
+            }
+        },
+        {
+            "index": 15,
+            "name": "BranchingPointMarkers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BranchingPointMarker"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "BranchingPointStateNotifyIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "TimeStretchCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimeStretchCurve"
+            }
+        },
+        {
+            "index": 18,
+            "name": "TimeStretchCurveName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "Notifies",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimNotifyEvent"
+                }
+            }
+        },
+        {
+            "index": 20,
+            "name": "SequenceLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "RateScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "RawCurveData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawCurveTracks"
+            }
+        },
+        {
+            "index": 23,
+            "name": "Skeleton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 25,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

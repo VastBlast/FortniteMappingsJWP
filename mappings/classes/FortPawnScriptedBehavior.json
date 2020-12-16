@@ -1,0 +1,43 @@
+{
+    "name": "FortPawnScriptedBehavior",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActionTemplates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ScriptedAction"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ScriptedBehaviors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ScriptedBehavior"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrentBehavior",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScriptedBehavior"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrentCommand",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScriptedAction"
+            }
+        }
+    ]
+}

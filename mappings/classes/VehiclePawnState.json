@@ -1,0 +1,55 @@
+{
+    "name": "VehiclePawnState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Vehicle",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VehicleApexZ",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SeatIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ExitSocketIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bOverrideVehicleExit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SeatTransitionVector",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EntryTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

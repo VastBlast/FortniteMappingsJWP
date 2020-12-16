@@ -1,0 +1,272 @@
+{
+    "name": "AFortPlayerStateAthena",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PersonalLobbyAction",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RespawnData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRespawnData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ReplicatedTeamMemberState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETeamMemberState"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TeamMemberState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETeamMemberState"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TeamMemberStateRepTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bHasWonAGame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TeamKillScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TeamIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TeamScorePlacement",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "TeamScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Place",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "DownScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "KillScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "SeasonLevelUIDisplay",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "HumanKillScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "AIKillCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "NumChestsOpened",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "NumAmmoCansOpened",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "NumSupplyDropsOpened",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "NumLlamasOpened",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "NumForagedItemsConsumed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "NumMinutesAlive",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "NumBronzeCoinsCollected",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "NumSilverCoinsCollected",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "NumGoldCoinsCollected",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "TotalPlayerScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "StormSurgeEffectCount",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "SquadId",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bIsTalking",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bIsMuted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "MetricInformation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DetailedMetricInformation"
+            }
+        },
+        {
+            "index": 48,
+            "name": "SimpleMetricInformation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SimpleMetricInformation"
+            }
+        },
+        {
+            "index": 52,
+            "name": "GameModeIcon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "DeathInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DeathInfo"
+            }
+        },
+        {
+            "index": 54,
+            "name": "ChangeTeamInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ChangeTeamInfo"
+            }
+        },
+        {
+            "index": 62,
+            "name": "BotUniqueId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 63,
+            "name": "bPreserveSquad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

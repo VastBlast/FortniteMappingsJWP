@@ -1,0 +1,50 @@
+{
+    "name": "LandscapeSplineSegment",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Connections",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LandscapeSplineSegmentConnection"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SplineInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveVector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Points",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LandscapeSplineInterpPoint"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "Bounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LocalMeshComponents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "ReplicatedControlState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Up",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantizeNormal"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Forward",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantizeNormal"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsEngineOn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

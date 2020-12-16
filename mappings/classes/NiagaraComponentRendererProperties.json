@@ -1,0 +1,88 @@
+{
+    "name": "NiagaraComponentRendererProperties",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ComponentType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ComponentCountLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EnabledBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAssignComponentsOnParticleID",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bOnlyCreateComponentsOnParticleSpawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TemplateComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PropertyBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraComponentPropertyBinding"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "Platforms",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraPlatformSet"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SortOrderHint",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bMotionBlurEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

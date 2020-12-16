@@ -1,0 +1,88 @@
+{
+    "name": "LevelSequencePlayerSnapshot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MasterName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MasterTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "QualifiedFrameTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SourceTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "QualifiedFrameTime"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrentShotName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrentShotLocalTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "QualifiedFrameTime"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CurrentShotSourceTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "QualifiedFrameTime"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SourceTimecode",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CameraComponent",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Settings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LevelSequenceSnapshotSettings"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ActiveShot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ShotID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSequenceID"
+            }
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "name": "ClothPhysicalMeshData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Vertices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Normals",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Indices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "InverseMasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "BoneData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ClothVertBoneData"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxBoneWeights",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NumFixedVerts",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SelfCollisionIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "MaxDistances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "BackstopDistances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "BackstopRadiuses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "AnimDriveMultipliers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
+}

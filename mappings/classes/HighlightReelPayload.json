@@ -1,0 +1,54 @@
+{
+    "name": "HighlightReelPayload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UCRN_PlayerId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UCRN_PlayerName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UCRN_MMR",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UCRN_PlayerInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HighlightReelPlayerInfoPayload"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UCRN_HighlightReelId",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHighlightReelIds"
+            }
+        },
+        {
+            "index": 5,
+            "name": "UCRN_Clips",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HighlightClipPayload"
+                }
+            }
+        }
+    ]
+}

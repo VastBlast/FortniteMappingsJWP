@@ -1,0 +1,79 @@
+{
+    "name": "FortGameplayEffectContainerSpec",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TargetSelection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAbilityTargetSelectionList"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TargetGameplayEffectSpecs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectSpecHandle"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "OwnerGameplayEffectSpecs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectSpecHandle"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ActivationCues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ImpactCues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ImpactNoiseRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "FlyByNoiseRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bOverrideChargeMagnitude",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ChargeMagnitudeOverrideValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

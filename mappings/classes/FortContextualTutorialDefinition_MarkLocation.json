@@ -1,0 +1,237 @@
+{
+    "name": "FortContextualTutorialDefinition_MarkLocation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MarkerType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWorldMarkerType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MobilePosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MobileHorizontalAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHorizontalAlignment"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MobileVerticalAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVerticalAlignment"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ContextualTutorialClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TutorialType",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AmountOfRecallMatches",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DirectiveMessages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DirectiveInput"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "InformativeMessage",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TriggerActivationDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MessageDisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SuccesMessageDisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ReminderDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ReminderAmount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "InformativeMessageDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "LockedDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "AccountLevelLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bCanBeShownInCombat",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bIsCompletionSilent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bAlwaysSendSuccess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bCanSetMessagingSystemOnCooldown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bCanBeShownWhileDBNO",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "Platform",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortContextualTutorialPlatform"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ContextualTutorialDependency",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 25,
+            "name": "HudElementsToHighlight",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HUDElementToHighlight"
+                }
+            }
+        },
+        {
+            "index": 26,
+            "name": "bRequireSquad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bRequireSolo",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bActivateInBR",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bActivateInCreative",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "bIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

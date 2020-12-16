@@ -1,0 +1,37 @@
+{
+    "name": "AFortAthenaVehicleSpawner",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DummyRoot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FortVehicleItemDef",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FortVehicleItemDefVariants",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VehicleWeightedDef"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "bForceSpawnAlways",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

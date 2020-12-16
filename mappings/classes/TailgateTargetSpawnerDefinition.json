@@ -1,0 +1,30 @@
+{
+    "name": "TailgateTargetSpawnerDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpawnerID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnConditions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "TargetDefinitionOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

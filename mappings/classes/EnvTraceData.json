@@ -1,0 +1,135 @@
+{
+    "name": "EnvTraceData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VersionNum",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NavigationFilter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ProjectDown",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ProjectUp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ExtentX",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ExtentY",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ExtentZ",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PostProjectionVerticalOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TraceChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETraceTypeQuery"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SerializedChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionChannel"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TraceShape",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvTraceShape"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TraceMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvQueryTrace"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bTraceComplex",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bOnlyBlockingHits",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bCanTraceOnNavMesh",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bCanTraceOnGeometry",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bCanDisableTrace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bCanProjectDown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "LiveLinkTime",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WorldTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SceneTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "QualifiedFrameTime"
+            }
+        }
+    ]
+}

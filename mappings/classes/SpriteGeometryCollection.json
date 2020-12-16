@@ -1,0 +1,66 @@
+{
+    "name": "SpriteGeometryCollection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Shapes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SpriteGeometryShape"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "GeometryType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESpritePolygonMode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PixelsPerSubdivisionX",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PixelsPerSubdivisionY",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAvoidVertexMerging",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AlphaThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DetailAmount",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SimplifyEpsilon",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,213 @@
+{
+    "name": "FortQuestManager",
+    "properties": [
+        {
+            "index": 13,
+            "name": "CurrentQuests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "CurrentHardcoreModifiers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "CurrentHardcoreModifierSrcTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 20,
+            "name": "CurrentAccolades",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "TrackedTempQuestItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "CurrentCategorizedQuestsMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "PendingChanges",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortQuestObjectiveCompletion"
+                }
+            }
+        },
+        {
+            "index": 26,
+            "name": "EventQuestDataTables",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 27,
+            "name": "DamageEventFlushDelaySeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "BuildingEventFlushDelaySeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bDoQuestStateLogging",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "bBlockBRXPWhenDead",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bFlatCurrentQuestsSearch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bBlockQuestCompletion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bBlockAthenaQuestCompletion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bBlockStWQuestCompletion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bBlockXPEventsInAnyAAState",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bBlockAthenaQuestCompletionInCompetitive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "bBlockPartyAssist",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bUseSquadForPartyAssist",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bBlockAthenaFeatsCompletionInCompetitive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "BackendObjectiveNamesToBlock",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 41,
+            "name": "QuestTemplatesToBlock",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 42,
+            "name": "bAllowAthenaMCPNotifyOnComplete",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "QuestMapMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EQuestMapScreenMode"
+            }
+        }
+    ]
+}

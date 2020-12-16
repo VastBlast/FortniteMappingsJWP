@@ -1,0 +1,51 @@
+{
+    "name": "MovieSceneSequencePlayer",
+    "properties": [
+        {
+            "index": 5,
+            "name": "Status",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMovieScenePlayerStatus"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bReversePlayback",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumber"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DurationFrames",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "PlaybackSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSequencePlaybackSettings"
+            }
+        },
+        {
+            "index": 13,
+            "name": "NetSyncProps",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSequenceReplProperties"
+            }
+        }
+    ]
+}

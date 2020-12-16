@@ -1,0 +1,34 @@
+{
+    "name": "NiagaraEmitterScriptProperties",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Script",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EventReceivers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraEventReceiverProperties"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "EventGenerators",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraEventGeneratorProperties"
+                }
+            }
+        }
+    ]
+}

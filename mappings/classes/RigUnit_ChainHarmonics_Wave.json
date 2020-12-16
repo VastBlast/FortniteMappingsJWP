@@ -1,0 +1,66 @@
+{
+    "name": "RigUnit_ChainHarmonics_Wave",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WaveFrequency",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WaveAmplitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WaveOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WaveNoise",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "WaveMinimum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "WaveMaximum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "WaveEase",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigAnimEasingType"
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "VoteSessionSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VoteSessionId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VoteSessionText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VoteSettingsList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VoteSettings"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "NetworkType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVoteSessionNetworkType"
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "name": "AnimNode_PoseDriver",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourcePose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseLink"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SourceBones",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BoneReference"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "OnlyDriveBones",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BoneReference"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "PoseTargets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PoseDriverTarget"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "EvalSpaceBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RBFParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RBFParams"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DriveSource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPoseDriverSource"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DriveOutput",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPoseDriverOutput"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bOnlyDriveSelectedBones",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PoseAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

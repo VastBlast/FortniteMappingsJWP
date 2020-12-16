@@ -1,0 +1,35 @@
+{
+    "name": "BarrierObjectState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ObjectiveActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TeamNum",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FoodTeam",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBarrierFoodTeam"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DamageState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBarrierObjectiveDamageState"
+            }
+        }
+    ]
+}

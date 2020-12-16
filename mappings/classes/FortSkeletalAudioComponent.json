@@ -1,0 +1,51 @@
+{
+    "name": "FortSkeletalAudioComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AudioAssetBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bShouldIgnoreDilation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bShouldAttachOneShots",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BoneInstances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SkeletalAudioBoneInstance"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "SkeletalMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "FortMcpCollectableFish",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpeciesToItemDefMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Collected",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMcpCollectedItemProperties"
+                }
+            }
+        }
+    ]
+}

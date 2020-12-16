@@ -1,0 +1,31 @@
+{
+    "name": "FortRewardPhoenixLevelUpData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PhoenixLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Rewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemInstanceQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "RewardType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFrontEndRewardType"
+            }
+        }
+    ]
+}

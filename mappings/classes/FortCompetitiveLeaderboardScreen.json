@@ -1,0 +1,29 @@
+{
+    "name": "FortCompetitiveLeaderboardScreen",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TimeDelayToShowDetails",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LeaderboardEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ActivatableContent_LeaderboardTab",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

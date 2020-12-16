@@ -1,0 +1,31 @@
+{
+    "name": "BookMark",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Location",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HiddenLevels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "name": "MinigameObjectiveDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StatEvent",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortQuestObjectiveStatEvent"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemEvent",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortQuestObjectiveItemEvent"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TargetTagsQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SourceTagsQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ContextTagsQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "HudShortDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "HudIcon",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

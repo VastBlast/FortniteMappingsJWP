@@ -1,0 +1,432 @@
+{
+    "name": "ParticleModuleRequired",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Material",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinFacingCameraBlendDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxFacingCameraBlendDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EmitterOrigin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EmitterRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ScreenAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleScreenAlignment"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseLocalSpace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bKillOnDeactivate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bKillOnCompleted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SortMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleSortMode"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bUseLegacyEmitterTime",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bRemoveHMDRoll",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bEmitterDurationUseRange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "EmitterDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "SpawnRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionFloat"
+            }
+        },
+        {
+            "index": 15,
+            "name": "BurstList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ParticleBurst"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "EmitterDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "EmitterDelayLow",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bDelayFirstLoopOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "InterpolationMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleSubUVInterpMethod"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bScaleUV",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bEmitterDelayUseRange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ParticleBurstMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleBurstMethod"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bOverrideSystemMacroUV",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bUseMaxDrawCount",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "OpacitySourceMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EOpacitySourceMode"
+            }
+        },
+        {
+            "index": 26,
+            "name": "EmitterNormalsMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEmitterNormalsMode"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bOrbitModuleAffectsVelocityAlignment",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "SubImages_Horizontal",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "SubImages_Vertical",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "RandomImageTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "RandomImageChanges",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "MacroUVPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 33,
+            "name": "MacroUVRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "UVFlippingMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleUVFlipMode"
+            }
+        },
+        {
+            "index": 35,
+            "name": "BoundingMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubUVBoundingVertexCount"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bDurationRecalcEachLoop",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "NormalsSphereCenter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 38,
+            "name": "AlphaThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "EmitterLoops",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "CutoutTexture",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "MaxDrawCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "EmitterDurationLow",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "NormalsCylinderDirection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 44,
+            "name": "NamedMaterialOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 45,
+            "name": "bSpawnModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bUpdateModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "bFinalUpdateModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "bUpdateForGPUEmitter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "bCurvesAsColor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "b3DDrawMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "bSupported3DDrawMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "bEditable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "LODDuplicate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "bSupportsRandomSeed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "bRequiresLoopingNotification",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "LODValidity",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        }
+    ]
+}

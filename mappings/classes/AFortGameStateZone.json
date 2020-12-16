@@ -1,0 +1,154 @@
+{
+    "name": "AFortGameStateZone",
+    "properties": [
+        {
+            "index": 1,
+            "name": "WaitingToLeaveZoneTimeLeft",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HostilityMeterPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "CompletionResult",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCompletionResult"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ServerGameplayTagIndexHash",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bDisconnectOnServerGameplayTagIndexHashMismatch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "TotalPlayerStructures",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "MaxPlayerStructures",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bGlobalCeaseFire",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "ClientPreloadMissionClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoftObjectPath"
+                }
+            }
+        },
+        {
+            "index": 38,
+            "name": "bDrawRunVariationDebug",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "DifficultyIncreaseRewardTier",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bAllowedToUpdateBackendDifficulty",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bAllowedToOverrideBackendRewards",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "ScoringTableRowName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "TheaterUniqueId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "MissionLogDebugString",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "bAllowBuildingCostMods",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "bFreeBuildingRepairs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "GameplayVotesArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VoteData"
+                }
+            }
+        },
+        {
+            "index": 73,
+            "name": "bUseMaxBackpackSize",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

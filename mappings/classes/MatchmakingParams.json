@@ -1,0 +1,149 @@
+{
+    "name": "MatchmakingParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ControllerId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PartySize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DatacenterId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PlaylistId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MatchmakingLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MissionDifficultyMin",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MissionDifficultyMax",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "StormShieldDefenseType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EStormShieldDefense"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TheaterId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ZoneInstanceId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "WUID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "WorldOwnerId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SessionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "StartWith",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMatchmakingStartLocation"
+            }
+        },
+        {
+            "index": 14,
+            "name": "Flags",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMatchmakingFlags"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ChanceToHostOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "ChanceToHostIncrease",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "NumAttempts",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "MaxSearchResultsOverride",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "MaxProcessedSearchResults",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "FindFloorResult",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bBlockingHit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bWalkableFloor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bLineTrace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FloorDist",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LineDist",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HitResult",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HitResult"
+            }
+        }
+    ]
+}

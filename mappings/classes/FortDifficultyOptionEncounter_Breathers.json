@@ -1,0 +1,44 @@
+{
+    "name": "FortDifficultyOptionEncounter_Breathers",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bUseBreathers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LowPlayerPerformanceBreatherTimeSecondsCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NormalPlayerPerformanceBreatherTimeSecondsCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HighPlayerPerformanceBreatherTimeSecondsCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CostAndAvailability",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        }
+    ]
+}

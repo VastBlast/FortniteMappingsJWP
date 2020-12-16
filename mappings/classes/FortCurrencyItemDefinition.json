@@ -2,11 +2,180 @@
     "name": "FortCurrencyItemDefinition",
     "properties": [
         {
+            "index": 0,
+            "name": "LevelToXpHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LevelToSacrificeXpHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SacrificeRecipe",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TransmogSacrificeRow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ConversionRecipes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DataTableRowHandle"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "UpgradeRarityRecipeHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MinLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MaxLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "GrantToProfileType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
             "index": 10,
             "name": "Rarity",
             "mapping_type": {
                 "type": "EnumProperty",
                 "enum_type": "EFortRarity"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ItemType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemType"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PrimaryAssetIdItemTypeOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemType"
+            }
+        },
+        {
+            "index": 13,
+            "name": "FilterOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortInventoryFilter"
+            }
+        },
+        {
+            "index": 14,
+            "name": "Tier",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemTier"
+            }
+        },
+        {
+            "index": 15,
+            "name": "MaxTier",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemTier"
+            }
+        },
+        {
+            "index": 16,
+            "name": "Access",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTemplateAccess"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bIsAccountItem",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bNeverPersisted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bAllowMultipleStacks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bAutoBalanceStacks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bForceAutoPickup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bInventorySizeLimited",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ItemTypeNameOverride",
+            "mapping_type": {
+                "type": "TextProperty"
             }
         },
         {
@@ -31,10 +200,101 @@
             }
         },
         {
+            "index": 27,
+            "name": "DisplayNamePrefix",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "SearchTags",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 30,
+            "name": "AutomationTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 31,
+            "name": "SecondaryCategoryOverrideTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 32,
+            "name": "TertiaryCategoryOverrideTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 33,
+            "name": "MaxStackSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 34,
+            "name": "PurchaseItemLimit",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
             "index": 35,
             "name": "FrontendPreviewScale",
             "mapping_type": {
                 "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "TooltipClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "StatList",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "RatingLookup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 39,
+            "name": "WidePreviewImage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
             }
         },
         {
@@ -49,6 +309,21 @@
             "name": "LargePreviewImage",
             "mapping_type": {
                 "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "DisplayAssetPath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 43,
+            "name": "Series",
+            "mapping_type": {
+                "type": "ObjectProperty"
             }
         },
         {
@@ -70,6 +345,13 @@
         {
             "index": 46,
             "name": "FrontendPreviewMeshOverride",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "FrontendPreviewSkeletalMeshOverride",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }

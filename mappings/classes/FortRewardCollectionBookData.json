@@ -1,0 +1,21 @@
+{
+    "name": "FortRewardCollectionBookData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CollectionBookRewards",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCollectionBookRewards"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RewardType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFrontEndRewardType"
+            }
+        }
+    ]
+}

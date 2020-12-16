@@ -1,0 +1,291 @@
+{
+    "name": "AthenaSquadIndicator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IndicatorWorldOffsetProperty",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IndicatorItemOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "IndicatorSpecialServerOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SmallIndicatorScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WorldOffsetInterpValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MIDParam_LocationColor",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MIDParam_ItemIcon",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MIDParam_ItemRarityColor",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LoadingPlaceholder",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LocationMarker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkerLargeIndicatorType"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ItemMarker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkerLargeIndicatorType"
+            }
+        },
+        {
+            "index": 11,
+            "name": "DangerMarker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkerLargeIndicatorType"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SpecialLocalMarker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkerLargeIndicatorType"
+            }
+        },
+        {
+            "index": 13,
+            "name": "SpecialServerMarker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkerLargeIndicatorType"
+            }
+        },
+        {
+            "index": 14,
+            "name": "Image_SmallIndicator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "Image_LocationFlare",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "Image_LargeIndicator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "Image_TrajectoryLargeIndicator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "Image_TrajectorySmallIndicator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "MarkerData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortWorldMarkerData"
+            }
+        },
+        {
+            "index": 24,
+            "name": "MarkerDisplay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkedActorDisplayInfo"
+            }
+        },
+        {
+            "index": 25,
+            "name": "DetailsTable",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "FreshLargeItemShowTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "IndicatorDotSizeThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "Switcher_IndicatorSize",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "Panel_SmallIndicator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "Panel_LargeIndicator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "Text_Distance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "RelativeLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 35,
+            "name": "MaxDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bClampOnScreen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "bShowClampToScreenArrow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bUseScreenSpacePosition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "ScreenSpaceRelativeOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 40,
+            "name": "ScreenPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "ElementTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 42,
+            "name": "HUDElementTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 43,
+            "name": "HiddenVisibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 44,
+            "name": "TutorialHighlight",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

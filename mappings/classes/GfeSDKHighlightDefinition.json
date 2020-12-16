@@ -1,0 +1,48 @@
+{
+    "name": "GfeSDKHighlightDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UserDefaultInterest",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HighlightTags",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGfeSDKHighlightType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Significance",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGfeSDKHighlightSignificance"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NameTranslationTable",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

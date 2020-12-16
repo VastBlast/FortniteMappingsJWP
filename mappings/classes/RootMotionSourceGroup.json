@@ -1,0 +1,49 @@
+{
+    "name": "RootMotionSourceGroup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bHasAdditiveSources",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bHasOverrideSources",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bHasOverrideSourcesWithIgnoreZAccumulate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIsAdditiveVelocityApplied",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LastAccumulatedSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RootMotionSourceSettings"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LastPreAdditiveVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize10"
+            }
+        }
+    ]
+}

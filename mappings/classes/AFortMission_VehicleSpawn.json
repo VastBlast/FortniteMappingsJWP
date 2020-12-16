@@ -1,0 +1,23 @@
+{
+    "name": "AFortMission_VehicleSpawn",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpawnSets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MissionVehicleSpawnSet"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnLocationQuery",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "ProceduralPointCloudPoint",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Transform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SurfaceNormal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SurfaceObject",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Object",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ObjectVariation",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Tags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "CollisionRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SourcePointGeneratorIndex",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

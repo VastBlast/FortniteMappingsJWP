@@ -1,0 +1,49 @@
+{
+    "name": "ABuildingGameplayActorTransientQuest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InteractionTextRefreshRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ChanceToBeHuman",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TargetFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NoBountiesAvailableInteractionText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BountyInProgressInteractionText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FailedInteractionTextToUse",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

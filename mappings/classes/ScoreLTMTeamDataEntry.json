@@ -1,0 +1,48 @@
+{
+    "name": "ScoreLTMTeamDataEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TeamId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LatestScoreEvent",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EScoreLTMScoreEvent"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LatestScoringPlayer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LatestScoreAwarded",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bWasLatestScoreBonus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TeamScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

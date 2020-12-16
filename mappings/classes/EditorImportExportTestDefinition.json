@@ -1,0 +1,38 @@
+{
+    "name": "EditorImportExportTestDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ImportFilePath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilePath"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ExportFileExtension",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSkipExport",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FactorySettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ImportFactorySettingValues"
+                }
+            }
+        }
+    ]
+}

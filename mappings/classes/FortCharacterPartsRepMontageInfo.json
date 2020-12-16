@@ -1,0 +1,30 @@
+{
+    "name": "FortCharacterPartsRepMontageInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CharPartMontages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCharacterPartMontageInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PawnMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bPlayBit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

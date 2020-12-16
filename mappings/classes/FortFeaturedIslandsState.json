@@ -1,0 +1,38 @@
+{
+    "name": "FortFeaturedIslandsState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IslandCodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlaylistCuratedHub",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "IslandTemplates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

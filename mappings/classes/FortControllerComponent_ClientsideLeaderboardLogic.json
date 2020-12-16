@@ -1,0 +1,23 @@
+{
+    "name": "FortControllerComponent_ClientsideLeaderboardLogic",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LeaderBoard",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortInGameLeaderboardPlacementData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CachedGameState",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

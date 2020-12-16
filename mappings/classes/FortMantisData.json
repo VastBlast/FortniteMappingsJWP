@@ -1,0 +1,87 @@
+{
+    "name": "FortMantisData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bDetachCharacterRotationFromCamera",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ReattachCharacterRotationBlendTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ReattachCharacterRotationBlendExponent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WindupCharacterRotationRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ExecutionCharacterRotationRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RecoveryCharacterRotationRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TechniqueAbility",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TechniqueAdditionEffectContainers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayEffectContainer"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "Techniques",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMantisTechniqueData"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "Branches",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMantisTechniqueBranch"
+                }
+            }
+        }
+    ]
+}

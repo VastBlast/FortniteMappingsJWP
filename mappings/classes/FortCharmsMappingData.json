@@ -1,0 +1,35 @@
+{
+    "name": "FortCharmsMappingData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SlotMetadata",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CharmSlotMetadata"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "NonSlotPreviewList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CharmPreviewEntry"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "DoNotApplyCharmsTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

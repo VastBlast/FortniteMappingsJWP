@@ -1,0 +1,354 @@
+{
+    "name": "ABuildingContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SearchingSoundCueLoop",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LootRepeatSoundCue",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OnDamageSoundCue",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OnDeathSoundCue",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SearchedMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SearchedMaterialOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "LootTierGroupTagOverrideData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LootTierGroupTagOverride"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "SearchLootTierGroup",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PotentialRandomUpgrades",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RandomUpgradeData"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "ContainerLootTierKey",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ReplicatedLootTier",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ChosenRandomUpgrade",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bBlockMarking",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bCanBeMarked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "MarkerDisplay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkedActorDisplayInfo"
+            }
+        },
+        {
+            "index": 17,
+            "name": "MarkerPositionOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 18,
+            "name": "NumItemsToDropRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 19,
+            "name": "SearchBounceRadiusOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LootTestingData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "LootNoiseRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "LootSpawnLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 23,
+            "name": "LootFinalLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 24,
+            "name": "InstancedLoot_TossDirection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 25,
+            "name": "InstancedLoot_TossSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "InstancedLoot_TossConeHalfAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "LootSpawnLocation_Athena",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 28,
+            "name": "LootTossDirection_Athena",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 29,
+            "name": "LootTossSpeed_Athena",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "LootTossConeHalfAngle_Athena",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bUseLootProperties_Athena",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bAlwaysShowContainer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bAlwaysMaintainLoot",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bDestroyContainerOnSearch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bForceHidePickupMinimapIndicator",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "bForceSpawnLootOnDestruction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bForceTossLootOnSpawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bDoNotDropLootOnDestruction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bBuriedTreasure",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bHasRaisedTreasure",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bStartAlreadySearched_Athena",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bRegenerateLoot",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bUseLocationForDrop",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "LootedWeaponsDurabilityModifier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "SearchSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 49,
+            "name": "SearchText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "AudioIndicator_Component",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "TimeUntilLootRegenerates",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

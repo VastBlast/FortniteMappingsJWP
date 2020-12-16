@@ -1,0 +1,21 @@
+{
+    "name": "FortAIEncounterPawnDifficultyLevelModifier",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EncounterTagRequirementsQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DifficultyLevelModifierCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        }
+    ]
+}

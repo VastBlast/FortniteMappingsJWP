@@ -1,0 +1,90 @@
+{
+    "name": "CrowdManager",
+    "properties": [
+        {
+            "index": 1,
+            "name": "AvoidanceConfig",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CrowdAvoidanceConfig"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SamplingPatterns",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CrowdAvoidanceSamplingPattern"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxAgents",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxAgentRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxAvoidedAgents",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxAvoidedWalls",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NavmeshCheckInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PathOptimizationInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SeparationDirClamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PathOffsetRadiusMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bResolveCollisions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

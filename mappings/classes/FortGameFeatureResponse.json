@@ -1,0 +1,27 @@
+{
+    "name": "FortGameFeatureResponse",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ErrorCode",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ErrorText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ErrorSeverity",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortErrorSeverity"
+            }
+        }
+    ]
+}

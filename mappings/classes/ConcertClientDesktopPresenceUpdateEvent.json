@@ -1,0 +1,35 @@
+{
+    "name": "ConcertClientDesktopPresenceUpdateEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TraceStart",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TraceEnd",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bMovingCamera",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TransactionUpdateIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

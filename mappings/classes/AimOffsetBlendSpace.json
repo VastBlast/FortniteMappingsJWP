@@ -1,0 +1,118 @@
+{
+    "name": "AimOffsetBlendSpace",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AxisToScaleAnimation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBlendSpaceAxis"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bRotationBlendInMeshSpace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InterpolationParam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpolationParameter"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TargetWeightInterpolationSpeedPerSec",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NotifyTriggerMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENotifyTriggerMode"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PerBoneBlend",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerBoneInterpolation"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "SampleIndexWithMarkers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SampleData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BlendSample"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "GridSamples",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EditorElement"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "BlendParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlendParameter"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Skeleton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "FortQuestMapDetailsPanelBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuestConversationClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QuestUpdateDelayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "QuestUpdateTimerHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimerHandle"
+            }
+        }
+    ]
+}

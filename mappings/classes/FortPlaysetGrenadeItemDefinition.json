@@ -16,6 +16,90 @@
             }
         },
         {
+            "index": 2,
+            "name": "BulletShellFXTemplate",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseNativeWeaponTrace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bTraceThroughPawns",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bTraceThroughWorld",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bShouldSpawnBulletShellFX",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bShouldUsePerfectAimWhenTargetingMinSpread",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bDoNotAllowDoublePump",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bUseOnTouch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bAllowADSInAir",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bShowReticleHitNotifyAtImpactLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bForceProjectileTooltip",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bSecondaryFireRequiresAmmo",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 14,
             "name": "WeaponActorClass",
             "mapping_type": {
@@ -30,11 +114,62 @@
             }
         },
         {
+            "index": 16,
+            "name": "IntrinsicOverrideWrap",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
             "index": 17,
             "name": "WeaponStatHandle",
             "mapping_type": {
                 "type": "StructProperty",
                 "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 18,
+            "name": "WeaponRechargeAmmoRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 19,
+            "name": "WeaponRechargeAmmoQuantity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 20,
+            "name": "AbilitySet",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "AlterationSlotsLoadoutRow",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "BaselineAlterationSlotsLoadoutRow",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "BaseAlteration",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
             }
         },
         {
@@ -45,10 +180,69 @@
             }
         },
         {
+            "index": 25,
+            "name": "WeaponModSlots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortWeaponModSlot"
+                }
+            }
+        },
+        {
             "index": 26,
             "name": "PrimaryFireAbility",
             "mapping_type": {
                 "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "SecondaryFireAbility",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "ReloadAbility",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "OnHitAbility",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "EquippedAbilities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 31,
+            "name": "EquippedAbilitySet",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "EquippedCharacterParts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
             }
         },
         {
@@ -59,10 +253,135 @@
             }
         },
         {
+            "index": 34,
+            "name": "AdditionalDataFields",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 35,
+            "name": "LowAmmoPercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "TriggerType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWeaponTriggerType"
+            }
+        },
+        {
+            "index": 37,
+            "name": "SecondaryTriggerType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWeaponTriggerType"
+            }
+        },
+        {
+            "index": 38,
+            "name": "DisplayTier",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortDisplayTier"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bUsesPhantomReserveAmmo",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bUsesCustomAmmoType",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bAllowSecondaryFireToInterruptPrimary",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bAllowTargetingDuringReload",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bTargetingPreventsReload",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bCanFireWhileInstigatorTethered",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bCanFireWhileNotTargetedInVehicle",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bAlwaysChargeUpToMin",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "bReticleCornerOutsideSpreadRadius",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "bValidForLastEquipped",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 49,
             "name": "bPreventDefaultPreload",
             "mapping_type": {
                 "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "bRequestClientPreload",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "HitNotifyDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
             }
         },
         {
@@ -80,6 +399,51 @@
                 "sub_type": {
                     "type": "FloatProperty"
                 }
+            }
+        },
+        {
+            "index": 54,
+            "name": "ReticleCenterImage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "ReticleCenterPerfectAimImage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "ReticleCenterImageOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 57,
+            "name": "ReticleInvalidTargetImage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "AnalyticTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 59,
+            "name": "PlayerGrantedGameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
             }
         },
         {
@@ -101,14 +465,139 @@
             }
         },
         {
+            "index": 62,
+            "name": "AdditionalData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "RequiredEquipTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 64,
+            "name": "PickupRestrictionListEntry",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPickupRestrictionLists"
+                }
+            }
+        },
+        {
+            "index": 65,
+            "name": "DropBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWorldItemDropBehavior"
+            }
+        },
+        {
+            "index": 66,
+            "name": "bIgnoreRespawningForDroppingAsPickup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 67,
+            "name": "bCanAutoEquipByClass",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 68,
+            "name": "bPersistInInventoryWhenFinalStackEmpty",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "bSupportsQuickbarFocus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "bSupportsQuickbarFocusForGamepadOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 71,
+            "name": "bShouldActivateWhenFocused",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "bForceFocusWhenAdded",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "bForceIntoOverflow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 74,
+            "name": "bForceStayInOverflow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "bDropCurrentItemOnOverflow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 76,
+            "name": "bShouldShowItemToast",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 77,
             "name": "bShowDirectionalArrowWhenFarOff",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
+            "index": 78,
+            "name": "bCanBeDropped",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 79,
+            "name": "bCanBeReplacedByPickup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 80,
             "name": "bItemCanBeStolen",
             "mapping_type": {
                 "type": "BoolProperty"
@@ -116,6 +605,13 @@
         },
         {
             "index": 81,
+            "name": "bCanBeDepositedInStorageVault",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 82,
             "name": "bItemHasDurability",
             "mapping_type": {
                 "type": "BoolProperty"
@@ -123,6 +619,13 @@
         },
         {
             "index": 83,
+            "name": "bAllowedToBeLockedInInventory",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 84,
             "name": "bOverridePickupMeshTransform",
             "mapping_type": {
                 "type": "BoolProperty"
@@ -130,20 +633,62 @@
         },
         {
             "index": 85,
+            "name": "bAlwaysCountForCollectionQuest",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 86,
             "name": "bDropOnDeath",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
+            "index": 87,
+            "name": "bDropOnLogout",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "bDropOnDBNO",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "bDoesNotNeedSourceSchematic",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "bUsesGoverningTags",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 91,
+            "name": "DropCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 92,
             "name": "MiniMapViewableDistance",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
-            "index": 92,
+            "index": 93,
             "name": "MiniMapIconBrush",
             "mapping_type": {
                 "type": "StructProperty",
@@ -151,7 +696,22 @@
             }
         },
         {
+            "index": 94,
+            "name": "OwnerPickupText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
             "index": 95,
+            "name": "LootLevelData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableCategoryHandle"
+            }
+        },
+        {
+            "index": 96,
             "name": "PickupMeshTransform",
             "mapping_type": {
                 "type": "StructProperty",
@@ -159,7 +719,103 @@
             }
         },
         {
+            "index": 97,
+            "name": "bIsPickupASpecialActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "SpecialActorPickupTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 99,
+            "name": "SpecialActorPickupStatList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SpecialActorSingleStatData"
+                }
+            }
+        },
+        {
+            "index": 100,
+            "name": "PickupSpecialActorUniqueID",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "PickupMinimapIconBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 102,
+            "name": "PickupMinimapIconScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 103,
+            "name": "PickupCompassIconBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 104,
+            "name": "PickupCompassIconScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 105,
+            "name": "PickupDespawnTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 106,
+            "name": "InStormPickupDespawnTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 107,
+            "name": "NetworkCullDistanceOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
             "index": 108,
+            "name": "PickupStaticMesh",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 109,
             "name": "PickupSkeletalMesh",
             "mapping_type": {
                 "type": "SoftObjectProperty"
@@ -167,27 +823,98 @@
         },
         {
             "index": 110,
+            "name": "PickupEffectOverride",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 111,
             "name": "PickupSound",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
+            "index": 112,
+            "name": "PickupByNearbyPawnSound",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 113,
+            "name": "DropSound",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 114,
+            "name": "DroppedLoopSound",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 115,
+            "name": "LandedSound",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 116,
+            "name": "DisassembleRecipe",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 117,
+            "name": "DisassembleDurabilityDegradeMinLootPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 118,
+            "name": "DisassembleDurabilityDegradeMaxLootPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
             "index": 119,
-            "name": "MinLevel",
+            "name": "PreferredQuickbarSlot",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
             "index": 120,
+            "name": "MinLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 121,
             "name": "MaxLevel",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
-            "index": 123,
+            "index": 122,
+            "name": "NumberOfSlotsToTake",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 124,
             "name": "Rarity",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -195,7 +922,7 @@
             }
         },
         {
-            "index": 124,
+            "index": 125,
             "name": "ItemType",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -204,6 +931,14 @@
         },
         {
             "index": 126,
+            "name": "PrimaryAssetIdItemTypeOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemType"
+            }
+        },
+        {
+            "index": 127,
             "name": "FilterOverride",
             "mapping_type": {
                 "type": "EnumProperty",
@@ -211,35 +946,115 @@
             }
         },
         {
+            "index": 128,
+            "name": "Tier",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemTier"
+            }
+        },
+        {
+            "index": 129,
+            "name": "MaxTier",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemTier"
+            }
+        },
+        {
+            "index": 130,
+            "name": "Access",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTemplateAccess"
+            }
+        },
+        {
             "index": 131,
+            "name": "bIsAccountItem",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 132,
             "name": "bNeverPersisted",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
+            "index": 133,
+            "name": "bAllowMultipleStacks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 134,
+            "name": "bAutoBalanceStacks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 135,
+            "name": "bForceAutoPickup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 136,
+            "name": "bInventorySizeLimited",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 137,
-            "name": "DisplayName",
+            "name": "ItemTypeNameOverride",
             "mapping_type": {
                 "type": "TextProperty"
             }
         },
         {
             "index": 138,
-            "name": "ShortDescription",
+            "name": "DisplayName",
             "mapping_type": {
                 "type": "TextProperty"
             }
         },
         {
             "index": 139,
+            "name": "ShortDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 140,
             "name": "Description",
             "mapping_type": {
                 "type": "TextProperty"
             }
         },
         {
+            "index": 141,
+            "name": "DisplayNamePrefix",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
             "index": 142,
+            "name": "SearchTags",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 143,
             "name": "GameplayTags",
             "mapping_type": {
                 "type": "StructProperty",
@@ -247,7 +1062,31 @@
             }
         },
         {
+            "index": 144,
+            "name": "AutomationTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 145,
+            "name": "SecondaryCategoryOverrideTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
             "index": 146,
+            "name": "TertiaryCategoryOverrideTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 147,
             "name": "MaxStackSize",
             "mapping_type": {
                 "type": "StructProperty",
@@ -255,22 +1094,104 @@
             }
         },
         {
+            "index": 148,
+            "name": "PurchaseItemLimit",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 149,
+            "name": "FrontendPreviewScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
             "index": 150,
+            "name": "TooltipClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 151,
             "name": "StatList",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
+            "index": 152,
+            "name": "RatingLookup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
             "index": 153,
-            "name": "SmallPreviewImage",
+            "name": "WidePreviewImage",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
             "index": 154,
+            "name": "SmallPreviewImage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 155,
             "name": "LargePreviewImage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 156,
+            "name": "DisplayAssetPath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 157,
+            "name": "Series",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 158,
+            "name": "FrontendPreviewPivotOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 159,
+            "name": "FrontendPreviewInitialRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 160,
+            "name": "FrontendPreviewMeshOverride",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 161,
+            "name": "FrontendPreviewSkeletalMeshOverride",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }

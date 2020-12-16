@@ -1,0 +1,217 @@
+{
+    "name": "AFortAthenaMutator_PlayerSpawnPod",
+    "properties": [
+        {
+            "index": 2,
+            "name": "PodClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AllowNativeActionsInPod",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DuringStasisEffectClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BlockAbilityTagsInStasis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PreLaunchDelay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FallDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RouteYawCenter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RouteYawDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "RouteMinXYDistancePercent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 11,
+            "name": "RouteMaxXYDistancePercent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 12,
+            "name": "StartAltitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 13,
+            "name": "StartAltitudeDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 14,
+            "name": "EndLocationUpperTraceOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 15,
+            "name": "EndLocationLowerTraceOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 16,
+            "name": "EjectPawnYawSpread",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 17,
+            "name": "EjectPawnPitch",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 18,
+            "name": "EjectPawnImpulseMagnitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 19,
+            "name": "CanToggleCursorModeInStasis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ActionsToAllowToggleCursorModeInStasis",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "PodDataArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlayerSpawnPodData"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "BlockedAbilitySystemComponents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "PreviousBlockedAbilitySystemComponents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 24,
+            "name": "TeamTeleportLogicData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRespawnLogicData"
+            }
+        },
+        {
+            "index": 25,
+            "name": "TeleportMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "ViewTargetClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "PawnFallingCameraMode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

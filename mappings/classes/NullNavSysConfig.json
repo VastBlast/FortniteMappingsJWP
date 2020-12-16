@@ -1,0 +1,35 @@
+{
+    "name": "NullNavSysConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NavigationSystemClass",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftClassPath"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SupportedAgentsMask",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavAgentSelector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultAgentName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIsOverriden",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

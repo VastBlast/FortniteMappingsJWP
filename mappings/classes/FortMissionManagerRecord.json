@@ -1,0 +1,33 @@
+{
+    "name": "FortMissionManagerRecord",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionManagerClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MissionRecords",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMissionRecord"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "MissionManagerData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        }
+    ]
+}

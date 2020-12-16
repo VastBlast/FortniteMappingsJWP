@@ -1,0 +1,35 @@
+{
+    "name": "APrecomputedVisibilityOverrideVolume",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OverrideVisibleActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrideInvisibleActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "OverrideInvisibleLevels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

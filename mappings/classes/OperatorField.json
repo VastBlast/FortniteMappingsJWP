@@ -1,0 +1,34 @@
+{
+    "name": "OperatorField",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Magnitude",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RightField",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LeftField",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Operation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFieldOperationType"
+            }
+        }
+    ]
+}

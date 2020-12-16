@@ -1,0 +1,27 @@
+{
+    "name": "FortFeedbackBank",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BankDefinedFeedbackEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortFeedbackActionBankDefined"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "FeedbackEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortFeedbackAction"
+                }
+            }
+        }
+    ]
+}

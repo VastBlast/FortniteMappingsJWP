@@ -1,0 +1,41 @@
+{
+    "name": "ConcertSyncPackageActivitySummary",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PackageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NewPackageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PackageUpdateType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertPackageUpdateType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAutoSave",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bPreSave",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

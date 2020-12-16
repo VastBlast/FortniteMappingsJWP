@@ -1,0 +1,23 @@
+{
+    "name": "BulletWhipTrackerComponentBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WhipTrackerData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BulletWhipTrackerData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bEnableGravityCheck",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

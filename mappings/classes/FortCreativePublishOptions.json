@@ -1,0 +1,124 @@
+{
+    "name": "FortCreativePublishOptions",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentPermissionsEnum",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCreativePlotPermission"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WhitelistedUsers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeWhitelistUserEntry"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "IslandRestoreBox",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CheckpointBox",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Switcher_IslandPublish",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HorizontalBox_IslandPublish",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "HorizontalBox_HowToPublish",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Text_RestoreTime",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Text_OnCooldown",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Button_Backup",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Button_Restore",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bIsPushedOnToContentPanelStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bIsAlreadyOnContentPanelStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "InputPriority",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInputPriority"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bIsClosableByPlayerInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "PrimaryContentSetup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryContentSetup"
+            }
+        }
+    ]
+}

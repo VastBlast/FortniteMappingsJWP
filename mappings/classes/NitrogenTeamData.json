@@ -1,0 +1,48 @@
+{
+    "name": "NitrogenTeamData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UpdateId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ScoreReason",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENitrogenScoreReason"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScoringPlayer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TeamId",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TeamPlacement",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TeamScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

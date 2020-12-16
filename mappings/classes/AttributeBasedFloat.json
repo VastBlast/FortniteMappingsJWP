@@ -1,0 +1,77 @@
+{
+    "name": "AttributeBasedFloat",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Coefficient",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PreMultiplyAdditiveValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PostMultiplyAdditiveValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BackingAttribute",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEffectAttributeCaptureDefinition"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AttributeCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AttributeCalculationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttributeBasedFloatCalculationType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "FinalChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayModEvaluationChannel"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SourceTagFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TargetTagFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

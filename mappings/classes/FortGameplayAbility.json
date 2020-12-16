@@ -1,0 +1,444 @@
+{
+    "name": "FortGameplayAbility",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActivationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortGameplayAbilityActivation"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EffectContainers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayEffectContainer"
+            }
+        },
+        {
+            "index": 6,
+            "name": "GameplayEffectContainers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayEffectContainer"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "OwnerPreviewImageOverrideTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ProjectileClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DamageStatHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 11,
+            "name": "AbilityCosts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAbilityCost"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "bShowWidgetForCosts",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bApplyingCostsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ExplicitCooldownDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ExplicitCooldownTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bStartWithCooldown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bPersistOnDeath",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bDisableMoveCombining",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bIgnoreClientActivationAttempts",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bStopsAIBehaviorLogic",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bStopsAIMovement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bStopsRVOAvoidance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bForceNormalAILOD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "MinimumRequiredAILODLevel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAILODLevel"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bRelevantForAIDespawning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bUseTetheredPawnAsInstigator",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bAcceptTargetActorVehicleForCanHitTests",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bUseAIFireLocationAndRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "AIWeaponUsage",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAIWeaponUsage"
+            }
+        },
+        {
+            "index": 30,
+            "name": "WeaponTestApplicationTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bVerifyFireOffsetIsNotObstructedByWorldGeometry",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bCanHitBallisticTestsOnlyTestIndesructiblesWhileFalling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "FireOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 34,
+            "name": "ActivationNoiseRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "ImpactNoiseRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "ActivationNoiseLoudness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "ImpactNoiseLoudness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "ProhibitedTargetTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bLeadPawnTargets",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "DesiredThrowAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "MaxYawAngleToFire",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bClampMaxYawAngleToFire",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bUseTargetActorLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "InitialAccuracyMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "InitialAccuracyMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "TargetAccuracyMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "TargetAccuracyMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "MinAccuracyDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "MaxAccuracyDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "AccuracyDistanceMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "NumUsesToReachTargetAccuracy",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "UseCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "bIsMobileToggle",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "GameplayAbilityBehaviorDistanceData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayAbilityBehaviorDistanceData"
+                }
+            }
+        },
+        {
+            "index": 55,
+            "name": "MontageInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayAbilityMontageInfo"
+            }
+        },
+        {
+            "index": 56,
+            "name": "AbilityWeapon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "SmallPreviewImageOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "Tooltip",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "StatList",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "ActorTrackingSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AbilityTrackedActorSettings"
+            }
+        },
+        {
+            "index": 66,
+            "name": "AnalyticsTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

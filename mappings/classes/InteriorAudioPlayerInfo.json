@@ -1,0 +1,47 @@
+{
+    "name": "InteriorAudioPlayerInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentAmbientBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PreviousAmbientBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "StartingWalls",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "CenterCellActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Quadrant",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInteriorAudioQuadrant"
+            }
+        }
+    ]
+}

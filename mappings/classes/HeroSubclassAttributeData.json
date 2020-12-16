@@ -1,0 +1,24 @@
+{
+    "name": "HeroSubclassAttributeData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HeroClassAndSubclassTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttributeInitKeysPerRarity",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HeroSubclassRarityAttributeData"
+                }
+            }
+        }
+    ]
+}

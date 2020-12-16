@@ -1,0 +1,40 @@
+{
+    "name": "PlaneLootHeightEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RelativeWeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinHeightOffGround",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxHeightOffGround",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LootEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlaneLootEntry"
+                }
+            }
+        }
+    ]
+}

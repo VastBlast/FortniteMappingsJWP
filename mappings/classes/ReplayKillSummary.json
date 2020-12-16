@@ -1,0 +1,59 @@
+{
+    "name": "ReplayKillSummary",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Victim",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VictimLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Instigator",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InstigatorLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Timestamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsDownButNotOut",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DeathCause",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDeathCause"
+            }
+        }
+    ]
+}

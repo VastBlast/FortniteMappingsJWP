@@ -1,0 +1,35 @@
+{
+    "name": "ItemLoadoutContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Loadout",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemAndCount"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "LoadoutList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HotfixableInventoryOverrideItem"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "name": "DynamicCompositeWorld",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MainCompositeWorld",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AdditionalCompositeWorlds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CalendarEventName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CameraName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CameraOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFrontEndCamera"
+            }
+        },
+        {
+            "index": 5,
+            "name": "GetDefaultLevelTransitionTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bStreamInOnDemand",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "StreamingInLevelTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 8,
+            "name": "StreamingOutLevelTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

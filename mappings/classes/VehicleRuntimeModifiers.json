@@ -1,0 +1,44 @@
+{
+    "name": "VehicleRuntimeModifiers",
+    "properties": [
+        {
+            "index": 3,
+            "name": "GravityMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxInclineAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxTiltAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "GearInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RuntimeGearInfo"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "TireModIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

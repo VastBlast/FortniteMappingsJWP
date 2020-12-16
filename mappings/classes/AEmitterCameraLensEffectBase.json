@@ -1,0 +1,65 @@
+{
+    "name": "AEmitterCameraLensEffectBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PS_CameraEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PS_CameraEffectNonExtremeContent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RelativeTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BaseFOV",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAllowMultipleInstances",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bResetWhenRetriggered",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EmittersToTreatAsSame",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "DistFromCamera",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

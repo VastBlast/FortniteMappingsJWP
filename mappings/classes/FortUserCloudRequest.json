@@ -1,0 +1,27 @@
+{
+    "name": "FortUserCloudRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequestPayload",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortUserCloudRequestPayload"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bNeedsFileEnumeration",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bStartedProcessing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "name": "SpawnItemVariantParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WorldItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RequiredTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumberToSpawn",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Direction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "OverrideMaxStackCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bToss",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bRandomRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bBlockedFromAutoPickup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PickupInstigatorHandle",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SourceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPickupSourceTypeFlag"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Source",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPickupSpawnSource"
+            }
+        },
+        {
+            "index": 12,
+            "name": "OptionalOwnerPC",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bPickupOnlyRelevantToOwner",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

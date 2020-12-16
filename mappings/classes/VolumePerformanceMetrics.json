@@ -1,0 +1,41 @@
+{
+    "name": "VolumePerformanceMetrics",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PerformanceValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PerformanceMaxValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PerformanceLowendThreshold",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PreviewDeltaValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Category",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBudgetCategory"
+            }
+        }
+    ]
+}

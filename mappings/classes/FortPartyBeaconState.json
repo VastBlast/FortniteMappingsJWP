@@ -1,0 +1,21 @@
+{
+    "name": "FortPartyBeaconState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GameSessionOwner",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ReservationData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EmptyServerReservation"
+            }
+        }
+    ]
+}

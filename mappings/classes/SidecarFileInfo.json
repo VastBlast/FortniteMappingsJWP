@@ -1,0 +1,39 @@
+{
+    "name": "SidecarFileInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Meta",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIsCheckedOut",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOperationPending",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CheckoutGuid",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "SoundWaveSpectralDataPerSound",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpectralData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundWaveSpectralData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlaybackTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SoundWave",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

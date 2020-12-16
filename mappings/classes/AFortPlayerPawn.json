@@ -1,0 +1,1268 @@
+{
+    "name": "AFortPlayerPawn",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VehicleInputStateReliable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaVehicleInputStateReliable"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIsNearSafeZoneEdge",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDoSafeZoneCleanup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsWaterJump",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bIsWaterSprintBoost",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bIsWaterSprintBoostPending",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bIsScriptedBot",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bBuildHotfix",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "FortPlayerPawnLightingChannels",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LightingChannels"
+            }
+        },
+        {
+            "index": 21,
+            "name": "BuildingState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBuildingState"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ParachuteDirectionalSpeedMultiplierCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "SkydivingDirectionalSpeedMultiplierCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "BallooningDirectionalSpeedMultiplierCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "DirectionalSpeedMultiplierCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "MinimumTimeBetweenSteps",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bIsInWaterVolume",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bNotifyBlueprintWhenLandscapeTeleporting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "BalloonActiveCount",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bParachuteDeployFixedVerticalDistance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bIsSkydiving",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "bIsParachuteOpen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bLocalIsParachuteForcedOpen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bIsParachuteForcedOpen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bIsSkydivingFromBus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bIsSkydivingFromLaunchPad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bReplicatedIsInVortex",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "bReplicatedIsInSlipperyMovement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "bIsSlopeSliding",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "bIsProxySimulationTimedOut",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "bInitAbilitySystemComponentFromPlayerState",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "bIsRespawning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "bIsRespawningInAir",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 67,
+            "name": "bHasWaterParticleSystem",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "bIsInFrontEndHologram",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "GroupEmoteLeaderRotationYawOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "GroupEmoteMaximumZDifference",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "CrouchMeshOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 97,
+            "name": "ReplicatedCustomMeshHeightAdjustTarget",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "UnburrowLaunchXYSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 99,
+            "name": "UnburrowLaunchZSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 100,
+            "name": "VehicleInputStateUnreliable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaVehicleInputStateUnreliable"
+            }
+        },
+        {
+            "index": 101,
+            "name": "bIsInAnyStorm",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 102,
+            "name": "bIsInsideSafeZone",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "SafeZoneAppliedGE",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 104,
+            "name": "SelfReviveGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 105,
+            "name": "TeammateReviveGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 106,
+            "name": "SetByCallerReviveHealth",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 107,
+            "name": "DBNOInteractionCollisionProfile",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 108,
+            "name": "DBNOInteractionBoxExtent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 109,
+            "name": "DBNODeferTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 111,
+            "name": "EventReviveTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 112,
+            "name": "AggroRangeOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 113,
+            "name": "SetByCallerReviveSignalInStorm",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 118,
+            "name": "bHasStartedFloating",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 120,
+            "name": "ZiplineJumpDampening",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 121,
+            "name": "ZiplineJumpStrength",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 122,
+            "name": "ZiplineJumpActivateDelay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 123,
+            "name": "ZiplineRentryProtectionDelay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 124,
+            "name": "ZiplineSocketZOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 126,
+            "name": "EnableSwimSprintDiveCooldown",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 127,
+            "name": "SwimSprintDiveCooldown",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 128,
+            "name": "SwimDiveBoostTimeThreshold",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 132,
+            "name": "UnableToPerformActionMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 133,
+            "name": "UnableToPerformActionSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 134,
+            "name": "MoveSoundStimulusBroadcastInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 139,
+            "name": "VehicleStateRep",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehiclePawnState"
+            }
+        },
+        {
+            "index": 143,
+            "name": "TetherComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 146,
+            "name": "bSupportsTetheredMovement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 147,
+            "name": "BalloonRope",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 152,
+            "name": "LargeBodyTypeTargetingOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 154,
+            "name": "BluePrintPlaceAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 155,
+            "name": "BluePrintEditAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 159,
+            "name": "EmoteInteractionCollisionProfile",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 160,
+            "name": "EmoteInteractionBoxExtent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 165,
+            "name": "AccessoryColorSwatchHandler",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 184,
+            "name": "BaseCosmeticLoadout",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaLoadout"
+            }
+        },
+        {
+            "index": 186,
+            "name": "AppliedSwaps",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAppliedSwapItemAndVariantData"
+                }
+            }
+        },
+        {
+            "index": 188,
+            "name": "ServerLoadoutChangeSync",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 189,
+            "name": "bAllowClientLoadoutChangeSync",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 190,
+            "name": "MaterialOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPawnMaterialOverride"
+                }
+            }
+        },
+        {
+            "index": 191,
+            "name": "LocalMaterialOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPawnMaterialOverride"
+                }
+            }
+        },
+        {
+            "index": 199,
+            "name": "OnCrouchStartSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 200,
+            "name": "OnCrouchEndSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 204,
+            "name": "IgnoreActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "IgnoreCollisionActor"
+                }
+            }
+        },
+        {
+            "index": 205,
+            "name": "AutoPickupDropRepickupDelay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 206,
+            "name": "CarriedObjectAttachmentSocket",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 207,
+            "name": "PickupSpeedMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 208,
+            "name": "MiniMapIconBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 209,
+            "name": "AboveBelowMiniMapIconBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 210,
+            "name": "FarOffMiniMapIconBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 211,
+            "name": "DBNOMiniMapIconBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 215,
+            "name": "MaxIndicatorVisibilityDistForEnemies",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 216,
+            "name": "MaxIndicatorVisibilityDistForAllies",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 217,
+            "name": "DBNOHoisterData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortDBNOCarryHoisterData"
+            }
+        },
+        {
+            "index": 219,
+            "name": "DBNOHoisterAnimSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 220,
+            "name": "DBNOHoisteeAnimClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 221,
+            "name": "ThrowCarriedPlayerStrengthXY",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 222,
+            "name": "ThrowCarriedPlayerStrengthZ",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 223,
+            "name": "DropCarriedPlayerForwardOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 224,
+            "name": "DropCarriedPlayerHeightOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 225,
+            "name": "DropCarriedPlayerTraceHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 226,
+            "name": "bAllowDBNOCarry",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 227,
+            "name": "bAllowDBNOCarryEnemies",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 231,
+            "name": "PackedReplicatedSlopeAngles",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 236,
+            "name": "SpawnParticles",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 237,
+            "name": "SpawnSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 239,
+            "name": "FallbackTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 245,
+            "name": "RepAnimMontageInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilityRepAnimMontage"
+            }
+        },
+        {
+            "index": 246,
+            "name": "RepAnimMontageStartSection",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 247,
+            "name": "bNetMovementPrioritized",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 248,
+            "name": "LandingMontagePair",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ReplicatedMontagePair"
+            }
+        },
+        {
+            "index": 253,
+            "name": "VisibilityComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 254,
+            "name": "BlendablesPostProcessComp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 255,
+            "name": "bUseControllerRotationYawToRestore",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 268,
+            "name": "CustomMovementIndicators",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 273,
+            "name": "bParachuteLockedOpen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 275,
+            "name": "AttachmentMesh",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RepFortMeshAttachment"
+            }
+        },
+        {
+            "index": 276,
+            "name": "AttachmentMeshComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 277,
+            "name": "BotScriptedBehavior",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 278,
+            "name": "VortexParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VortexParams"
+            }
+        },
+        {
+            "index": 283,
+            "name": "SlipperySlopeParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlipperySlopeParams"
+            }
+        },
+        {
+            "index": 284,
+            "name": "GliderClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 285,
+            "name": "PetState",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 286,
+            "name": "CosmeticPetInstance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 287,
+            "name": "ParachuteAttachment",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 288,
+            "name": "GliderOverrideStack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 290,
+            "name": "ParachuteDeployTraceForGroundDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 291,
+            "name": "LaunchPadParachuteDeployTraceForGroundDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 292,
+            "name": "LaunchPadParachuteDeployTraceForDownwardSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 293,
+            "name": "ParachuteDeployVelocityBlend",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 294,
+            "name": "ParachuteCooldownToOpen",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 295,
+            "name": "ParachuteCooldownToClose",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 296,
+            "name": "GliderRedeployAllowedRow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 297,
+            "name": "GliderRedeployLateralVelocityMultiplierRow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 298,
+            "name": "GliderRedeployHeighLimitRow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 299,
+            "name": "BalloonFallDamageThresholdVelocityZ",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 303,
+            "name": "DefaultSwimmingAnimLayerOverlayClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 304,
+            "name": "TimeBeforeSwimmingLayerDeactivated",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 305,
+            "name": "ParachuteAudioLoop",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 306,
+            "name": "ParachuteAndSkydiveAudioFadeInTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 307,
+            "name": "ParachuteAndSkydiveAudioFadeOutTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 308,
+            "name": "SkydiveAudioLoop",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 309,
+            "name": "SoundOnParachuteForcedOpen",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 310,
+            "name": "SkydivingLoop1P",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 311,
+            "name": "SkydivingLoop3P",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 312,
+            "name": "ParachuteOpenLoop1P",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 313,
+            "name": "ParachuteOpenLoop3P",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 314,
+            "name": "SwimmingAudioLoop",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 315,
+            "name": "SwimmingAudioFadeOutTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 316,
+            "name": "SwimmingAudioInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 317,
+            "name": "SoundOnSwimmingLoop",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 318,
+            "name": "RemoteViewData32",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 322,
+            "name": "CrouchLerpTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 323,
+            "name": "MeleeAbilityCooldown",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 324,
+            "name": "bDisallowInterrogation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 325,
+            "name": "bDisallowInterrogationOnNPC",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 326,
+            "name": "bHideBodyOnDeathRequested",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 329,
+            "name": "FacialTypeOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFacialAnimTypes"
+            }
+        },
+        {
+            "index": 332,
+            "name": "PSC_PlayerInWater",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 333,
+            "name": "PSC_PlayerInWaterSurfaceSwimming",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 334,
+            "name": "NiagaraPlayerInWaterBasicAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 335,
+            "name": "NiagaraPlayerInWaterSwimmingAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 336,
+            "name": "NiagaraPlayerWaterHandSplashAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 337,
+            "name": "NiagaraPlayerWaterFootSplashAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 338,
+            "name": "NiagaraPlayerWaterLargePlayerSplashAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 339,
+            "name": "NiagaraPlayerWaterBoostAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 340,
+            "name": "FootSplashLeftSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 341,
+            "name": "FootSplashRightSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 350,
+            "name": "bEnableWaterInteractionEffects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 353,
+            "name": "ConsecutiveWeakSpotResourceBonus",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 354,
+            "name": "LastHitWeakSpotResourceBonus",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

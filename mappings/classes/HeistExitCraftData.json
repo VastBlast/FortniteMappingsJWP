@@ -1,0 +1,58 @@
+{
+    "name": "HeistExitCraftData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ExitCraftSpawner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnedExitCraft",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExitCraftState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHeistExitCraftState"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DepartedPawns",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpawnTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsUsed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bHasDeparted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

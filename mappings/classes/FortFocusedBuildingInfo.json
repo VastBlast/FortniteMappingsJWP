@@ -1,0 +1,107 @@
+{
+    "name": "FortFocusedBuildingInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIsInteractable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bCanBePlayerEdited",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "IndicatorRelativeLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HealthDisplayRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBuildingHealthDisplayRule"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxHealth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsAnyTrapAttached",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIsTrapAttachedFacingPlayer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsPreviewTrapAttached",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AttachedTrapMaxDurability",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "InteractionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBuildingInteraction"
+            }
+        },
+        {
+            "index": 10,
+            "name": "InteractionCost",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "BuildingMaterial",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortResourceType"
+            }
+        },
+        {
+            "index": 12,
+            "name": "QuickEditClass",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bIsPlayerBuilt",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

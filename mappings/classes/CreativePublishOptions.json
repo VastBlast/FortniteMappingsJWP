@@ -1,0 +1,50 @@
+{
+    "name": "CreativePublishOptions",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UserTitle",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UserDescription",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UserYoutubeVideoId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DescriptionTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bActivateLink",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "UserLocale",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

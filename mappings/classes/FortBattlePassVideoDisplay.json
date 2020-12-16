@@ -1,0 +1,23 @@
+{
+    "name": "FortBattlePassVideoDisplay",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AnnotationWidgetClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VideoAnnotations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortBattlePassVideoAnnotation"
+                }
+            }
+        }
+    ]
+}

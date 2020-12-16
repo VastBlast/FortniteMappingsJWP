@@ -1,0 +1,34 @@
+{
+    "name": "PawnActionsComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ControlledPawn",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActionStacks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PawnActionStack"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActionEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PawnActionEvent"
+                }
+            }
+        }
+    ]
+}

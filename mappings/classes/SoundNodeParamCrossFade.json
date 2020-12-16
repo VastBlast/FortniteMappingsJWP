@@ -1,0 +1,33 @@
+{
+    "name": "SoundNodeParamCrossFade",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ParamName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CrossFadeInput",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DistanceDatum"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChildNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

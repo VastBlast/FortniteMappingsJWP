@@ -1,0 +1,55 @@
+{
+    "name": "FortSpecialGameplayAreaComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OverrideBodyParts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SkinMetaTagsToSkip",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OverrideBodyPartsExtraSpecial",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SpecialGameplayAreaOverrideBodyPartsExtraSpecial"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "OverrideGliders",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "OverrideLootData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SpecialGameplayAreaLootData"
+                }
+            }
+        }
+    ]
+}

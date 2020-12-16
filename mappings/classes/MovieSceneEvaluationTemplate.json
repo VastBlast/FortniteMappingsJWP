@@ -1,0 +1,29 @@
+{
+    "name": "MovieSceneEvaluationTemplate",
+    "properties": [
+        {
+            "index": 1,
+            "name": "SequenceSignature",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TemplateSerialNumber",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneEvaluationTemplateSerialNumber"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TemplateLedger",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneTemplateGenerationLedger"
+            }
+        }
+    ]
+}

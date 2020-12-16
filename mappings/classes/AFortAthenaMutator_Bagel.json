@@ -1,0 +1,369 @@
+{
+    "name": "AFortAthenaMutator_Bagel",
+    "properties": [
+        {
+            "index": 5,
+            "name": "bOverrideReplicationSettingsDebug",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxAIPerClient",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ReplicateGameplayCues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CurrentDifficulty",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBagelDifficulty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "StormMaterialOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "ObjectiveObjectClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "FinalPhaseObjectiveObjectClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "StartingAreaTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ObjectiveAreaTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 14,
+            "name": "IsPreparationPhase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 15,
+            "name": "IsSurvivePhase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 16,
+            "name": "IsMovingPhase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 17,
+            "name": "IsAftermathPhase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 18,
+            "name": "IsFinalPhase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 19,
+            "name": "RefillPlayerHealth",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 20,
+            "name": "RefillPlayerShield",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 21,
+            "name": "OnlyRespawnAtNewPhase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ShouldRespawnDeadPlayers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 23,
+            "name": "SpawnScoreMultiplierTraceStartHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "SpawnSscoreMultiplierTraceEndHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "AreaSpecialActorData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BagelAreaSpecialActorData"
+            }
+        },
+        {
+            "index": 26,
+            "name": "ScoreMutliplierSpawnData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BagelScoreMultiplierSpawnData"
+            }
+        },
+        {
+            "index": 27,
+            "name": "DifficultyEncounterSettingsStatic",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "DifficultyEncounterSettingsDynamic",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "DifficultyEncounterSettingsFinalPhase",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "DisplayIntroGameMsg",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 31,
+            "name": "GameMsg_Intro",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 32,
+            "name": "DisplayOnTeamMultiplierIncreasedGameMsg",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 33,
+            "name": "GameMsg_OnTeamMultiplierIncreased",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 34,
+            "name": "DifficultySettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BagelDifficultySettings"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bUseLootTierOverrides",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "LootTierOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BagelLootTierOverrideAssetData"
+                }
+            }
+        },
+        {
+            "index": 37,
+            "name": "HeadshotGameplayTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 38,
+            "name": "ScoreEventList",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BagelScoreData"
+            }
+        },
+        {
+            "index": 52,
+            "name": "ObjectiveAreaCompletedScoreMultiplierBonus",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 53,
+            "name": "RiftDestroyedScoreMultiplierBonus",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 54,
+            "name": "StreakScoreMultiplierUseSpecialMechanicToActivate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 55,
+            "name": "StreakScoreMultiplierResetTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 56,
+            "name": "StreakScoreMultiplierKillThreshold",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 57,
+            "name": "StreakScoreMultiplierTimeThresholdToActivate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 58,
+            "name": "StreakScoreMultiplierMaxLevel",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 59,
+            "name": "StreakScoreMultiplierValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 60,
+            "name": "PlayerStatsNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 61,
+            "name": "FriendsLeaderboardDisplayedNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "TimeSecRetreiveLeaderboardTimeOut",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "PlayerDataArray",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BagelPlayerDataArray"
+            }
+        }
+    ]
+}

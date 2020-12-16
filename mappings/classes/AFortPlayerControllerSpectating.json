@@ -1,0 +1,183 @@
+{
+    "name": "AFortPlayerControllerSpectating",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentCameraType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESpectatorCameraType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CameraModeCycle",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ZoomThresholdForPlayerNames",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "QuickBarDefinitions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "QuickBarData"
+            }
+        },
+        {
+            "index": 20,
+            "name": "SpectatorPostProcessMaterial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "SpectatorPawnBaseClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ThirdPersonPawnBaseClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "HoverDronePawnClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "BattleMapPawnClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ARDronePawnClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "MinimapIndicatorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "PlayerRelevancyTrackingMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        },
+        {
+            "index": 31,
+            "name": "ChaseCamOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 34,
+            "name": "FullScreenMapInputComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "HotkeyCameras",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SavedSpectatorCameras"
+            }
+        },
+        {
+            "index": 36,
+            "name": "LastKnownViewTarget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "RemoteViewRotSnapshotManager",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RemoteViewRotSnapshotManager"
+            }
+        },
+        {
+            "index": 38,
+            "name": "CameraBoundsVolume",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "ClampDroneToCameraBoundsVolume",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "RelevancyZoneIndicatorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "MarkerComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "SquadMembers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 45,
+            "name": "FollowedPlayerRemoteClientInfo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

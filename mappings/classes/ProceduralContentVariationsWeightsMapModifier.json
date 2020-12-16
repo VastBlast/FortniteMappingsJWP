@@ -1,0 +1,38 @@
+{
+    "name": "ProceduralContentVariationsWeightsMapModifier",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VariationsMaps",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProceduralContentVariationMap"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Contribution",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BlendMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EProceduralParameterModifierBlendMode"
+            }
+        }
+    ]
+}

@@ -3,34 +3,49 @@
     "properties": [
         {
             "index": 0,
+            "name": "AssociatedTagVariant",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
             "name": "PrimaryFireAbility_InState",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 1,
+            "index": 2,
             "name": "AnimSet_InState",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 2,
+            "index": 3,
             "name": "EquipMontage_InState",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
         },
         {
-            "index": 3,
+            "index": 4,
+            "name": "bHideOffhandMesh",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
             "name": "bUseSeparatePreviewOffsets",
             "mapping_type": {
                 "type": "BoolProperty"
             }
         },
         {
-            "index": 4,
+            "index": 6,
             "name": "ImpactFxPreviewOffset",
             "mapping_type": {
                 "type": "StructProperty",
@@ -38,7 +53,7 @@
             }
         },
         {
-            "index": 5,
+            "index": 7,
             "name": "OffHandPreviewOffset",
             "mapping_type": {
                 "type": "StructProperty",
@@ -46,7 +61,7 @@
             }
         },
         {
-            "index": 6,
+            "index": 8,
             "name": "OffHandPreviewRotation",
             "mapping_type": {
                 "type": "StructProperty",
@@ -54,7 +69,7 @@
             }
         },
         {
-            "index": 7,
+            "index": 9,
             "name": "InitialPreviewRotation",
             "mapping_type": {
                 "type": "StructProperty",
@@ -62,18 +77,47 @@
             }
         },
         {
-            "index": 8,
+            "index": 10,
             "name": "FrontendPreviewScale",
             "mapping_type": {
                 "type": "FloatProperty"
             }
         },
         {
-            "index": 9,
+            "index": 11,
             "name": "CameraFramingBounds",
             "mapping_type": {
                 "type": "StructProperty",
                 "struct_type": "FortUICameraFrameTargetBounds"
+            }
+        },
+        {
+            "index": 12,
+            "name": "AnimationStyleToUse",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWeaponCoreAnimation"
+            }
+        },
+        {
+            "index": 13,
+            "name": "LiveAbility",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "LiveAnimSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "LiveMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
             }
         }
     ]

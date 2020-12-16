@@ -1,0 +1,27 @@
+{
+    "name": "ConcertDataStore_FetchOrAddRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SerializedValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionSerializedPayload"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Key",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TypeName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

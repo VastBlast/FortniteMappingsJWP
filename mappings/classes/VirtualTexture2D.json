@@ -1,0 +1,180 @@
+{
+    "name": "VirtualTexture2D",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Settings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VirtualTextureBuildSettings"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bContinuousUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSinglePhysicalSpace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FirstResourceMemMip",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AddressX",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureAddress"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AddressY",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureAddress"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ImportedSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntPoint"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LightingGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 10,
+            "name": "LodBias",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "CompressionSettings",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureCompressionSettings"
+            }
+        },
+        {
+            "index": 12,
+            "name": "Filter",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureFilter"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MipLoadOptions",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureMipLoadOptions"
+            }
+        },
+        {
+            "index": 14,
+            "name": "LODGroup",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureGroup"
+            }
+        },
+        {
+            "index": 15,
+            "name": "Downscale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformFloat"
+            }
+        },
+        {
+            "index": 16,
+            "name": "DownscaleOptions",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureDownscaleOptions"
+            }
+        },
+        {
+            "index": 17,
+            "name": "SRGB",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bNoTiling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "VirtualTextureStreaming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "CompressionYCoCg",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 25,
+            "name": "NumCinematicMipLevels",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "NeverStream",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bGlobalForceMipLevelsToBeResident",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

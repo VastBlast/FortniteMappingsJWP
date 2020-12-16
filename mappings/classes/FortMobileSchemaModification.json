@@ -1,0 +1,37 @@
+{
+    "name": "FortMobileSchemaModification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Guid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ModificationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESchemaModificationType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OwningContextTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ModifiedSchema",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMobileHUDWidgetSchemaSave"
+            }
+        }
+    ]
+}

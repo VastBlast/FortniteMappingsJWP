@@ -1,0 +1,35 @@
+{
+    "name": "PlayerLoadout",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AlwaysGrantedLoadoutItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlayerLoudoutEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "RandomlyGrantedLoadoutItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RandomItemEntries"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "LoadoutDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

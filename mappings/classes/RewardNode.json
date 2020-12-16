@@ -1,0 +1,107 @@
+{
+    "name": "RewardNode",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequiredKey",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "KeyCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MinKeyCountToUnlock",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DaysFromEventStartToUnlock",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ChildNodes",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ParentNodes",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NodeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bGrantedAtGraphDestruction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bRequiredOwnership",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Rewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaRewardItemReference"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "RewardOperation",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "RewardContextItem",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "HardDefinedVisuals",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CosmeticVariantInfo"
+                }
+            }
+        }
+    ]
+}

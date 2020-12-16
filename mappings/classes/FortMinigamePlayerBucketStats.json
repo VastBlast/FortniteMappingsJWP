@@ -1,0 +1,23 @@
+{
+    "name": "FortMinigamePlayerBucketStats",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BucketIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Stats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMinigameStat"
+                }
+            }
+        }
+    ]
+}

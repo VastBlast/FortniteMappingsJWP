@@ -1,0 +1,31 @@
+{
+    "name": "MinigameEndCondition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StatQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMinigameStatQuery"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TeamListType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMinigameTeamListType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TeamList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        }
+    ]
+}

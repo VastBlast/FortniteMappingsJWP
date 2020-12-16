@@ -1,0 +1,48 @@
+{
+    "name": "FortDagwoodCmd",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ForwardAlpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RightAlpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AccelerationAlpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MovementDir",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize100"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bBoost",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bHandbrake",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

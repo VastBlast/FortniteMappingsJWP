@@ -1,0 +1,63 @@
+{
+    "name": "AthenaNewsData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Body",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Image",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "_type",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AdSpace",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SpotLight",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Hidden",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SubGameFilter",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubGameFilter",
+                "enumType": "IntProperty"
+            }
+        }
+    ]
+}

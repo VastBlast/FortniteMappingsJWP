@@ -1,0 +1,53 @@
+{
+    "name": "AnimMontageInstance",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Montage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bPlaying",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NextSections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "PrevSections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "position",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PlayRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

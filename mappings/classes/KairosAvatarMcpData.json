@@ -1,0 +1,67 @@
+{
+    "name": "KairosAvatarMcpData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrentUser",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ShouldPlayFacialAnimation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Character",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "KairosAvatarItemMcpData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Backpack",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "KairosAvatarItemMcpData"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Dance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "KairosAvatarItemMcpData"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BackgroundColors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

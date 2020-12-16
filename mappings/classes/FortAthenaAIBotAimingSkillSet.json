@@ -1,0 +1,197 @@
+{
+    "name": "FortAthenaAIBotAimingSkillSet",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IgnoreThreatTimeWhenNotAttacking",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IgnoreThreatDeviationWhenNotAttacking",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "IgnoreThreatDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "IgnoreThreatDurationDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LookAtSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LookAtSetting"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AllowScanAroundWhileSwimming",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TrackingReactionTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TrackingInterpTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MaxTrackingPredictionError",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MaxTrackingOffsetErrorMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 12,
+            "name": "AdjustedTrackingOffsetErrorMultiplierAgainstAIs",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 13,
+            "name": "TrackingErrorUpdateInterval",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 14,
+            "name": "TrackingInAirVelocityThreshold",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 15,
+            "name": "TrackingInAirHeightDeltaThreshold",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 16,
+            "name": "TargetAcquisitionRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 17,
+            "name": "MaxDistanceEvaluationErrorRatio",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 18,
+            "name": "TargetingUpdateInterval",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 19,
+            "name": "TargetingUpdateIntervalMaxDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ReachLeashLimitToleranceDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 21,
+            "name": "WeaponAccuracies",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WeaponAccuracyCategory"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "TargetBasedAccuracies",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TargetBasedAccuracyCategory"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "bDigestTrackingOffsetModifiersWithAvgMatchMMR",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "TrackingOffsetModifiers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TrackingOffsetModifierInfo"
+                }
+            }
+        }
+    ]
+}

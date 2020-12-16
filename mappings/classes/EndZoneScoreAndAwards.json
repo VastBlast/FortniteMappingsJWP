@@ -1,0 +1,68 @@
+{
+    "name": "EndZoneScoreAndAwards",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bResultsPendingSave",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TotalScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bCriticalMatchBonus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDidLeech",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EarnedBadgeData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortQuestEarnedBadgeData"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "EarnedItemCaches",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "NumMissionPoints",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MissionLeechScaling",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

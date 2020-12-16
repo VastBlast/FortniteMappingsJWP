@@ -1,0 +1,165 @@
+{
+    "name": "AnimNode_SplineIK",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StartBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EndBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BoneAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESplineBoneAxis"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAutoCalculateSpline",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PointCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ControlPoints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "Roll",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TwistStart",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TwistEnd",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TwistBlend",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AlphaBlend"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Stretch",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Offset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ComponentPose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ComponentSpacePoseLink"
+            }
+        },
+        {
+            "index": 13,
+            "name": "LODThreshold",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AlphaInputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimAlphaInputType"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bAlphaBoolEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "Alpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "AlphaScaleBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBias"
+            }
+        },
+        {
+            "index": 19,
+            "name": "AlphaBoolBlend",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputAlphaBoolBlend"
+            }
+        },
+        {
+            "index": 20,
+            "name": "AlphaCurveName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "AlphaScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        }
+    ]
+}

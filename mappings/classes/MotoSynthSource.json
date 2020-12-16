@@ -1,0 +1,65 @@
+{
+    "name": "MotoSynthSource",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bConvertTo8Bit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DownSampleFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RPMCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SourceData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "SourceDataPCM",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "SourceSampleRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "GrainTable",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GrainTableEntry"
+                }
+            }
+        }
+    ]
+}

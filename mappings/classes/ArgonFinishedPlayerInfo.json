@@ -1,0 +1,62 @@
+{
+    "name": "ArgonFinishedPlayerInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Team",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FinishedTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Place",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HeroType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PlayerState",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bFinishedAsLastTeamLeft",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

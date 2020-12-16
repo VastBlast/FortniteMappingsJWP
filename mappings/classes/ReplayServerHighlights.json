@@ -1,0 +1,30 @@
+{
+    "name": "ReplayServerHighlights",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Shots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MinimalHighlightShot"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "EventTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VersionNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

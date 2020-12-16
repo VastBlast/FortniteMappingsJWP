@@ -1,0 +1,24 @@
+{
+    "name": "HighlightsPayload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UCRN_Meta",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HighlightsPayloadMeta"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UCRN_HighlightReels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HighlightReelPayload"
+                }
+            }
+        }
+    ]
+}

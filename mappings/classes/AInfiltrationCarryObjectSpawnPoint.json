@@ -1,0 +1,43 @@
+{
+    "name": "AInfiltrationCarryObjectSpawnPoint",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESpawnPointState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IsSpawnPointEnabledFloat",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CachedSceneComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "IntelClassToSpawn",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

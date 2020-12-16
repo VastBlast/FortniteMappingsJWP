@@ -1,0 +1,94 @@
+{
+    "name": "ConcertLog",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Frame",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MessageID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MessageOrderIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ChannelId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Timestamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MessageAction",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertLogMessageAction"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MessageTypeName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "OriginEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DestinationEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 9,
+            "name": "CustomPayloadTypename",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "CustomPayloadUncompressedByteSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "StringPayload",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

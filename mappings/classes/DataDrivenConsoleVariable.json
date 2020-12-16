@@ -1,0 +1,48 @@
+{
+    "name": "DataDrivenConsoleVariable",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFDataDrivenCVarType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Name",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Tooltip",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DefaultValueFloat",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultValueInt",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DefaultValueBool",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

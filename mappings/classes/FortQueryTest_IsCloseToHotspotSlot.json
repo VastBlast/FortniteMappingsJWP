@@ -1,0 +1,27 @@
+{
+    "name": "FortQueryTest_IsCloseToHotspotSlot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HotspotClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Radius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIgnoreItemsWithSlotData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

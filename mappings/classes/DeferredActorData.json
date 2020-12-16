@@ -1,0 +1,27 @@
+{
+    "name": "DeferredActorData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BuildingActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActorRecordIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BuildingTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        }
+    ]
+}

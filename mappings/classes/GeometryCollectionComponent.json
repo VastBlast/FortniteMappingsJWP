@@ -1,0 +1,200 @@
+{
+    "name": "GeometryCollectionComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ChaosSolverActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RestCollection",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InitializationFields",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Simulating",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ObjectType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EObjectStateTypeEnum"
+            }
+        },
+        {
+            "index": 5,
+            "name": "EnableClustering",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ClusterGroupIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MaxClusterLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DamageThreshold",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ClusterConnectionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EClusterConnectionTypeEnum"
+            }
+        },
+        {
+            "index": 10,
+            "name": "CollisionGroup",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "CollisionSampleFraction",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "LinearEtherDrag",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AngularEtherDrag",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "PhysicalMaterial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "InitialVelocityType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInitialVelocityTypeEnum"
+            }
+        },
+        {
+            "index": 16,
+            "name": "InitialLinearVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 17,
+            "name": "InitialAngularVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 18,
+            "name": "PhysicalMaterialOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "CacheParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GeomComponentCacheParameters"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bNotifyBreaks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bNotifyCollisions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bEnableReplication",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bEnableAbandonAfterLevel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "ReplicationAbandonClusterLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "RepData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GeometryCollectionRepData"
+            }
+        }
+    ]
+}

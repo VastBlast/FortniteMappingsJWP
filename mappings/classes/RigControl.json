@@ -1,0 +1,137 @@
+{
+    "name": "RigControl",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ControlType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERigControlType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ParentName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpaceName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "InitialValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigControlValue"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PrimaryAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERigControlAxis"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bAnimatable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bLimitTranslation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bLimitRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bLimitScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bDrawLimits",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "MinimumValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigControlValue"
+            }
+        },
+        {
+            "index": 15,
+            "name": "MaximumValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigControlValue"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bGizmoEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "GizmoName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "GizmoTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bIsTransientControl",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "Index",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

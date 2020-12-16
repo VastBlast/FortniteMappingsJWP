@@ -1,0 +1,60 @@
+{
+    "name": "BuildingGameplayActorAbilityDeliveryInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DeliveryBuckets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BuildingGameplayActorAbilityDeliveryBucket"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ProximityPulseInterval",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ProximityPrePulseTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bHasGEsToApplyOnTouch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bHasGEsToApplyOnExit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bHasGEsToApplyOnPulseTimer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bHasPersistentEffects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

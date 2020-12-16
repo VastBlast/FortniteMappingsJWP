@@ -1,0 +1,46 @@
+{
+    "name": "FortMutatorListComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bShouldMakeMutatorsDormant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "InitState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMutatorListInitState",
+                "enumType": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MutatorDefs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "UserOptions",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PropertyOverrideArray",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PropertyOverrideData"
+            }
+        }
+    ]
+}

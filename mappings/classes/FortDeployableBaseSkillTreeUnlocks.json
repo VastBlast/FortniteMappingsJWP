@@ -1,0 +1,49 @@
+{
+    "name": "FortDeployableBaseSkillTreeUnlocks",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlotSizeUnlocks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTaggedDeployableBasePlotExpansionUnlock"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "NeighborhoodLootGrantUnlocks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTaggedDeployableBaseLootUnlock"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CombatZoneStartLootGrantUnlocks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTaggedDeployableBaseLootUnlock"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "CombatZoneWaveCompleteLootGrantUnlocks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTaggedDeployableBaseLootUnlock"
+                }
+            }
+        }
+    ]
+}

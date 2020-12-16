@@ -1,0 +1,49 @@
+{
+    "name": "SpringConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LocalStartTM",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LocalApplyTM",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpringLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpringStiff",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpringDamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxAccelChange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Stat",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StatName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HighestPeriodToTrack",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EStatRecordingPeriod"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AbsoluteMaxValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

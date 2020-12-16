@@ -1,0 +1,58 @@
+{
+    "name": "MovieScene3DPathSectionTemplate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PathBindingID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneObjectBindingID"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TimingCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFloatChannel"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FrontAxisEnum",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMovieScene3DPathSection_Axis"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UpAxisEnum",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMovieScene3DPathSection_Axis"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bFollow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bReverse",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bForceUpright",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

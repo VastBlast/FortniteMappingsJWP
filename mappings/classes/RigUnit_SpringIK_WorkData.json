@@ -1,0 +1,41 @@
+{
+    "name": "RigUnit_SpringIK_WorkData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BoneIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PoleVectorIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Transforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Simulation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CRSimPointContainer"
+            }
+        }
+    ]
+}

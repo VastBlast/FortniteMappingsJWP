@@ -1,0 +1,38 @@
+{
+    "name": "CatalogDownload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RefreshIntervalHrs",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DailyPurchaseHrs",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Expiration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Storefronts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Storefront"
+                }
+            }
+        }
+    ]
+}

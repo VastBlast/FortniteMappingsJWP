@@ -1,0 +1,165 @@
+{
+    "name": "RigUnit_TwoBoneIKSimple",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BoneA",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoneB",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EffectorBone",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Effector",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PrimaryAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SecondaryAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SecondaryAxisWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PoleVector",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PoleVectorKind",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigVectorKind"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PoleVectorSpace",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bEnableStretch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "StretchStartRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "StretchMaximumRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Weight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "BoneALength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "BoneBLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bPropagateToChildren",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "DebugSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigUnit_TwoBoneIKSimple_DebugSettings"
+            }
+        },
+        {
+            "index": 18,
+            "name": "BoneAIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "BoneBIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "EffectorBoneIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "PoleVectorSpaceIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

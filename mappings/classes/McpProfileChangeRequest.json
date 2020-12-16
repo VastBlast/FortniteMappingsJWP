@@ -1,0 +1,67 @@
+{
+    "name": "McpProfileChangeRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BaseCommandRevision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AddRequests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpAddItemRequest"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "RemoveRequests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpRemoveItemRequest"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ChangeQuantityRequests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpChangeQuantityRequest"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ChangeAttributesRequests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpChangeAttributesRequest"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "ChangeStatRequests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "JsonObjectWrapper"
+                }
+            }
+        }
+    ]
+}

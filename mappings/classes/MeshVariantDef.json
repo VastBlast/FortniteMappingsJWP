@@ -8,7 +8,7 @@
                 "type": "ArrayProperty",
                 "sub_type": {
                     "type": "StructProperty",
-                    "struct_type": "VariantMeshes"
+                    "struct_type": "MeshVariant"
                 }
             }
         },
@@ -16,7 +16,11 @@
             "index": 1,
             "name": "VariantMaterials",
             "mapping_type": {
-                "type": "DebugProperty"
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MaterialVariants"
+                }
             }
         },
         {
@@ -34,7 +38,11 @@
             "index": 3,
             "name": "InitialParticleSystemData",
             "mapping_type": {
-                "type": "DebugProperty"
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VariantParticleSystemInitializerData"
+                }
             }
         },
         {
@@ -52,14 +60,22 @@
             "index": 5,
             "name": "VariantParticleParams",
             "mapping_type": {
-                "type": "DebugProperty"
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ParticleParamterVariant"
+                }
             }
         },
         {
             "index": 6,
             "name": "SocketTransforms",
             "mapping_type": {
-                "type": "DebugProperty"
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SocketTransformVariant"
+                }
             }
         },
         {
@@ -77,14 +93,22 @@
             "index": 8,
             "name": "VariantFoley",
             "mapping_type": {
-                "type": "DebugProperty"
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FoleySoundVariant"
+                }
             }
         },
         {
             "index": 9,
             "name": "VariantActions",
             "mapping_type": {
-                "type": "DebugProperty"
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ScriptedActionVariant"
+                }
             }
         },
         {

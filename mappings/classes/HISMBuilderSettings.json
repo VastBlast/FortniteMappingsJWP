@@ -1,0 +1,176 @@
+{
+    "name": "HISMBuilderSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Mobility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EComponentMobility"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CullDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Int32Interval"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bCastShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAffectDynamicIndirectLighting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAffectDistanceFieldLighting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bCastDynamicShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bCastStaticShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bCastShadowAsTwoSided",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bReceivesDecals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bOverrideLightMapRes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "OverriddenLightMapRes",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "LightmapType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELightmapType"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bUseAsOccluder",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "BodyInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BodyInstance"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CustomNavigableGeometry",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHasCustomNavigableGeometry"
+            }
+        },
+        {
+            "index": 15,
+            "name": "LightingChannels",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LightingChannels"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bRenderCustomDepth",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "CustomDepthStencilValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "TranslucencySortPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bEnableDensityScaling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "RuntimeVirtualTextures",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "VirtualTextureCullMips",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "VirtualTextureRenderPassType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERuntimeVirtualTextureMainPassType"
+            }
+        }
+    ]
+}

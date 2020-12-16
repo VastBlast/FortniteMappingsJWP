@@ -1,0 +1,24 @@
+{
+    "name": "FortAthenaTutorialStepInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TutorialStep",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAthenaTutorialStep"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StepScreenInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAthenaTutorialScreenInfo"
+                }
+            }
+        }
+    ]
+}

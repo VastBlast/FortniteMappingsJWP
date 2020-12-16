@@ -1,0 +1,24 @@
+{
+    "name": "ManagerSynergyData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SynergyTypeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GenderData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WorkerGenderData"
+                }
+            }
+        }
+    ]
+}

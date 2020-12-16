@@ -1,0 +1,62 @@
+{
+    "name": "FortHelpItemCategory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AssetSubItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "InlineSubItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortHelpItemType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ItemId",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "HeaderName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BodyText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AdditionalContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortHelpAdditionalContent"
+            }
+        }
+    ]
+}

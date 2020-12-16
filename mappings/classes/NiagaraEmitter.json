@@ -1,0 +1,257 @@
+{
+    "name": "NiagaraEmitter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bLocalSpace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bDeterminism",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RandomSeed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AllocationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleAllocationMode"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PreAllocationCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "UpdateScriptProps",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraEmitterScriptProperties"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SpawnScriptProps",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraEmitterScriptProperties"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SimTarget",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraSimTarget"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FixedBounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MinDetailLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MaxDetailLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "GlobalSpawnCountScaleOverrides",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraDetailsLevelScaleOverrides"
+            }
+        },
+        {
+            "index": 12,
+            "name": "Platforms",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraPlatformSet"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ScalabilityOverrides",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraEmitterScalabilityOverrides"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bInterpolatedSpawning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bFixedBounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bUseMinDetailLevel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bUseMaxDetailLevel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bOverrideGlobalSpawnCountScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bRequiresPersistentIDs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bCombineEventSpawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "MaxDeltaTimePerTick",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "DefaultShaderStageIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "MaxUpdateIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bSimulationStagesEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bDeprecatedShaderStagesEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bLimitDeltaTime",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "UniqueEmitterName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "RendererProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 30,
+            "name": "EventHandlerScriptProps",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraEventScriptProperties"
+                }
+            }
+        },
+        {
+            "index": 31,
+            "name": "SimulationStages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 32,
+            "name": "GPUComputeScript",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "SharedEventGeneratorIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

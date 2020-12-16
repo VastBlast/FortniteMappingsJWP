@@ -1,0 +1,27 @@
+{
+    "name": "GameplayEffectRemovalInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bPrematureRemoval",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StackCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EffectContext",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEffectContextHandle"
+            }
+        }
+    ]
+}

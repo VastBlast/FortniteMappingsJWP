@@ -1,0 +1,56 @@
+{
+    "name": "ProceduralMeshComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bUseComplexAsSimpleCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bUseAsyncCooking",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ProcMeshBodySetup",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ProcMeshSections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProcMeshSection"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "CollisionConvexElems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "KConvexElem"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "LocalBounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoxSphereBounds"
+            }
+        }
+    ]
+}

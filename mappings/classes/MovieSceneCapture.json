@@ -1,0 +1,50 @@
+{
+    "name": "MovieSceneCapture",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ImageCaptureProtocolType",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftClassPath"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AudioCaptureProtocolType",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftClassPath"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Settings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneCaptureSettings"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bUseSeparateProcess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bCloseEditorWhenCaptureStarts",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AdditionalCommandLineArguments",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "FortConversationNodeConditionalMessages",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Messages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortConversationConditionalMessage"
+                }
+            }
+        }
+    ]
+}

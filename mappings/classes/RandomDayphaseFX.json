@@ -1,0 +1,54 @@
+{
+    "name": "RandomDayphaseFX",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ParticleSystem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AltParticleSystems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "RequiredDayphases",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ChanceToSpawnFX",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DetailMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDetailMode"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxDrawDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

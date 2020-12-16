@@ -1,0 +1,132 @@
+{
+    "name": "AFortMission_RiftSpawners",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bStartBasedOnAthenaGamePhases",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StartingGamePhase",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaGamePhase"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StartingDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseAthenaSafeZonePhases",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bSynchronizeEncounterStartTimes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MinEncounterIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxEncounterIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EncounterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEncounterSettings"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bAllowRiftIntensification",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MinDamageTriggerPercentage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MaxDamageTriggerPercentage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 11,
+            "name": "RequiredRiftTagsQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RequiredEventFlag",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AssociatedSupplyDropIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "SpawnerShutdownCheckInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "BurstFallbackTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "CalendarRecheckInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

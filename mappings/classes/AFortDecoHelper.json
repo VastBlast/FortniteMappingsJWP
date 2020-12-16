@@ -1,0 +1,154 @@
+{
+    "name": "AFortDecoHelper",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DecoPreview",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlacementActorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DecoTool",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DecoToolReach",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrentAttachmentType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingAttachmentType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CurrentPlacementType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPlacementType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DecoItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LocationData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RelativeRotationData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 11,
+            "name": "AbsoluteRotationData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ScaleData",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "PlacementInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DecoPlacementState"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bInFallbackPosition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "FallbackTinyScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "CanPlaceState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortDecoPlacementQueryResults"
+            }
+        },
+        {
+            "index": 19,
+            "name": "CustomPlacementText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "DesiredRelativeRotation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "DirectionChange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 22,
+            "name": "GridSnapSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "FreeFloorPlacementRelativeRotationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        }
+    ]
+}

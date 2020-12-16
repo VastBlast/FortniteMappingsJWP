@@ -1,0 +1,92 @@
+{
+    "name": "BTDecorator_ConditionalLoop",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IntValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FloatValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StringValue",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CachedDescription",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OperationType",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NotifyObserver",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBTBlackboardRestart"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BlackboardKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bInverseCondition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FlowAbortMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBTFlowAbortMode"
+            }
+        },
+        {
+            "index": 9,
+            "name": "NodeName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TreeAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ParentNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

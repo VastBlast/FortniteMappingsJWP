@@ -1,0 +1,103 @@
+{
+    "name": "NiagaraDataInterfaceColorCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RedCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RichCurve"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GreenCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RichCurve"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BlueCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RichCurve"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AlphaCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RichCurve"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ShaderLUT",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "LUTMinTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "LUTMaxTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LUTInvTimeRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LUTNumSamplesMinusOne",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bUseLUT",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bExposeCurve",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ExposedName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ExposedTexture",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

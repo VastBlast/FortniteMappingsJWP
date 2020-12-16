@@ -1,0 +1,183 @@
+{
+    "name": "FortMovementComp_GroundSpline",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SplineLocationOffsetZ",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bOffsetZIsAbsolute",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bTickGroundSplineMovement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NumberOfMoveRetriesPerTick",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ClimbSpeedPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PitchSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PitchThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PitchThresholdSmoothing",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "LinearJerk",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "YawJerk",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "GroundCheckFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "GroundCheckDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AttemptUnstickMinimumAngleDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "PawnPushTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ClientImmediatelySnapToReplicatedLocationTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ClientImmediatelySnapToReplicatedLocationDistanceMinimumSquared",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "PawnPushForceMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "GameplayEffectClassDestroyBuildings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "TagDestroyBuildings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 22,
+            "name": "SplineDistanceReplicationRecoveryPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "SplineDistanceReplicationRecoveryMinDistancePerSecond",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "SpeedTimeReplicationRecoveryPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ReplicatedSplineLocationData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GroundSplineLocationData"
+            }
+        },
+        {
+            "index": 26,
+            "name": "ReplicatedTargetSpeeds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GroundSplineSpeedData"
+            }
+        },
+        {
+            "index": 27,
+            "name": "AbilitySystemComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

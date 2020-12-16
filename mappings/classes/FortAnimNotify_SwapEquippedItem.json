@@ -1,0 +1,32 @@
+{
+    "name": "FortAnimNotify_SwapEquippedItem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SwapId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SwapData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortSwapItemAndVariantData"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ForcedSwapState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAppliedSwapItemAndVariantState"
+            }
+        }
+    ]
+}

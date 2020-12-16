@@ -1,0 +1,49 @@
+{
+    "name": "CommonUIInputSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bLinkCursorToGamepadFocus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UIActionProcessingPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InputActions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "UIInputAction"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ActionOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "UIInputAction"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "AnalogCursorSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CommonAnalogCursorSettings"
+            }
+        }
+    ]
+}

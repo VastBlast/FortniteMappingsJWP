@@ -1,0 +1,76 @@
+{
+    "name": "AthenaMatchStats",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StatBucket",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MatchID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MatchEndTime",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MatchPlatform",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Stats",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "WeaponStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaWeaponStats"
+                }
+            }
+        },
+        {
+            "index": 25,
+            "name": "XPStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaXPStats"
+                }
+            }
+        },
+        {
+            "index": 26,
+            "name": "bIsValid",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "FactionTag",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

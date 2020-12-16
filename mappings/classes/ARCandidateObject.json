@@ -1,0 +1,30 @@
+{
+    "name": "ARCandidateObject",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CandidateObjectData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "FriendlyName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BoundingBox",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        }
+    ]
+}

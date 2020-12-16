@@ -1,0 +1,50 @@
+{
+    "name": "EnvQueryManager",
+    "properties": [
+        {
+            "index": 2,
+            "name": "GCShieldedWrappers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxAllowedTestingTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bTestQueriesUsingBreadth",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "QueryCountWarningThreshold",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "QueryCountWarningInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AISystem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

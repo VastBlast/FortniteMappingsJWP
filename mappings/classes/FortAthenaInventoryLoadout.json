@@ -1,0 +1,38 @@
+{
+    "name": "FortAthenaInventoryLoadout",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LoadoutTitle",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LoadoutDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LoadoutInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaLoadoutEntry"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "LoadoutEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

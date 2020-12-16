@@ -1,0 +1,42 @@
+{
+    "name": "FortBanHammerStrike",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AccountId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Reason",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Action",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBanHammerNotificationAction"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Source",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Offense",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

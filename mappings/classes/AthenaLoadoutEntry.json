@@ -1,0 +1,27 @@
+{
+    "name": "AthenaLoadoutEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemToGrant",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumberOfItemsToGrant",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DesiredSlot",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

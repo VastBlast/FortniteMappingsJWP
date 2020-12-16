@@ -1,0 +1,72 @@
+{
+    "name": "BTDecorator_CheckGameplayTagsOnActor",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActorToCheck",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TagsToMatch",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayContainerMatchType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CachedDescription",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bInverseCondition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FlowAbortMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBTFlowAbortMode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NodeName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TreeAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ParentNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

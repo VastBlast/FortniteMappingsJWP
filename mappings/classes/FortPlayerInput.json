@@ -1,0 +1,409 @@
+{
+    "name": "FortPlayerInput",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CampaignDefaultKBMPresetName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AthenaDefaultKBMPresetName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CampaignKBMResetToDefaultPresetNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "AthenaKBMResetToDefaultPresetNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultGamepadPresetName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DefaultGamepadPresetNameAthena",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DefaultGamepadPresetNameAthenaMobile",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CustomGamepadPresetNameAthena",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FortPlayerInputSettingsNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "TouchLookAccelerationMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TouchBuildingMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TouchEditModeMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "MotionYawAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMotionYawAxis"
+            }
+        },
+        {
+            "index": 13,
+            "name": "TargetingMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ScopedMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "GamepadTargetingMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "GamepadScopedMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "GamepadBuildingMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "GamepadEditModeMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bInvertedPitchForMotion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bInvertedYawMobile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "MotionTargetingMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "MotionScopedMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "MotionHarvestingToolMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "GyroV2Sensitivity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "GyroV2DetachedYawAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMotionYawAxis"
+            }
+        },
+        {
+            "index": 26,
+            "name": "GyroV2AttachedYawAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMotionYawAxis"
+            }
+        },
+        {
+            "index": 27,
+            "name": "GyroV2ActiveMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGyroActiveMode"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bGyroV2LookStickDisables",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bGyroV2AimAssist",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "GyroV2AccelMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "GyroV2AccelMinThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "GyroV2AccelMaxThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "GyroV2AccelerationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGyroAcceleration"
+            }
+        },
+        {
+            "index": 34,
+            "name": "GyroV2VerticalMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "GyroV2DeadZone",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "GyroV2Smoothing",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "GyroV2Tightening",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "GyroV2ButtonX",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGyroButtonResponse"
+            }
+        },
+        {
+            "index": 39,
+            "name": "GyroV2ButtonY",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGyroButtonResponse"
+            }
+        },
+        {
+            "index": 40,
+            "name": "GyroV2TrackballDecay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "GyroV2ButtonHoldTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bGyroV2DisabledWhileDriving",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bFlickStickEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "FlickTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "FlickSmoothingThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "FlickDeadZone",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "GamepadMoveStickDeadZone",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "GamepadLookStickDeadZone",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "DesiredKBMPlayerInputSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "DesiredGamepadPlayerInputSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "InputActionTypeFriendlyNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        },
+        {
+            "index": 53,
+            "name": "InputActionGroupContexts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortInputActionGroupContext"
+                }
+            }
+        },
+        {
+            "index": 54,
+            "name": "InputActionGroupExemptFromAllModesCheck",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        }
+    ]
+}

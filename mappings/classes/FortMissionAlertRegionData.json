@@ -1,0 +1,26 @@
+{
+    "name": "FortMissionAlertRegionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RegionUniqueIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "AvailabilityDataPerCategory",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMissionAlertAvailableData"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "name": "AFortConstructorBASE",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BASEBuildingApplicationEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BASEGameplayEffect"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "BASEFriendlyApplicationEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BASEGameplayEffect"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "BASEFriendlyApplicationTrapEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BASEGameplayEffect"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "BASEEnemyApplicationEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BASEGameplayEffect"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "InBASETag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NodesToAffect",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BaseLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BASEEffectPatterns",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PatternBASEEffect"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "DamageStats",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortBaseWeaponStats"
+            }
+        }
+    ]
+}

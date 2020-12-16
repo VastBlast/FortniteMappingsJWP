@@ -1,0 +1,29 @@
+{
+    "name": "AIHotSpotSlotConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Offset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Direction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SlotType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortHotSpotSlot"
+            }
+        }
+    ]
+}

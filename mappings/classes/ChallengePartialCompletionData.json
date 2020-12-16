@@ -1,0 +1,23 @@
+{
+    "name": "ChallengePartialCompletionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuestTemplateId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObjectivData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ObjectivePartialCompletionData"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "name": "AnimationState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Transitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimationTransitionRule"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "StateRootNodeIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StartNotify",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EndNotify",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FullyBlendedNotify",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "StateName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

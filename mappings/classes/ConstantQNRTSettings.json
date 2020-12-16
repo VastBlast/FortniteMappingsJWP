@@ -1,0 +1,86 @@
+{
+    "name": "ConstantQNRTSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StartingFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumBands",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumBandsPerOctave",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AnalysisPeriod",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bDownmixToMono",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FFTSize",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConstantQFFTSizeEnum"
+            }
+        },
+        {
+            "index": 6,
+            "name": "WindowType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFFTWindowType"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SpectrumType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAudioSpectrumType"
+            }
+        },
+        {
+            "index": 8,
+            "name": "BandWidthStretch",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "CQTNormalization",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConstantQNormalizationEnum"
+            }
+        },
+        {
+            "index": 10,
+            "name": "NoiseFloorDb",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

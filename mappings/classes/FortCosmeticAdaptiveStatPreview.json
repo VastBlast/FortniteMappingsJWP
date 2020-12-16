@@ -1,0 +1,23 @@
+{
+    "name": "FortCosmeticAdaptiveStatPreview",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UnlockCondition",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StatValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCosmeticAdaptiveStatPair"
+                }
+            }
+        }
+    ]
+}

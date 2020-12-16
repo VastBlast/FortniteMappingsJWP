@@ -1,0 +1,24 @@
+{
+    "name": "AFortSpecialActorReplicationInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpecialActorRepList",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SpecialActorRepDataArray"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpecialActorStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SpecialActorStatData"
+                }
+            }
+        }
+    ]
+}

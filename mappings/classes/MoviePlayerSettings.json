@@ -1,0 +1,29 @@
+{
+    "name": "MoviePlayerSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bWaitForMoviesToComplete",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bMoviesAreSkippable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StartupMovies",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "name": "CustomCharacterHatData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HatType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECustomHatType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttachSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttachOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AttachmentOverrideData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bUseClothCollisionFromOtherParts",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bCollideWithOtherPartsCloth",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AnimClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FrontEndAnimClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MannequinAnimClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "AccessoryColors",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

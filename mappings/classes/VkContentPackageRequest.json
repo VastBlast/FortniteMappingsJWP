@@ -1,0 +1,16 @@
+{
+    "name": "VkContentPackageRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Roots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VkModuleVersionRef"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "AnimCompositeBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Notifies",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimNotifyEvent"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SequenceLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RateScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RawCurveData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawCurveTracks"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Skeleton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

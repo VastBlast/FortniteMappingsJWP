@@ -1,0 +1,167 @@
+{
+    "name": "InterpTrackMove",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PosTrack",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveVector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EulerTrack",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveVector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LookupTrack",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpLookupTrack"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LookAtGroupName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LinCurveTension",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AngCurveTension",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseQuatInterpolation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bShowArrowAtKeys",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bDisableMovement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bShowTranslationOnCurveEd",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bShowRotationOnCurveEd",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bHide3DTrack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RotMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInterpTrackMoveRotMode"
+            }
+        },
+        {
+            "index": 13,
+            "name": "SubTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "TrackInstClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ActiveCondition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETrackActiveCondition"
+            }
+        },
+        {
+            "index": 16,
+            "name": "TrackTitle",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bOnePerGroup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bDirGroupOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bDisableTrack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bIsAnimControlTrack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bSubTrackOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

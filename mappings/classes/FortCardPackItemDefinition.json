@@ -23,6 +23,13 @@
             }
         },
         {
+            "index": 3,
+            "name": "LootTier",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
             "index": 4,
             "name": "LootTierGroup",
             "mapping_type": {
@@ -44,11 +51,10 @@
             }
         },
         {
-            "index": 8,
-            "name": "PackColor",
+            "index": 7,
+            "name": "XRayTexture",
             "mapping_type": {
-                "type": "StructProperty",
-                "struct_type": "DebugProperty"
+                "type": "SoftObjectProperty"
             }
         },
         {
@@ -56,6 +62,78 @@
             "name": "PackPersonality",
             "mapping_type": {
                 "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "LevelToXpHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 11,
+            "name": "LevelToSacrificeXpHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SacrificeRecipe",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 13,
+            "name": "TransmogSacrificeRow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ConversionRecipes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DataTableRowHandle"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "UpgradeRarityRecipeHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 16,
+            "name": "MinLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "MaxLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "GrantToProfileType",
+            "mapping_type": {
+                "type": "StrProperty"
             }
         },
         {
@@ -67,8 +145,112 @@
             }
         },
         {
+            "index": 21,
+            "name": "ItemType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemType"
+            }
+        },
+        {
+            "index": 22,
+            "name": "PrimaryAssetIdItemTypeOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemType"
+            }
+        },
+        {
+            "index": 23,
+            "name": "FilterOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortInventoryFilter"
+            }
+        },
+        {
+            "index": 24,
+            "name": "Tier",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemTier"
+            }
+        },
+        {
+            "index": 25,
+            "name": "MaxTier",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemTier"
+            }
+        },
+        {
+            "index": 26,
+            "name": "Access",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTemplateAccess"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bIsAccountItem",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bNeverPersisted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bAllowMultipleStacks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "bAutoBalanceStacks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bForceAutoPickup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bInventorySizeLimited",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "ItemTypeNameOverride",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
             "index": 34,
             "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "ShortDescription",
             "mapping_type": {
                 "type": "TextProperty"
             }
@@ -81,11 +263,101 @@
             }
         },
         {
+            "index": 37,
+            "name": "DisplayNamePrefix",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "SearchTags",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
             "index": 39,
             "name": "GameplayTags",
             "mapping_type": {
                 "type": "StructProperty",
                 "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 40,
+            "name": "AutomationTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 41,
+            "name": "SecondaryCategoryOverrideTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 42,
+            "name": "TertiaryCategoryOverrideTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 43,
+            "name": "MaxStackSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 44,
+            "name": "PurchaseItemLimit",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 45,
+            "name": "FrontendPreviewScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "TooltipClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "StatList",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "RatingLookup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 49,
+            "name": "WidePreviewImage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
             }
         },
         {
@@ -100,6 +372,21 @@
             "name": "LargePreviewImage",
             "mapping_type": {
                 "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "DisplayAssetPath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 53,
+            "name": "Series",
+            "mapping_type": {
+                "type": "ObjectProperty"
             }
         },
         {
@@ -121,6 +408,13 @@
         {
             "index": 56,
             "name": "FrontendPreviewMeshOverride",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "FrontendPreviewSkeletalMeshOverride",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }

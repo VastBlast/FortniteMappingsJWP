@@ -1,0 +1,41 @@
+{
+    "name": "DataAssetDirectoryManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LastUpdateCheck",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bUpdateCheckPending",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UpdateCheckLimitSeconds",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bFailOnError",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

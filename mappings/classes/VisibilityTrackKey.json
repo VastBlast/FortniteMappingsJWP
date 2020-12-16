@@ -1,0 +1,28 @@
+{
+    "name": "VisibilityTrackKey",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Time",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Action",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVisibilityTrackAction"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActiveCondition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVisibilityTrackCondition"
+            }
+        }
+    ]
+}

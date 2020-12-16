@@ -1,0 +1,28 @@
+{
+    "name": "FortAbilityTask_WaitTargetSelection",
+    "properties": [
+        {
+            "index": 2,
+            "name": "ConfirmationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayTargetingConfirmation"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bForceTargetingOnServer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "InstantTargetTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

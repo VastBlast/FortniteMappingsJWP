@@ -1,0 +1,27 @@
+{
+    "name": "ScoreLTMCoinSpawnMessageData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CoinType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EScoreLTMScoreEvent"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GameMsgText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CoinClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

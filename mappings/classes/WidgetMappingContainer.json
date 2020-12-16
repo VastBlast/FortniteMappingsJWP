@@ -1,0 +1,32 @@
+{
+    "name": "WidgetMappingContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LegacyTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultMapping",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WidgetMapping"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ContextMappings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WidgetMapping"
+                }
+            }
+        }
+    ]
+}

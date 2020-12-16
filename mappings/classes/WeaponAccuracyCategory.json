@@ -1,0 +1,32 @@
+{
+    "name": "WeaponAccuracyCategory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WeaponAccuracy",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WeaponAccuracy"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Specializations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WeaponAccuracyCategorySpecialization"
+                }
+            }
+        }
+    ]
+}

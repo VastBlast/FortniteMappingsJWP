@@ -1,0 +1,37 @@
+{
+    "name": "PurchaseFlowOffer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OfferNamespace",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OfferId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Quantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Items",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PurchaseFlowItem"
+                }
+            }
+        }
+    ]
+}

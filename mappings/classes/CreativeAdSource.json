@@ -1,0 +1,27 @@
+{
+    "name": "CreativeAdSource",
+    "properties": [
+        {
+            "index": 0,
+            "name": "_title",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "__locale",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Ad_Info",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CreativeAdJsonObject"
+            }
+        }
+    ]
+}

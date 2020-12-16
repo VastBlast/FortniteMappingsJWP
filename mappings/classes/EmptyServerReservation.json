@@ -1,0 +1,56 @@
+{
+    "name": "EmptyServerReservation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlaylistId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ZoneInstanceId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WUID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WorldDataOwner",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bMakePrivate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MatchmakingPool",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMatchmakingPool"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUsesMatchmakingV2",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

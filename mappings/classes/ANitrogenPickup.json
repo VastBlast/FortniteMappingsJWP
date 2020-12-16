@@ -1,0 +1,42 @@
+{
+    "name": "ANitrogenPickup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScoreReason",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENitrogenScoreReason"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AutoPickupTouchComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NitrogenPickupType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENitrogenPickupType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAutoAllowInteraction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TeamHidden",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        }
+    ]
+}

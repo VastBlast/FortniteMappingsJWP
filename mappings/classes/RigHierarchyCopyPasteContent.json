@@ -1,0 +1,47 @@
+{
+    "name": "RigHierarchyCopyPasteContent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Types",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Contents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "LocalTransforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "GlobalTransforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        }
+    ]
+}

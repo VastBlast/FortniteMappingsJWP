@@ -1,0 +1,95 @@
+{
+    "name": "FortTieredCollectionLayout",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bUseTierAsRandomSeed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bFiniteTiers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxNumberOfTiersAllowed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InitialTierUnlocked",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpawnWaveProgressions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TieredNamedCollectionProgressionData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DifficultyProgressions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DifficultyCollectionProgressionData"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ModifierProgressions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TieredNamedCollectionProgressionData"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RewardBadgesProgression",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RewardBadgesCollectionProgressionData"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LootSetProgression",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CollectionLootSetData"
+            }
+        },
+        {
+            "index": 9,
+            "name": "CollectionLayoutDisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PrerequisiteLayout",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TierToMissionPointLookupTable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        }
+    ]
+}

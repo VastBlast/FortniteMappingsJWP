@@ -1,0 +1,29 @@
+{
+    "name": "TransformFilter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TranslationFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilterOptionPerAxis"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RotationFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilterOptionPerAxis"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScaleFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilterOptionPerAxis"
+            }
+        }
+    ]
+}

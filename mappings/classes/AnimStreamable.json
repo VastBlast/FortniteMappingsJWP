@@ -1,0 +1,130 @@
+{
+    "name": "AnimStreamable",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumFrames",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Interpolation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimInterpolationType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RetargetSource",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BoneCompressionSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurveCompressionSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnableRootMotion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RootMotionRootLock",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERootMotionRootLock"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bForceRootLock",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bUseNormalizedRootMotionScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Notifies",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimNotifyEvent"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "SequenceLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "RateScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RawCurveData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawCurveTracks"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Skeleton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "FortDifficultyIncreaseRewardEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DifficultyIncreaseTier",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DifficultyIncreaseMissionRewards",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpLootResult"
+            }
+        }
+    ]
+}

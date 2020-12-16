@@ -1,0 +1,22 @@
+{
+    "name": "CompositeBool",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bDefaultValue",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ModifyingObjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        }
+    ]
+}

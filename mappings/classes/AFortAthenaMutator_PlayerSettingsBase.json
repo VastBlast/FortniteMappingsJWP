@@ -1,0 +1,88 @@
+{
+    "name": "AFortAthenaMutator_PlayerSettingsBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AbilitySetToGrant",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AbilitySetOptions",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GravityPresets",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ResourceRateOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "TargetQueries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayTagQuery"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "WeaponQueries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayTagQuery"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "EliminationStat",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EliminationScoreStatEvent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StatEventFilter"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AssistStat",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "AssistScoreStatEvent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StatEventFilter"
+            }
+        }
+    ]
+}

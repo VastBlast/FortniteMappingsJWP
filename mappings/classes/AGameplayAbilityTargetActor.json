@@ -1,0 +1,85 @@
+{
+    "name": "AGameplayAbilityTargetActor",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ShouldProduceTargetDataOnServer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StartLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilityTargetingLocationInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MasterPC",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OwningAbility",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bDestroyOnConfirmation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SourceActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ReticleParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WorldReticleParameters"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ReticleClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Filter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTargetDataFilterHandle"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bDebug",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "GenericDelegateBoundASC",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "name": "PerkIntroScreenWidget",
+    "properties": [
+        {
+            "index": 1,
+            "name": "PreviousPerkPipData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerkPipData"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "NewPerkPipData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerkPipData"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "PerkPipData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerkPipData"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "StartRoundCache",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RoundTechDataCache"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FactionTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

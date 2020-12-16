@@ -1,0 +1,355 @@
+{
+    "name": "FortMissionInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionRef",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MissionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMissionType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MissionTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TimeOfDaySpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ZoneEndDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ZoneEndDelayOverrideForFailure",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MissionRewardBadge",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MissionRewardItemsLootTierGroup",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MaxRewardLootTierPoints",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ParTime",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "UnderParBadge",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MaxMissionPoints",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bVictoryTileRequired",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MissionDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "MissionIcons",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMultiSizeBrush"
+            }
+        },
+        {
+            "index": 15,
+            "name": "EndOfMissionMediaSource",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bSkipEndOfMissionVideo",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "DaysToLive",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ObjectiveBlocks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortObjectiveBlock"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "bShowMinimapIconsOnlyIfFocused",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ExpectedCompletionTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "MissionEncounterTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "MissionPlacementInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMissionPlacementItems"
+            }
+        },
+        {
+            "index": 23,
+            "name": "MinDistanceToOtherMissions",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "MinDistanceToAllowSpawnPad",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "PlacementActorInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPlacementActorFinderInfo"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bStartPlayingOnLoad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bRequiresActivation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "BluGloActivationRequirement",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bAllowDifficultyIncrease",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "RewardsTitleText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "RewardsDescriptionText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "NonParticipationRewardsDescriptionText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "PopupWidgetData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMissionPopupWidgetData"
+            }
+        },
+        {
+            "index": 34,
+            "name": "WeightedRewards",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bIsGroupContent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bUseRRV",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "MissionName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bShouldDisplayMissionName",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "EncounterProfiles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortEncounterProfile"
+                }
+            }
+        },
+        {
+            "index": 40,
+            "name": "EncounterSequences",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortEncounterSequenceSettings"
+                }
+            }
+        },
+        {
+            "index": 41,
+            "name": "MissionOptions",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "MissionDifficultyOptionTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 43,
+            "name": "TaggedRewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMissionTaggedRewards"
+                }
+            }
+        },
+        {
+            "index": 44,
+            "name": "PerDifficultyProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MissionPerDifficultyProperties"
+                }
+            }
+        },
+        {
+            "index": 45,
+            "name": "ConfigParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMissionConfigDataParams"
+            }
+        }
+    ]
+}

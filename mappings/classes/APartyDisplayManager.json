@@ -1,0 +1,51 @@
+{
+    "name": "APartyDisplayManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlacementActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "VaultPlacementActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VaultWeaponPlacementActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PlayerInMatchHoloMaterial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "IsPlayingCelebrateFX",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "CurrentlyDisplayedCosmeticLoadout",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaLoadout"
+            }
+        }
+    ]
+}

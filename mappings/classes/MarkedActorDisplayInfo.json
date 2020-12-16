@@ -1,0 +1,41 @@
+{
+    "name": "MarkedActorDisplayInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Icon",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CustomIndicatorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Sound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ScreenClamping",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMarkedActorScreenClamping"
+            }
+        }
+    ]
+}

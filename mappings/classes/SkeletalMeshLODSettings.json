@@ -1,0 +1,70 @@
+{
+    "name": "SkeletalMeshLODSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinLOD",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformInt"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DisableBelowMinLodStripping",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformBool"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOverrideLODStreamingSettings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bSupportLODStreaming",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformBool"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxNumStreamedLODs",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformInt"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxNumOptionalLODs",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformInt"
+            }
+        },
+        {
+            "index": 6,
+            "name": "LODGroups",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SkeletalMeshLODGroupSettings"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "NativeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

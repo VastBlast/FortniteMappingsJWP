@@ -1,0 +1,183 @@
+{
+    "name": "FortQueryTest_BuildingCriteria",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScoreForGroundSupportedFloor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ScoreForBeingGroundSupported",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScoreForTraps",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ScoreForWalls",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScoreForNavigableOpening",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RootAssignmentID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIAssignmentIdentifier"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bPreferCloserToRootAssignment",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderBoolValue"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ScoreForDistanceFromClosestRootAssignmentGoal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MinDistanceForDistanceScoring",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MaxDistanceForDistanceScoring",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MaxHealthScore",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bPreferHigherHealth",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderBoolValue"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ClampMaxHealthValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ClampMinHealthValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bPreferHigherHealthPercentage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderBoolValue"
+            }
+        },
+        {
+            "index": 15,
+            "name": "MaxHealthPercentageScore",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bScoreEnemies",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bScoreEncounterGoals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bScoreWorldGoals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bScoreSpecificAssignments",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "AssignmentIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIAssignmentIdentifier"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "ProhibitedAssignmentIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIAssignmentIdentifier"
+                }
+            }
+        }
+    ]
+}

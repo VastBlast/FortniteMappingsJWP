@@ -1,0 +1,37 @@
+{
+    "name": "GameplayTagReponsePair",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ResponseGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ResponseGameplayEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "SoftCountCap",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

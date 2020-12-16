@@ -1,0 +1,41 @@
+{
+    "name": "FortVoteConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumVoteOptions",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VoteDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FailedVoteLockOutDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxVotesAllowedPerPlayer",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "VoteArbitratorType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortVoteArbitratorType"
+            }
+        }
+    ]
+}

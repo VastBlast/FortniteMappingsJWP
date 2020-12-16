@@ -1,0 +1,43 @@
+{
+    "name": "ARPin",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TrackedGeometry",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PinnedComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LocalToTrackingTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LocalToAlignedTrackingTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TrackingState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARTrackingState"
+            }
+        }
+    ]
+}

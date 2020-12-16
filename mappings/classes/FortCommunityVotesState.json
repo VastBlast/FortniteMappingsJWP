@@ -1,0 +1,45 @@
+{
+    "name": "FortCommunityVotesState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ElectionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Candidates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CatalogOffer"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ElectionEnds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumWinners",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WinnerStateHours",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

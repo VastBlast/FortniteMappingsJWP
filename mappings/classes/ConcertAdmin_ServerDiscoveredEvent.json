@@ -1,0 +1,28 @@
+{
+    "name": "ConcertAdmin_ServerDiscoveredEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ServerName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "InstanceInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertInstanceInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ServerFlags",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertServerFlags"
+            }
+        }
+    ]
+}

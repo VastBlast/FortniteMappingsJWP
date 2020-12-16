@@ -1,0 +1,637 @@
+{
+    "name": "AFortAthenaMutator_Cobalt",
+    "properties": [
+        {
+            "index": 9,
+            "name": "StormShieldClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "POIList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TaggedPOI"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "MinimumDistanceBetweenPOIs",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 12,
+            "name": "StormShieldRadiusMultiplierPerPlayer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 13,
+            "name": "StormShieldMinRadiusMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 14,
+            "name": "DelayBeforeStormShrink",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 15,
+            "name": "StormShieldShrinkLocationMinOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 16,
+            "name": "StormShieldShrinkLocationMaxOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 17,
+            "name": "StormShieldShrinkRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 18,
+            "name": "StormShieldGrowthRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 19,
+            "name": "DelayBeforeNextRound",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 20,
+            "name": "DelayBeforePushToSpectateMode",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 21,
+            "name": "DelayBeforeRoundEndDeathAndStinger",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "DelayBeforeShowingRoundEndUI",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "RadiusRatioForRespawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 24,
+            "name": "HeightOfSpawnIntoNewStormShield",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 25,
+            "name": "DistanceBetweenPlayersOfSameTeamDuringRespawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 26,
+            "name": "TeleportingPlayersText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "TeleportingSpectatorsText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bResetPlayerAbilitiesOnRoundEnd",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 29,
+            "name": "RiftTeleportEventTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 30,
+            "name": "AvailablePerkRerolls",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 31,
+            "name": "ResetPlayerInventoryBetweenRounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 32,
+            "name": "ItemTypesToRemove",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 33,
+            "name": "bRespawnEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "RoundDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 35,
+            "name": "RespawnDelay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 36,
+            "name": "RespawnLogicData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRespawnLogicData"
+            }
+        },
+        {
+            "index": 37,
+            "name": "RespawnFallbackHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "RespawnTraceEnd",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "MinimapMPC",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "MinimumVersusScreenDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 41,
+            "name": "POICameraViewPhaseDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "HideStormShieldDuringPOICameraViewPhase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 43,
+            "name": "PreRoundDisplayDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "PreRoundDisplayDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "RoundStartWidgetSequenceAdditionalDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "UILastManStandingDisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "RoundGameMessageData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaGameMessageData"
+                }
+            }
+        },
+        {
+            "index": 48,
+            "name": "StormShieldShrinkBeginSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "VictoryStingerSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "LoserStingerSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "RoundEndStingerFadeDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "DeathEffectsComponentClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "RoundResultsText_Win",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "RoundResultsText_Lost",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "bShouldSkipWinLossScreen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "ShowTeammatesInMap",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 57,
+            "name": "ShowEnemiesInMap",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 58,
+            "name": "TeammateMapIconScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 59,
+            "name": "EnemyMapIconScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 60,
+            "name": "InventoryOverrideMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "TimeDilationManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "EndRoundTimeDilationCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "EndRoundTimeDilationDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "RoundCompleteAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 65,
+            "name": "RoundWinAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 66,
+            "name": "FirstEliminationAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 67,
+            "name": "SafeZoneMaterialCollection",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 68,
+            "name": "SafeZoneLocMaterialParamName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "SafeZoneScaleMaterialParamName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "SafeZoneRadiusAtMaxSafeZoneScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 71,
+            "name": "StormEyeActorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "MaxSupplyDropSpawnTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 73,
+            "name": "MinSupplyDropSpawnTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 74,
+            "name": "bTeleportComplete",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "bRoundStartWidgetSequenceRunning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "TeleportMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "CombatStormShieldArray",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CobaltCombatStormShieldArray"
+            }
+        },
+        {
+            "index": 78,
+            "name": "ActiveRound",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "bIsCobaltFinished",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "FirstRound",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "TeamWinners",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 82,
+            "name": "TeamLosers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 83,
+            "name": "PendingTeleportingPlayers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 84,
+            "name": "MoveToSpectateTimerHandles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TimerHandle"
+                }
+            }
+        },
+        {
+            "index": 85,
+            "name": "bClientPlaylistTimerStarted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "RoundEndStingerInstance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "bUseStrictBracketStructure",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 88,
+            "name": "WidgetRoundData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CobaltWidgetRoundData"
+            }
+        },
+        {
+            "index": 89,
+            "name": "bIsFinishedDisplayingRoundEndUI",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "StormEyeActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

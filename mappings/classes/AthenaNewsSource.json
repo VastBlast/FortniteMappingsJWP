@@ -1,0 +1,27 @@
+{
+    "name": "AthenaNewsSource",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Header",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "news",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaNewsMessages"
+            }
+        },
+        {
+            "index": 2,
+            "name": "_locale",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

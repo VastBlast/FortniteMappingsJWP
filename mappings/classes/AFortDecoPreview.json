@@ -1,0 +1,146 @@
+{
+    "name": "AFortDecoPreview",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FallbackAttachmentType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingAttachmentType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FallbackPlacementType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPlacementType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PreviewPlacementMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MotionBounceCurve",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CanBePlacedMaterialScalarParam",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ValidPlacementScalarParam",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "InvalidPlacementScalarParam",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "InverseMovementVectorMaterialParam",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MovementEffectScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "InverseOuterScaleVectorParam",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "InverseInnerScaleVectorParam",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "WorldSpacePivotVectorParam",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "DiffuseTextureParam",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "FreePlacementOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "BounceTimeline",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Timeline"
+            }
+        },
+        {
+            "index": 15,
+            "name": "PreviewMIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "DirectionChange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 17,
+            "name": "WorldSpacePivot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ParentDecoHelper",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

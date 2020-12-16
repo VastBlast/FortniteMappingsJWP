@@ -1,0 +1,230 @@
+{
+    "name": "ARSessionConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bGenerateMeshDataFromTrackedGeometry",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bGenerateCollisionForMeshData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bGenerateNavMeshForMeshData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseMeshDataForOcclusion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bRenderMeshDataInWireframe",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bTrackSceneObjects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUsePersonSegmentationForOcclusion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "WorldAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARWorldAlignment"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SessionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARSessionType"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PlaneDetectionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARPlaneDetectionMode"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bHorizontalPlaneDetection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bVerticalPlaneDetection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bEnableAutoFocus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "LightEstimationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARLightEstimationMode"
+            }
+        },
+        {
+            "index": 14,
+            "name": "FrameSyncMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARFrameSyncMode"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bEnableAutomaticCameraOverlay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bEnableAutomaticCameraTracking",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bResetCameraTracking",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bResetTrackedObjects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "CandidateImages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 20,
+            "name": "MaxNumSimultaneousImagesTracked",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "EnvironmentCaptureProbeType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAREnvironmentCaptureProbeType"
+            }
+        },
+        {
+            "index": 22,
+            "name": "WorldMapData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "CandidateObjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 24,
+            "name": "DesiredVideoFormat",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ARVideoFormat"
+            }
+        },
+        {
+            "index": 25,
+            "name": "FaceTrackingDirection",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARFaceTrackingDirection"
+            }
+        },
+        {
+            "index": 26,
+            "name": "FaceTrackingUpdate",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARFaceTrackingUpdate"
+            }
+        },
+        {
+            "index": 27,
+            "name": "SerializedARCandidateImageDatabase",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 28,
+            "name": "EnabledSessionTrackingFeature",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARSessionTrackingFeature"
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "name": "FortLevelUpDataV2",
+    "properties": [
+        {
+            "index": 0,
+            "name": "XP",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DifficultyLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "XPDisplayMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Rewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortRewardQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "RestXPCap",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RestXPRechargeRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BoostXPPerConsumable",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

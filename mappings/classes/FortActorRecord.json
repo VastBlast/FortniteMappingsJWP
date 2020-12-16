@@ -1,0 +1,53 @@
+{
+    "name": "FortActorRecord",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActorGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActorState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBuildingPersistentState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ActorTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bSpawnedActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ActorData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        }
+    ]
+}

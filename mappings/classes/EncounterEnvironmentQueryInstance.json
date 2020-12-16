@@ -1,0 +1,63 @@
+{
+    "name": "EncounterEnvironmentQueryInstance",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EnvironmentQueryInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EncounterEnvironmentQueryInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QueryID",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsWaitingForQueryResults",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ChosenDirection",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortEncounterDirection"
+            }
+        },
+        {
+            "index": 4,
+            "name": "QueryLocations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "FoundRifts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "NumTimesUsed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "RenderingCategoryMetric",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Metrics",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "VersionedBudgets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VersionedBudget"
+                }
+            }
+        }
+    ]
+}

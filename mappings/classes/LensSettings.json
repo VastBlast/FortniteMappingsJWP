@@ -1,0 +1,28 @@
+{
+    "name": "LensSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Bloom",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LensBloomSettings"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Imperfections",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LensImperfectionSettings"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChromaticAberration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

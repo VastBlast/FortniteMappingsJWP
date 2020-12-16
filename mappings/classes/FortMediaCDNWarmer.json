@@ -1,0 +1,29 @@
+{
+    "name": "FortMediaCDNWarmer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CDNDistribution",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAutoClearCDNDistribution",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bWarmLive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

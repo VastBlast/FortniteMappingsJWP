@@ -1,0 +1,30 @@
+{
+    "name": "FortSupplyDropMutatorData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SupplyDropID",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bShouldCenterGroundCheckAtFoundLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemDeliveryMutatorPerSafeZonePhase",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemDeliverySupplyDropMutatorData"
+                }
+            }
+        }
+    ]
+}

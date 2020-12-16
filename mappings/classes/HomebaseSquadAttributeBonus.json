@@ -1,0 +1,21 @@
+{
+    "name": "HomebaseSquadAttributeBonus",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AttributeGranted",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAttribute"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BonusCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        }
+    ]
+}

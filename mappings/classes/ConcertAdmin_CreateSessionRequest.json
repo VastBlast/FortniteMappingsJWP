@@ -1,0 +1,36 @@
+{
+    "name": "ConcertAdmin_CreateSessionRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SessionName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OwnerClientInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertClientInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SessionSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionSettings"
+            }
+        },
+        {
+            "index": 3,
+            "name": "VersionInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionVersionInfo"
+            }
+        }
+    ]
+}

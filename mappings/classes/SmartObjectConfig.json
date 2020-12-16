@@ -1,0 +1,31 @@
+{
+    "name": "SmartObjectConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Uses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SmartObjectUseConfig"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DescriptionTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxConcurrentUsers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

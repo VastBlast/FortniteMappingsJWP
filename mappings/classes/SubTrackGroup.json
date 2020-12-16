@@ -1,0 +1,29 @@
+{
+    "name": "SubTrackGroup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GroupName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TrackIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsCollapsed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

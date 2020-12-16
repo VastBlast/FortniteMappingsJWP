@@ -1,0 +1,107 @@
+{
+    "name": "NiagaraSystemCompiledData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InstanceParamStore",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraParameterStore"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DataSetCompiledData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraDataSetCompiledData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpawnInstanceParamsDataSetCompiledData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraDataSetCompiledData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UpdateInstanceParamsDataSetCompiledData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraDataSetCompiledData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpawnInstanceGlobalBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraParameterDataSetBindingCollection"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SpawnInstanceSystemBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraParameterDataSetBindingCollection"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SpawnInstanceOwnerBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraParameterDataSetBindingCollection"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SpawnInstanceEmitterBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraParameterDataSetBindingCollection"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "UpdateInstanceGlobalBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraParameterDataSetBindingCollection"
+            }
+        },
+        {
+            "index": 9,
+            "name": "UpdateInstanceSystemBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraParameterDataSetBindingCollection"
+            }
+        },
+        {
+            "index": 10,
+            "name": "UpdateInstanceOwnerBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraParameterDataSetBindingCollection"
+            }
+        },
+        {
+            "index": 11,
+            "name": "UpdateInstanceEmitterBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraParameterDataSetBindingCollection"
+                }
+            }
+        }
+    ]
+}

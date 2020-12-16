@@ -1,0 +1,219 @@
+{
+    "name": "FortRegisteredPlayerInfo",
+    "properties": [
+        {
+            "index": 1,
+            "name": "PlayerId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayerName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PartyLeaderId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Platform",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TeamAssignment",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PlayerIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsInitialPlayer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bShouldLockProfile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bFailedToLockProfile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "UnregistrationSaveGUID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 11,
+            "name": "UnregistrationStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERegisteredPlayerUnregistrationStatus"
+            }
+        },
+        {
+            "index": 12,
+            "name": "UnregisterFailsafeTimerHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimerHandle"
+            }
+        },
+        {
+            "index": 13,
+            "name": "PollForDedicatedServerReadyToShutdownTimerHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimerHandle"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CommonPublicProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "CommonCoreProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "AccountProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "WorldProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "OutpostProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "MetadataProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "CreativeModeProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "CollectionsProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "AthenaProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "QuestManagers",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "AwardManagers",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 26,
+            "name": "MinigameManagers",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 27,
+            "name": "CollectionBookManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "ExpeditionManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "LinkedAccountManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

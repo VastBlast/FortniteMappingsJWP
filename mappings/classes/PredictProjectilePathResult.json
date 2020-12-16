@@ -1,0 +1,32 @@
+{
+    "name": "PredictProjectilePathResult",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PathData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PredictProjectilePathPointData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "LastTraceDestination",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PredictProjectilePathPointData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HitResult",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HitResult"
+            }
+        }
+    ]
+}

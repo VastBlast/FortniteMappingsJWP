@@ -1,0 +1,35 @@
+{
+    "name": "FortWorldPlayerLoadout",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bPlayerIsNew",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PrimaryQuickBarRecord",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "QuickBar"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SecondaryQuickBarRecord",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "QuickBar"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ZonesCompleted",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

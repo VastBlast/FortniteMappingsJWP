@@ -1,0 +1,36 @@
+{
+    "name": "GunGameGunEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Weapon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WeaponAssetId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryAssetId"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Enabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AwardAtElim",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

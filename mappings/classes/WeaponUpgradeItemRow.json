@@ -1,0 +1,51 @@
+{
+    "name": "WeaponUpgradeItemRow",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentWeaponDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UpgradedWeaponDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WoodCost",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWeaponUpgradeCosts"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MetalCost",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWeaponUpgradeCosts"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BrickCost",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWeaponUpgradeCosts"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Direction",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWeaponUpgradeDirection"
+            }
+        }
+    ]
+}

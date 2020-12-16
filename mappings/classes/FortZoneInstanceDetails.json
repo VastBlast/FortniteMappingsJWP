@@ -1,0 +1,104 @@
+{
+    "name": "FortZoneInstanceDetails",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionGenerator",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ZoneDifficultyInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MissionRewards",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpLootResult"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DifficultyIncreaseMissionRewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpLootResult"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "MissionAlertRewards",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpLootResult"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ZoneModifiers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpLootResult"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MissionAlertCategoryName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TileIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "WorldId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TheaterId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TheaterMissionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TheaterMissionAlertId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ZoneThemeClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

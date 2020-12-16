@@ -1,0 +1,41 @@
+{
+    "name": "HairSolverSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EnableSimulation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NiagaraSolver",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGroomNiagaraSolvers"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CustomSystem",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SubSteps",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "IterationCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

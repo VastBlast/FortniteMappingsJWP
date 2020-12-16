@@ -48,10 +48,9 @@
         },
         {
             "index": 5,
-            "name": "AbilityActivatedByInputExitBuildModeTag",
+            "name": "bShouldHotbarKeysForceExitBuildMode",
             "mapping_type": {
-                "type": "StructProperty",
-                "struct_type": "GameplayTag"
+                "type": "BoolProperty"
             }
         },
         {
@@ -71,8 +70,18 @@
             "mapping_type": {
                 "type": "ArrayProperty",
                 "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "PassiveGameplayEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
                     "type": "StructProperty",
-                    "struct_type": "FortItemDefinition"
+                    "struct_type": "GameplayEffectApplicationInfo"
                 }
             }
         },
@@ -81,7 +90,7 @@
             "name": "AnalyticsTags",
             "mapping_type": {
                 "type": "StructProperty",
-                "struct_type": "GameplayTag"
+                "struct_type": "GameplayTagContainer"
             }
         }
     ]

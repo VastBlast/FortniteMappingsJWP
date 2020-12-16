@@ -1,0 +1,29 @@
+{
+    "name": "AFortAthenaMutator_StormVehicleHelper",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EventName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WallHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VehiclesToDestroy",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

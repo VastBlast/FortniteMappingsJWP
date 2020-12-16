@@ -1,0 +1,37 @@
+{
+    "name": "FortExpeditionOverviewWidget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TabButtonType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TabListRegistrationInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ExpeditionTabInfo"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExpeditionTabList",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ExpeditionListView",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

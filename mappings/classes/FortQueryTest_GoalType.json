@@ -1,0 +1,55 @@
+{
+    "name": "FortQueryTest_GoalType",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bScoreEnemies",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bScoreEncounterGoals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bScoreWorldGoals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bScoreSpecificAssignments",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AssignmentIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIAssignmentIdentifier"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "ProhibitedAssignmentIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIAssignmentIdentifier"
+                }
+            }
+        }
+    ]
+}

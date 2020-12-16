@@ -1,0 +1,38 @@
+{
+    "name": "FortMcpProfileWorld",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UpdateRequests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortWorldProfileUpdateRequest"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CachedPlayerLoadout",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortWorldPlayerLoadout"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FortInventory",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIsInventoryInitialized",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

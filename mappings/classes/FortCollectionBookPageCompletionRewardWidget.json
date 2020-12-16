@@ -1,0 +1,35 @@
+{
+    "name": "FortCollectionBookPageCompletionRewardWidget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bUpdateVisibilityBasedOnRewardExistence",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VisibilityWhenNoRewardSpecified",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VisibilityWhenRewardSpecified",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RewardCardWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

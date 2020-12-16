@@ -1,0 +1,303 @@
+{
+    "name": "GameplayEffect",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DurationPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayEffectDurationType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DurationMagnitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEffectModifierMagnitude"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Period",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bExecutePeriodicEffectOnApplication",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PeriodicInhibitionPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayEffectPeriodInhibitionRemovedPolicy"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Modifiers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayModifierInfo"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "Executions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectExecutionDefinition"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "ChanceToApplyToTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ApplicationRequirements",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "TargetEffectClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "ConditionalGameplayEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConditionalGameplayEffect"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "OverflowEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "bDenyOverflowApplication",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bClearStackOnOverflow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "PrematureExpirationEffectClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "RoutineExpirationEffectClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "bRequireModifierSuccessToTriggerCues",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bSuppressStackingCues",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "GameplayCues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectCue"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "UIData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "InheritableGameplayEffectTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InheritedTagContainer"
+            }
+        },
+        {
+            "index": 21,
+            "name": "InheritableOwnedTagsContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InheritedTagContainer"
+            }
+        },
+        {
+            "index": 22,
+            "name": "OngoingTagRequirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagRequirements"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ApplicationTagRequirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagRequirements"
+            }
+        },
+        {
+            "index": 24,
+            "name": "RemovalTagRequirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagRequirements"
+            }
+        },
+        {
+            "index": 25,
+            "name": "RemoveGameplayEffectsWithTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InheritedTagContainer"
+            }
+        },
+        {
+            "index": 26,
+            "name": "GrantedApplicationImmunityTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagRequirements"
+            }
+        },
+        {
+            "index": 27,
+            "name": "GrantedApplicationImmunityQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEffectQuery"
+            }
+        },
+        {
+            "index": 28,
+            "name": "RemoveGameplayEffectQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEffectQuery"
+            }
+        },
+        {
+            "index": 29,
+            "name": "StackingType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayEffectStackingType"
+            }
+        },
+        {
+            "index": 30,
+            "name": "StackLimitCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "StackDurationRefreshPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayEffectStackingDurationPolicy"
+            }
+        },
+        {
+            "index": 32,
+            "name": "StackPeriodResetPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayEffectStackingPeriodPolicy"
+            }
+        },
+        {
+            "index": 33,
+            "name": "StackExpirationPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayEffectStackingExpirationPolicy"
+            }
+        },
+        {
+            "index": 34,
+            "name": "GrantedAbilities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayAbilitySpecDef"
+                }
+            }
+        }
+    ]
+}

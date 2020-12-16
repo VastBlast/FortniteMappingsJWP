@@ -1,0 +1,64 @@
+{
+    "name": "ConcertReliableHandshakeData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HandshakeState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertReliableHandshakeState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ReliableChannelId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NextMessageIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EndpointTimeoutTick",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ConcertEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MessageID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MessageOrderIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ChannelId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

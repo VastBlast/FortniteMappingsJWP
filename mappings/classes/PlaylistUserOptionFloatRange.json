@@ -2,8 +2,15 @@
     "name": "PlaylistUserOptionFloatRange",
     "properties": [
         {
+            "index": 0,
+            "name": "min",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
             "index": 1,
-            "name": "Max",
+            "name": "max",
             "mapping_type": {
                 "type": "FloatProperty"
             }
@@ -20,6 +27,13 @@
             "name": "IncrementValue",
             "mapping_type": {
                 "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UnitName",
+            "mapping_type": {
+                "type": "TextProperty"
             }
         },
         {
@@ -78,6 +92,20 @@
             "mapping_type": {
                 "type": "EnumProperty",
                 "enum_type": "EUFortMatchmakingKnobsDataSource"
+            }
+        },
+        {
+            "index": 13,
+            "name": "WeightOffset",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "EditWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
             }
         }
     ]

@@ -1,0 +1,56 @@
+{
+    "name": "FortItemCategoryIndicator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemToRepresent",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OrdinalOfCategoryToRepresent",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemCategoryOrdinal"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ShouldShowIcon",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ShouldCollapseIconWhenNotShown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "IconBrushSize",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBrushSize"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ShouldShowLabel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "LabelTextStyle",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

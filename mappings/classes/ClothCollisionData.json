@@ -1,0 +1,49 @@
+{
+    "name": "ClothCollisionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Spheres",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ClothCollisionPrim_Sphere"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SphereConnections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ClothCollisionPrim_SphereConnection"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Convexes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ClothCollisionPrim_Convex"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Boxes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ClothCollisionPrim_Box"
+                }
+            }
+        }
+    ]
+}

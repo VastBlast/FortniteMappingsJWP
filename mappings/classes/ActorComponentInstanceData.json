@@ -1,0 +1,68 @@
+{
+    "name": "ActorComponentInstanceData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourceComponentTemplate",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SourceComponentCreationMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EComponentCreationMethod"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SourceComponentTypeSerializedIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SavedProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "DuplicatedObjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ActorComponentDuplicatedObjectData"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "ReferencedObjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "ReferencedNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

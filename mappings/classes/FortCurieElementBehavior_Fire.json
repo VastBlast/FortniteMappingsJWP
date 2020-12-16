@@ -1,0 +1,83 @@
+{
+    "name": "FortCurieElementBehavior_Fire",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BurningRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FireMagnitudeToWaterContentDecreaseCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FireMagnitudeToWaterIntensityDecreaseCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FireMagnitudeToIceIntensityDecreaseCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FireMagnitudeToWaterIntensityDecayRateCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FireMagnitudeToIceIntensityDecayRateCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bActAsDmgSrcDirectly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DamageDataTableRowHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ElementMagnitudeToIntensityInitializationCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ElementMagnitudeToIntensityCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "TrackingOffsetModifierInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinSkill",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxSkill",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Modifiers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TrackingOffsetModifiers"
+            }
+        }
+    ]
+}

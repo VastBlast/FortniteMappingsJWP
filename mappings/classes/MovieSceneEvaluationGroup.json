@@ -1,0 +1,38 @@
+{
+    "name": "MovieSceneEvaluationGroup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LUTIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneEvaluationGroupLUTIndex"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TrackLUT",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneFieldEntry_EvaluationTrack"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SectionLUT",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneFieldEntry_ChildTemplate"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "name": "AFortAthenaAIBotController",
+    "properties": [
+        {
+            "index": 2,
+            "name": "bIsAnAthenaGameParticipant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bNeutralBecomeHostileOnBump",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ReachLocationValidationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EReachLocationValidationMode"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BehaviorTree",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "Skill",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bAllowUnsupportedItemsInDefaultInventory",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "BotSkillSetClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 29,
+            "name": "StartupInventory",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "CosmeticLoadoutBC",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaLoadout"
+            }
+        },
+        {
+            "index": 31,
+            "name": "NameSettingsBC",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "SpectateOnDeathMinTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 33,
+            "name": "SpectateOnDeathMaxTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 34,
+            "name": "SightWeatherCapRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 35,
+            "name": "LoseSightWeatherCapRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 36,
+            "name": "EmotesMaxCount",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bCanBeDestroyedOnDeath",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "BotIDSuffix",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "name": "FortAIEncounterSpawnArea",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QueryInstances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EncounterEnvironmentQueryInstance"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PendingRifts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIEncounterRift"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Rifts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIEncounterRift"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "PathEstimators",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bUsingFallbackQuery",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SpawnLocationManagementMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortEncounterSpawnLocationManagementMode"
+            }
+        }
+    ]
+}

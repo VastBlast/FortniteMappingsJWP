@@ -1,0 +1,122 @@
+{
+    "name": "FortCreativeCreatureManagerInfoComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CreatureBlueprintClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxHealth",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HearingAggroRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ScorePoints",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DamageCaused",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "EnvironmentalDamageOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MovementSpeedMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CreatureManagerComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DamageOverrideEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "EnvironmentalDamageOverrideEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MovementSpeedOverrideEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ScoreDistribution",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EScoreDistributionType"
+            }
+        },
+        {
+            "index": 18,
+            "name": "MinigameTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 19,
+            "name": "DesiredStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 20,
+            "name": "bIsRelevantForMinigameInitialization",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bAlwaysTryHandleDelayedStateChange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

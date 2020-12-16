@@ -1,0 +1,73 @@
+{
+    "name": "RigUnit_MathVectorClampSpatially",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Value",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Axis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAxis"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigClampSpatialMode"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Minimum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Maximum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Space",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bDrawDebug",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DebugThickness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Result",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

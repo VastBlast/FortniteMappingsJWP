@@ -1,0 +1,66 @@
+{
+    "name": "IntensityContribution",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CombatFactor",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCombatFactors"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ContributingAIDirectorFactor",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAIDirectorFactor"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxContribution",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bModifyContributionByCompletionPercentage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CompletionPercentageInitialMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CompletionPercentageToStartReducingMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CompletionPercentageToStopReducingMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bModifyByNumberOfCriticalEncounterGoals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

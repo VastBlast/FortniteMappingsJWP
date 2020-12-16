@@ -1,0 +1,34 @@
+{
+    "name": "FortPlayerSurveyCMSDataRoot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "E",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "cg",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlayerSurveyCMSDataConditionGroup"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "S",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlayerSurveyCMSDataSurvey"
+                }
+            }
+        }
+    ]
+}

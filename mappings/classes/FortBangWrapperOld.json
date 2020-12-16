@@ -1,0 +1,44 @@
+{
+    "name": "FortBangWrapperOld",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Size",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBangSize"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Offset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BangType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBangType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TutorialNameID",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TutorialGlowType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTutorialGlowType"
+            }
+        }
+    ]
+}

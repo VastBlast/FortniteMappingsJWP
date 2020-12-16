@@ -1,0 +1,429 @@
+{
+    "name": "AFortMinigame",
+    "properties": [
+        {
+            "index": 24,
+            "name": "UIExtensions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "UIExtension"
+                }
+            }
+        },
+        {
+            "index": 25,
+            "name": "UIExtensionTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 26,
+            "name": "TimeLimit",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "CurrentRound",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "TotalRounds",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "EndConditionArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MinigameEndCondition"
+                }
+            }
+        },
+        {
+            "index": 32,
+            "name": "bRemovePawnOnDeath",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bKeepItemsBetweenRounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "PercentageOfResourcesKeptBetweenRounds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bReloadAndRestockWeaponsEachRound",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "RestockAmmoAmounts",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 38,
+            "name": "DefaultRestockAmmoAmount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bLastTeamStandingWins",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bAllowStandardEndGameConditions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bEndGameOnMatchPointWin",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "AutoStartDelay",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "SpawnLocationSetting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMinigamePlayerSpawnLocationSetting"
+            }
+        },
+        {
+            "index": 46,
+            "name": "PostGameSpawnLocationSetting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMinigamePostGameSpawnLocationSetting"
+            }
+        },
+        {
+            "index": 47,
+            "name": "WarmupDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "PostGameResetDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "GameWinnerDisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "GameScoreDisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "RoundWinnerDisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "RoundScoreDisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "ServerEndgameDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "bTimerCountsDown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "BaseEndConditionArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMinigameStatQuery"
+                }
+            }
+        },
+        {
+            "index": 58,
+            "name": "TrackedStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 59,
+            "name": "ScoreboardStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 75,
+            "name": "bStopwatchMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "bSortScoreboardEntries",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 84,
+            "name": "bTeamMinigame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "NumTeams",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "bAllowJoinInProgress",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "PlayerPersistence",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMinigamePlayerPersistence"
+            }
+        },
+        {
+            "index": 89,
+            "name": "MinigameStarter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "TeamRotationSetting",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "bStableTeamCosmetics",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 93,
+            "name": "MinigameMapWidget",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMinigameFullscreenMapWidgetType"
+            }
+        },
+        {
+            "index": 94,
+            "name": "WinCondition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMinigameWinCondition"
+            }
+        },
+        {
+            "index": 95,
+            "name": "bAllTeamsMustMatchEndConditions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 96,
+            "name": "bOnlyAllowRespawningIfPlayerStartPadsFound",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 97,
+            "name": "GameEndCallout",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMinigameGameEndCallout"
+            }
+        },
+        {
+            "index": 98,
+            "name": "VictoryAudioIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 99,
+            "name": "DrawAudioIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 100,
+            "name": "DefeatAudioIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "bShowCumulativeScoreboard",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 102,
+            "name": "MinigameStartCameraBehavior",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "ClientMinigameStartedText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 104,
+            "name": "MinigameEndCameraBehavior",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 105,
+            "name": "ClientMinigameEndedText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 108,
+            "name": "bAllowFriendlyFire",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 109,
+            "name": "NumMinigameComponentsServer",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 110,
+            "name": "bVolumeNavigationHasBuilt",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 113,
+            "name": "OldUIExtensionTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

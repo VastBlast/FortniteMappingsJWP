@@ -1,0 +1,55 @@
+{
+    "name": "FortPlayerSurveyCMSDataConditionAthenaMatchStat",
+    "properties": [
+        {
+            "index": 0,
+            "name": "pt",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "I",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "S",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ag",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPlayerSurveyCMSDataAggregateOp"
+            }
+        },
+        {
+            "index": 5,
+            "name": "O",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPlayerSurveyCMSDataBinaryComparisonOp"
+            }
+        },
+        {
+            "index": 6,
+            "name": "T",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

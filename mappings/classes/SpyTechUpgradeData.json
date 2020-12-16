@@ -1,0 +1,29 @@
+{
+    "name": "SpyTechUpgradeData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UpgradeTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IsUpgradeEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UpgradedItemAssetID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryAssetId"
+            }
+        }
+    ]
+}

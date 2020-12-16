@@ -1,0 +1,45 @@
+{
+    "name": "RigUnit_Control",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Transform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EulerTransform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Base",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InitTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Result",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Filter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TransformFilter"
+            }
+        }
+    ]
+}

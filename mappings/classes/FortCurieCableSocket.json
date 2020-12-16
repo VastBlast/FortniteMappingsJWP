@@ -1,0 +1,57 @@
+{
+    "name": "FortCurieCableSocket",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SocketIdentifier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieCableSocketIdentifier"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Location",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SocketConnection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieCableSocketConnection"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAutoSendSignalOnElementAttachment",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAutoSendSignalOnElementDetachment",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAutoRouteToCurieComponentOnReceive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bAutoCreateElectricLinksOnSend",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

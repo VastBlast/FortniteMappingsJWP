@@ -1,0 +1,23 @@
+{
+    "name": "MovieSceneLevelVisibilitySection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Visibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELevelVisibility"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LevelNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

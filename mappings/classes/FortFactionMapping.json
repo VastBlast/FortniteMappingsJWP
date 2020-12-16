@@ -1,0 +1,24 @@
+{
+    "name": "FortFactionMapping",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BlockResetSpecificRelationTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FactionDataArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FactionData"
+                }
+            }
+        }
+    ]
+}

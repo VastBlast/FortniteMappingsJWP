@@ -1,0 +1,30 @@
+{
+    "name": "FortCameraPrototype",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PrototypeName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PrototypeDescription",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ModeOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCameraModeOverride"
+                }
+            }
+        }
+    ]
+}

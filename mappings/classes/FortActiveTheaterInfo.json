@@ -1,0 +1,38 @@
+{
+    "name": "FortActiveTheaterInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Theaters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTheaterMapData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Missions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAvailableTheaterMissions"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "MissionAlerts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAvailableMissionAlerts"
+                }
+            }
+        }
+    ]
+}

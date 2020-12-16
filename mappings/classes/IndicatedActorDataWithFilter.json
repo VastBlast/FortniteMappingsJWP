@@ -1,0 +1,61 @@
+{
+    "name": "IndicatedActorDataWithFilter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IndicatedActorTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IndicatedActorTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ObjectTypes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ActorClassFilter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "IndicatedData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IndicatedActorData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "StenciledData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StenciledActorData"
+            }
+        },
+        {
+            "index": 6,
+            "name": "OverlapRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

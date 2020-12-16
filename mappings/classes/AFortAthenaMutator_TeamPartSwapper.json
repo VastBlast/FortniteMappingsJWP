@@ -1,0 +1,26 @@
+{
+    "name": "AFortAthenaMutator_TeamPartSwapper",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TeamNums",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SwapData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartSwapData"
+                }
+            }
+        }
+    ]
+}

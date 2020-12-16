@@ -1,0 +1,16 @@
+{
+    "name": "ConcertAdmin_DropSessionRepositoriesResponse",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DroppedRepositoryIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Guid"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "name": "LandscapeLayer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Guid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bLocked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "HeightmapAlpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "WeightmapAlpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BlendMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELandscapeBlendMode"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Brushes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LandscapeLayerBrush"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "WeightmapLayerAllocationBlend",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        }
+    ]
+}

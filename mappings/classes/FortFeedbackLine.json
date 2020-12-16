@@ -1,0 +1,53 @@
+{
+    "name": "FortFeedbackLine",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Audio",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AnimSequence",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AnimMontage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Addressee",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFeedbackAddressee"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Context",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFeedbackContext"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ResponseEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortFeedbackResponse"
+                }
+            }
+        }
+    ]
+}

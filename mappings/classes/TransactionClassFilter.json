@@ -1,0 +1,24 @@
+{
+    "name": "TransactionClassFilter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ObjectOuterClass",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftClassPath"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObjectClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoftClassPath"
+                }
+            }
+        }
+    ]
+}

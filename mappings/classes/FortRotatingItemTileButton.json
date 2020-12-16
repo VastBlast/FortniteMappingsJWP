@@ -1,0 +1,58 @@
+{
+    "name": "FortRotatingItemTileButton",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TimeBetweenRotations",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bNeedsItemRotateAnimation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemsToRotate",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ItemWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Item",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ItemCardSize",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemCardSize"
+            }
+        },
+        {
+            "index": 6,
+            "name": "IsRewardCard",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

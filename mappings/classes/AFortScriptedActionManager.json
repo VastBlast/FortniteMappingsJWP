@@ -1,0 +1,55 @@
+{
+    "name": "AFortScriptedActionManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActiveScriptedActions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "AvailableScriptedActions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAvailableScriptedAction"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PendingAvailableScriptedActions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAvailableScriptedAction"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "PendingClientEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortClientEventName"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsProcessingClientEvent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,1062 @@
+{
+    "name": "GameDataSTW",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultHeroName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QuickBarDefinitions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "QuickBarData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScoreDisplayFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ScoreDivisor",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "XPMult",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "GroupScoreRates",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ScoreToXPLinearRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "LinearEnd",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "XpPerAccountLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "CriticalMatch_XpBonusPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "PersonalBoost_XpBonusPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "GroupBoost_XpBonusPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "GroupBoost_BuffMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "Rest_XpBonusPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LowXpConningValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "VeryLowXpConningValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "NoXpConningValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "FullXpConningMsg",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "LowXpConningMsg",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "VeryLowXpConningMsg",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "NoXpConningMsg",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "MaxCraftQueueSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "OnboardingCompleteZoneObjective",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 29,
+            "name": "ArmoryCollectionBookGatingQuestObjectiveStat",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 30,
+            "name": "PowerPointToRatingConversion",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 31,
+            "name": "GameDifficultyRowPIE",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 32,
+            "name": "HUDVisibilityGameplayTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SettingsHUDVisibilityAndText"
+                }
+            }
+        },
+        {
+            "index": 33,
+            "name": "DefaultInventoryList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemDefinitionAndCount"
+                }
+            }
+        },
+        {
+            "index": 34,
+            "name": "FastLoadDefaultInventoryList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemDefinitionAndCount"
+                }
+            }
+        },
+        {
+            "index": 35,
+            "name": "StatMappings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortReplicatedStatMapping"
+                }
+            }
+        },
+        {
+            "index": 36,
+            "name": "SquadMemberStatBonusMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "PlayerIdleWarningSound",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "ExpeditionUnlockedTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 39,
+            "name": "ExpeditionVehicleTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 40,
+            "name": "DailyMissionAlertQuota",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "ConditionalFoundationQuota",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConditionalFoundationQuota"
+            }
+        },
+        {
+            "index": 42,
+            "name": "MinLevelToPromoteItem",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "LevelsPerItemPromotion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "MaxPromotionsPerItem",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "TestEncounter",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "CombatManager",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "UIMapManagerSTW",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "DefaultStWLobbyMusic",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "StWAnalyticsItemExclusionData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "DefaultDamageReceiverClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "AccountInventoryBonusToken",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "WorldInventoryBonusToken",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "FounderChatUnlockToken",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "ScoreStylingData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "ScoreMultiplierDataTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "StWSoundMix",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "HarvestingTools",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 59,
+            "name": "DefaultPlayerSpawnPadPlacementData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPlayerSpawnPadPlacementData"
+            }
+        },
+        {
+            "index": 60,
+            "name": "DefaultCharacterPartOverridesPerPawnClass",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DefaultCharacterPartsForPawnClass"
+                }
+            }
+        },
+        {
+            "index": 61,
+            "name": "CampaignPlayerPawnClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 62,
+            "name": "AIGoalManagerClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "SharedMissionListsClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "FORTAttributeToPowerMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "BluGloItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "CriticalMissionRewardItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 67,
+            "name": "ScoreBonusMultiplerItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 68,
+            "name": "GenericCampaignEventCurrency",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "BackpackItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "MissionRewardPackItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 71,
+            "name": "OutpostRefundDialogTitle",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "OutpostRefundDialogText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "OutpostRefundButtonText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 74,
+            "name": "FortHeroData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "FortItemGlobalData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "AlterationMigrationMapping",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "AlterationIntrinsicMapping",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "AlterationNamedExclusions",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "AlterationGroups",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "AlterationSlotDefinitions",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "AlterationSlotsLoadouts",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "BasePromotionCosts",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "LootTierDataTablesSTW",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TagRestrictedTable"
+                }
+            }
+        },
+        {
+            "index": 84,
+            "name": "LootPackageDataTablesSTW",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TagRestrictedTable"
+                }
+            }
+        },
+        {
+            "index": 85,
+            "name": "WaveSetCollectionData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "WaveSetData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "ModifierSetData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "WaveSetCollectionLootData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "PlayerStatClampingData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "NonGameplayRelevantTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 91,
+            "name": "CraftingTimeTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "DefaultCraftingSuccessSound",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 93,
+            "name": "TeamStatsGameplayEffect",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 94,
+            "name": "DailyRewardSchedules",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 95,
+            "name": "ExpeditionCriteriaRequirementsData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 96,
+            "name": "DifficultyData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 97,
+            "name": "RewardOverrides",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "ItemToQuestDataTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "IronCityMatchmakingBuckets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "IronCityMatchmakingBuckets"
+                }
+            }
+        },
+        {
+            "index": 102,
+            "name": "IronCityDifficultyTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "QuestObjectiveStatData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 104,
+            "name": "XPAccountLevelsTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 105,
+            "name": "PostMaxAccountLevelRewardsTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 106,
+            "name": "PhoenixLevelRewardsTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 107,
+            "name": "PostMaxPhoenixLevelRewardsTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 109,
+            "name": "PhoenixEventFlags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 110,
+            "name": "PhoenixEventOverlevelXPPerLevel",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 111,
+            "name": "PhoenixXpItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 112,
+            "name": "XPAccountItemLevelsTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 113,
+            "name": "XPAccountItemRewardsTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 114,
+            "name": "XPConningTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 115,
+            "name": "WeaponAlterationRarityMappingTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 117,
+            "name": "OnboardingQuestItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 118,
+            "name": "ManualSurvivorSlottingQuestItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 119,
+            "name": "ArmoryCollectionBookGatingQuestItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 120,
+            "name": "ArmoryResourcesGatingQuestItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 121,
+            "name": "QuestAchievementData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 122,
+            "name": "SkillPointItemDef",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 123,
+            "name": "ResearchPointItemDef",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 124,
+            "name": "CheatInventoryItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 125,
+            "name": "TheaterMapViewerClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 126,
+            "name": "MissionAlertCategories",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 127,
+            "name": "MyFortData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 128,
+            "name": "HomebaseManager",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 129,
+            "name": "CollectionBookData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 130,
+            "name": "SurvivorData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 131,
+            "name": "OutpostData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 132,
+            "name": "AIDirectorSTW",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 133,
+            "name": "FeedbackManagerClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 134,
+            "name": "BluGloManagerClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 135,
+            "name": "UIFeedbackBankSTW",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 136,
+            "name": "StatEventManagerClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 137,
+            "name": "DefaultHero",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 138,
+            "name": "ThreatVisualsManager",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 139,
+            "name": "WindManager",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 140,
+            "name": "GenericPlayerAbilitySet",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 141,
+            "name": "SquadMemberStatBonusGE",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 142,
+            "name": "TeamTrapBonusGE",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 143,
+            "name": "BASEClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 144,
+            "name": "MissionVoteNotificationClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 145,
+            "name": "SessionXPCurveTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 146,
+            "name": "TieredWavesDefenseReqTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 147,
+            "name": "ExpeditionMasterWidgetClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 148,
+            "name": "FortTimeOfDayData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 149,
+            "name": "FrontendGameStateComponents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 150,
+            "name": "MusicManager",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 151,
+            "name": "MusicManagerBank",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 152,
+            "name": "ItemWrapConfigAsset",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

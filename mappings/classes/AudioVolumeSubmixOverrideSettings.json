@@ -1,0 +1,29 @@
+{
+    "name": "AudioVolumeSubmixOverrideSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Submix",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SubmixEffectChain",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CrossfadeTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

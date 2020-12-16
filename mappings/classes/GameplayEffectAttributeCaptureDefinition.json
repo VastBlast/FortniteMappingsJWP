@@ -1,0 +1,28 @@
+{
+    "name": "GameplayEffectAttributeCaptureDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AttributeToCapture",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAttribute"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttributeSource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayEffectAttributeCaptureSource"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSnapshot",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

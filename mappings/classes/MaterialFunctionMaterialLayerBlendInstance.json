@@ -1,0 +1,104 @@
+{
+    "name": "MaterialFunctionMaterialLayerBlendInstance",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Parent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Base",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScalarParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ScalarParameterValue"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "VectorParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VectorParameterValue"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "TextureParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TextureParameterValue"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "FontParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FontParameterValue"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "StaticSwitchParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "StaticSwitchParameter"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "StaticComponentMaskParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "StaticComponentMaskParameter"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "RuntimeVirtualTextureParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RuntimeVirtualTextureParameterValue"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "MaterialFunctionUsage",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMaterialFunctionUsage"
+            }
+        }
+    ]
+}

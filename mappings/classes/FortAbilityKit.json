@@ -19,6 +19,13 @@
             }
         },
         {
+            "index": 2,
+            "name": "TooltipDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
             "index": 3,
             "name": "IconBrush",
             "mapping_type": {
@@ -40,7 +47,7 @@
             "mapping_type": {
                 "type": "ArrayProperty",
                 "sub_type": {
-                    "type": "ObjectProperty"
+                    "type": "SoftObjectProperty"
                 }
             }
         },
@@ -56,8 +63,42 @@
             }
         },
         {
+            "index": 7,
+            "name": "AddedSchematics",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "RemovedSchematics",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
             "index": 9,
             "name": "Tooltip",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SummaryTooltip",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "StatList",
             "mapping_type": {
                 "type": "ObjectProperty"
             }
@@ -81,6 +122,77 @@
                     "type": "StructProperty",
                     "struct_type": "GameplayEffectApplicationInfoHard"
                 }
+            }
+        },
+        {
+            "index": 14,
+            "name": "AbilityActivatedByInputKeyTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AbilityActivatedByInputTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 16,
+            "name": "AbilityActivatedByInputCooldownTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bShouldHotbarKeysForceExitBuildMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "AbilitiesActivatedByInput",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AbilityActivatedByInputData"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "AdditionalItemsToAdd",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 20,
+            "name": "PassiveGameplayEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectApplicationInfo"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "AnalyticsTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
             }
         }
     ]

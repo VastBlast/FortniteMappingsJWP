@@ -1,0 +1,30 @@
+{
+    "name": "FortItemWrapOverrideComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ReplicatedItemWrapOverride",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentOverrideHardRef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VariantInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpVariantChannelInfo"
+                }
+            }
+        }
+    ]
+}

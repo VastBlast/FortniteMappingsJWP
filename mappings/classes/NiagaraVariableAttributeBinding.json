@@ -1,0 +1,51 @@
+{
+    "name": "NiagaraVariableAttributeBinding",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ParamMapVariable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableBase"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DataSetVariable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariable"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RootVariable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariable"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BindingSourceMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraBindingSource"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bBindingExistsOnSource",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsCachedParticleValue",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

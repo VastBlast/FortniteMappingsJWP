@@ -1,0 +1,50 @@
+{
+    "name": "CompositionGraphCaptureProtocol",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IncludeRenderPasses",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CompositionGraphCapturePasses"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bCaptureFramesInHDR",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HDRCompressionQuality",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CaptureGamut",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHDRCaptureGamut"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PostProcessingMaterial",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bDisableScreenPercentage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

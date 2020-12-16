@@ -1,0 +1,55 @@
+{
+    "name": "BrushBuilder",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BitmapFilename",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Tooltip",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Vertices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "Polys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BuilderPoly"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Layer",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MergeCoplanars",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

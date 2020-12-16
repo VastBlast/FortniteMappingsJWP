@@ -1,0 +1,95 @@
+{
+    "name": "AFortAthenaMutator_LoadoutSwap",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GamePhaseToStart",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaGamePhase"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Loadouts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlayerLoadout"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bRandomizeLoadOuts",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AreLoadoutsRandomized",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WarningTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ServerWorldTimeOfNextSwap",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NextItemsToGrant",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlayerLoudoutEntry"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "RemainingLoadouts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "ItemstoAlwaysRemove",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ItemsWithInfiniteAmmo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "AutomationPerfMonitorManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DesiredStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bRecording",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TimeSinceLastRecord",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LastGoodFrame",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

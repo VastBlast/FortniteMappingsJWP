@@ -1,0 +1,27 @@
+{
+    "name": "AOnlineBeaconClient",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BeaconOwner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BeaconConnection",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ConnectionState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBeaconConnectionState"
+            }
+        }
+    ]
+}

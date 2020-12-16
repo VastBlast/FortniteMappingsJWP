@@ -1,0 +1,28 @@
+{
+    "name": "AFortPlayspace",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bSubscribeToMeshNetwork",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UserAcceptanceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPlayspaceUserAcceptanceType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MatchmakingSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPlayspaceMatchmakingSettings"
+            }
+        }
+    ]
+}

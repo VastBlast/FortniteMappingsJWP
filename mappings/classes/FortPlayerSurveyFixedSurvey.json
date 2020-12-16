@@ -1,0 +1,34 @@
+{
+    "name": "FortPlayerSurveyFixedSurvey",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Description",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPlayerSurveyDescription"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Questions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "Answers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlayerSurveyAnswer"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "ConcertSyncEventRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EventType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertSyncActivityEventType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EventId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

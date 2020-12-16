@@ -2,6 +2,17 @@
     "name": "FortHeroSpecialization",
     "properties": [
         {
+            "index": 0,
+            "name": "SpecializationSlots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortSpecializationSlot"
+                }
+            }
+        },
+        {
             "index": 1,
             "name": "CharacterParts",
             "mapping_type": {
@@ -17,6 +28,47 @@
             "mapping_type": {
                 "type": "EnumProperty",
                 "enum_type": "EFortAlteration"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AttributeRequirements",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HeroSpecializationAttributeRequirement"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "RequiredTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bForceShowHeadAccessory",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bForceShowBackpack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CardIconBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
             }
         }
     ]

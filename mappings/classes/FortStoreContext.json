@@ -1,0 +1,69 @@
+{
+    "name": "FortStoreContext",
+    "properties": [
+        {
+            "index": 4,
+            "name": "Offers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CardPackOffer"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "NextStoreRefresh",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CardList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Card"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "CardIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "OpenedCardPack",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OpenedCardPack"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LastCardRarity",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRarity"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PurchasedItemList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Card"
+                }
+            }
+        }
+    ]
+}

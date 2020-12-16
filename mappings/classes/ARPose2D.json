@@ -1,0 +1,34 @@
+{
+    "name": "ARPose2D",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SkeletonDefinition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ARSkeletonDefinition"
+            }
+        },
+        {
+            "index": 1,
+            "name": "JointLocations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector2D"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "IsJointTracked",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        }
+    ]
+}

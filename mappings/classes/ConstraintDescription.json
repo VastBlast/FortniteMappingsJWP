@@ -1,0 +1,57 @@
+{
+    "name": "ConstraintDescription",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bTranslation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bParent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TranslationAxes",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilterOptionPerAxis"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RotationAxes",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilterOptionPerAxis"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ScaleAxes",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilterOptionPerAxis"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "AIHotSpotConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Slots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AIHotSpotSlotConfig"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bDetectUnreachableSlots",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SlotGenerator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

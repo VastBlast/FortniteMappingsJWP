@@ -1,0 +1,78 @@
+{
+    "name": "ProjectileHomingData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HomingStyle",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortHomingStyle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinTurnSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxTurnSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RampTimeFromMinToMaxTurnSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LockTargetDistanceThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RandomSeed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "LockedOnTarget",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LockedOnTargetPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TargetOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ResetTurnSpeedTimer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

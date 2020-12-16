@@ -1,0 +1,29 @@
+{
+    "name": "FortAbilityTagRelationship",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AbilityTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AbilityTagsToBlock",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AbilityTagsToCancel",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

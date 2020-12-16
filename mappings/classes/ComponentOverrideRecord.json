@@ -1,0 +1,35 @@
+{
+    "name": "ComponentOverrideRecord",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ComponentClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ComponentTemplate",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ComponentKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ComponentKey"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CookedComponentInstancingData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlueprintCookedComponentInstancingData"
+            }
+        }
+    ]
+}

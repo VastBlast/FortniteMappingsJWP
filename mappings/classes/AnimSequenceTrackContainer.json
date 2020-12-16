@@ -1,0 +1,26 @@
+{
+    "name": "AnimSequenceTrackContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AnimationTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RawAnimSequenceTrack"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TrackNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

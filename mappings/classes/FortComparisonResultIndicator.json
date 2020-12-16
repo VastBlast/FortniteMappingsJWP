@@ -1,0 +1,36 @@
+{
+    "name": "FortComparisonResultIndicator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bShouldCollapseWhenNotShown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ComparisonResult",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBuffState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MultiSizeBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMultiSizeBrush"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BrushSize",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBrushSize"
+            }
+        }
+    ]
+}

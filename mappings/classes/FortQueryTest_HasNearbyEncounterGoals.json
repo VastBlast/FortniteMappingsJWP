@@ -1,0 +1,20 @@
+{
+    "name": "FortQueryTest_HasNearbyEncounterGoals",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bOnlyActiveEncounters",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TestDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        }
+    ]
+}

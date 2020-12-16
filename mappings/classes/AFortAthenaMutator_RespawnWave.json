@@ -1,0 +1,40 @@
+{
+    "name": "AFortAthenaMutator_RespawnWave",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultWaveTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WaveTeamImbalanceTimeMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinRespawnWindowTimeReamining",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WaveDataArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAthenaMutator_RespawnWaveTeamData"
+                }
+            }
+        }
+    ]
+}

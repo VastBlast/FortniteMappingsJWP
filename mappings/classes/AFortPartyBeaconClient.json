@@ -1,0 +1,34 @@
+{
+    "name": "AFortPartyBeaconClient",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PendingEmptyReservation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EmptyServerReservation"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ReconnectionInitialTimeout",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ReconnectionTimeout",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bHasReconnected",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

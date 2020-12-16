@@ -1,0 +1,23 @@
+{
+    "name": "CustomProfile",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CustomResponses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ResponseChannel"
+                }
+            }
+        }
+    ]
+}

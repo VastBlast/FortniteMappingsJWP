@@ -1,0 +1,42 @@
+{
+    "name": "BuildingTurretComponent_MOBA",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TargetingPriority",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MOBATurretPrioritySetting"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OnFireTagTrigger",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FiringInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrentTargetValidationInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bPerformPeriodicValidationOnCurrentTarget",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

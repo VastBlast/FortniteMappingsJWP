@@ -1,0 +1,175 @@
+{
+    "name": "FortCalendarEventInventoryTransformData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CalendarChannelName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CalendarEventName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AllowedProfileTypes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "PrerequisiteHomebaseProperties",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PrerequisiteQuest",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PrerequisiteObjective",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PrerequisiteIncompleteOrUngrantedQuests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "PrerequisiteUnownedItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "QuestsOnlyActiveDuringEvent",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ItemsToGrant",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "ItemsToGrantByTemplate",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortHiddenRewardQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "ConversionRecipesToRunOnEventStart",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RecipeDataTableRowHandleQuantityData"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "ConversionRecipesToRunAfterEvent",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RecipeDataTableRowHandleQuantityData"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "ItemsToRemoveAfterEvent",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "ItemsToRemoveAfterEventByTemplate",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortHiddenRewardQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "EventCurrency",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "EventCurrencyConversionFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "name": "FortItemNotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemDefs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortReceivedItemLootInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "BodyTextWrapWidth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Button_Close",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ItemPresentationGenericRewardHeader",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ItemPresentationEntry",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ItemInfoPresentationWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIsPushedOnToContentPanelStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsAlreadyOnContentPanelStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "InputPriority",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInputPriority"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bIsClosableByPlayerInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PrimaryContentSetup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryContentSetup"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "MovieSceneCameraShakeSourceTriggerChannel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "KeyTimes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FrameNumber"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "KeyValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneCameraShakeSourceTrigger"
+                }
+            }
+        }
+    ]
+}

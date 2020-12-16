@@ -1,0 +1,36 @@
+{
+    "name": "FortNonPrimaryMission",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionInfo",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ContextTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MinDifficulty",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxDifficulty",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        }
+    ]
+}

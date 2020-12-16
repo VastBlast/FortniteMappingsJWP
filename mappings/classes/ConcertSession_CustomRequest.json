@@ -1,0 +1,29 @@
+{
+    "name": "ConcertSession_CustomRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourceEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DestinationEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SerializedPayload",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionSerializedPayload"
+            }
+        }
+    ]
+}

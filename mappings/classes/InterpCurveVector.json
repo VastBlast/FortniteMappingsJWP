@@ -1,0 +1,30 @@
+{
+    "name": "InterpCurveVector",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Points",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "InterpCurvePointVector"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIsLooped",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LoopKeyOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

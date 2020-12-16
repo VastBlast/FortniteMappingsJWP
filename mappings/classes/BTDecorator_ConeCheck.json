@@ -1,0 +1,72 @@
+{
+    "name": "BTDecorator_ConeCheck",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ConeHalfAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ConeOrigin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ConeDirection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Observed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bInverseCondition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FlowAbortMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBTFlowAbortMode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NodeName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TreeAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ParentNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

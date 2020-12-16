@@ -1,0 +1,207 @@
+{
+    "name": "AbilitySystemComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultStartingData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AttributeDefaults"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnedAttributes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "AffectedAnimInstanceTag",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OutgoingDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "IncomingDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ClientDebugStrings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "ServerDebugStrings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "UserAbilityActivationInhibited",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ReplicationProxyEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bSuppressGrantAbility",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bSuppressGameplayCues",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SpawnedTargetActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "OwnerActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AvatarActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ActivatableAbilities",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilitySpecContainer"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AllReplicatedInstancedAbilities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "RepAnimMontageInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilityRepAnimMontage"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bCachedIsNetSimulated",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bPendingMontageRep",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "LocalAnimMontageInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilityLocalAnimMontage"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ActiveGameplayEffects",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActiveGameplayEffectsContainer"
+            }
+        },
+        {
+            "index": 21,
+            "name": "ActiveGameplayCues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActiveGameplayCueContainer"
+            }
+        },
+        {
+            "index": 22,
+            "name": "MinimalReplicationGameplayCues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActiveGameplayCueContainer"
+            }
+        },
+        {
+            "index": 24,
+            "name": "MinimalReplicationTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MinimalReplicationTagCountMap"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ReplicatedPredictionKeyMap",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ReplicatedPredictionKeyMap"
+            }
+        }
+    ]
+}

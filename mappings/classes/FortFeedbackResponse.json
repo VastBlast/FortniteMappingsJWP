@@ -1,0 +1,21 @@
+{
+    "name": "FortFeedbackResponse",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Handle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortFeedbackHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Context",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFeedbackContext"
+            }
+        }
+    ]
+}

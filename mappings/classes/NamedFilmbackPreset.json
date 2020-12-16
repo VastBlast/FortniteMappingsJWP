@@ -1,0 +1,20 @@
+{
+    "name": "NamedFilmbackPreset",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Name",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FilmbackSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CameraFilmbackSettings"
+            }
+        }
+    ]
+}

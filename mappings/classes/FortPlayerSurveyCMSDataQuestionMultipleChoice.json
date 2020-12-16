@@ -1,0 +1,31 @@
+{
+    "name": "FortPlayerSurveyCMSDataQuestionMultipleChoice",
+    "properties": [
+        {
+            "index": 0,
+            "name": "C",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlayerSurveyCMSDataQuestionChoice"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "S",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPlayerSurveyCMSDataPresentationStyle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "T",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

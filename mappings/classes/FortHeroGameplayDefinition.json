@@ -1,0 +1,55 @@
+{
+    "name": "FortHeroGameplayDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HeroClassGameplayDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HeroBaseStatlineTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HeroTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TierAbilityKits",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortHeroTierAbilityKit"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "HeroPerk",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortHeroGameplayPiece"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CommanderPerk",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortHeroGameplayPiece"
+            }
+        }
+    ]
+}

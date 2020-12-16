@@ -1,0 +1,64 @@
+{
+    "name": "SavedSpectatorCameraShot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CameraState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SavedSpectatorCameraState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIsShotStart",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Timestamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ShotLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Message",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LocalisedMessage",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NotificationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECameraShotNotificationTypes"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MessageUISettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NotificationUISettings"
+            }
+        }
+    ]
+}

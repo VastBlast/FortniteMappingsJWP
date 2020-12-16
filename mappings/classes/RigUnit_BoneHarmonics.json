@@ -1,0 +1,93 @@
+{
+    "name": "RigUnit_BoneHarmonics",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Bones",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RigUnit_BoneHarmonics_BoneTarget"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "WaveSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WaveFrequency",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WaveAmplitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WaveOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "WaveNoise",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "WaveEase",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigAnimEasingType"
+            }
+        },
+        {
+            "index": 7,
+            "name": "WaveMinimum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "WaveMaximum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RotationOrder",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigRotationOrder"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bPropagateToChildren",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

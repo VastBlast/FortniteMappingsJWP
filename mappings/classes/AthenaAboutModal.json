@@ -1,0 +1,57 @@
+{
+    "name": "AthenaAboutModal",
+    "properties": [
+        {
+            "index": 1,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Entries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "HeroImage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScrollBox_Content",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Image_Item",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Button_Accept",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Button_CloseMobile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

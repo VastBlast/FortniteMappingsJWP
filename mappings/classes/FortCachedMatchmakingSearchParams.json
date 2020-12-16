@@ -1,0 +1,28 @@
+{
+    "name": "FortCachedMatchmakingSearchParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MatchmakingType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMatchmakingType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MatchmakingParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MatchmakingParams"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bValid",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

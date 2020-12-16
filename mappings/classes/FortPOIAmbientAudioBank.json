@@ -1,0 +1,24 @@
+{
+    "name": "FortPOIAmbientAudioBank",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Loops",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPOIAmbientAudioLoop"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Oneshots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPOIAmbientAudioOneShot"
+                }
+            }
+        }
+    ]
+}

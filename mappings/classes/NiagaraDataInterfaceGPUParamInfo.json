@@ -1,0 +1,30 @@
+{
+    "name": "NiagaraDataInterfaceGPUParamInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DataInterfaceHLSLSymbol",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DIClassName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GeneratedFunctions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraDataInterfaceGeneratedFunction"
+                }
+            }
+        }
+    ]
+}

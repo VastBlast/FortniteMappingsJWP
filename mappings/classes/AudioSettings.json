@@ -1,0 +1,190 @@
+{
+    "name": "AudioSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultSoundClassName",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultMediaSoundClassName",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultSoundConcurrencyName",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DefaultBaseSoundMix",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 4,
+            "name": "VoiPSoundClass",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MasterSubmix",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ReverbSubmix",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EQSubmix",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 8,
+            "name": "VoiPSampleRate",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVoiceSampleRate",
+                "enumType": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DefaultReverbSendLevel",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MaximumConcurrentStreams",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "GlobalMinPitchScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "GlobalMaxPitchScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "QualityLevels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AudioQualitySettings"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "bAllowPlayWhenSilent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bDisableMasterEQ",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bAllowCenterChannel3DPanning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "NumStoppingSources",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "PanningMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPanningMethod"
+            }
+        },
+        {
+            "index": 19,
+            "name": "MonoChannelUpmixMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMonoChannelUpmixMethod"
+            }
+        },
+        {
+            "index": 20,
+            "name": "DialogueFilenameFormat",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "DebugSounds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundDebugEntry"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "DefaultAudioBuses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DefaultAudioBusSettings"
+                }
+            }
+        }
+    ]
+}

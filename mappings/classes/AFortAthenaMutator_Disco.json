@@ -1,0 +1,183 @@
+{
+    "name": "AFortAthenaMutator_Disco",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GoalScoreToWin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PointAccrualFrequency",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LastRespawnableSafeZone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LastSafeZone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RespawnLogicData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRespawnLogicData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LastRespawnableSafeZoneIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ControlPointAssets",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ControlPointAssetData"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ControlPointSpawnData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ControlPointSpawnData"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "GameMsg_Intro",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 16,
+            "name": "GameMsg_FirstCapturePointsEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 17,
+            "name": "GameMsg_SecondCapturePointsEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 18,
+            "name": "GameMsg_ThirdCapturePointsEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 19,
+            "name": "GameMsg_LastCapturePointsEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 20,
+            "name": "GameMsg_CapturePointsEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 21,
+            "name": "GameMsg_CapturePointsDisabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 22,
+            "name": "GameMsg_EnemyCapturedAllPoints",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 23,
+            "name": "GameMsg_AlliesCapturedAllPoints",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 24,
+            "name": "GameMsg_AllyCapturePointLost",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 25,
+            "name": "GameMsg_EnemyAboutToWin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 26,
+            "name": "GameMsg_AlliesAboutToWin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 27,
+            "name": "GameMsg_NoMoreRespawnsWarning",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 28,
+            "name": "GameMsg_NoMoreRespawns",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "name": "FortMissionRecord",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionEntry",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMissionEntry"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DayGenerated",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UIIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "QuestOwnerAccount",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MissionStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMissionStatus"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ObjectiveRecords",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortObjectiveRecord"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "MissionData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "MissionGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        }
+    ]
+}

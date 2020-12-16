@@ -1,0 +1,61 @@
+{
+    "name": "FortRegionInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RegionName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UniqueId",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RegionTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Requirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRequirementsInfo"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MissionAlertRequirements",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMissionAlertRequirementsInfo"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "MissionData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTheaterMapMissionData"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RegionThemeIcon",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

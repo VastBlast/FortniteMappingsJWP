@@ -1,0 +1,43 @@
+{
+    "name": "WaterBodyHeightmapSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BlendMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWaterBrushBlendType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bInvertShape",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FalloffSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WaterFalloffSettings"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Effects",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WaterBrushEffects"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

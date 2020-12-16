@@ -1,0 +1,42 @@
+{
+    "name": "ALobbyBeaconPlayerState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UniqueId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PartyOwnerUniqueId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bInLobby",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ClientActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

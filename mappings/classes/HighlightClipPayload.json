@@ -1,0 +1,100 @@
+{
+    "name": "HighlightClipPayload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UCRN_HighlightId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UCRN_StartTimestamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UCRN_Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UCRN_GameplayFeatures",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "UCRN_GameplayScore",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "UCRN_SocialMeta",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UnicornSocialMetaPayload"
+            }
+        },
+        {
+            "index": 6,
+            "name": "UCRN_NetworkingFidelityAverage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "UCRN_POITags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "UCRN_FollowingPlayerKill_VictimGameplayInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VictimGameplayInfoPayload"
+            }
+        },
+        {
+            "index": 9,
+            "name": "UCRN_FollowingPlayerDeath_VictimGameplayInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VictimGameplayInfoPayload"
+            }
+        },
+        {
+            "index": 10,
+            "name": "UCRN_UnicornTags",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

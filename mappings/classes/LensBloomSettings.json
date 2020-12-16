@@ -1,0 +1,29 @@
+{
+    "name": "LensBloomSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GaussianSum",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GaussianSumBloomSettings"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Convolution",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConvolutionBloomSettings"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Method",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBloomMethod"
+            }
+        }
+    ]
+}

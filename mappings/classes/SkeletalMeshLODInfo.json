@@ -1,0 +1,132 @@
+{
+    "name": "SkeletalMeshLODInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScreenSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LODHysteresis",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LODMaterialMap",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "BuildSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SkeletalMeshBuildSettings"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ReductionSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SkeletalMeshOptimizationSettings"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BonesToRemove",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BoneReference"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "BonesToPrioritize",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BoneReference"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "WeightOfPrioritization",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "BakePose",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "BakePoseOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SourceImportFilename",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SkinCacheUsage",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESkinCacheUsage"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bHasBeenSimplified",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bHasPerLODVertexColors",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bAllowCPUAccess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bSupportUniformlyDistributedSampling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

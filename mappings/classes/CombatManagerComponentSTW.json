@@ -1,0 +1,71 @@
+{
+    "name": "CombatManagerComponentSTW",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ReplicatedCombatEventHeat",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "CombatEventHeat",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "CombatFactors",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 68,
+            "name": "CurrentTotalHeat",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "MaximumTotalHeat",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "MaxHeatEver",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "Events",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CombatEventData"
+            }
+        },
+        {
+            "index": 101,
+            "name": "Factors",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CombatFactorData"
+            }
+        },
+        {
+            "index": 113,
+            "name": "Thresholds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CombatThresholdData"
+            }
+        }
+    ]
+}

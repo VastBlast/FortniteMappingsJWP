@@ -1,0 +1,42 @@
+{
+    "name": "TimeSynthQuantizationSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BeatsPerMinute",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BeatsPerBar",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BeatDivision",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETimeSynthBeatDivision"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EventDelaySeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GlobalQuantization",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETimeSynthEventQuantization"
+            }
+        }
+    ]
+}

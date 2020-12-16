@@ -1,0 +1,20 @@
+{
+    "name": "VkResolvedModule",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ModuleId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Binaries",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VkModuleBinaries"
+            }
+        }
+    ]
+}

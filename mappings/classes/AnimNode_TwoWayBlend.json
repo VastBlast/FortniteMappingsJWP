@@ -1,0 +1,81 @@
+{
+    "name": "AnimNode_TwoWayBlend",
+    "properties": [
+        {
+            "index": 0,
+            "name": "A",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseLink"
+            }
+        },
+        {
+            "index": 1,
+            "name": "B",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseLink"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AlphaInputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimAlphaInputType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAlphaBoolEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bResetChildOnActivation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Alpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AlphaScaleBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBias"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AlphaBoolBlend",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputAlphaBoolBlend"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AlphaCurveName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "AlphaScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        }
+    ]
+}

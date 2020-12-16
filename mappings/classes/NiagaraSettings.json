@@ -1,0 +1,52 @@
+{
+    "name": "NiagaraSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultEffectType",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QualityLevels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ComponentRendererWarningsPerClass",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "TextProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "DefaultRenderTargetFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureRenderTargetFormat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultGridFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraGpuBufferFormat"
+            }
+        }
+    ]
+}

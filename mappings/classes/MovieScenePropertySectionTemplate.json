@@ -1,0 +1,28 @@
+{
+    "name": "MovieScenePropertySectionTemplate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PropertyData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieScenePropertySectionData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CompletionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMovieSceneCompletionMode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SourceSectionPtr",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

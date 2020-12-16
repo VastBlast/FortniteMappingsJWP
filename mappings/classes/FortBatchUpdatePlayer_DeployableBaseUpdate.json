@@ -1,0 +1,28 @@
+{
+    "name": "FortBatchUpdatePlayer_DeployableBaseUpdate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AccountId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DeployableBaseItemId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CloudSaveInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCloudSaveInfo"
+            }
+        }
+    ]
+}

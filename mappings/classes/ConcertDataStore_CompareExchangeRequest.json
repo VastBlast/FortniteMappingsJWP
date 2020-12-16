@@ -1,0 +1,42 @@
+{
+    "name": "ConcertDataStore_CompareExchangeRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ExpectedVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Expected",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionSerializedPayload"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Desired",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionSerializedPayload"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Key",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TypeName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

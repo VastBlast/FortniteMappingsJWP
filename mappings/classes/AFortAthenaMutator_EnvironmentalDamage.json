@@ -1,0 +1,43 @@
+{
+    "name": "AFortAthenaMutator_EnvironmentalDamage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DamageTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DamageMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bExcludeActorsAddedToVolume",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TeamDamageFilter",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingDamageTeamFilter"
+            }
+        },
+        {
+            "index": 5,
+            "name": "EnvironmentDamageFilter",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvironmentDamageFilter"
+            }
+        }
+    ]
+}

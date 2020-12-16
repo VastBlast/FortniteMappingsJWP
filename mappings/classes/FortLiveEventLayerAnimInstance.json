@@ -1,0 +1,39 @@
+{
+    "name": "FortLiveEventLayerAnimInstance",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LiveEventLayerAnimBP",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UnderwaterSprintStopRelevancyData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CachedAnimRelevancyData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UnderwaterSwimStartRelevancyData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CachedAnimRelevancyData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        }
+    ]
+}

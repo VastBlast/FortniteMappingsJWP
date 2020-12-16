@@ -1,0 +1,144 @@
+{
+    "name": "AFortHoagieVehicle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CameraBoomDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CameraBoomHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "RotorWashObjectsTypes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "CustomUI",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VehicleSpecificUIDetails"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "CustomFuelUI",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VehicleSpecificUIDetails"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "RumbleIntensity",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "FuelComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "VehicleFuelSystemState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVehicleFuelState"
+            }
+        },
+        {
+            "index": 58,
+            "name": "FortHoagieVehicleConfigsClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "AltimeterTraceSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "RotorDamageTraceSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "MainRotorCritSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "TailRotorCritSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "SeatTransition_ToDriver",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "SeatTransition_ToPassenger",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "RotorTraceProfile",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "FoliageOverlapsBoxTag",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "ControlState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ReplicatedHeliControlState"
+            }
+        }
+    ]
+}

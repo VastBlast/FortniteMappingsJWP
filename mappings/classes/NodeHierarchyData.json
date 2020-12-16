@@ -1,0 +1,40 @@
+{
+    "name": "NodeHierarchyData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Nodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NodeObject"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Transforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "NodeNameToIndexMapping",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

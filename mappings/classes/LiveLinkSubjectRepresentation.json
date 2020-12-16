@@ -1,0 +1,20 @@
+{
+    "name": "LiveLinkSubjectRepresentation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Subject",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkSubjectName"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Role",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

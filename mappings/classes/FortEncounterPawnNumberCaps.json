@@ -1,0 +1,23 @@
+{
+    "name": "FortEncounterPawnNumberCaps",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bApplyPawnNumberCaps",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PawnCapsPerPlayerCount",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CurveTableRowHandle"
+                }
+            }
+        }
+    ]
+}

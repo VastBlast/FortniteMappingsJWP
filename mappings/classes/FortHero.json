@@ -1,0 +1,253 @@
+{
+    "name": "FortHero",
+    "properties": [
+        {
+            "index": 0,
+            "name": "hero_name",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "mode_loadouts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortSavedModeLoadout"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Refundable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OutfitVariants",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpVariantReader"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "BackblingVariants",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpVariantReader"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Specializations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "SpecializationAbilityKits",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "CharacterParts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "slotted_building_id",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "building_slot_used",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Gender",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "personality",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "set_bonus",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Portrait",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "PersonalityTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 15,
+            "name": "SetBonusTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 16,
+            "name": "squad_id",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "squad_slot_idx",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "Level",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "XP",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "item_seen",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "favorite",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "max_level_bonus",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "inventory_overflow_date",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "creation_time",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bIsPendingBeingMarkedAsSeen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bNeedsResolveMarkedAsSeen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "ItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "InstanceID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "TemplateId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "Quantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bIsLocalOnlyItem",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

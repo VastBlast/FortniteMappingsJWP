@@ -1,0 +1,23 @@
+{
+    "name": "FortPlayerSurveyCMSDataGameplayTagQuery",
+    "properties": [
+        {
+            "index": 0,
+            "name": "T",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPlayerSurveyCMSDataGameplayTagQueryExprType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "N",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

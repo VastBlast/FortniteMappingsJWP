@@ -1,0 +1,29 @@
+{
+    "name": "GooseDisplayData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LootTableName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StaticMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaterialsToSwap",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "name": "FortDeathCameraMode",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FOV",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TimeToTrackTarget",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TrackToTargetSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TransitionTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TransitionOutTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bOverrideTransitionOutTime",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TransitionParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ViewTargetTransitionParams"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bShouldAllowBlendingWhenActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bShouldAllowBlendingWhenInactive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bShouldPassViewTargetCheckOnTransition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "name": "RootMotionSource_MoveToForce",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TargetLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bRestrictSpeedToExpected",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PathOffsetCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LocalID",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AccumulateMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERootMotionAccumulateMode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "InstanceName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CurrentTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PreviousTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Status",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RootMotionSourceStatus"
+            }
+        },
+        {
+            "index": 12,
+            "name": "Settings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RootMotionSourceSettings"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bInLocalSpace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "RootMotionParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RootMotionMovementParams"
+            }
+        },
+        {
+            "index": 15,
+            "name": "FinishVelocityParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RootMotionFinishVelocitySettings"
+            }
+        }
+    ]
+}

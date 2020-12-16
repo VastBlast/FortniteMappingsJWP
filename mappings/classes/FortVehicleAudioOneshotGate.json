@@ -1,0 +1,48 @@
+{
+    "name": "FortVehicleAudioOneshotGate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GateValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Direction",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVehicleAudioTriggerDir"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FadeWhenOutsideGate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Sound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MinTimeSinceTrigger",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "InterruptFadeTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

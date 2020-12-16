@@ -1,0 +1,24 @@
+{
+    "name": "SpecialActorStatData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CategoryTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Stats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SpecialActorSingleStatData"
+                }
+            }
+        }
+    ]
+}

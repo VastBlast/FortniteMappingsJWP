@@ -1,0 +1,378 @@
+{
+    "name": "BacchusAvailablePickupButton",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemCard_BackgroundGradient",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LazyImage_AmmoIcon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Quantity_Text",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DefaultIcon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ClickMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EButtonClickMethod"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TouchMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EButtonTouchMethod"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ButtonSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ButtonDisplayScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ShowRadialProgress",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ListenedGamePlayTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 12,
+            "name": "Image_Background",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "SizeBox_ButtonSize",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "SizeBox_ImageSize",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "Image_Icon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "RadialButton_ButtonCooldown",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "Button_InternalButton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bHideWhenNotUsingTouch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bUpdatesWithHUDState",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bAlwaysShow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "OnInBuildMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 22,
+            "name": "OnInCombatMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 23,
+            "name": "OnInEditMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 24,
+            "name": "OnInCreativeMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 25,
+            "name": "OnInBattleLabMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 26,
+            "name": "IsFreeFalling",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 27,
+            "name": "IsGliding",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 28,
+            "name": "CanOpenChute",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 29,
+            "name": "InLockedBus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 30,
+            "name": "InUnlockedBus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 31,
+            "name": "OnTargeting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 32,
+            "name": "OnUsingScopeTargeting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 33,
+            "name": "OnCanTarget",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 34,
+            "name": "OnCanUseScopeTargeting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 35,
+            "name": "OnCrouching",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 36,
+            "name": "OnCanUseSecondaryAbility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 37,
+            "name": "OnDBNO",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 38,
+            "name": "OnCarryingDBNO",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 39,
+            "name": "OnCarryingHeldObject",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 40,
+            "name": "OnControllingRCPawn",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 41,
+            "name": "OnInVehicle",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 42,
+            "name": "OnDrivingVehicle",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 43,
+            "name": "OnZiplining",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBacchusHUDStateType"
+            }
+        },
+        {
+            "index": 44,
+            "name": "SizePropertyTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 45,
+            "name": "ForcedZOrder",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "ScaleBox_HUDWidgetScale",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "ElementTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 48,
+            "name": "HUDElementTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 49,
+            "name": "HiddenVisibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 50,
+            "name": "TutorialHighlight",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

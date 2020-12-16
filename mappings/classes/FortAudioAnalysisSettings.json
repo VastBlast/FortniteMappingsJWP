@@ -1,0 +1,49 @@
+{
+    "name": "FortAudioAnalysisSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultAnalysisSubmix",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ScalarParameters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AudioAnalysisParameterScalar"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "VectorParameters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AudioAnalysisParameterVector"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpectralAnalysisConfig",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AudioAnalysisSpectralAnalysisSettings"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DebugWidgetClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

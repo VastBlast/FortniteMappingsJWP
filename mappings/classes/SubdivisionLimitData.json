@@ -1,0 +1,38 @@
+{
+    "name": "SubdivisionLimitData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VertexPositions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Sections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SubdivisionLimitSection"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SubdividedWireEdges",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SubdividedWireEdge"
+                }
+            }
+        }
+    ]
+}

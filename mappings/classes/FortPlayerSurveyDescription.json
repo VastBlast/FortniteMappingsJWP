@@ -1,0 +1,27 @@
+{
+    "name": "FortPlayerSurveyDescription",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SurveyTitle",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CancelConfirmationMessage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPlayerSurveyDescriptionMessage"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultAnswer",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "FortObjectiveEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ObjectiveRef",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObjectiveRewardBadge",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MissionRequirement",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortObjectiveRequirement"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ObjectiveHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

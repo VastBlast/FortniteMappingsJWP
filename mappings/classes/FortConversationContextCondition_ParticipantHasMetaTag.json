@@ -1,0 +1,21 @@
+{
+    "name": "FortConversationContextCondition_ParticipantHasMetaTag",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ParticipantID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MetaTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

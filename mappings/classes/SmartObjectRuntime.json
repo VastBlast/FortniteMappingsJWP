@@ -1,0 +1,23 @@
+{
+    "name": "SmartObjectRuntime",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SOComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActiveUses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SmartObjectUse"
+                }
+            }
+        }
+    ]
+}

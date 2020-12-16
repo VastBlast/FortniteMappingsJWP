@@ -1,0 +1,291 @@
+{
+    "name": "FortMobileHUDLayoutToolV2",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OverlapPercentageToColapsePanels",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NonEditableHUDWidgetOpacity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PanelOpacityWhenDragedOver",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OnOpenSubPanelAnimPlaybackSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PrimaryContentSetup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryContentSetup"
+            }
+        },
+        {
+            "index": 6,
+            "name": "HudLayoutToolPopupClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "HudLayoutToolTutorialPopupClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ExitHudLayoutToolPopupContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_PopupContent"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DeleteOutOfBoundsHUDProxiesPopupContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_PopupContent"
+            }
+        },
+        {
+            "index": 10,
+            "name": "RevertAllProxiesPopupContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_PopupContent"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SwitchHUDProfileSavePopupContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_PopupContent"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SwitchHUDProfileDeletePopupContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_PopupContent"
+            }
+        },
+        {
+            "index": 13,
+            "name": "CreateNewCustomLayoutPopupContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_PopupContent"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CustomLayoutSlotsFullPopupContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_PopupContent"
+            }
+        },
+        {
+            "index": 15,
+            "name": "SuccessToasterContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_ToastNotificationContent"
+            }
+        },
+        {
+            "index": 16,
+            "name": "FailureToasterContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_ToastNotificationContent"
+            }
+        },
+        {
+            "index": 17,
+            "name": "LocalFailureToasterContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_ToastNotificationContent"
+            }
+        },
+        {
+            "index": 18,
+            "name": "CloudFailureToasterContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutToolV2_ToastNotificationContent"
+            }
+        },
+        {
+            "index": 19,
+            "name": "AnchorsCustomPropertyTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 20,
+            "name": "DoubleClickDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "VirtualCanvas_WidgetLayer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "HUDLayer_HUDWidgetProxies",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "Overlay_VirtualCanvasWorkspace",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "Grid_Visual",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "Text_ProfileName",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "Text_WidgetName",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "Text_ContextName",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "Button_Exit",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "Button_ResetVirtualCanvas",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "Button_ToggleControlPanel",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "Button_ToggleWidgetCatalog",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "CanvasPanel_ControlsContainer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "VerticalBox_ControlPanelContainer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "ControlPanel_Controls",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "ProfileSelectionPanel_Profiles",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "WidgetCatalog_Catalog",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "LinkAcrossPanel_LinkManagementWindow",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "Toaster_Notifications",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "TooltipLayer_Messages",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

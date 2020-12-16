@@ -1,0 +1,53 @@
+{
+    "name": "RigUnit_CCDIK_WorkData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Chain",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CCDIKChainLink"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoneIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "RotationLimitIndex",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "RotationLimitsPerBone",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "EffectorIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

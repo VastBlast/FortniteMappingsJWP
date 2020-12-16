@@ -1,0 +1,20 @@
+{
+    "name": "OutpostPOSTPerTheaterData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TheaterSlot",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "POSTData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OutpostPOSTBoost"
+            }
+        }
+    ]
+}

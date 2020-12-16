@@ -1,0 +1,26 @@
+{
+    "name": "ActiveGameplayEffectsContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GameplayEffects_Internal",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ActiveGameplayEffect"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ApplicationImmunityQueryEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

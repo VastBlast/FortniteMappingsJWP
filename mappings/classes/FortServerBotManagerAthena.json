@@ -1,0 +1,167 @@
+{
+    "name": "FortServerBotManagerAthena",
+    "properties": [
+        {
+            "index": 5,
+            "name": "DebugMinimapData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DebugMinimapData"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bBotHostileToHumanPlayersOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "UseAllBattleBusPOIsSquadRatio",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TagQueryWeightChance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "FindLocationsAroundPOIQuery",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "BattleBusTagQueryPOIList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BattleBusPOI"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "SecondaryBattleBusTagQueryPOIList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BattleBusPOI"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "OnGroundTagQueryPOIList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavigationPOI"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "ConstructionBuildingInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConstructionBuildingInfo"
+            }
+        },
+        {
+            "index": 19,
+            "name": "UseCustomSupportedItemList",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 20,
+            "name": "BotItemDataTable",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "UseRegionalNameList",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 22,
+            "name": "BotNameDataAsset",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ThankBusDriverProbability",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ThankBusDriverMinTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ThankBusDriverMaxTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 26,
+            "name": "MaxNumberOfBotsToSpawnAroundPlayer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 27,
+            "name": "MaxAroundBotDistanceToSearchPOIToLand",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "DeadBotCleanupMinDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "BotsUniqueIDUseValidAccountID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

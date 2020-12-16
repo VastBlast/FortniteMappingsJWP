@@ -14,6 +14,452 @@
             "mapping_type": {
                 "type": "BoolProperty"
             }
+        },
+        {
+            "index": 2,
+            "name": "bAttenuateWithLPF",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bEnableListenerFocus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bEnableFocusInterpolation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnableOcclusion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseComplexCollisionForOcclusion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bEnableReverbSend",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bEnablePriorityAttenuation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bApplyNormalizationToStereoSounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bEnableLogFrequencyScaling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bEnableSubmixSends",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SpatializationAlgorithm",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESoundSpatializationAlgorithm"
+            }
+        },
+        {
+            "index": 13,
+            "name": "BinauralRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "AbsorptionMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAirAbsorptionMethod"
+            }
+        },
+        {
+            "index": 15,
+            "name": "OcclusionTraceChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionChannel"
+            }
+        },
+        {
+            "index": 16,
+            "name": "ReverbSendMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EReverbSendMethod"
+            }
+        },
+        {
+            "index": 17,
+            "name": "PriorityAttenuationMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPriorityAttenuationMethod"
+            }
+        },
+        {
+            "index": 18,
+            "name": "OmniRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "StereoSpread",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LPFRadiusMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "LPFRadiusMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "CustomLowpassAirAbsorptionCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 23,
+            "name": "CustomHighpassAirAbsorptionCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 24,
+            "name": "LPFFrequencyAtMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "LPFFrequencyAtMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "HPFFrequencyAtMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "HPFFrequencyAtMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "FocusAzimuth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "NonFocusAzimuth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "FocusDistanceScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "NonFocusDistanceScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "FocusPriorityScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "NonFocusPriorityScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "FocusVolumeAttenuation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "NonFocusVolumeAttenuation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "FocusAttackInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "FocusReleaseInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "OcclusionLowPassFilterFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "OcclusionVolumeAttenuation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "OcclusionInterpolationTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "ReverbWetLevelMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "ReverbWetLevelMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "ReverbDistanceMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "ReverbDistanceMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "ManualReverbSendLevel",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "CustomReverbSendCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 47,
+            "name": "SubmixSendSettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AttenuationSubmixSendSettings"
+                }
+            }
+        },
+        {
+            "index": 48,
+            "name": "PriorityAttenuationMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "PriorityAttenuationMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "PriorityAttenuationDistanceMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "PriorityAttenuationDistanceMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "ManualPriorityAttenuation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "CustomPriorityAttenuationCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 54,
+            "name": "PluginSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundAttenuationPluginSettings"
+            }
+        },
+        {
+            "index": 55,
+            "name": "DistanceAlgorithm",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttenuationDistanceModel"
+            }
+        },
+        {
+            "index": 56,
+            "name": "AttenuationShape",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttenuationShape"
+            }
+        },
+        {
+            "index": 57,
+            "name": "dBAttenuationAtMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "FalloffMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENaturalSoundFalloffMode"
+            }
+        },
+        {
+            "index": 59,
+            "name": "AttenuationShapeExtents",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 60,
+            "name": "ConeOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "FalloffDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "CustomAttenuationCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
         }
     ]
 }

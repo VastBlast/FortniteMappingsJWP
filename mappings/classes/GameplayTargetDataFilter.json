@@ -1,0 +1,34 @@
+{
+    "name": "GameplayTargetDataFilter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SelfActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RequiredActorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SelfFilter",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETargetDataFilterSelf"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bReverseFilter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "AFortAthenaMutator_ResourceRateOverride",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ResourceRateOverrideIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ResourceRateOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

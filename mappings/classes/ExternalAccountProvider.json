@@ -1,0 +1,16 @@
+{
+    "name": "ExternalAccountProvider",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Services",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ExternalAccountServiceConfig"
+                }
+            }
+        }
+    ]
+}

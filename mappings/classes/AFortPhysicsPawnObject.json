@@ -1,0 +1,149 @@
+{
+    "name": "AFortPhysicsPawnObject",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PhysicsMeshComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VisibleMeshComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PrimarySurfaceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPhysicalSurface"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WeaponResponseType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBaseWeaponDamage"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bShowDamageNumbers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bPlayDamageAudio",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PhysicsObjectTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ImpulseResponseMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ImpulseResponseZBias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TestInitialLinearVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TestInitialAngularVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 11,
+            "name": "LookAheadHit",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HitResult"
+            }
+        },
+        {
+            "index": 13,
+            "name": "DefaultHitNotifyAudioBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "PlayerCollisionGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "AttributeInitKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAttributeInitializationKey"
+            }
+        },
+        {
+            "index": 24,
+            "name": "DamageSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 32,
+            "name": "StartupAbilitySet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "ActorsObjectDiesWhenHitting",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

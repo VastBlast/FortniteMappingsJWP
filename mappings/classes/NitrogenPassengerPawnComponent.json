@@ -1,0 +1,69 @@
+{
+    "name": "NitrogenPassengerPawnComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MalePassengerStateAnimationMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "FemalePassengerStateAnimationMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bDestroyFareValueIndicatorOnDisable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FareValueIndicatorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FareValueIndicatorOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FareValueIndicator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PassengerState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENitrogenPassengerState"
+            }
+        }
+    ]
+}

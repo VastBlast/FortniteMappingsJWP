@@ -1,0 +1,228 @@
+{
+    "name": "SkeletalMesh",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Skeleton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PositiveBoundsExtension",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NegativeBoundsExtension",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SkelMirrorTable",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BoneMirrorInfo"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "LODInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SkeletalMeshLODInfo"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "MinLOD",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformInt"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DisableBelowMinLodStripping",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformBool"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SkelMirrorAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAxis"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SkelMirrorFlipAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAxis"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bUseFullPrecisionUVs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bUseHighPrecisionTangentBasis",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bHasBeenSimplified",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bHasVertexColors",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bEnablePerPolyCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "PhysicsAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "ShadowPhysicsAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "NodeMappingData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "MorphTargets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "PostProcessAnimBlueprint",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "MeshClothingAssets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 24,
+            "name": "SamplingInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SkeletalMeshSamplingInfo"
+            }
+        },
+        {
+            "index": 25,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 26,
+            "name": "Sockets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 27,
+            "name": "SkinWeightProfiles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SkinWeightProfileInfo"
+                }
+            }
+        },
+        {
+            "index": 29,
+            "name": "NumCinematicMipLevels",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "NeverStream",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bGlobalForceMipLevelsToBeResident",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

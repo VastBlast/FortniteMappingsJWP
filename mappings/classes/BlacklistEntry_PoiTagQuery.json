@@ -1,0 +1,29 @@
+{
+    "name": "BlacklistEntry_PoiTagQuery",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IsEntryDisabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ConsiderSafeZoneRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

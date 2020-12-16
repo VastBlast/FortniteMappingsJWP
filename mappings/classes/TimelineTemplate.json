@@ -1,0 +1,139 @@
+{
+    "name": "TimelineTemplate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TimelineLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LengthMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETimelineLengthMode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAutoPlay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bLoop",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bReplicated",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIgnoreTimeDilation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EventTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TTEventTrack"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "FloatTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TTFloatTrack"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "VectorTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TTVectorTrack"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "DebugPropertyTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TTDebugPropertyTrack"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "MetaDataArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BPVariableMetaDataEntry"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "TimelineTickGroup",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETickingGroup"
+            }
+        },
+        {
+            "index": 13,
+            "name": "VariableName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "DirectionPropertyName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "UpdateFunctionName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "FinishedFunctionName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

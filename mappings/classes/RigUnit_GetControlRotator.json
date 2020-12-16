@@ -1,0 +1,51 @@
+{
+    "name": "RigUnit_GetControlRotator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Control",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Space",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBoneGetterSetterMode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Rotator",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Minimum",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Maximum",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CachedControlIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

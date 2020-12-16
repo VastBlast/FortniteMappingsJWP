@@ -1,0 +1,155 @@
+{
+    "name": "FortPlayerFeedbackModal",
+    "properties": [
+        {
+            "index": 3,
+            "name": "PlayerFeedbackCategoriesToAdd",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortFeedbackDropdownCategoryHotfix_Add"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "PlayerFeedbackCategoriesToModify",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortFeedbackDropdownCategoryHotfix_Modify"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Subscreen_CategoryDisplay",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Subscreen_PlayerSelect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Subscreen_SubmitDisplay",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Subscreen_FreeText",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Subscreen_EpicQA",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Subscreen_Screenshot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SubscreenTabs",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SubscreenContainer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Text_ModalTitle",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "Button_Close",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "CloseButton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "Button_NewFeedbackReport",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "Button_Back",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bIsPushedOnToContentPanelStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bIsAlreadyOnContentPanelStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "InputPriority",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInputPriority"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bIsClosableByPlayerInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "PrimaryContentSetup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryContentSetup"
+            }
+        }
+    ]
+}

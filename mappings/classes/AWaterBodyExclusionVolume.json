@@ -1,0 +1,22 @@
+{
+    "name": "AWaterBodyExclusionVolume",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIgnoreAllOverlappingWaterBodies",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WaterBodiesToIgnore",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

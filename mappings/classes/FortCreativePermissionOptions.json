@@ -1,0 +1,117 @@
+{
+    "name": "FortCreativePermissionOptions",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentPermissionsEnum",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCreativePlotPermission"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WhitelistedUsers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeWhitelistUserEntry"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "MobileOptionListEntrySpacing",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Machine",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "OptionsList",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AcceptButton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "TextBlock_HeaderText",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "TextBlock_TitleText",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "TextBlock_DescriptionText",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "Image_DisplayImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bIsPushedOnToContentPanelStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bIsAlreadyOnContentPanelStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "InputPriority",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInputPriority"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bIsClosableByPlayerInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "PrimaryContentSetup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryContentSetup"
+            }
+        }
+    ]
+}

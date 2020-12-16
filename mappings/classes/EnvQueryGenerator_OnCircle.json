@@ -1,0 +1,133 @@
+{
+    "name": "EnvQueryGenerator_OnCircle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CircleRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpaceBetween",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumberOfPoints",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PointOnCircleSpacingMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPointOnCircleSpacingMethod"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ArcDirection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EnvDirection"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ArcAngle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AngleRadians",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CircleCenter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIgnoreAnyContextActorsWhenGeneratingCircle",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "CircleCenterZOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TraceData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EnvTraceData"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bDefineArc",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ProjectionData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EnvTraceData"
+            }
+        },
+        {
+            "index": 13,
+            "name": "OptionName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ItemType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bAutoSortTests",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "VerNum",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

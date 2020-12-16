@@ -1,0 +1,65 @@
+{
+    "name": "AthenaQuickChatLeafEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Label",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FullChatMessage",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Brush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bPopulateBrushFromContextObject",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FilterType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaQuickChatFilteringType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "EmojiItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TeamCommType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETeamMemberState"
+            }
+        },
+        {
+            "index": 7,
+            "name": "OptionGameplayTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Constraint",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TargetBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OffsetOption",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConstraintOffsetOption"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TransformType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETransformConstraintType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PerAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilterOptionPerAxis"
+            }
+        }
+    ]
+}

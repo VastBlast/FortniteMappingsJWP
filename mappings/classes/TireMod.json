@@ -1,0 +1,73 @@
+{
+    "name": "TireMod",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TireMesh",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttachTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpringTuning",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeSpringsInfo"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RoadBehavior",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeTerrainHandlingInfo"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DirtBehavior",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeTerrainHandlingInfo"
+            }
+        },
+        {
+            "index": 5,
+            "name": "GrassBehavior",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeTerrainHandlingInfo"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PoppedTireSpringLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PoppedTireSpringStiff",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PoppedTireSpringDamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "AnimLegIKDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IKFootBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FKFootBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumBonesInLimb",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinRotationAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FootBoneForwardAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAxis"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HingeRotationAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAxis"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bEnableRotationLimit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bEnableKneeTwistCorrection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

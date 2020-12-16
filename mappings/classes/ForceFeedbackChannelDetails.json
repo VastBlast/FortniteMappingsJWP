@@ -1,0 +1,41 @@
+{
+    "name": "ForceFeedbackChannelDetails",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bAffectsLeftLarge",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAffectsLeftSmall",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAffectsRightLarge",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAffectsRightSmall",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Curve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        }
+    ]
+}

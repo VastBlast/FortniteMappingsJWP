@@ -1,0 +1,31 @@
+{
+    "name": "ActionBindingVisibility",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActionNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ComparisonType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EActionBindingComparisonType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Visibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        }
+    ]
+}

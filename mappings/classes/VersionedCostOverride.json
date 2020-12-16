@@ -1,0 +1,35 @@
+{
+    "name": "VersionedCostOverride",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ClassPtr",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IntroducedVersion",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELevelSaveRecordVersion"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DeprecatedVersion",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELevelSaveRecordVersion"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OverrideCost",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

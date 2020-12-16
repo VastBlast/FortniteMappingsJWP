@@ -1,0 +1,159 @@
+{
+    "name": "ParticleModuleOrbit",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ChainMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EOrbitChainMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OffsetAmount",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionVector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OffsetOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OrbitOptions"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RotationAmount",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionVector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RotationOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OrbitOptions"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RotationRateAmount",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionVector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RotationRateOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OrbitOptions"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bUseEmitterTime",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bSpawnModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bUpdateModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bFinalUpdateModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bUpdateForGPUEmitter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bCurvesAsColor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "b3DDrawMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bSupported3DDrawMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bEditable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "LODDuplicate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bSupportsRandomSeed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bRequiresLoopingNotification",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LODValidity",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        }
+    ]
+}

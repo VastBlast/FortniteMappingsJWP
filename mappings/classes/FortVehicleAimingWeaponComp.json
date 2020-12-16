@@ -1,0 +1,306 @@
+{
+    "name": "FortVehicleAimingWeaponComp",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bShouldResetCameraHorizontallyToBarrelWhenEntered",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bShouldResetCameraVerticallyToBarrelWhenEntered",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAllowCameraLocalVerticalRotationOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AimBlendInSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AimBlendOutSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bSetDesiredPitchWhenUnmanned",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bSetDesiredYawWhenUnmanned",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bUseGlobalOnlyAiming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LocalAimOffsetWhenPitchedUp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 10,
+            "name": "LocalAimOffsetWhenPitchedFlat",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 11,
+            "name": "LocalAimOffsetWhenPitchedDown",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RotCyclesPerFullTurnHoriz",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "RotCyclesPerFullTurnVert",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bCorrectAimFromCameraToMuzzle",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bInterpolateAimToDesired",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "UnmannedDesiredPitch",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "UnmannedDesiredYaw",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "AimSourceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAbilityTargetingSource"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bApplyOwnerRotationToAimWhenUnmanned",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "MaxYawPerSecondThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "MaxPitchPerSecondThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "PitchConstraintAngleOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "AimInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "InitialCameraInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "InitialCameraLerpTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "MinDistanceForCorrection",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "MuzzleSocketNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 42,
+            "name": "WeaponSeatDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WeaponSeatDefinition"
+                }
+            }
+        },
+        {
+            "index": 43,
+            "name": "ActiveSeatIdx",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "bUseVehicleOrientationForShootingCone",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "bControlledByMultipleSeats",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "TotalShotsAllowedThenShutdown",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 57,
+            "name": "CachedWeaponOverheatData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCachedWeaponOverheatData"
+            }
+        },
+        {
+            "index": 58,
+            "name": "CachedWeaponState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehicleWeapon_RetainedData"
+            }
+        },
+        {
+            "index": 59,
+            "name": "bSaveAndRestoreWeaponData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "WeaponSkeletalMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "WeaponMeshGunComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "VehicleSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "PawnSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "AttachmentAngleOffsetYaw",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "bIsStandaloneComponent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

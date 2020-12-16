@@ -1,0 +1,306 @@
+{
+    "name": "AthenaNewsEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EntryType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaNewsEntryType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TabTitleOverride",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Title",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Body",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Image",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TileImage",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ButtonTextOverride",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AdSpace",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SpotLight",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bHidden",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SubGameFilter",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubGameFilter",
+                "enumType": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PlaylistId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bHasCustomColor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CustomDarkColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 15,
+            "name": "CustomLightColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 16,
+            "name": "SortingPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ExperimentPercent",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ExperimentId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "IncludedCountries",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "OfferId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "OfferAction",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EItemShopNavigationAction"
+            }
+        },
+        {
+            "index": 22,
+            "name": "OfferButtonText",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ChallengeCategoryTag",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "WebsiteURL",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "WebsiteButtonText",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "NavigateToTabValue",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortUIFeature"
+            }
+        },
+        {
+            "index": 27,
+            "name": "NavigateToTabButtonText",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "STWUpsellButtonText",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "VideoButtonText",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "VideoVideoString",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "VideoStreamingVideoID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "VideoFallbackVideoID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "VideoProdLinkID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "VideoGamedevLinkID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "VideoAutoplay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "VideoForceAutoplay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "VideoLoop",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "VideoMute",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "VideoFullscreen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "VideoStreamingEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "VideoUID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

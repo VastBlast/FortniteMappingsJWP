@@ -1,0 +1,273 @@
+{
+    "name": "AFortAthenaMutator_Barrier",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BigBaseWallClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObjectiveFlag",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bGameEndsWhenObjectiveIsDestroyed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FoodHeadData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BarrierHeadData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MountedTurretOverrideMaterials",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BarrierMountedTurretData"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BigBaseWall",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Team_0_State",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BarrierTeamState"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Team_1_State",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BarrierTeamState"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ObjectiveDistanceFromWall",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SafeZonePhaseToStartObjectiveDestructionTimer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ObjectiveDestructionTimer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 13,
+            "name": "StartObjectiveDamageOnSpecialEvent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ObjectiveZOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ObjectiveMaxZDiff",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 16,
+            "name": "ObjectiveMaxSpawnHeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ObjectivesSpawnSameHeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 18,
+            "name": "LavaLevelRelativeToMascot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 19,
+            "name": "ObjectiveHealthTiers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 28,
+            "name": "WallGravity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 29,
+            "name": "SafeZonePhaseWhenToBringDownWall",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 30,
+            "name": "TimeToBringDownWall",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 31,
+            "name": "RespawnLogicData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRespawnLogicData"
+            }
+        },
+        {
+            "index": 32,
+            "name": "SafeZonePhaseToTurnOffRespawning",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 33,
+            "name": "HealthToWarnAboutRespawnsAt",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 34,
+            "name": "GameMsg_Intro",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 35,
+            "name": "GameMsg_WallComingDown",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 36,
+            "name": "GameMsg_WallDown",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 37,
+            "name": "GameMsg_Objective_Destroyed_Friendly",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 38,
+            "name": "GameMsg_Objective_Destroyed_Friendly_NotGameOver",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 39,
+            "name": "GameMsg_Objective_Destroyed_Enemy",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 40,
+            "name": "GameMsg_NoMoreRespawnsWarning_Friendly",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 41,
+            "name": "GameMsg_NoMoreRespawns_Friendly",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 42,
+            "name": "GameMsg_NoMoreRespawns_Enemy",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 43,
+            "name": "GameMsg_ObjectiveDamageState_Friendly",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        }
+    ]
+}

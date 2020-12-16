@@ -1,0 +1,23 @@
+{
+    "name": "FortMinigameTeamStats",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Team",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Stats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMinigameStat"
+                }
+            }
+        }
+    ]
+}

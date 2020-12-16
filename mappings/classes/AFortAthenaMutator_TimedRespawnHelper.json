@@ -1,0 +1,36 @@
+{
+    "name": "AFortAthenaMutator_TimedRespawnHelper",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GameMsg_NoMoreRespawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RespawnAllowedTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RespawnLogicData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRespawnLogicData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ServerTimeRespawnIsDisallowed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "FortMinigameStatCollection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GroupStats",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMinigameGroupStats"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMinigamePlayerStats"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayerBucketStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMinigamePlayerBucketStats"
+                }
+            }
+        }
+    ]
+}

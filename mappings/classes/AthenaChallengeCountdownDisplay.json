@@ -1,0 +1,28 @@
+{
+    "name": "AthenaChallengeCountdownDisplay",
+    "properties": [
+        {
+            "index": 1,
+            "name": "DisplayType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECountdownDisplay"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DisplayData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimerDisplayData"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Text_TimeRemaining",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

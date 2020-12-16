@@ -1,0 +1,44 @@
+{
+    "name": "FortCurieToggleComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActivationElements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActivationBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCurieToggleComponentActivationBehavior"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DeactivationBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCurieToggleComponentDeactivationBehavior"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DeactivationTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ToggleGroup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

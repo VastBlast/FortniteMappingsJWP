@@ -1,0 +1,108 @@
+{
+    "name": "AbilityTask_ApplyRootMotionMoveToForce",
+    "properties": [
+        {
+            "index": 2,
+            "name": "StartLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TargetLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bSetNewMovementMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NewMovementMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMovementMode"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bRestrictSpeedToExpected",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PathOffsetCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ForceName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "FinishVelocityMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERootMotionFinishVelocityMode"
+            }
+        },
+        {
+            "index": 11,
+            "name": "FinishSetVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 12,
+            "name": "FinishClampVelocity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MovementComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "Ability",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AbilitySystemComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

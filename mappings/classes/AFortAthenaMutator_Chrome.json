@@ -1,0 +1,167 @@
+{
+    "name": "AFortAthenaMutator_Chrome",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TeleportingPlayersText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TraversePointClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChromeVehicleAssetIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PrimaryAssetId"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "VehicleStartSearchParam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSquadStartSearchParamData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FuelSettingGE",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ScoreToWin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseOverridingSpawnTransforms",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "OverridingSpawnTransforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "Routes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ChromeRoute"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "CountdownDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "NumOfTeamsToFinishBeforeFinalizeWinner",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 11,
+            "name": "GameMsg_ChromeInfoMessage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 12,
+            "name": "GameMsg_RaceCountdownMessage",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaGameMessageData"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "GameMsg_FinishPointReached",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ChromeSquadStarts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "FinishedPlayerStates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "TeleportMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "FinishTraversePoint",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bRaceStarted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

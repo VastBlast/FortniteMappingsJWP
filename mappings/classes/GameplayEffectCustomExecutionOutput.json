@@ -1,0 +1,37 @@
+{
+    "name": "GameplayEffectCustomExecutionOutput",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OutputModifiers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayModifierEvaluatedData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bTriggerConditionalGameplayEffects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bHandledStackCountManually",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bHandledGameplayCuesManually",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

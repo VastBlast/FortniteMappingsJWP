@@ -1,0 +1,41 @@
+{
+    "name": "FortAthenaMutator_SupplyDropSpawningPolicyData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SupplyDropInfo",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumItemsToSpawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemPlacementQuery",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ItemRemovalQuery",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RemovalQueryInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "AFortBuildingActorSpawner",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActorClassToSpawn",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QueryTemplate",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "QueryConfig",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AIDynamicParam"
+                }
+            }
+        }
+    ]
+}

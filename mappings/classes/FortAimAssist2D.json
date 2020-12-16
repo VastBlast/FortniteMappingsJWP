@@ -1,0 +1,43 @@
+{
+    "name": "FortAimAssist2D",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InputParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAimAssist2D_InputParams"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OwnerInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAimAssist2D_OwnerInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TargetCache0",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAimAssist2D_Target"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "TargetCache1",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAimAssist2D_Target"
+                }
+            }
+        }
+    ]
+}

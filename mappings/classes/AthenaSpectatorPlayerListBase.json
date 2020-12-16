@@ -1,0 +1,38 @@
+{
+    "name": "AthenaSpectatorPlayerListBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ListView",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerDataArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SortListRowHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ShowPlayerProfileRowHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        }
+    ]
+}

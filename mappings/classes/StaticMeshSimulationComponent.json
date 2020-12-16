@@ -1,0 +1,119 @@
+{
+    "name": "StaticMeshSimulationComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Simulating",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bNotifyCollisions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ObjectType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EObjectStateTypeEnum"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Mass",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CollisionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionTypeEnum"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ImplicitType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EImplicitTypeEnum"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MinLevelSetResolution",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MaxLevelSetResolution",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "InitialVelocityType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInitialVelocityTypeEnum"
+            }
+        },
+        {
+            "index": 9,
+            "name": "InitialLinearVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 10,
+            "name": "InitialAngularVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 11,
+            "name": "DamageThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PhysicalMaterial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ChaosSolverActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "SimulatedComponents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

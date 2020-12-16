@@ -1,0 +1,182 @@
+{
+    "name": "PhysicsSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PhysicErrorCorrection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigidBodyErrorCorrection"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LockedAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESettingsLockedAxis"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultDegreesOfFreedom",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESettingsDOF"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bSuppressFaceRemapTable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bSupportUVFromHitResults",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bDisableActiveActors",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bDisableKinematicStaticPairs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bDisableKinematicKinematicPairs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bDisableCCD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bEnableEnhancedDeterminism",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "AnimPhysicsMinDeltaTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bSimulateAnimPhysicsAfterReset",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "MaxPhysicsDeltaTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bSubstepping",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bSubsteppingAsync",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "MaxSubstepDeltaTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "MaxSubsteps",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "SyncSceneSmoothingFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "InitialAverageFrameRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "PhysXTreeRebuildRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "PhysicalSurfaces",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PhysicalSurfaceName"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "DefaultBroadphaseSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BroadphaseSettings"
+            }
+        },
+        {
+            "index": 22,
+            "name": "MinDeltaVelocityForHitEvents",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ChaosSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ChaosPhysicsSettings"
+            }
+        }
+    ]
+}

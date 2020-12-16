@@ -1,0 +1,84 @@
+{
+    "name": "ProceduralScatterStaticMeshContentVariation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StaticMeshMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EProceduralScatterStaticMeshMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Mesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OverrideMaterials",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "OverrideInstancingSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Weight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PivotMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EProceduralScatterContentPivotMode"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AdditionalPivotOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FootprintBoundingBoxRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SetActorTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

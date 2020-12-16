@@ -1,0 +1,115 @@
+{
+    "name": "MovieSceneSubSequenceData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Sequence",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RootToSequenceTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSequenceTransform"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TickResolution",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameRate"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DeterministicSequenceID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSequenceID"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PlayRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFrameRange"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FullPlayRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFrameRange"
+            }
+        },
+        {
+            "index": 6,
+            "name": "UnwarpedPlayRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFrameRange"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PreRollRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFrameRange"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PostRollRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFrameRange"
+            }
+        },
+        {
+            "index": 9,
+            "name": "HierarchicalBias",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bHasHierarchicalEasing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "InstanceData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSequenceInstanceDataPtr"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SubSectionSignature",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 13,
+            "name": "OuterToInnerTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSequenceTransform"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "ConcertWorkspaceSyncEndpointEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Endpoint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSyncEndpointIdAndData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumRemainingSyncEvents",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

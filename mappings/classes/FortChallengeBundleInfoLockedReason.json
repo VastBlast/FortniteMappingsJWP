@@ -1,0 +1,35 @@
+{
+    "name": "FortChallengeBundleInfoLockedReason",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ReasonCode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortChallengeBundleInfoLockedReasonCode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EventName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RequiredTier",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UnlockTimespanAfterStart",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Timespan"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "FortCustomSpawnCollectionManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PrimaryAssetIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PrimaryAssetId"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnAmountMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

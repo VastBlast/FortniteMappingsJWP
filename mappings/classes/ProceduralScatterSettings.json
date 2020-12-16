@@ -1,0 +1,293 @@
+{
+    "name": "ProceduralScatterSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Content",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bContentVariationsModifiersEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ContentVariationsModifiers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ProceduralContentVariationsModifiers"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SetPointTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "CollisionRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAutomaticCollisionRadius",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseSphericalBoundsForAutomaticCollisionRadius",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AutomaticCollisionRadiusScaleFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bDensityModifiersEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DensityModifiers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ProceduralDensityModifiers"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Density",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SourcePointTagIncludes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "SourcePointTagExcludes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "SourceActorTagIncludes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "SourceActorTagExcludes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "SourceComponentTagIncludes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "SourceComponentTagExcludes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "SourcePointDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bUseSourcePointExactNumber",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "SourcePointExactNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bScaleModifiersEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ScaleModifiers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ProceduralScaleModifiers"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bRotationModifiersEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "RotationModifiers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ProceduralRotationModifiers"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bAlignToNormal",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "AlignMaxAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "TargetSurface",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ProceduralScatterTargetSurface"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bDetectOverhangingLedge",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "OverhangingLedgeDetectionRayCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "OverhangingLedgeDetectionLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "OverhangingLedgeDetectionVerticalThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "OverhangingLedgeDetectionRadiusScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "FilterMinimumScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "OverlapPriority",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bCollisionWithWorld",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "CollisionScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 37,
+            "name": "DebugColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        }
+    ]
+}

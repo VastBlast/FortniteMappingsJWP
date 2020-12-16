@@ -1,0 +1,44 @@
+{
+    "name": "RigVMRegisterOffset",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Segments",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERigVMRegisterType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CPPType",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScriptStructPath",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ElementSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

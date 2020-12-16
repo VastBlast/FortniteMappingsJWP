@@ -1,0 +1,35 @@
+{
+    "name": "PendingDeployableBaseUser",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UserNetId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LoadingCloudRequestHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortUserCloudRequestHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BaseRecord",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BasePlot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

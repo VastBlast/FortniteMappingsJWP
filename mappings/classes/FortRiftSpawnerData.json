@@ -1,0 +1,88 @@
+{
+    "name": "FortRiftSpawnerData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Rift",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Encounter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EncounterSequence",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PlayersInRange",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "TriggerDamagePercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "KillingInstigator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "KillingDamageCauser",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DeactivationTimerHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimerHandle"
+            }
+        },
+        {
+            "index": 8,
+            "name": "BurstFallbackTimerHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimerHandle"
+            }
+        },
+        {
+            "index": 9,
+            "name": "OverrideSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEncounterSettings"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bUseOverrideSettings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

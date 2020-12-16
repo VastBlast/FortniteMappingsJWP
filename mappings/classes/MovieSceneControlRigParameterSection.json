@@ -1,0 +1,60 @@
+{
+    "name": "MovieSceneControlRigParameterSection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ControlRig",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ControlsMask",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "TransformMask",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneTransformMask"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAdditive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bApplyBoneFilter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BoneFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputBlendPose"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Weight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFloatChannel"
+            }
+        }
+    ]
+}

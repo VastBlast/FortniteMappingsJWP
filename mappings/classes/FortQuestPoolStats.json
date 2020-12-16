@@ -1,0 +1,16 @@
+{
+    "name": "FortQuestPoolStats",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PoolStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortQuestPoolStats_PerPool"
+                }
+            }
+        }
+    ]
+}

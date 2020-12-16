@@ -1,0 +1,35 @@
+{
+    "name": "ExternalContent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EReferenceType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ModuleId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Label",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Tags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "name": "FortCosmeticLoadoutCard",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RepresentedLoadout",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaLoadout"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CardType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortLoadoutCardType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LoadoutName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bSaved",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WidthToHeightRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CardWidth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SizeBox_Card",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

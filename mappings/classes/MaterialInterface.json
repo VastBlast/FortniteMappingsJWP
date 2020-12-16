@@ -1,0 +1,41 @@
+{
+    "name": "MaterialInterface",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SubsurfaceProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LightmassSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LightmassMaterialInterfaceSettings"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TextureStreamingData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MaterialTextureInfo"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

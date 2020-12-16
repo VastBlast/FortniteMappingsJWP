@@ -1,0 +1,34 @@
+{
+    "name": "ClothCollisionPrim_Convex",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Planes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Plane"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SurfacePoints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "BoneIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

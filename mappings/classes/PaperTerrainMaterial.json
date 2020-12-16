@@ -1,0 +1,23 @@
+{
+    "name": "PaperTerrainMaterial",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Rules",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PaperTerrainMaterialRule"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "InteriorFill",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

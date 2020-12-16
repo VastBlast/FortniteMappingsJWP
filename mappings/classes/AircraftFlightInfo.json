@@ -1,0 +1,49 @@
+{
+    "name": "AircraftFlightInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FlightStartLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize100"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FlightStartRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FlightSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TimeTillFlightEnd",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TimeTillDropStart",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TimeTillDropEnd",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "NiagaraVMExecutableDataId",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CompilerVersionID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ScriptUsageType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraScriptUsage"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScriptUsageTypeID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUsesRapidIterationParams",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bInterpolatedSpawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bRequiresPersistentIDs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BaseScriptID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BaseScriptCompileHash",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraCompileHash"
+            }
+        }
+    ]
+}

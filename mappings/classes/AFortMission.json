@@ -1,0 +1,282 @@
+{
+    "name": "AFortMission",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionInfo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BotLogicClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MissionPreloadAssets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "AnnouncementClassOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MissionGenerator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MissionCategory",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMissionGenerationCategory"
+            }
+        },
+        {
+            "index": 7,
+            "name": "UIIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "QuestOwnerAccount",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MissionEventNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMissionEventName"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "PlacementActorPreferredTagData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMissionPlacementActorPreferredTagInfo"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "bAreNonpublicMatchesLeecherExempt",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "LeecherPity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "LeecherMinMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "LeecherCutoff",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "LeecherTimeScalingCutoff",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LeecherTimeScalingPenaltyMultipler",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "LeecherCombatScoreMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "LeecherBuildingScoreMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "LeecherUtilityScoreMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "LeecherCombatLowBar",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "LeecherBuildingLowBar",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "LeecherUtilityLowBar",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bSilentDestroyNextFrame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "MissionStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMissionStatus"
+            }
+        },
+        {
+            "index": 34,
+            "name": "MissionCompletionTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bIsMissionVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "MissionAudibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMissionAudibility"
+            }
+        },
+        {
+            "index": 37,
+            "name": "CurrentObjectiveBlockIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bIsMissionVisibleOverride",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "MissionGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 40,
+            "name": "StartingDay",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bObjectiveTimerExpireShouldFailObjectives",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bMissionTimerExpireShouldFailMission",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bNeedsEnemyKilledEventForAllPawns",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "ChosenRewardIdx",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "GeneratedMissionOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGeneratedDifficultyOptions"
+            }
+        },
+        {
+            "index": 49,
+            "name": "MissionCompletionStinger",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

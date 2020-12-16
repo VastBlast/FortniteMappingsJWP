@@ -1,0 +1,48 @@
+{
+    "name": "ConcertServerSessionRepository",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RepositoryId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RepositoryRootDir",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WorkingDir",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SavedDir",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ProcessId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bMounted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

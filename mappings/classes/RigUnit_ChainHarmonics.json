@@ -1,0 +1,67 @@
+{
+    "name": "RigUnit_ChainHarmonics",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ChainRoot",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Speed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Reach",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigUnit_ChainHarmonics_Reach"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Wave",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigUnit_ChainHarmonics_Wave"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WaveCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Pendulum",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigUnit_ChainHarmonics_Pendulum"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bDrawDebug",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DrawWorldOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        }
+    ]
+}

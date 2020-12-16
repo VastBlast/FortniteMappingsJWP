@@ -1,0 +1,20 @@
+{
+    "name": "ConcertClientPresenceVisibilityUpdateEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ModifiedEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bVisibility",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

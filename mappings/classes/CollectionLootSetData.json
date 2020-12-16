@@ -1,0 +1,23 @@
+{
+    "name": "CollectionLootSetData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LootSetNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SelectionMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollectionSelectionMethod"
+            }
+        }
+    ]
+}

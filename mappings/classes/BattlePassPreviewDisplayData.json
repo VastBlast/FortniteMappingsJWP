@@ -1,0 +1,23 @@
+{
+    "name": "BattlePassPreviewDisplayData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrencyMaterialInstance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CharacterPreviewDisplayData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BattlePassCharacterPreviewDisplayData"
+                }
+            }
+        }
+    ]
+}

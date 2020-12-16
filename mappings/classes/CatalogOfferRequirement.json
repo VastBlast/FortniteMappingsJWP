@@ -1,0 +1,27 @@
+{
+    "name": "CatalogOfferRequirement",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequirementType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECatalogRequirementType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinQuantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RequiredId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

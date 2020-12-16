@@ -1,0 +1,48 @@
+{
+    "name": "VectorFieldStatic",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SizeX",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SizeY",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SizeZ",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAllowCPUAccess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Bounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Intensity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

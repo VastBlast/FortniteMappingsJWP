@@ -1,0 +1,21 @@
+{
+    "name": "FortInputActionDetails",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InputActionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortInputActionType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActionKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Key"
+            }
+        }
+    ]
+}

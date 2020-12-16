@@ -1,0 +1,26 @@
+{
+    "name": "FortItemList",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ReplicatedEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemInstances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

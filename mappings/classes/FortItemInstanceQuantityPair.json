@@ -1,0 +1,27 @@
+{
+    "name": "FortItemInstanceQuantityPair",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Item",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "InventoryType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortInventoryType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Quantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

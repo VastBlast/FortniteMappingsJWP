@@ -1,0 +1,79 @@
+{
+    "name": "ConcertClientInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InstanceInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertInstanceInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DeviceName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlatformName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UserName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DesktopAvatarActorClass",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "VRAvatarActorClass",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Tags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "bHasEditorData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bRequiresCookedData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

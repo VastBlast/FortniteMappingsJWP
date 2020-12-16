@@ -1,0 +1,35 @@
+{
+    "name": "AFortAthenaMutator_Titanium",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UpgradeTable",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ValidWeaponTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HighestUpgradeTier",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRarity"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UpgradedGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

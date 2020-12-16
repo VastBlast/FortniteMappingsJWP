@@ -1,0 +1,64 @@
+{
+    "name": "MobileHUDLayoutLegacyConverter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ConvertedProfiletName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TagMappings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WidgetMappingContainer"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "VisibilityOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WidgetVisibilityOverride"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "PropertyUpgradeMappings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WidgetPropertyUpgradeData"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "WidgetLayoutProxies",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WidgetLayoutProxy"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "LegacyCanvasSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        }
+    ]
+}

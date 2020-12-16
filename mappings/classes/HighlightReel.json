@@ -1,0 +1,27 @@
+{
+    "name": "HighlightReel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TotalDurationSeconds",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HighlightType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHighlightReelTypes"
+            }
+        }
+    ]
+}

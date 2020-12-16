@@ -1,0 +1,29 @@
+{
+    "name": "BaseStatManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Stats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "StatPrefix",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Controller",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

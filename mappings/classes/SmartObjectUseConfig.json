@@ -1,0 +1,61 @@
+{
+    "name": "SmartObjectUseConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AvatarTagFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObjectTagFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActivityTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Slots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SmartObjectSlot"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultBehavior",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxConcurrentUsers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DefaultExecutionPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "ForceFeedbackEffect",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ChannelDetails",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ForceFeedbackChannelDetails"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "FortCreativeBudgetTracker",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Budgets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudget"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "AssetInstances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "AssetLastInstances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseUniformGridTest",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

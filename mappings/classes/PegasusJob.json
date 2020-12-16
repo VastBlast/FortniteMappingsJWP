@@ -1,0 +1,44 @@
+{
+    "name": "PegasusJob",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ReplayId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bExportShotsIndividually",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ClipsToExport",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ClipInfo"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "bGenerateTimelineEventData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bJobAllowsFailure",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

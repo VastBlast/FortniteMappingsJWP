@@ -1,0 +1,44 @@
+{
+    "name": "ReplicatedPhysicsPawnState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Translation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize100"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Quat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LinearVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize10"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AngularVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize10"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SyncKey",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

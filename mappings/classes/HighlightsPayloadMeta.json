@@ -1,0 +1,76 @@
+{
+    "name": "HighlightsPayloadMeta",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UCRN_ReplayId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UCRN_BuildVersion",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UCRN_McpDeployment",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UCRN_PayloadVersion",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UCRN_GenerationDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 5,
+            "name": "UCRN_McpBackendEnvironment",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "UCRN_McpAppName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "UCRN_McpGameBackendName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "UCRN_PlaylistName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "UCRN_bIsCustomMatch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

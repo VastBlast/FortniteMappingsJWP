@@ -1,0 +1,39 @@
+{
+    "name": "CommonActionWidget",
+    "properties": [
+        {
+            "index": 1,
+            "name": "ProgressMaterialBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ProgressMaterialParam",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "IconRimBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 4,
+            "name": "InputActions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DataTableRowHandle"
+                }
+            }
+        }
+    ]
+}

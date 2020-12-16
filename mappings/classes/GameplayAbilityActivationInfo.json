@@ -1,0 +1,28 @@
+{
+    "name": "GameplayAbilityActivationInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActivationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayAbilityActivationMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bCanBeEndedByOtherInstance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PredictionKeyWhenActivated",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PredictionKey"
+            }
+        }
+    ]
+}

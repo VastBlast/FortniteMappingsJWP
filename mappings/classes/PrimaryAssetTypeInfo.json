@@ -1,0 +1,63 @@
+{
+    "name": "PrimaryAssetTypeInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PrimaryAssetType",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AssetBaseClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bHasBlueprintClasses",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsEditorOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Directories",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DirectoryPath"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "SpecificAssets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoftObjectPath"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "Rules",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryAssetRules"
+            }
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "name": "RigUnit_ChainHarmonics_Pendulum",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PendulumStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PendulumGravity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PendulumBlend",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PendulumDrag",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PendulumMinimum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PendulumMaximum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PendulumEase",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigAnimEasingType"
+            }
+        },
+        {
+            "index": 8,
+            "name": "UnwindAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 9,
+            "name": "UnwindMinimum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "UnwindMaximum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

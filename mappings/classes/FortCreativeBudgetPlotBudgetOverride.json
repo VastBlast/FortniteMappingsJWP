@@ -1,0 +1,62 @@
+{
+    "name": "FortCreativeBudgetPlotBudgetOverride",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlotItemDefinitionClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Budgets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudget"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsSpatialThermometerEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIsHeatmapEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpatialThermometerCellSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SpatialInfluenceDistanceMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SpatialBudgetOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudget"
+                }
+            }
+        }
+    ]
+}

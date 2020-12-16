@@ -2,6 +2,20 @@
     "name": "CustomCharacterHeadData",
     "properties": [
         {
+            "index": 0,
+            "name": "RootSkeletonDefaultMontageLookupTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RootSkeletonOverrideMontageLookupTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
             "index": 2,
             "name": "SkinColorSwatch",
             "mapping_type": {
@@ -36,6 +50,16 @@
             }
         },
         {
+            "index": 6,
+            "name": "MaskMorphTargets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
             "index": 7,
             "name": "HatMorphTargets",
             "mapping_type": {
@@ -48,6 +72,27 @@
         {
             "index": 8,
             "name": "AnimClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "FrontEndAnimClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MannequinAnimClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "AccessoryColors",
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }

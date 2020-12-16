@@ -1,0 +1,117 @@
+{
+    "name": "FortControllerComponent_PerkSystem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ServerTimeToRelease",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RerollCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AllSelectedPerks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "DefaultPerks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "PerkSelection",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerkItemSet"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "SpyTechArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "AllPerkAccolades",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerkAccoladeInfo"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "MutatorData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerkMutatorData"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CachedFactionTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RoundStartCache",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RoundTechDataCache"
+            }
+        },
+        {
+            "index": 10,
+            "name": "AbilitySetHandles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAbilitySetHandle"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "GEHandles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ActiveGameplayEffectHandle"
+                }
+            }
+        }
+    ]
+}

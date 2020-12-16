@@ -1,0 +1,26 @@
+{
+    "name": "AFortCosmeticReactivePreview",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PotentiallyResponsiveObjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActiveLoops",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FCRP_LoopingUpdate"
+                }
+            }
+        }
+    ]
+}

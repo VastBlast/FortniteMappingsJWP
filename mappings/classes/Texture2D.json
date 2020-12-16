@@ -2,6 +2,13 @@
     "name": "Texture2D",
     "properties": [
         {
+            "index": 1,
+            "name": "FirstResourceMemMip",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
             "index": 3,
             "name": "AddressX",
             "mapping_type": {
@@ -35,7 +42,7 @@
         },
         {
             "index": 7,
-            "name": "LODBias",
+            "name": "LodBias",
             "mapping_type": {
                 "type": "IntProperty"
             }
@@ -81,19 +88,70 @@
             }
         },
         {
+            "index": 13,
+            "name": "DownscaleOptions",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureDownscaleOptions"
+            }
+        },
+        {
             "index": 14,
             "name": "SRGB",
             "mapping_type": {
-                "type": "BoolProperty",
-                "bool": true
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bNoTiling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "VirtualTextureStreaming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "CompressionYCoCg",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "NumCinematicMipLevels",
+            "mapping_type": {
+                "type": "IntProperty"
             }
         },
         {
             "index": 27,
             "name": "NeverStream",
             "mapping_type": {
-                "type": "BoolProperty",
-                "bool": true
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bGlobalForceMipLevelsToBeResident",
+            "mapping_type": {
+                "type": "BoolProperty"
             }
         }
     ]

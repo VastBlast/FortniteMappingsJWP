@@ -1,0 +1,39 @@
+{
+    "name": "CompressedTrack",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ByteStream",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Times",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Mins",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Ranges",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

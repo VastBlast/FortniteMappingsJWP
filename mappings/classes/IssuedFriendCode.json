@@ -1,0 +1,27 @@
+{
+    "name": "IssuedFriendCode",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CodeId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CodeType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DateCreated",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        }
+    ]
+}

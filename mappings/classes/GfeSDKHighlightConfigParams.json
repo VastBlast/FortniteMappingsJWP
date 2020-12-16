@@ -1,0 +1,23 @@
+{
+    "name": "GfeSDKHighlightConfigParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HighlightDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GfeSDKHighlightDefinition"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultLocale",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

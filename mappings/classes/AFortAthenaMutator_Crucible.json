@@ -1,0 +1,47 @@
+{
+    "name": "AFortAthenaMutator_Crucible",
+    "properties": [
+        {
+            "index": 3,
+            "name": "CourseData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CrucibleCourseData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ParticipantBestTimes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CrucibleStatValue"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "CurrentControlType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCrucibleControlType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "LatestCourseResults",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CrucibleCourseResults"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LatestServerTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

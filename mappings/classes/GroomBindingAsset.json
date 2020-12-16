@@ -1,0 +1,44 @@
+{
+    "name": "GroomBindingAsset",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Groom",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SourceSkeletalMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TargetSkeletalMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumInterpolationPoints",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GroupInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GoomBindingGroupInfo"
+                }
+            }
+        }
+    ]
+}

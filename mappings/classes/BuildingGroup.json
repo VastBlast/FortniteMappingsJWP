@@ -1,0 +1,46 @@
+{
+    "name": "BuildingGroup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GroupName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FallbackGroup",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FoundationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingFoundationType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AllBuildingLevelTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BuildingLevelData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMapData"
+                }
+            }
+        }
+    ]
+}

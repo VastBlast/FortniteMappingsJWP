@@ -1,0 +1,81 @@
+{
+    "name": "ARTrackedQRCode",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Version",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EstimatedSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UniqueId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LocalToTrackingTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LocalToAlignedTrackingTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TrackingState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARTrackingState"
+            }
+        },
+        {
+            "index": 6,
+            "name": "UnderlyingMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ObjectClassification",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARObjectClassification"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LastUpdateFrameNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DebugName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

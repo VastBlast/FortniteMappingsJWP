@@ -1,0 +1,93 @@
+{
+    "name": "FortCreativeBudgeterData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CostOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudgetOverride"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TransientClassLimits",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudgetClassInstanceLimit"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "TransientPickupLimits",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudgetPickupInstanceLimit"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "SavedClassLimits",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudgetClassInstanceLimit"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ComponentSimulationCosts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudgetComponentSimulationCost"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Budgets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudget"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "PlotBudgetOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudgetPlotBudgetOverride"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "BattleLabBudgets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCreativeBudget"
+                }
+            }
+        }
+    ]
+}

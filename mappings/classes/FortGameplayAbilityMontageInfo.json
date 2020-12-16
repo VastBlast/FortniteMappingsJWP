@@ -1,0 +1,59 @@
+{
+    "name": "FortGameplayAbilityMontageInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MontageToPlay",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AnimPlayRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AnimRootMotionTranslationScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MontageSectionToPlay",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortGameplayAbilityMontageSectionToPlay"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OverrideSection",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bPlayRandomSection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CharacterPartMontages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCharacterPartMontageInfo"
+                }
+            }
+        }
+    ]
+}

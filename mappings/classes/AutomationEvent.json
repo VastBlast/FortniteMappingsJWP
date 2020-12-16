@@ -1,0 +1,35 @@
+{
+    "name": "AutomationEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAutomationEventType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Message",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Context",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Artifact",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        }
+    ]
+}

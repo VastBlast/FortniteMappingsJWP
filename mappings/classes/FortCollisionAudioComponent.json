@@ -1,0 +1,23 @@
+{
+    "name": "FortCollisionAudioComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CollisionSounds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCollisionAudioTriggerData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CheckCollisionLeashInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

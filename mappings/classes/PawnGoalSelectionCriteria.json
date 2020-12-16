@@ -1,0 +1,32 @@
+{
+    "name": "PawnGoalSelectionCriteria",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IncludeEnemiesWithTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ExcludeEnemiesWithTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GoalSelectionCriteria",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GoalSelectionCriteria"
+                }
+            }
+        }
+    ]
+}

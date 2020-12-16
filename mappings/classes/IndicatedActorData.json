@@ -1,0 +1,80 @@
+{
+    "name": "IndicatedActorData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GroupIdentifier",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StepTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "IndicatorOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ShareActorWith",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EShareActorWith"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bClampToScreen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ScaleAndOpacityData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IndicatedActorScaleAndOpacityData"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ParticleSystemData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IndicatedActorParticleSystemData"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Sound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "StateImageOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EIndicatorStateImage"
+            }
+        }
+    ]
+}

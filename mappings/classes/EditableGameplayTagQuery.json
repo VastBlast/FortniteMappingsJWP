@@ -1,0 +1,27 @@
+{
+    "name": "EditableGameplayTagQuery",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UserDescription",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RootExpression",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TagQueryExportText_Helper",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        }
+    ]
+}

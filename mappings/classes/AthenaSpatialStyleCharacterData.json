@@ -1,0 +1,40 @@
+{
+    "name": "AthenaSpatialStyleCharacterData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Character",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Styles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaStyleMissionData"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CharacterPrerequisites",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "CharacterIdleAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

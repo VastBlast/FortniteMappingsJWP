@@ -5,14 +5,137 @@
             "index": 0,
             "name": "ObjectType",
             "mapping_type": {
-                "type": "ByteProperty"
+                "type": "EnumProperty",
+                "enum_type": "ECollisionChannel"
             }
         },
         {
             "index": 1,
             "name": "CollisionEnabled",
             "mapping_type": {
-                "type": "ByteProperty"
+                "type": "EnumProperty",
+                "enum_type": "ECollisionEnabled"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SleepFamily",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESleepFamily"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DOFMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDOFMode"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bUseCCD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIgnoreAnalyticCollisions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bNotifyRigidBodyCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bLockTranslation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bLockRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bLockXTranslation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bLockYTranslation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bLockZTranslation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bLockXRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bLockYRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bLockZRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bOverrideMaxAngularVelocity",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bOverrideMaxDepenetrationVelocity",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bOverrideWalkableSlopeOnInstance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bInterpolateWhenSubStepping",
+            "mapping_type": {
+                "type": "BoolProperty"
             }
         },
         {
@@ -23,11 +146,127 @@
             }
         },
         {
+            "index": 20,
+            "name": "PositionSolverIterationCount",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "VelocitySolverIterationCount",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
             "index": 22,
             "name": "CollisionResponses",
             "mapping_type": {
                 "type": "StructProperty",
                 "struct_type": "CollisionResponse"
+            }
+        },
+        {
+            "index": 23,
+            "name": "MaxDepenetrationVelocity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "MassInKgOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "LinearDamping",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "AngularDamping",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "CustomDOFPlaneNormal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 28,
+            "name": "COMNudge",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 29,
+            "name": "MassScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "InertiaTensorScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 31,
+            "name": "WalkableSlopeOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WalkableSlopeOverride"
+            }
+        },
+        {
+            "index": 32,
+            "name": "PhysMaterialOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "MaxAngularVelocity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "CustomSleepThresholdMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "StabilizationThresholdMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "PhysicsBlendWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
             }
         }
     ]

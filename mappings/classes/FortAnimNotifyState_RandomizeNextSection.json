@@ -1,0 +1,29 @@
+{
+    "name": "FortAnimNotifyState_RandomizeNextSection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinLoopsBeforeChange",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxLoopsBeforeChange",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SectionsToJumpTo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

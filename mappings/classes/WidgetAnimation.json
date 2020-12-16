@@ -1,0 +1,37 @@
+{
+    "name": "WidgetAnimation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MovieScene",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AnimationBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WidgetAnimationBinding"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bLegacyFinishOnStop",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DisplayLabel",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

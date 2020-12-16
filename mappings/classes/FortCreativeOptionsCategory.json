@@ -1,0 +1,44 @@
+{
+    "name": "FortCreativeOptionsCategory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OptionCategory",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CreativeOptionCategoryData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CreativeOptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "GlobalOptionsUI",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ListView_Options",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Text_CategoryText",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

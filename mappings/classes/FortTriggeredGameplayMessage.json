@@ -1,0 +1,27 @@
+{
+    "name": "FortTriggeredGameplayMessage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Sender",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ChannelId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TriggerInstigator",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

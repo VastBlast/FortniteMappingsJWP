@@ -1,0 +1,37 @@
+{
+    "name": "QosDatacenterInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RegionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Servers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "QosPingServerInfo"
+                }
+            }
+        }
+    ]
+}

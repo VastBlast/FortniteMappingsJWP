@@ -1,0 +1,35 @@
+{
+    "name": "GoalDistanceData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIgnoreScreeningDistance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ScreeningTestMaxDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TestScoreCurve",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurveDistanceScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        }
+    ]
+}

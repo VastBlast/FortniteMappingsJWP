@@ -1,0 +1,23 @@
+{
+    "name": "ABuildingPhoenixItemCollectorActor",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VendingTier",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OutputItemRecipes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Recipe"
+                }
+            }
+        }
+    ]
+}

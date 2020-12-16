@@ -1,0 +1,44 @@
+{
+    "name": "SplineCurves",
+    "properties": [
+        {
+            "index": 0,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveVector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveQuat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Scale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveVector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ReparamTable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

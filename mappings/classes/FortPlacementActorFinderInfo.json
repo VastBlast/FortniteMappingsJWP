@@ -1,0 +1,30 @@
+{
+    "name": "FortPlacementActorFinderInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DistanceRangeMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DistanceRangeMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BuildingData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlacementActorFinderEntry"
+                }
+            }
+        }
+    ]
+}

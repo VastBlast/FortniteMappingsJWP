@@ -1,0 +1,52 @@
+{
+    "name": "ConcertAdmin_CopySessionRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SessionId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SessionName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OwnerClientInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertClientInfo"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SessionSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionSettings"
+            }
+        },
+        {
+            "index": 4,
+            "name": "VersionInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionVersionInfo"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SessionFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionFilter"
+            }
+        }
+    ]
+}

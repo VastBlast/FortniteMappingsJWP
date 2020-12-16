@@ -1,0 +1,29 @@
+{
+    "name": "FortGameplayDataTrackedRange",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RangeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LowerThreshold",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayDataTrackerThreshold"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UpperThreshold",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayDataTrackerThreshold"
+            }
+        }
+    ]
+}

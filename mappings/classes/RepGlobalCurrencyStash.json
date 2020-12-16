@@ -1,0 +1,21 @@
+{
+    "name": "RepGlobalCurrencyStash",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SyncState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EStashInventoryServiceSyncState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Currency",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGlobalCurrencyStash"
+            }
+        }
+    ]
+}

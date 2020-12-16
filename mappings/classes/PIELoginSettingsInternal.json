@@ -1,0 +1,29 @@
+{
+    "name": "PIELoginSettingsInternal",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Type",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TokenBytes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "XboxDedicatedServerSessionCreationParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TitleId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SandboxId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "XboxUserIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

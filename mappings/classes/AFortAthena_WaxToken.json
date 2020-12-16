@@ -1,0 +1,85 @@
+{
+    "name": "AFortAthena_WaxToken",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TokenMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EntrySpline",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExitSpline",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ReusedSpline",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TotalTravelTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DistanceStopInterpolationAt",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Target",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PayloadCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "CurrentState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWaxTokenState"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TimeInState",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "InterpolationSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

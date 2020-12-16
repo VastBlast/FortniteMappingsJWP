@@ -1,0 +1,40 @@
+{
+    "name": "IntensityData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ContributingFactors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "IntensityContribution"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ContributionsTotal",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExceptionEditModes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ExceptionEditModeWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

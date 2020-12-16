@@ -1,0 +1,44 @@
+{
+    "name": "AthenaSubscriptionInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentRewards",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaSubscriptionMonthlyRewards"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NextRewards",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaSubscriptionMonthlyRewards"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PurchaseSubscriptionDetails",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaSubscriptionPurchaseDetails"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SubscriptionDisclaimer",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SubModals",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SubscriptionModals"
+            }
+        }
+    ]
+}

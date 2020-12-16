@@ -1,0 +1,37 @@
+{
+    "name": "PartyFailureLogSubmit",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bSubmitLogs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bSubmitSecondaryLogs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LogTailKb",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Reasons",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartyFailureLogSubmitReason"
+                }
+            }
+        }
+    ]
+}

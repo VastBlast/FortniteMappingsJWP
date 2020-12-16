@@ -1,0 +1,77 @@
+{
+    "name": "StenciledActorData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GroupIdentifier",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StepTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ShareActorWith",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EShareActorWith"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ParticleSystemData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IndicatedActorParticleSystemData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Sound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "FriendlyStencilName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EnemyStencilName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FriendlyStencilIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "EnemyStencilIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        }
+    ]
+}

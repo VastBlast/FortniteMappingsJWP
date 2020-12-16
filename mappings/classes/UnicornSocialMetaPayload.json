@@ -1,0 +1,25 @@
+{
+    "name": "UnicornSocialMetaPayload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UCRN_FeatureScores",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "UCRN_SocialScore",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

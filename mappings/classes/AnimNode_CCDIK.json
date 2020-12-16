@@ -1,0 +1,151 @@
+{
+    "name": "AnimNode_CCDIK",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EffectorLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EffectorLocationSpace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBoneControlSpace"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EffectorTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneSocketTarget"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TipBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RootBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Precision",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bStartFromTail",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bEnableRotationLimit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RotationLimitPerJoints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "ComponentPose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ComponentSpacePoseLink"
+            }
+        },
+        {
+            "index": 11,
+            "name": "LODThreshold",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AlphaInputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimAlphaInputType"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bAlphaBoolEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "Alpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "AlphaScaleBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBias"
+            }
+        },
+        {
+            "index": 17,
+            "name": "AlphaBoolBlend",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputAlphaBoolBlend"
+            }
+        },
+        {
+            "index": 18,
+            "name": "AlphaCurveName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "AlphaScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "TimeStampedPhysicsPawnState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WorldTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PhysicsPawnState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ReplicatedPhysicsPawnState"
+            }
+        }
+    ]
+}

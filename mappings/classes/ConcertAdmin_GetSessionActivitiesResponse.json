@@ -1,0 +1,16 @@
+{
+    "name": "ConcertAdmin_GetSessionActivitiesResponse",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Activities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConcertSessionSerializedPayload"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "name": "AFortEventLevelNavigationActor",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NavDisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NavWidgetSettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavWidgetSettingContainer"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultNavWidgetSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavWidgetSettings"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WidgetComponent_NavigationWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WidgetComponent_CursorTargetPosition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "IndicatorWidgetClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CursorTargetWidgetClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DisplayMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "NavigationActorTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 9,
+            "name": "CamerasThisNavObjectIsActiveFrom",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bAutoClick",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CameraNavOptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavOptions"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "CalendarEventName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bAlwaysHighliteOnMobile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "MobileHighlightStencilValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bOverrideMobileMeshSize",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "MeshSizeOverrideScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "CursorHoverHighlightStencilValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

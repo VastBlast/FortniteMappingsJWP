@@ -1,0 +1,55 @@
+{
+    "name": "FortConversationSentence",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpeechAudio",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSentenceAudio"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpeechText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TalkingHeadTexture",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TalkingHeadTitle",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AnimMontage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PostSentenceDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DisplayDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

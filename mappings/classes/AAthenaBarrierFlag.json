@@ -1,0 +1,29 @@
+{
+    "name": "AAthenaBarrierFlag",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBarrierFlagState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FoodTeam",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBarrierFoodTeam"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FoodDisplayData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BarrierFlagDisplayData"
+            }
+        }
+    ]
+}

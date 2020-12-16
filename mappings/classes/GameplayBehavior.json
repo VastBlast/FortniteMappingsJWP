@@ -1,0 +1,40 @@
+{
+    "name": "GameplayBehavior",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActionTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RelevantActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActiveTasks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "TransientAvatar",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "AFortLobbyBeaconState",
+    "properties": [
+        {
+            "index": 1,
+            "name": "MatchmakingLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MissionGeneratorClassPath",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MissionGeneratorDetailsRequirement",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELobbyMissionGeneratorDetailsRequirement"
+            }
+        }
+    ]
+}

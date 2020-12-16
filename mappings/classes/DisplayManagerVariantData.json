@@ -1,0 +1,23 @@
+{
+    "name": "DisplayManagerVariantData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CosmeticItemDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CosmeticVariantChannels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpVariantChannelInfo"
+                }
+            }
+        }
+    ]
+}

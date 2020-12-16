@@ -1,0 +1,32 @@
+{
+    "name": "ARSkeletonDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumJoints",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "JointNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ParentIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

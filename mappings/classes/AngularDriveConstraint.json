@@ -1,0 +1,53 @@
+{
+    "name": "AngularDriveConstraint",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TwistDrive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConstraintDrive"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SwingDrive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConstraintDrive"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SlerpDrive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConstraintDrive"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OrientationTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AngularVelocityTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AngularDriveMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAngularDriveMode"
+            }
+        }
+    ]
+}

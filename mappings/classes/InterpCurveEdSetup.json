@@ -1,0 +1,23 @@
+{
+    "name": "InterpCurveEdSetup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tabs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CurveEdTab"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActiveTab",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

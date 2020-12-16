@@ -1,0 +1,71 @@
+{
+    "name": "DistributionVectorUniformCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ConstantCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveTwoVectors"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bLockAxes1",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bLockAxes2",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LockedAxes",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDistributionVectorLockFlags"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MirrorFlags",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDistributionVectorMirrorFlags"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bUseExtremes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bCanBeBaked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bIsDirty",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bBakedDataSuccesfully",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

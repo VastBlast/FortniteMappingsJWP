@@ -1,0 +1,37 @@
+{
+    "name": "EndOfDayRecap",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DayNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TeamScoreAtStartOfDay",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TeamScoreAtEndOfDay",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ScoreReports",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlayerScoreReport"
+                }
+            }
+        }
+    ]
+}

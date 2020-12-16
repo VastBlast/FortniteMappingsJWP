@@ -1,0 +1,41 @@
+{
+    "name": "ALobbyBeaconState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaxPlayers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LobbyBeaconPlayerStateClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bLobbyStarted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WaitForPlayersTimeRemaining",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Players",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LobbyPlayerStateInfoArray"
+            }
+        }
+    ]
+}

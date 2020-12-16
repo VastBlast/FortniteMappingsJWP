@@ -1,0 +1,30 @@
+{
+    "name": "ExposedValueHandler",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BoundFunction",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CopyRecords",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ExposedValueCopyRecord"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Function",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

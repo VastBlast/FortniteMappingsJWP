@@ -1,0 +1,103 @@
+{
+    "name": "InfiltrationRoundInfoWidget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CachedRoundIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WinningTeam",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttackingTeam",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DefendingTeam",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NextRoundAttackingTeam",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NextRoundDefendingTeam",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MutatorClassToWaitFor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PreviousPerkPipData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerkPipData"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "NewPerkPipData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerkPipData"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "PerkPipData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerkPipData"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "StartRoundCache",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RoundTechDataCache"
+            }
+        },
+        {
+            "index": 13,
+            "name": "FactionTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

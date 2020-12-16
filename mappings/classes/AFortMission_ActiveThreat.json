@@ -1,0 +1,42 @@
+{
+    "name": "AFortMission_ActiveThreat",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bStartBasedOnAthenaGamePhases",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StartingGamePhase",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaGamePhase"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StartingDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "StartingActiveThreatEncounterIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EncounterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEncounterSettings"
+            }
+        }
+    ]
+}

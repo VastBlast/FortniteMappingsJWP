@@ -1,0 +1,73 @@
+{
+    "name": "MotionControllerComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Hand",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControllerHand"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MotionSource",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDisableLowLatencyUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrentTrackingStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETrackingStatus"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bDisplayDeviceModel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DisplayModelSource",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CustomDisplayMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DisplayMeshMaterialOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

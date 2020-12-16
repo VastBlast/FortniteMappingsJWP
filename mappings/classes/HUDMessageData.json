@@ -1,0 +1,86 @@
+{
+    "name": "HUDMessageData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Placement",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHUDMessagePlacement"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerState",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MessageTargets",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHUDMessageMessageTargets"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TextTransformPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextTransformPolicy"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MsgType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaGameMsgType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MsgText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MsgSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MsgDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsTeamBased",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TeamIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

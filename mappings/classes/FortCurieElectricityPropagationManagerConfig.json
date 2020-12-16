@@ -1,0 +1,69 @@
+{
+    "name": "FortCurieElectricityPropagationManagerConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinPropagationDepthLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxPropagationDepthLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultPropagationDepthLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ElectricGridWarningLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PropagationTimeDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NeighborCacheDefaultSlack",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ApplicationMapDefaultSlack",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DefaultCollisionExpansion",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bAllowPropagationDepthLimitOverrides",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

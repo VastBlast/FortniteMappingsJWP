@@ -1,0 +1,101 @@
+{
+    "name": "CompositeSection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SectionName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NextSectionName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "LinkedMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SlotIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SegmentIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LinkMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimLinkMethod"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CachedLinkMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimLinkMethod"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SegmentBeginTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SegmentLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "LinkValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "LinkedSequence",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

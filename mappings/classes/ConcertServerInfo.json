@@ -1,0 +1,36 @@
+{
+    "name": "ConcertServerInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AdminEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ServerName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InstanceInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertInstanceInfo"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ServerFlags",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertServerFlags"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "CatalogPurchaseInfoGift",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OfferId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Currency",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EStoreCurrencyType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrencySubType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ExpectedTotalPrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GameContext",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ReceiverAccountIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "GiftWrapTemplateId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PersonalMessage",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

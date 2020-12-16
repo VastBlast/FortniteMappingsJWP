@@ -1,0 +1,37 @@
+{
+    "name": "ChoiceData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MenuIdentifier",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bShowCloseButton",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Items",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ChoiceDataEntry"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "ANitrogenFareValueIndicator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InstancedMeshComp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FareValueMeshTransformInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NitrogenFareValueMeshTransformInfo"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "IndicatorValue",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bShouldActorRotateOnTickToFacePlayerCamera",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LocalPlayerCameraManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "SubmixEffectConvolutionReverbPreset",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Settings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SubmixEffectConvolutionReverbSettings"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ImpulseResponse",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BlockSize",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubmixEffectConvolutionReverbBlockSize"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bEnableHardwareAcceleration",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

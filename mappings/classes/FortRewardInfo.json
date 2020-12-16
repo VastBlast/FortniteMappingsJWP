@@ -1,0 +1,38 @@
+{
+    "name": "FortRewardInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SelectableRewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortSelectableRewardOption"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "StandardRewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "HiddenRewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortHiddenRewardQuantityPair"
+                }
+            }
+        }
+    ]
+}

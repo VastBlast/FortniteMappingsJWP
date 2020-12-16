@@ -1,0 +1,60 @@
+{
+    "name": "CollisionProfile",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Profiles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CollisionResponseTemplate"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultChannelResponses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomChannelSetup"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "EditProfiles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomProfile"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ProfileRedirects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Redirector"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "CollisionChannelRedirects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Redirector"
+                }
+            }
+        }
+    ]
+}

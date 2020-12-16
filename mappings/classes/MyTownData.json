@@ -1,0 +1,83 @@
+{
+    "name": "MyTownData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WorkerPersonalities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MyTownWorkerPersonalityData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "WorkerSetBonuses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MyTownWorkerSetBonusData"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PersonnelXpItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HeroXpItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "VoucherItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SchematicXpItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CurrencyItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SkillPointItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ResearchPointItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TotalRatingGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

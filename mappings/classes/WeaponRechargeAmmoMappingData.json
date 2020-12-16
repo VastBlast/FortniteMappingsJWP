@@ -1,0 +1,24 @@
+{
+    "name": "WeaponRechargeAmmoMappingData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TagOnPlayer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WeaponIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PrimaryAssetId"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "ImportanceTexture",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Size",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntPoint"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumMips",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MarginalCDF",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ConditionalCDF",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "TextureData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Color"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Texture",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Weighting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EImportanceWeight"
+            }
+        }
+    ]
+}

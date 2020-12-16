@@ -1,0 +1,20 @@
+{
+    "name": "MagicLeapARPinSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UpdateCheckFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OnUpdatedEventTriggerDelta",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MagicLeapARPinState"
+            }
+        }
+    ]
+}

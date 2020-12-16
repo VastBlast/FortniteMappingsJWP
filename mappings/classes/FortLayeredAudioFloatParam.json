@@ -1,0 +1,74 @@
+{
+    "name": "FortLayeredAudioFloatParam",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Value",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InterpType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELayeredAudioInterpolationType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Curve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AttackSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ReleaseSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ParamRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Oneshots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortLayeredAudioOneshotGate"
+                }
+            }
+        }
+    ]
+}

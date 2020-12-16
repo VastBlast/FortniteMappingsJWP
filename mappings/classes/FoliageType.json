@@ -1,0 +1,631 @@
+{
+    "name": "FoliageType",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UpdateGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Density",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DensityAdjustmentFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Radius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bSingleInstanceModeOverrideRadius",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SingleInstanceModeRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Scaling",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFoliageScaling"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ScaleX",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ScaleY",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ScaleZ",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 10,
+            "name": "VertexColorMaskByChannel",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FoliageVertexColorChannelMask"
+            }
+        },
+        {
+            "index": 14,
+            "name": "VertexColorMask",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFoliageVertexColorMask"
+            }
+        },
+        {
+            "index": 15,
+            "name": "VertexColorMaskThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "VertexColorMaskInvert",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ZOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 18,
+            "name": "AlignToNormal",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "AlignMaxAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "RandomYaw",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "RandomPitchAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "GroundSlopeAngle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 23,
+            "name": "Height",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 24,
+            "name": "LandscapeLayers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 25,
+            "name": "MinimumLayerWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "ExclusionLandscapeLayers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 27,
+            "name": "MinimumExclusionLayerWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "LandscapeLayer",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "CollisionWithWorld",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "CollisionScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 31,
+            "name": "MeshBounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoxSphereBounds"
+            }
+        },
+        {
+            "index": 32,
+            "name": "LowBoundOriginRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 33,
+            "name": "Mobility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EComponentMobility"
+            }
+        },
+        {
+            "index": 34,
+            "name": "CullDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Int32Interval"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bEnableStaticLighting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "CastShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "bAffectDynamicIndirectLighting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bAffectDistanceFieldLighting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bCastDynamicShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bCastStaticShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bCastShadowAsTwoSided",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bReceivesDecals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bOverrideLightMapRes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "OverriddenLightMapRes",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "LightmapType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELightmapType"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bUseAsOccluder",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "BodyInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BodyInstance"
+            }
+        },
+        {
+            "index": 48,
+            "name": "CustomNavigableGeometry",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHasCustomNavigableGeometry"
+            }
+        },
+        {
+            "index": 49,
+            "name": "LightingChannels",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LightingChannels"
+            }
+        },
+        {
+            "index": 50,
+            "name": "bRenderCustomDepth",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "CustomDepthStencilValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "TranslucencySortPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "CollisionRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "ShadeRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "NumSteps",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "InitialSeedDensity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "AverageSpreadDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "SpreadVariance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "SeedsPerStep",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "DistributionSeed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "MaxInitialSeedOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "bCanGrowInShade",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "bSpawnsInShade",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "MaxInitialAge",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "MaxAge",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "OverlapPriority",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 67,
+            "name": "ProceduralScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 68,
+            "name": "ScaleCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 70,
+            "name": "ReapplyDensity",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 71,
+            "name": "ReapplyRadius",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "ReapplyAlignToNormal",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "ReapplyRandomYaw",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 74,
+            "name": "ReapplyScaling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "ReapplyScaleX",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "ReapplyScaleY",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "ReapplyScaleZ",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "ReapplyRandomPitchAngle",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "ReapplyGroundSlope",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "ReapplyHeight",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "ReapplyLandscapeLayers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "ReapplyZOffset",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "ReapplyCollisionWithWorld",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 84,
+            "name": "ReapplyVertexColorMask",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 85,
+            "name": "bEnableDensityScaling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "RuntimeVirtualTextures",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 87,
+            "name": "VirtualTextureCullMips",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "VirtualTextureRenderPassType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERuntimeVirtualTextureMainPassType"
+            }
+        }
+    ]
+}

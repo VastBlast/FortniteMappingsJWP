@@ -1,0 +1,16 @@
+{
+    "name": "ConcertSession_ClientListUpdatedEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SessionClients",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConcertSessionClientInfo"
+                }
+            }
+        }
+    ]
+}

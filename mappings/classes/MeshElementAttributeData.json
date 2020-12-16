@@ -1,0 +1,27 @@
+{
+    "name": "MeshElementAttributeData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AttributeName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttributeIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttributeValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MeshElementAttributeValue"
+            }
+        }
+    ]
+}

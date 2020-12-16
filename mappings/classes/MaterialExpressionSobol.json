@@ -1,0 +1,65 @@
+{
+    "name": "MaterialExpressionSobol",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Cell",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExpressionInput"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Index",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExpressionInput"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Seed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExpressionInput"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ConstIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ConstSeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Material",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Function",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsParameterExpression",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

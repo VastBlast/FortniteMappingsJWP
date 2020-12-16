@@ -1,0 +1,62 @@
+{
+    "name": "PrimaryAssetLabel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Rules",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryAssetRules"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bLabelAssetsInMyDirectory",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsRuntimeLabel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ExplicitAssets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ExplicitBlueprints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "AssetCollection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CollectionReference"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NativeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "name": "FortDamageNumberInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WorldLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HitNormal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsCriticalDamage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Damage",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DamageNumberType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortDamageNumberType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "VisualDamageScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ElementalDamageType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortElementalDamageType"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ScoreType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EStatCategory"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bAttachScoreNumberToPlayer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "StaticMeshComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MeshMIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "DamageNumberArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "DamagedActorTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 13,
+            "name": "DamagedActor",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "DamageCauser",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

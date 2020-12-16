@@ -1,0 +1,79 @@
+{
+    "name": "AFortAthenaMutator_Pow",
+    "properties": [
+        {
+            "index": 1,
+            "name": "RespawnSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRespawnLogicData_Teams"
+            }
+        },
+        {
+            "index": 2,
+            "name": "IntroMessages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaGameMessageData"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "RespawningOffMessage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RespawnsWillBeOffMessage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RespawningTimeAllowed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "GrantMaxShieldAtRespawnsOff",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "GrantMaxHealthAtRespawnsOff",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PlayerData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PowPlayerDataArray"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bRespawningCurrentlyAllowed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

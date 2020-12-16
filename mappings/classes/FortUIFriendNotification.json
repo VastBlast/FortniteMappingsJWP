@@ -1,0 +1,65 @@
+{
+    "name": "FortUIFriendNotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FriendActionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortUIFriendNotificationType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FriendUniqueId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bHasAction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NotificationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortNotificationType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "IdToRepresent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DisplayAsset",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

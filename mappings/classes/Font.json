@@ -1,0 +1,113 @@
+{
+    "name": "Font",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FontCacheType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFontCacheType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Characters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FontCharacter"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Textures",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "IsRemapped",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EmScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Ascent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Descent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Leading",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Kerning",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ImportOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FontImportOptionsData"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ScalingFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "LegacyFontSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "LegacyFontName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "CompositeFont",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CompositeFont"
+            }
+        }
+    ]
+}

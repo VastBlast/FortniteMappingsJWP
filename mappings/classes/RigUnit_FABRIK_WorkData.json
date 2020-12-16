@@ -1,0 +1,33 @@
+{
+    "name": "RigUnit_FABRIK_WorkData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Chain",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FABRIKChainLink"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoneIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "EffectorIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

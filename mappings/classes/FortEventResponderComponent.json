@@ -1,0 +1,38 @@
+{
+    "name": "FortEventResponderComponent",
+    "properties": [
+        {
+            "index": 1,
+            "name": "MeshEventTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayTag"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "FilteredEventTypes",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bServerRespondToEvents",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bClientRespondToEvents",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

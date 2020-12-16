@@ -1,0 +1,30 @@
+{
+    "name": "FortGameStateComponent_DynamicStreamingLevel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DynamicWorlds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DynamicCompositeWorld"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bDisableDynamicStreamingLevels",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAlwaysLoadDynamicAsyncStreamingLevels",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

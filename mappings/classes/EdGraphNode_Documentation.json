@@ -1,0 +1,130 @@
+{
+    "name": "EdGraphNode_Documentation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Link",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Excerpt",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DeprecatedPins",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "NodePosX",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NodePosY",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NodeWidth",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NodeHeight",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AdvancedPinDisplay",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENodeAdvancedPins"
+            }
+        },
+        {
+            "index": 8,
+            "name": "EnabledState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENodeEnabledState"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bDisplayAsDisabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bUserSetEnabledState",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bIsNodeEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bHasCompilerMessage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "NodeComment",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ErrorType",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ErrorMsg",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "NodeGUID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        }
+    ]
+}

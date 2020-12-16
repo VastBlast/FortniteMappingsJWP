@@ -1,0 +1,39 @@
+{
+    "name": "PoseData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LocalSpacePose",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TrackToBufferIndex",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "IntProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurveData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
+}

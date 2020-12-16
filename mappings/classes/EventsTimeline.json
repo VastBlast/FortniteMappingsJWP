@@ -1,0 +1,24 @@
+{
+    "name": "EventsTimeline",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CacheExpire",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 1,
+            "name": "States",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EventChannelState"
+                }
+            }
+        }
+    ]
+}

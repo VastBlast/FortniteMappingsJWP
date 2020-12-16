@@ -1,0 +1,40 @@
+{
+    "name": "FortVehicleSeatComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SeatSwitchCooldown",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayerSlots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaCarPlayerSlot"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "PlayerSlotPriorityList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAlwaysAllowEntry",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

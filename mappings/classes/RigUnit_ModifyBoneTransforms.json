@@ -1,0 +1,45 @@
+{
+    "name": "RigUnit_ModifyBoneTransforms",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BoneToModify",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RigUnit_ModifyBoneTransforms_PerBone"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Weight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WeightMinimum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WeightMaximum",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Mode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigModifyBoneMode"
+            }
+        }
+    ]
+}

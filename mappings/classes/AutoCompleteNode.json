@@ -1,0 +1,22 @@
+{
+    "name": "AutoCompleteNode",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IndexChar",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AutoCompleteListIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "name": "FortSpectatedPlayerSwitcher",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaxPlayersToShow",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DisplayedTargets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PotentialSpectatorTarget"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "AvailableTargets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PotentialSpectatorTarget"
+                }
+            }
+        }
+    ]
+}

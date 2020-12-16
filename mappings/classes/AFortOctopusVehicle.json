@@ -1,0 +1,144 @@
+{
+    "name": "AFortOctopusVehicle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BounceContactRepulsionForce",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoostForce",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxVerticalBoostForce",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BoostSpeedKmh",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BaseSphericalDriveParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SphericalDriveParams"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BaseTowhookParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TowhookParams"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TowhookSpringDeformationRateOnGround",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bAutoRetractGrapple",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bCanHoldGrapple",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TowhookInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TowhookInterpMaxPercentPerSecond",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TowhookMaxInvalidateTargetAngleDeg",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "InternalBlockerCollisionName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "BoostBounceAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRechargingActionTimer"
+            }
+        },
+        {
+            "index": 15,
+            "name": "FortOctopusVehicleConfigsClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "ProjectileTraceChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionChannel"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ProjectileSpeedKmh",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ReplicatedAttachState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NetTowhookAttachState"
+            }
+        },
+        {
+            "index": 27,
+            "name": "NetTowhookAimDir",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantizeNormal"
+            }
+        }
+    ]
+}

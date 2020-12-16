@@ -1,0 +1,37 @@
+{
+    "name": "FortAudioToMPCComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bPushDataToMPC",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bCacheDataForBlueprintUse",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaterialParameterCollection",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ChannelDataArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ChannelData"
+                }
+            }
+        }
+    ]
+}

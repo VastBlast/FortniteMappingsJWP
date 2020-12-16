@@ -1,0 +1,29 @@
+{
+    "name": "FortQuestTrackerList",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bConfigureAsHUD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QuestList",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HUDCachedQuests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

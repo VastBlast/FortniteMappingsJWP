@@ -1,0 +1,40 @@
+{
+    "name": "MovieSceneBoolChannel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Times",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FrameNumber"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultValue",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bHasDefaultValue",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Values",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        }
+    ]
+}

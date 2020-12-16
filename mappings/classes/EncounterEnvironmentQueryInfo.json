@@ -1,0 +1,30 @@
+{
+    "name": "EncounterEnvironmentQueryInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EnvironmentQuery",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QueryParams",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EnvNamedValue"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsDirectional",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

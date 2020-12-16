@@ -1,0 +1,50 @@
+{
+    "name": "InteriorAudioDictionaryEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EditCode",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Tags",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultEvaluation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInteriorAudioBuildingEvaluation"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ConditionalEvaluation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInteriorAudioBuildingEvaluation"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RotationConstraint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InteriorAudioBuildingRotationConstraint"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BuildingWeights",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

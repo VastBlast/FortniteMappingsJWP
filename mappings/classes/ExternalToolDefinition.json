@@ -1,0 +1,50 @@
+{
+    "name": "ExternalToolDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ToolName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ExecutablePath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilePath"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CommandLineOptions",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WorkingDirectory",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DirectoryPath"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScriptExtension",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ScriptDirectory",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DirectoryPath"
+            }
+        }
+    ]
+}

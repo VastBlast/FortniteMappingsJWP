@@ -1,0 +1,93 @@
+{
+    "name": "MinimalViewInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Location",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FOV",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OrthoWidth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "OrthoNearClipPlane",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "OrthoFarClipPlane",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AspectRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bConstrainAspectRatio",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bUseFieldOfViewForLOD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ProjectionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECameraProjectionMode"
+            }
+        },
+        {
+            "index": 11,
+            "name": "PostProcessBlendWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PostProcessSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PostProcessSettings"
+            }
+        }
+    ]
+}

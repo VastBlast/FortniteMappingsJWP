@@ -1,0 +1,38 @@
+{
+    "name": "FortItemTransformFilterTabLabelInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FilterTabNameId",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TabButtonLabelInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTabButtonLabelInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemFilters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ItemType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemType"
+            }
+        }
+    ]
+}

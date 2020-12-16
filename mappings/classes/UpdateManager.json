@@ -1,0 +1,114 @@
+{
+    "name": "UpdateManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HotfixCheckCompleteDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UpdateCheckCompleteDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HotfixAvailabilityCheckCompleteDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UpdateCheckAvailabilityCompleteDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AppSuspendedUpdateCheckTimeSeconds",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bPlatformEnvironmentDetected",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bInitialUpdateFinished",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bCheckHotfixAvailabilityOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CurrentUpdateState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUpdateState"
+            }
+        },
+        {
+            "index": 9,
+            "name": "WorstNumFilesPendingLoadViewed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "LastHotfixResult",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHotfixResult"
+            }
+        },
+        {
+            "index": 11,
+            "name": "LastUpdateCheck",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 13,
+            "name": "LastCompletionResult",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUpdateCompletionStatus"
+            }
+        },
+        {
+            "index": 15,
+            "name": "UpdateStateEnum",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "UpdateCompletionEnum",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

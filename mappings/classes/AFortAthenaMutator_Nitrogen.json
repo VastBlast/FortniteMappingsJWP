@@ -1,0 +1,539 @@
+{
+    "name": "AFortAthenaMutator_Nitrogen",
+    "properties": [
+        {
+            "index": 1,
+            "name": "PlayerSpecialActorTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PassengerSpecialActorTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "VehicleSpecialActorTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NitrogenPOICombinationList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NitrogenPOICombinationMap"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "MatchStartVehicleCleanupTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MatchNearEndScoreRatio",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NitrogenPlayerComponentClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PlayerGameplayAbilityOptionList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NitrogenPlayerGameplayAbilityOption"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "PickupItemsToDropOnDeath",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NitrogenPickupItemToDropOnDeath"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "VehicleInteractionAbilityTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 11,
+            "name": "DisallowedDamageTagsInSameVehicle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 12,
+            "name": "HitByVehicleTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 13,
+            "name": "FareDeliveryAccoladeTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CoinPickupAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bAllowRedeployGliders",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 16,
+            "name": "StormShieldRadiusCalculationMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 17,
+            "name": "StormShieldRadiusOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 19,
+            "name": "NitrogenVehicleAssetId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryAssetId"
+            }
+        },
+        {
+            "index": 20,
+            "name": "VehicleSpawnZOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 21,
+            "name": "NavArrowClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "NumOfExtraVehiclesToMaintain",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ExplosionDamageMultiplierGE",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "SquadStartSearchParam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSquadStartSearchParamData"
+            }
+        },
+        {
+            "index": 25,
+            "name": "RemoveLoadingScreenFailsafeTimerDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 26,
+            "name": "RespawnPointSearchParam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSquadStartSearchParamData"
+            }
+        },
+        {
+            "index": 27,
+            "name": "RespawnPointCooldownDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 28,
+            "name": "VehicleOverlapCheckBoxExtent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 29,
+            "name": "MinTeleportHeightAboveGround",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 30,
+            "name": "TeleportingPlayersText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "NitrogenFareClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "PickUpTraversePointClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "DropOffTraversePointClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bAllowSharedDropOffs",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 35,
+            "name": "MinimumDistanceBetweenPickupPoints",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bUseFarePortraitTextures",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 37,
+            "name": "NumOfTopTeamsToShowOnMap",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 38,
+            "name": "PlacementBasedMapIcons",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NitrogenMapPlacementIcon"
+                }
+            }
+        },
+        {
+            "index": 39,
+            "name": "PickUpPointMapIcon",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NitrogenMapIcon"
+            }
+        },
+        {
+            "index": 40,
+            "name": "DropOffPointMapIcon",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NitrogenMapIcon"
+            }
+        },
+        {
+            "index": 41,
+            "name": "VehicleMapIcon",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NitrogenMapIcon"
+            }
+        },
+        {
+            "index": 42,
+            "name": "NumOfFaresToShowOnCompass",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 43,
+            "name": "NumOfVehiclesToShowOnCompass",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 44,
+            "name": "FareCompassIcon",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaCompassIcon"
+            }
+        },
+        {
+            "index": 45,
+            "name": "DropOffPointCompassIcon",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaCompassIcon"
+            }
+        },
+        {
+            "index": 46,
+            "name": "VehicleCompassIcon",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaCompassIcon"
+            }
+        },
+        {
+            "index": 47,
+            "name": "DropOffWidgetActorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "NearbyVehicleWidgetActorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "PickupCashbagSearchParam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSquadStartSearchParamData"
+            }
+        },
+        {
+            "index": 50,
+            "name": "CashbagSelectedPercentage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 52,
+            "name": "PassengerDespawnDelay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 53,
+            "name": "PlayerSpecialActorRepInterval",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 54,
+            "name": "NitrogenVehicleTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 55,
+            "name": "NitrogenGamePhase",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENitrogenGamePhase"
+            }
+        },
+        {
+            "index": 56,
+            "name": "SortedTeamDataByScore",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NitrogenTeamData"
+                }
+            }
+        },
+        {
+            "index": 57,
+            "name": "CacheLeadingReplicatedPlayerStates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 58,
+            "name": "NitrogenVehicleClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "NitrogenVehiclesList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NitrogenVehicle"
+                }
+            }
+        },
+        {
+            "index": 60,
+            "name": "NitrogenSquadStarts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 61,
+            "name": "TeleportMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "GameStartCountdownMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "InventoryMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "UnassignedDistanceBasedDropoffPointsArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 67,
+            "name": "ClientNavArrow",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 68,
+            "name": "CurrentFares",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 69,
+            "name": "CurrentActiveFares",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

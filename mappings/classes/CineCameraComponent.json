@@ -1,0 +1,115 @@
+{
+    "name": "CineCameraComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FilmbackSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CameraFilmbackSettings"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Filmback",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CameraFilmbackSettings"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LensSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CameraLensSettings"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FocusSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CameraFocusSettings"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrentFocalLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CurrentAperture",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CurrentFocusDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FilmbackPresets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NamedFilmbackPreset"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "LensPresets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NamedLensPreset"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "DefaultFilmbackPresetName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DefaultFilmbackPreset",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "DefaultLensPresetName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "DefaultLensFocalLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "DefaultLensFStop",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

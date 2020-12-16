@@ -1,0 +1,20 @@
+{
+    "name": "ConcertWorkspaceSyncActivityEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Activity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionSerializedPayload"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumRemainingSyncEvents",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

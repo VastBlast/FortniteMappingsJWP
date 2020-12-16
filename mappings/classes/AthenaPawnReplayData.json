@@ -1,0 +1,29 @@
+{
+    "name": "AthenaPawnReplayData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HealthRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ShieldRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CipherText",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        }
+    ]
+}

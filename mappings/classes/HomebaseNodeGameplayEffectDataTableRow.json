@@ -1,0 +1,90 @@
+{
+    "name": "HomebaseNodeGameplayEffectDataTableRow",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Attribute",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAttribute"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Operation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayModOp"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Magnitude",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ApplicationRequiredTagsContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RequiredSourceTagsContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RequiredTargetTagsContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 6,
+            "name": "GrantedTagsContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 7,
+            "name": "IgnoreSourceTagsContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AssetTagsContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 9,
+            "name": "AssociatedGEIdx",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "AssociatedModifierIdx",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

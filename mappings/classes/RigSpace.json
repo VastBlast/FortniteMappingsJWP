@@ -1,0 +1,42 @@
+{
+    "name": "RigSpace",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpaceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERigSpaceType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ParentName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InitialTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Index",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

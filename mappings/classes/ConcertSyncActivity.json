@@ -1,0 +1,58 @@
+{
+    "name": "ConcertSyncActivity",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActivityId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIgnored",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EventTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EventType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertSyncActivityEventType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "EventId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EventSummary",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionSerializedCborPayload"
+            }
+        }
+    ]
+}

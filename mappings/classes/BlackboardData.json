@@ -1,0 +1,30 @@
+{
+    "name": "BlackboardData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Parent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Keys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BlackboardEntry"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bHasSynchronizedKeys",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

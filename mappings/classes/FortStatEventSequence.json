@@ -1,0 +1,52 @@
+{
+    "name": "FortStatEventSequence",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StatEventName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RepeatType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortEventRepeat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EventSequence",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortStatEvent"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "StatsToMonitor",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "Conditions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortEventConditional"
+                }
+            }
+        }
+    ]
+}

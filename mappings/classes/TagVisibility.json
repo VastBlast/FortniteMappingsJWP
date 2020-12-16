@@ -1,0 +1,29 @@
+{
+    "name": "TagVisibility",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ComparisonType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETagComparisonType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Visibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        }
+    ]
+}

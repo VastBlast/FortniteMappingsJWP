@@ -1,0 +1,24 @@
+{
+    "name": "PlaneLootTypeEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RelativeWeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LootHeightEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlaneLootHeightEntry"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "FortCampaignTeamMemberEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RepresentedMemberIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentConnectionState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMemberConnectionState"
+            }
+        }
+    ]
+}

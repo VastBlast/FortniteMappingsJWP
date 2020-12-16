@@ -1,0 +1,28 @@
+{
+    "name": "FortQueryGenerator_PointsInVolume",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumberOfPoints",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NavMeshToUse",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortNamedNavmesh"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GenerateIn",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

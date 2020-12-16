@@ -1,0 +1,23 @@
+{
+    "name": "VariantUsageReport",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VariantUsage",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VariantUsageReportInner"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TotalUses",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "ReplicatedPredictionKeyMap",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PredictionKeys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ReplicatedPredictionKeyItem"
+                }
+            }
+        }
+    ]
+}

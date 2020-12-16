@@ -1,0 +1,199 @@
+{
+    "name": "DevFortPartyMemberRepData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Location",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPartyMemberLocation"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CampaignHero",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyMemberCampaignHero"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MatchmakingLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ZoneInstanceId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "HomeBaseVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HasPreloadedAthena",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "FrontendEmote",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyMemberFrontendEmote"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NumAthenaPlayersLeft",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SpectateAPartyMemberAvailable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "UtcTimeStartedMatchAthena",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 10,
+            "name": "GameReadiness",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameReadiness"
+            }
+        },
+        {
+            "index": 11,
+            "name": "InGameReadyCheckStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPartyMemberReadyCheckStatus"
+            }
+        },
+        {
+            "index": 12,
+            "name": "HiddenMatchmakingDelayMax",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ReadyInputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECommonInputType"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CurrentInputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECommonInputType"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AssistedChallengeInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyMemberAssistedChallengeInfo"
+            }
+        },
+        {
+            "index": 16,
+            "name": "FeatDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "MemberSquadAssignmentRequest",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyMemberSquadAssignmentRequest"
+            }
+        },
+        {
+            "index": 18,
+            "name": "VoiceChatStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPartyMemberVoiceChatStatus"
+            }
+        },
+        {
+            "index": 19,
+            "name": "SidekickStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPartyMemberSidekickStatus"
+            }
+        },
+        {
+            "index": 20,
+            "name": "AthenaCosmeticLoadout",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyMemberCosmeticLoadout"
+            }
+        },
+        {
+            "index": 21,
+            "name": "AthenaCosmeticLoadoutVariants",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyMemberVariantCache"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ArbitraryCustomDataStore",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "AthenaBannerInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyMemberAthenaBannerInfo"
+            }
+        },
+        {
+            "index": 24,
+            "name": "BattlePassInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyMemberBattlePassInfo"
+            }
+        }
+    ]
+}

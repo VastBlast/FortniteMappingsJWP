@@ -1,0 +1,28 @@
+{
+    "name": "SupplyDropSpawnData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SupplyDropInfo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ZoneBasedData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SupplyDropZoneBasedSpawnData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemDeliveryData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SupplyDropItemDeliverySpawnData"
+            }
+        }
+    ]
+}

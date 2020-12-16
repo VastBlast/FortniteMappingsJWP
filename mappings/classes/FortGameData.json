@@ -1,0 +1,927 @@
+{
+    "name": "FortGameData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PickupSplineOffsetRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PickupSplineRandomMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PickupSplineDropToGroundLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PickupMaxCollectionTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PickupMaxDelayPerItem",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AutoEquipTagContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 9,
+            "name": "HighlightColors",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortHighlightColorsContainer"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MobileInteractionIconScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 22,
+            "name": "CritRatingTable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ArmorToDamageResistanceTable",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 24,
+            "name": "DefaultLootInstancingRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "QuestPackInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortQuestPackInfo"
+                }
+            }
+        },
+        {
+            "index": 26,
+            "name": "DamageDoneTargetQuest_AllowedTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 27,
+            "name": "DamageDoneQuest_AllowedTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 28,
+            "name": "DamageDoneQuest_DistanceTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DamageDistanceTagEval"
+                }
+            }
+        },
+        {
+            "index": 29,
+            "name": "QuestIndicatorData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "OnlineAccountTexts",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OnlineAccountTexts"
+            }
+        },
+        {
+            "index": 31,
+            "name": "ServerOnlyAssetTypes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 32,
+            "name": "LoadingConfig",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "DefaultCameraManager",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "AnalyticsData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "GameplayTagData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "GameplayEffectData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "ObjClassToTooltipClassMap",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "TooltipTokenToTextTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "TooltipTokenToAttributeTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "PickupSplineCurve",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "PickupLandedSound",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "RarityData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "ItemCategories",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "AppActivationSoundMixManager",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "LoadingScreenSoundMix",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "BaseSoundMix",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "AbilityTargetingActorBlueprintClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "DefaultCooldownGameplayEffect",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "MobileInteractionMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "MobileInteractionMesh",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "MobileInteractionIcons",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "SubGameInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SubGameInfo"
+            }
+        },
+        {
+            "index": 57,
+            "name": "PlacementActorUsedTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 58,
+            "name": "QueuedAnnouncementPauseTimes",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "WeakSpotEnabledTimeoutHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 62,
+            "name": "BuildingRetestSupportedByWorldDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "BuildingStructuralCollapseDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "BuildingStructuralCollapseDelayVariance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "BuildingStructuralCollapseCellDistAdditiveDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "BuildingStructuralCollapseCellDistAdditiveDelayVariance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 67,
+            "name": "EditModeCancelDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 68,
+            "name": "BuildingCostHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 73,
+            "name": "BuildingDeconCostMultHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 78,
+            "name": "PlayerBuildingDeconCostMultHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 83,
+            "name": "BuildingInitialHealthPercentHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 88,
+            "name": "AthenaBuildingInitialHealthPercentHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 93,
+            "name": "AthenaBuildingDropPercentHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 98,
+            "name": "BuildingRepairCostMultiplierHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 103,
+            "name": "BuildingBreakAnimDurationHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 108,
+            "name": "BuildingDestroyAnimDurationHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 113,
+            "name": "BuildingPlacementAnimDurationHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 118,
+            "name": "BuildingCritDamagePctHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 123,
+            "name": "BuildingCritDestroyAnimScaleCapHandles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 128,
+            "name": "BuildingAudioBank",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 129,
+            "name": "StencilDefinitionCollection",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 130,
+            "name": "ResourceNames",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 135,
+            "name": "BuildingTypeNames",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 147,
+            "name": "StoneItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 148,
+            "name": "WoodItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 149,
+            "name": "MetalItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 150,
+            "name": "GoldCurrencyItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 151,
+            "name": "PistolAmmoItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 152,
+            "name": "PermaniteItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 153,
+            "name": "ShotgunAmmoItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 154,
+            "name": "RifleAmmoItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 155,
+            "name": "AssaultAmmoItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 156,
+            "name": "EnergyAmmoItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 157,
+            "name": "FortInputData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 158,
+            "name": "MissionGenerationData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 159,
+            "name": "MissionCSVEventMap",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 160,
+            "name": "GamepadSettingsDefault",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 161,
+            "name": "GamepadSettingsSony",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 162,
+            "name": "GamepadSettingsXboxOne",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 163,
+            "name": "GamepadSettingsSwitch",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 164,
+            "name": "GamepadSettingsV2",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 165,
+            "name": "TouchInputSettings",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 166,
+            "name": "InputTypeIcons",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 167,
+            "name": "LootQuotaData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 168,
+            "name": "LootLevelData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 169,
+            "name": "SurfaceRatioBySurfaceCategoryData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 171,
+            "name": "SurfaceRatioByAffiliationData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 173,
+            "name": "TeamIdentifications",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 428,
+            "name": "MinigameTeamIdentifications",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 429,
+            "name": "PartnerCafeBundleMapping",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartnerPcbInfo"
+                }
+            }
+        },
+        {
+            "index": 430,
+            "name": "StatNamesToTrackTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 431,
+            "name": "AttributeLookupTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 432,
+            "name": "AttributeCategories",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 433,
+            "name": "DamageNumbersActorClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 434,
+            "name": "WeakSpotBlueprintClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 435,
+            "name": "WeakSpotWoodPhysicalMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 436,
+            "name": "WeakSpotStonePhysicalMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 437,
+            "name": "WeakSpotMetalPhysicalMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 438,
+            "name": "UITagDataTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 439,
+            "name": "PickupEffectBlueprintClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 440,
+            "name": "TagTableManager",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 441,
+            "name": "EditToolItem",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 442,
+            "name": "BuildingToolClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 443,
+            "name": "EditToolClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 444,
+            "name": "GenericTrapAbilitySet",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 445,
+            "name": "GenericVehicleAbilitySet",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 446,
+            "name": "AbilityTagRelationshipMapping",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 447,
+            "name": "WeaponRechargeAmmoItemMapping",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 448,
+            "name": "FortDeathCauseFromTagMapping",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 449,
+            "name": "FortDeathCauseData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 450,
+            "name": "SurfaceTypeToSurfaceTypeTagMapping",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 451,
+            "name": "EnvironmentDamageTemplateGE",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 452,
+            "name": "FallingDamageTemplateGE",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 453,
+            "name": "VehicleImpactDamageTemplateGE",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 454,
+            "name": "HealingTemplateGE",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 455,
+            "name": "FatalDamageTemplateGE",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 456,
+            "name": "BasicNotificationClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 457,
+            "name": "FriendNotificationClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 458,
+            "name": "TwitchNotificationClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 459,
+            "name": "ZoneModifiersAnnouncementClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 460,
+            "name": "HealthScreenDamagePostProcessMat",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 462,
+            "name": "MobileOverrideDeathParticles",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 479,
+            "name": "ConversationSoundRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 480,
+            "name": "DefaultLobbyBackgroundLevel",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

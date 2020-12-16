@@ -1,0 +1,81 @@
+{
+    "name": "AFortCarriedObject",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ProjectileComp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HolderInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CarriedObjectAttachmentInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "IndicatorRelativeOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Indicator",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultIndicatorColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateColor"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RelativeTranslation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RelativeRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bPickupOnTouch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Team",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SpawnPointActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "name": "MinimalHighlightShot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VersionNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StartTimestamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ShotDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PlayerId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PlayerName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FeatureScores",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "NumEliminations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ClipSignificance",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHighlightSignificances"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FinalScore",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

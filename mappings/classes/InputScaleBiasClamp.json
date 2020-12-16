@@ -1,0 +1,84 @@
+{
+    "name": "InputScaleBiasClamp",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bMapRange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bClampResult",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bInterpResult",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputRange"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OutRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputRange"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Scale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Bias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ClampMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ClampMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "InterpSpeedIncreasing",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "InterpSpeedDecreasing",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

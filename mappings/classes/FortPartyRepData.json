@@ -1,0 +1,151 @@
+{
+    "name": "FortPartyRepData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PrimaryGameSessionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PartyState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPartyState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LobbyConnectionStarted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MatchmakingResult",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMatchmakingCompleteResult"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MatchmakingState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMatchmakingState"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SessionIsCriticalMission",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ZoneTileIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ZoneInstanceId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TheaterId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TileStates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "PartyMatchmakingInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPartyMatchmakingInfo"
+            }
+        },
+        {
+            "index": 11,
+            "name": "CustomMatchKey",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PlaylistData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PlaylistData"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AllowJoinInProgress",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "LFGTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AthenaSquadFill",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "PartyIsJoinedInProgress",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "GameSessionKey",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "RawSquadAssignments",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPartySquadAssignment"
+                }
+            }
+        }
+    ]
+}

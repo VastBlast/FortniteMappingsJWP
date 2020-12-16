@@ -16,32 +16,94 @@
             }
         },
         {
-            "index": 2,
-            "name": "ClearColor",
-            "mapping_type": {
-                "type": "StructProperty",
-                "struct_type": "DebugProperty"
-            }
-        },
-        {
             "index": 3,
             "name": "AddressX",
             "mapping_type": {
-                "type": "ByteProperty"
+                "type": "EnumProperty",
+                "enum_type": "ETextureAddress"
             }
         },
         {
             "index": 4,
             "name": "AddressY",
             "mapping_type": {
-                "type": "ByteProperty"
+                "type": "EnumProperty",
+                "enum_type": "ETextureAddress"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bForceLinearGamma",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bHDR",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bGPUSharedFlag",
+            "mapping_type": {
+                "type": "BoolProperty"
             }
         },
         {
             "index": 8,
             "name": "RenderTargetFormat",
             "mapping_type": {
-                "type": "ByteProperty"
+                "type": "EnumProperty",
+                "enum_type": "ETextureRenderTargetFormat"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bAutoGenerateMips",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MipsSamplerFilter",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureFilter"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MipsAddressU",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureAddress"
+            }
+        },
+        {
+            "index": 12,
+            "name": "MipsAddressV",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureAddress"
+            }
+        },
+        {
+            "index": 13,
+            "name": "OverrideFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPixelFormat"
+            }
+        },
+        {
+            "index": 14,
+            "name": "TargetGamma",
+            "mapping_type": {
+                "type": "FloatProperty"
             }
         },
         {
@@ -53,11 +115,117 @@
             }
         },
         {
+            "index": 16,
+            "name": "LodBias",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "CompressionSettings",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureCompressionSettings"
+            }
+        },
+        {
+            "index": 18,
+            "name": "Filter",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureFilter"
+            }
+        },
+        {
+            "index": 19,
+            "name": "MipLoadOptions",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureMipLoadOptions"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LODGroup",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureGroup"
+            }
+        },
+        {
+            "index": 21,
+            "name": "Downscale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformFloat"
+            }
+        },
+        {
+            "index": 22,
+            "name": "DownscaleOptions",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureDownscaleOptions"
+            }
+        },
+        {
             "index": 23,
             "name": "SRGB",
             "mapping_type": {
-                "type": "BoolProperty",
-                "bool": true
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bNoTiling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "VirtualTextureStreaming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "CompressionYCoCg",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 31,
+            "name": "NumCinematicMipLevels",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "NeverStream",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "bGlobalForceMipLevelsToBeResident",
+            "mapping_type": {
+                "type": "BoolProperty"
             }
         }
     ]

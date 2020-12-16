@@ -1,0 +1,38 @@
+{
+    "name": "APlayspace",
+    "properties": [
+        {
+            "index": 5,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RequestedPlayspaceParentTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ChildPlayspaceClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "bAutoStartMatchOnServerStart",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "name": "InterpTrackSlomo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FloatTrack",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurveTension",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SubTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "TrackInstClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ActiveCondition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETrackActiveCondition"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TrackTitle",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bOnePerGroup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bDirGroupOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bDisableTrack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bIsAnimControlTrack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bSubTrackOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

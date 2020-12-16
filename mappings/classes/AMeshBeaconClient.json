@@ -1,0 +1,30 @@
+{
+    "name": "AMeshBeaconClient",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bConnectedToRoot",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MeshPingTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ParentIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

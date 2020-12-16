@@ -1,0 +1,44 @@
+{
+    "name": "FortMinigameProgressComponent",
+    "properties": [
+        {
+            "index": 4,
+            "name": "ActivationTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MinigameTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 12,
+            "name": "DesiredStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "bIsRelevantForMinigameInitialization",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bAlwaysTryHandleDelayedStateChange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

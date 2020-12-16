@@ -1,0 +1,53 @@
+{
+    "name": "AAthenaBuildingFoundationObjective",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MiniMapBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FoundationTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LowHealthPercent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpawnedBuildingActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrentHealth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxHealth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

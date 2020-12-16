@@ -1,0 +1,71 @@
+{
+    "name": "WorldTileType",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TileID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TileGroups",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "TileWeight",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "North",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTileEdgeType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "East",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTileEdgeType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "South",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTileEdgeType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "West",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTileEdgeType"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MapNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

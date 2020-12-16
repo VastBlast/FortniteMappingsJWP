@@ -1,0 +1,71 @@
+{
+    "name": "EnvOverlapData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ExtentX",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ExtentY",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExtentZ",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ShapeOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OverlapChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionChannel"
+            }
+        },
+        {
+            "index": 5,
+            "name": "OverlapShape",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvOverlapShape"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bOnlyBlockingHits",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bOverlapComplex",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bSkipOverlapQuerier",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

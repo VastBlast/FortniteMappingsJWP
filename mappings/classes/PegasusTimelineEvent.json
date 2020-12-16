@@ -1,0 +1,45 @@
+{
+    "name": "PegasusTimelineEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PGS_TagName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PGS_IsScalarValueRelevant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PGS_ScalarValueDescription",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PGS_Category",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPegasusTimelineCategories"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EventHits",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PegasusTimelineEventHit"
+                }
+            }
+        }
+    ]
+}

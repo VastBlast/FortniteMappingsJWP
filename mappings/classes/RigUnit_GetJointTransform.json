@@ -1,0 +1,51 @@
+{
+    "name": "RigUnit_GetJointTransform",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Joint",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETransformGetterType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TransformSpace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETransformSpaceMode"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BaseTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BaseJoint",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Output",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        }
+    ]
+}

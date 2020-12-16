@@ -1,0 +1,51 @@
+{
+    "name": "RoundTechDataCache",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FuturePerks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FutureTechData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "LevelAtRoundStart",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FactionXPAtRoundStart",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDataReady",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxCalandarLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

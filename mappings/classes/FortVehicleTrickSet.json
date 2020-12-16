@@ -1,0 +1,79 @@
+{
+    "name": "FortVehicleTrickSet",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Basics",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RollTricks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortVehicleIncrementTrick"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ReverseRollTricks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortVehicleIncrementTrick"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "YawTricks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortVehicleIncrementTrick"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ReverseYawTricks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortVehicleIncrementTrick"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "PitchTricks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortVehicleIncrementTrick"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "ReversePitchTricks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortVehicleIncrementTrick"
+                }
+            }
+        }
+    ]
+}

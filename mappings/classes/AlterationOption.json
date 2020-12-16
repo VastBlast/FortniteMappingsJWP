@@ -1,0 +1,23 @@
+{
+    "name": "AlterationOption",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AlterationDef",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Costs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemQuantityPair"
+                }
+            }
+        }
+    ]
+}

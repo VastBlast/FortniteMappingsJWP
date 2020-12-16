@@ -1,0 +1,48 @@
+{
+    "name": "FortSocialManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SocialImportPlatform",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESocialImportPanelPlatform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bTutorialCompleted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bLeftLastPartyFromGameDisconnect",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LocalTeam",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bEnablePartyJoinReturnToMainMenu",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PendingQueryPartyJoinabilityResultTimeout",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

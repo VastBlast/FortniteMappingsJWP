@@ -1,0 +1,21 @@
+{
+    "name": "ConcertSessionClientInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ClientEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ClientInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertClientInfo"
+            }
+        }
+    ]
+}

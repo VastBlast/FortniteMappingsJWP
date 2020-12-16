@@ -1,0 +1,66 @@
+{
+    "name": "ProceduralRotationMapModifier",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Map",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RotationFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EProceduralRotationFormat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Roll",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Pitch",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Yaw",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Contribution",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BlendMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EProceduralParameterModifierBlendMode"
+            }
+        }
+    ]
+}

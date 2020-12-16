@@ -1,0 +1,119 @@
+{
+    "name": "AFortObjectiveBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ObjectiveRewardBadge",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemsToGiveOnObjectiveStart",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bStartPlayingOnMissionStart",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAcceptsMissionEventsWhenFinished",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ObjectiveHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ObjectiveAnalyticsName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MissionRequirement",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortObjectiveRequirement"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsObjectiveVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "VisibilityOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMissionVisibilityOverride"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bIsProgressBarHidden",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ObjectiveAudiblity",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMissionAudibility"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bRelevantToSpecificTeam",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RelevantTeam",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTeam"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ObjectiveStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortObjectiveStatus"
+            }
+        },
+        {
+            "index": 14,
+            "name": "TimerComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

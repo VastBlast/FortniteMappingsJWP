@@ -1,0 +1,28 @@
+{
+    "name": "RootMotionFinishVelocitySettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Mode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERootMotionFinishVelocityMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SetVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ClampVelocity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

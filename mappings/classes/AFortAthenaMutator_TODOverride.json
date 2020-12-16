@@ -1,0 +1,99 @@
+{
+    "name": "AFortAthenaMutator_TODOverride",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TimeOfDayOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaTimeOfDayOverride"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TimeOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpeedOverride",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LightIntensityOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLightIntensityOverride"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LightColorOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaTODColor"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FogDensityOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaFogDensityOverride"
+            }
+        },
+        {
+            "index": 6,
+            "name": "FogColorOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaTODColor"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PostProcessOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaTODPostProcess"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TimeOfDayPhases",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TimeOfDayPhase"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "TimeOfDaySpeeds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TimeOfDaySpeed"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "PostProcessOverrideActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        }
+    ]
+}

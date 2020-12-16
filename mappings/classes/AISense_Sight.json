@@ -1,0 +1,83 @@
+{
+    "name": "AISense_Sight",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaxTracesPerTick",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinQueriesPerTimeSliceCheck",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxTimeSlicePerTick",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HighImportanceQueryDistanceThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxQueryImportance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SightLimitQueryImportance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DefaultExpirationAge",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NotifyType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAISenseNotifyType"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bWantsNewPawnNotification",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bAutoRegisterAllPawnsAsSources",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PerceptionSystemInstance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

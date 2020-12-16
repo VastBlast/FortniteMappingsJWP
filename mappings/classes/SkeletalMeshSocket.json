@@ -1,0 +1,50 @@
+{
+    "name": "SkeletalMeshSocket",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoneName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RelativeLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RelativeRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RelativeScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bForceAlwaysAnimated",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

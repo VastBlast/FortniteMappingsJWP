@@ -1,0 +1,52 @@
+{
+    "name": "FortPlayerRecord",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UniqueId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BackpackData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "bPlayerIsNew",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PlayerStatsData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PlayerStatsRecord"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CampaignPeriodRecord",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StatManagerPeriodRecord"
+            }
+        }
+    ]
+}

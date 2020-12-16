@@ -1,0 +1,278 @@
+{
+    "name": "ABuildingItemCollectorActor",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemCollectorBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemCollectorBehavior"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bRequireAllForInteraction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bRequireAllForTurnIn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bHasToHaveSomething",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIncrementCaptureCountWhenGoalIsReached",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bCurrentInteractionSuccess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ItemCollectorState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemCollectorState"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TrackingType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemCollectorTrackingType"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ControllingPlayer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DefaultItemLootTierGroupName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ItemCollectorHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bCallOnLocalInteract",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bUseInstanceLootValueOverrides",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "OverrideOutputItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "OverrideGoal",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "NumInteractionsAllowed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ItemCollections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CollectorUnitInfo"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "ActiveInputItem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ClientPausedActiveInputItem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "ActiveItemRotationTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ItemRotationTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ItemRotationTimeVariation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "AllowedItemRotationDamageTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 25,
+            "name": "OutputDespenseDelayTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 26,
+            "name": "DespensingDelayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "LootSpawnLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 28,
+            "name": "LootTossDirection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 29,
+            "name": "LootTossConeHalfAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "LootTossSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bTossOnGround",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bSpawnAmmoOnlyWhenCarryingWeapon",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "StartingGoalLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "StartingGoalLevelOverride",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "InactiveItemTexture",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bPickupOwnedByLooter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "TrackedInteractionData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CollectorTrackedData"
+                }
+            }
+        }
+    ]
+}

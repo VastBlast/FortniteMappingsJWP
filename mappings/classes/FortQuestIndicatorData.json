@@ -1,0 +1,57 @@
+{
+    "name": "FortQuestIndicatorData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuestTagToLocationDataTable",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultQuestIcon",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "QuestTagToIconDataTable",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "QuestOjectiveTypeToIconMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "QuestTagToCategoryDataTable",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ChallengeMapPoiData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortChallengeMapPoiData"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "MovieSceneActorReferenceSection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActorReferenceData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneActorReferenceData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActorGuidIndexCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntegralCurve"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActorGuidStrings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

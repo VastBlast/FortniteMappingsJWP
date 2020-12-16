@@ -1,0 +1,167 @@
+{
+    "name": "AnimClassData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BakedStateMachines",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BakedAnimationStateMachine"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TargetSkeleton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AnimNotifies",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimNotifyEvent"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "AnimBlueprintFunctions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimBlueprintFunction"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "AnimBlueprintFunctionData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimBlueprintFunctionData"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "AnimNodeProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "LinkedAnimGraphNodeProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "LinkedAnimLayerNodeProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "PreUpdateNodeProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "DynamicResetNodeProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "StateMachineNodeProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "InitializationNodeProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "SyncGroupNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "EvaluateGraphExposedInputs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ExposedValueHandler"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "Subsystems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "SubsystemProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        }
+    ]
+}

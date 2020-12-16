@@ -1,0 +1,77 @@
+{
+    "name": "FortGameplayCueNotify_Simple",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StartSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StartParticleSystem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StartParticleSystemParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortParticleSystemParamBucket"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AttachPoint",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bStayAttached",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bUseHitResult",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseWeapon",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIgnoreRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bUseUnsmoothedNetworkPosition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PoolingMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPSCPoolMethod"
+            }
+        }
+    ]
+}

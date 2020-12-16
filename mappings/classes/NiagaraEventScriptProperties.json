@@ -1,0 +1,85 @@
+{
+    "name": "NiagaraEventScriptProperties",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ExecutionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EScriptExecutionMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxEventsPerFrame",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SourceEmitterID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SourceEventName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bRandomSpawnNumber",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MinSpawnNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Script",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "EventReceivers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraEventReceiverProperties"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "EventGenerators",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraEventGeneratorProperties"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "name": "WaveScalar",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Magnitude",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Wavelength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Period",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Time",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Function",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWaveFunctionType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Falloff",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFieldFalloffType"
+            }
+        }
+    ]
+}

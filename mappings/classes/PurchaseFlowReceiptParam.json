@@ -1,0 +1,30 @@
+{
+    "name": "PurchaseFlowReceiptParam",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TransactionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TransactionState",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Offers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PurchaseFlowOffer"
+                }
+            }
+        }
+    ]
+}

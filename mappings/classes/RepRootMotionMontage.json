@@ -1,0 +1,94 @@
+{
+    "name": "RepRootMotionMontage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIsActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AnimMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "position",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Location",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize100"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MovementBase",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MovementBaseBoneName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bRelativePosition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bRelativeRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "AuthoritativeRootMotion",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RootMotionSourceGroup"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Acceleration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize10"
+            }
+        },
+        {
+            "index": 11,
+            "name": "LinearVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize10"
+            }
+        }
+    ]
+}

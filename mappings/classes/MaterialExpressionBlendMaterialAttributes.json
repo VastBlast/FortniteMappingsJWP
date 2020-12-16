@@ -1,0 +1,66 @@
+{
+    "name": "MaterialExpressionBlendMaterialAttributes",
+    "properties": [
+        {
+            "index": 0,
+            "name": "A",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MaterialAttributesInput"
+            }
+        },
+        {
+            "index": 1,
+            "name": "B",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MaterialAttributesInput"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Alpha",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExpressionInput"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PixelAttributeBlendType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMaterialAttributeBlend"
+            }
+        },
+        {
+            "index": 4,
+            "name": "VertexAttributeBlendType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMaterialAttributeBlend"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Material",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Function",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsParameterExpression",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

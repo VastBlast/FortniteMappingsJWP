@@ -1,0 +1,43 @@
+{
+    "name": "FortSearchPassState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BestSessionIdx",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bWasCanceled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FailureType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortSessionHelperJoinResult"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MatchmakingState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMatchmakingState"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LastBeaconResponse",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPartyReservationResult"
+            }
+        }
+    ]
+}

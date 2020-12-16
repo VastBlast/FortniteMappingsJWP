@@ -1,0 +1,51 @@
+{
+    "name": "MinigameScoreboardPlayerRow",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerState",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Name",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TeamColorIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Values",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MinigameScoreboardValue"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "WinCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bHighlight",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

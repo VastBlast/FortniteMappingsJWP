@@ -1,0 +1,45 @@
+{
+    "name": "GameplayEffectModifierMagnitude",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MagnitudeCalculationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayEffectMagnitudeCalculation"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ScalableFloatMagnitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttributeBasedMagnitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AttributeBasedFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CustomMagnitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CustomCalculationBasedFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SetByCallerMagnitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SetByCallerFloat"
+            }
+        }
+    ]
+}

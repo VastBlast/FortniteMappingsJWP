@@ -1,0 +1,59 @@
+{
+    "name": "FortAthenaAIBotInventorySkillSet",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultWeaponSelectionDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultWeaponSelectionDistanceDeviation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HasInfiniteResources",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InventorySlotPreference",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 9,
+            "name": "EquipWeaponInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BotEquipWeaponInfo"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "AmmoCheats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WeaponAmmoCheat"
+                }
+            }
+        }
+    ]
+}

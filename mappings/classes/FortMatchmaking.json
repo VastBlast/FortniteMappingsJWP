@@ -1,0 +1,49 @@
+{
+    "name": "FortMatchmaking",
+    "properties": [
+        {
+            "index": 3,
+            "name": "ControllerId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TempZoneInstanceId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CachedMatchmakingSearchParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCachedMatchmakingSearchParams"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Matchmaking",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LastCriticalMissionSessionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LastMatchmakingPrivacyConfiguration",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMatchmakingPrivacyConfiguration"
+            }
+        }
+    ]
+}

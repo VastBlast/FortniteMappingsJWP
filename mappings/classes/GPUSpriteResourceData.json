@@ -1,0 +1,315 @@
+{
+    "name": "GPUSpriteResourceData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuantizedColorSamples",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Color"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "QuantizedMiscSamples",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Color"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "QuantizedSimulationAttrSamples",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Color"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ColorScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector4"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ColorBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector4"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MiscScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector4"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MiscBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector4"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SimulationAttrCurveScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector4"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SimulationAttrCurveBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector4"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SubImageSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector4"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SizeBySpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector4"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ConstantAcceleration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 12,
+            "name": "OrbitOffsetBase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 13,
+            "name": "OrbitOffsetRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 14,
+            "name": "OrbitFrequencyBase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 15,
+            "name": "OrbitFrequencyRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 16,
+            "name": "OrbitPhaseBase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 17,
+            "name": "OrbitPhaseRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 18,
+            "name": "GlobalVectorFieldScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "GlobalVectorFieldTightness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "PerParticleVectorFieldScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "PerParticleVectorFieldBias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "DragCoefficientScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "DragCoefficientBias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ResilienceScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ResilienceBias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "CollisionRadiusScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "CollisionRadiusBias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "CollisionTimeBias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "CollisionRandomSpread",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "CollisionRandomDistribution",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "OneMinusFriction",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "RotationRateScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "CameraMotionBlurAmount",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "ScreenAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleScreenAlignment"
+            }
+        },
+        {
+            "index": 35,
+            "name": "LockAxisFlag",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleAxisLock"
+            }
+        },
+        {
+            "index": 36,
+            "name": "PivotOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 37,
+            "name": "bRemoveHMDRoll",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "MinFacingCameraBlendDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "MaxFacingCameraBlendDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

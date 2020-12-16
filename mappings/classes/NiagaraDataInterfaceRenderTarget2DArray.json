@@ -1,0 +1,36 @@
+{
+    "name": "NiagaraDataInterfaceRenderTarget2DArray",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Size",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntVector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrideRenderTargetFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETextureRenderTargetFormat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOverrideFormat",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RenderTargetUserParameter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraUserParameterBinding"
+            }
+        }
+    ]
+}

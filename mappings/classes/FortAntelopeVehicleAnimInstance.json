@@ -1,0 +1,45 @@
+{
+    "name": "FortAntelopeVehicleAnimInstance",
+    "properties": [
+        {
+            "index": 10,
+            "name": "ChargingMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ChargingMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ChargingInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "VehicleType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortValetVehicleType"
+            }
+        },
+        {
+            "index": 32,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        }
+    ]
+}

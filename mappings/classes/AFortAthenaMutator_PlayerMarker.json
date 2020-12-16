@@ -1,0 +1,31 @@
+{
+    "name": "AFortAthenaMutator_PlayerMarker",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerMarkerMarkerEffectClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxTeamAliveCountForMarker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayerMarkerEffectDataArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlayerMarkerMutatorEffectData"
+                }
+            }
+        }
+    ]
+}

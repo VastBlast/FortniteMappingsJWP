@@ -1,0 +1,23 @@
+{
+    "name": "FlashCountedActorInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Actors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CreativeSelectedActorInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "FlashCounter",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

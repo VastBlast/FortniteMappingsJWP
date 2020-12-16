@@ -2,8 +2,64 @@
     "name": "MaterialInstanceBasePropertyOverrides",
     "properties": [
         {
+            "index": 0,
+            "name": "bOverride_OpacityMaskClipValue",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bOverride_BlendMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOverride_ShadingModel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bOverride_DitheredLODTransition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bOverride_CastDynamicShadowAsMasked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bOverride_TwoSided",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 6,
             "name": "TwoSided",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DitheredLODTransition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bCastDynamicShadowAsMasked",
             "mapping_type": {
                 "type": "BoolProperty"
             }
@@ -12,14 +68,16 @@
             "index": 9,
             "name": "BlendMode",
             "mapping_type": {
-                "type": "ByteProperty"
+                "type": "EnumProperty",
+                "enum_type": "EBlendMode"
             }
         },
         {
             "index": 10,
             "name": "ShadingModel",
             "mapping_type": {
-                "type": "ByteProperty"
+                "type": "EnumProperty",
+                "enum_type": "EMaterialShadingModel"
             }
         },
         {

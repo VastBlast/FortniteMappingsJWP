@@ -1,0 +1,28 @@
+{
+    "name": "FortMissionAlertClaimData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionAlertID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RedemptionDateUtc",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EvictClaimDataAfterUtc",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "name": "AnimNode_ScaleChainLength",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InputPose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseLink"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultChainLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChainStartBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ChainEndBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TargetLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Alpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AlphaScaleBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBias"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ChainInitialLength",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EScaleChainInitialLength"
+            }
+        }
+    ]
+}

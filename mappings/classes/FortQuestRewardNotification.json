@@ -1,0 +1,31 @@
+{
+    "name": "FortQuestRewardNotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuestId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Loot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpLootResult"
+            }
+        },
+        {
+            "index": 2,
+            "name": "QuestsAndRewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortQuestRewardData"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "name": "FortTheaterRuntimeData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TheaterType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTheaterType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TheaterTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EventDependentTheaterTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EventDependentTag"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "TheaterVisibilityRequirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRequirementsInfo"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Requirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRequirementsInfo"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RequiredSubGameForVisibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubGame"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bOnlyMatchLinkedQuestsToTiles",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "WorldMapPinClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TheaterImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TheaterImages",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMultiSizeBrush"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TheaterColorInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTheaterColorInfo"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Socket",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "MissionAlertRequirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRequirementsInfo"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MissionAlertCategoryRequirements",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMissionAlertRuntimeData"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "GameplayModifierList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTheaterGameplayModifier"
+                }
+            }
+        }
+    ]
+}

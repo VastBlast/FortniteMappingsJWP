@@ -1,0 +1,37 @@
+{
+    "name": "FortQuestMissionCreationContext",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionInfo",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MissionCreationContextTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayTagContainer"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSetQuestOwnerAsMissionOwner",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxNumberToSpawnInWorld",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

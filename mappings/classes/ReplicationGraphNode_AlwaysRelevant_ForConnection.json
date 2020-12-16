@@ -1,0 +1,26 @@
+{
+    "name": "ReplicationGraphNode_AlwaysRelevant_ForConnection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PastRelevantActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AlwaysRelevantActorInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "AllChildNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

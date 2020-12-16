@@ -1,0 +1,699 @@
+{
+    "name": "AFortAthenaVehicle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SoftOverrideItemWrap",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bDisableUpdateForcedDebugInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bDisableUpdateAutoRun",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bDisableUpdateHonk",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bDisableUpdateIgnoredBuildingActors",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bDisableUpdateIngoredPawnsForDamage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bDisableUpdateSafeTeleport",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bShowDamageNumbers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bShowDamageNumbersAtImpactLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bPlayDamageAudio",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bShowVehicleHealthBarOnPlayerHUD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bDestroyBuildingSMActorOnForceExit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bAllowInteractBetweenFortVolumes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bCanPassengerPawnsTakeDamage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bEnableCurieMaterial",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "FireEnvDamageTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 38,
+            "name": "PawnIgnoreBumpTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 39,
+            "name": "DriverReticleBrush",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "IndicatorIcon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "WaterEffectsVehicleMaxSpeedKmh",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "WaterEffectsAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "WaterEffectsComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 56,
+            "name": "EmptyDriverInputState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAthenaVehicleInputState"
+            }
+        },
+        {
+            "index": 57,
+            "name": "PrimarySurfaceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPhysicalSurface"
+            }
+        },
+        {
+            "index": 58,
+            "name": "WeaponResponseType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBaseWeaponDamage"
+            }
+        },
+        {
+            "index": 59,
+            "name": "VTDMode",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "FuelCharge",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRechargingActionTimer"
+            }
+        },
+        {
+            "index": 68,
+            "name": "SeatSwitchCooldown",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "VehicleTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 70,
+            "name": "Springs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VehicleSpringInfo"
+                }
+            }
+        },
+        {
+            "index": 71,
+            "name": "GroundTriangle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SpringGroundTriangle"
+            }
+        },
+        {
+            "index": 72,
+            "name": "Gears",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SMVehicleGear"
+                }
+            }
+        },
+        {
+            "index": 73,
+            "name": "SprintGears",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SMVehicleGear"
+                }
+            }
+        },
+        {
+            "index": 74,
+            "name": "ReverseGears",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SMVehicleGear"
+                }
+            }
+        },
+        {
+            "index": 75,
+            "name": "ForwardDrivingAntiGravityScaler",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "CameraAssistStrength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "CameraAssistRampUp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "TimeToAutoCamera",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "CameraAssistBaseHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "CameraAssistUpHillScaler",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "CameraAssistSteerScaler",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "CameraAssistForwardScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 84,
+            "name": "MinSpeedForAutoCamera",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 85,
+            "name": "AngleDegreesThresholdFromCurrentCameraToTarget",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "TetheredCamera",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "PlayerCollisionGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "OverlapComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "WaterOverlapComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 91,
+            "name": "VehicleMinHorSpeedToDamage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "VehicleMaxHorSpeedToDamage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 93,
+            "name": "VehicleMinHorSpeedDamage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 94,
+            "name": "VehicleMaxHorSpeedDamage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 95,
+            "name": "ImpulseResponseMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 96,
+            "name": "ImpulseResponseZBias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 97,
+            "name": "BrakeAboveTopSpeedDelta",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "TimeToIdleBrake",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 99,
+            "name": "DragCoefficient",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 100,
+            "name": "PrimaryCameraPitchConstraint",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "PrimaryCameraYawConstraint",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "MainBodyCollision",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 104,
+            "name": "TestInitialLinearVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 105,
+            "name": "TestInitialAngularVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 106,
+            "name": "LookAheadHit",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HitResult"
+            }
+        },
+        {
+            "index": 107,
+            "name": "TrickSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 108,
+            "name": "PushForceSocket",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 109,
+            "name": "FrontWheelsSocket",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 110,
+            "name": "RearWheelSockets",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 112,
+            "name": "DefaultHitNotifyAudioBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 116,
+            "name": "BulletCollisionComponentTag",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 117,
+            "name": "GEDamagePassengersOnDeath",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 121,
+            "name": "SeatTransitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SeatTransitionMontage"
+                }
+            }
+        },
+        {
+            "index": 124,
+            "name": "EmoteAudioSourcePresetChain",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 125,
+            "name": "EmoteAudioAttenuation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 126,
+            "name": "MarkerDisplay",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MarkedActorDisplayInfo"
+            }
+        },
+        {
+            "index": 128,
+            "name": "StartupAbilitySet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 129,
+            "name": "VehicleSeatComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 130,
+            "name": "SkyTubePhysicsComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 131,
+            "name": "PontoonsComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 132,
+            "name": "PlayerSlots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaCarPlayerSlot"
+                }
+            }
+        },
+        {
+            "index": 133,
+            "name": "PlayerSlotsBackup",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaCarPlayerSlot"
+                }
+            }
+        },
+        {
+            "index": 135,
+            "name": "NetDriver",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 136,
+            "name": "VehicleMovementSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 138,
+            "name": "ImminentCollisionComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 142,
+            "name": "CameraModeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 143,
+            "name": "DrivingAnimClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 144,
+            "name": "DriverAnimLayerOverlayClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 145,
+            "name": "PassengerAnimLayerOverlayClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 146,
+            "name": "AnimSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 147,
+            "name": "AttributeInitKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAttributeInitializationKey"
+            }
+        },
+        {
+            "index": 151,
+            "name": "DamageSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 153,
+            "name": "VehicleCosmeticInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehicleCosmeticInfo"
+            }
+        },
+        {
+            "index": 154,
+            "name": "NavModifierComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

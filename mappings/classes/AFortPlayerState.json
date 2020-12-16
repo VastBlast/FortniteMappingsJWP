@@ -1,0 +1,210 @@
+{
+    "name": "AFortPlayerState",
+    "properties": [
+        {
+            "index": 4,
+            "name": "bHasFinishedLoading",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bHasStartedPlaying",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bMeshNetPlayer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bRepFlag1",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "WorldPlayerId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PartyOwnerUniqueId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 11,
+            "name": "HeroId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "HeroType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "CurrentCharXP",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "MyBackpackPickup",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "Platform",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "Banner",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PlayerBannerInfo"
+            }
+        },
+        {
+            "index": 22,
+            "name": "CharacterGender",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCustomGender"
+            }
+        },
+        {
+            "index": 23,
+            "name": "CharacterBodyType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCustomBodyType"
+            }
+        },
+        {
+            "index": 24,
+            "name": "CharacterData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CustomCharacterData"
+            }
+        },
+        {
+            "index": 25,
+            "name": "CharacterColorSwatches",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "CustomPRIComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "CharacterPartColorSwatches",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "PlayerTeam",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "PlayerTeamPrivate",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bSkipReplicatedStats",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "ReadyCheckState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EReadyCheckState"
+            }
+        },
+        {
+            "index": 51,
+            "name": "HomeActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "AttributeSets",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPlayerAttributeSets"
+            }
+        },
+        {
+            "index": 53,
+            "name": "AbilitySystemComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "PlayerOSSName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "TrustedPlatformType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETrustedPlatformType"
+            }
+        },
+        {
+            "index": 56,
+            "name": "PlatformUniqueNetId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        }
+    ]
+}

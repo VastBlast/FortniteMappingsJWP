@@ -1,0 +1,27 @@
+{
+    "name": "FortMcpProfileCampaign",
+    "properties": [
+        {
+            "index": 1,
+            "name": "bEnableHeroLoadoutMocking",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HeroLoadoutCommandDelaySeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CachedClientSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSubgameClientSettings"
+            }
+        }
+    ]
+}

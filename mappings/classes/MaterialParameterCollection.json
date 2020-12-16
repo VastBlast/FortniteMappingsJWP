@@ -2,14 +2,6 @@
     "name": "MaterialParameterCollection",
     "properties": [
         {
-            "index": 0,
-            "name": "StateId",
-            "mapping_type": {
-                "type": "StructProperty",
-                "struct_type": "Guid"
-            }
-        },
-        {
             "index": 1,
             "name": "ScalarParameters",
             "mapping_type": {
@@ -27,7 +19,7 @@
                 "type": "ArrayProperty",
                 "sub_type": {
                     "type": "StructProperty",
-                    "struct_type": "CollectionScalarParameter"
+                    "struct_type": "CollectionVectorParameter"
                 }
             }
         }

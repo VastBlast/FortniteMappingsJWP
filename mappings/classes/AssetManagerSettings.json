@@ -1,0 +1,110 @@
+{
+    "name": "AssetManagerSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PrimaryAssetTypesToScan",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PrimaryAssetTypeInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DirectoriesToExclude",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DirectoryPath"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PrimaryAssetRules",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PrimaryAssetRulesOverride"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "CustomPrimaryAssetRules",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PrimaryAssetRulesCustomOverride"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bOnlyCookProductionAssets",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bShouldManagerDetermineTypeAndName",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bShouldGuessTypeAndNameInEditor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bShouldAcquireMissingChunksOnLoad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PrimaryAssetIdRedirects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AssetManagerRedirect"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "PrimaryAssetTypeRedirects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AssetManagerRedirect"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "AssetPathRedirects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AssetManagerRedirect"
+                }
+            }
+        }
+    ]
+}

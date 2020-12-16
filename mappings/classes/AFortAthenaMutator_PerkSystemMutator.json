@@ -1,0 +1,60 @@
+{
+    "name": "AFortAthenaMutator_PerkSystemMutator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinPerksToUnlock",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxPerksToUnlock",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MutatorData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerkMutatorData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxTimeAtPerkScreen",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxTimeToBlockRespawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bDelayedPerkSelection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DefaultPerks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

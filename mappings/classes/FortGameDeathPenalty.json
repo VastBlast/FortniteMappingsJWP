@@ -2,10 +2,130 @@
     "name": "FortGameDeathPenalty",
     "properties": [
         {
+            "index": 0,
+            "name": "PercentResourcesToDrop",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PercentWeaponsToDrop",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PercentCraftingIngredientsToDrop",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PercentConsumablesToDrop",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PercentAmmoToDrop",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PercentResourcesToRecover",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PercentWeaponsToRecover",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PercentCraftingIngredientsToRecover",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PercentConsumablesToRecover",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PercentAmmoToRecover",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MinResourcesToKeep",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MinWeaponsToKeep",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "MinCraftingIngredientsToKeep",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MinConsumablesToKeep",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "MinAmmoToKeep",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "RespawnDelays",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
             "index": 16,
             "name": "RespawnDelayOverTime",
             "mapping_type": {
                 "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "MaxRespawnDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
             }
         },
         {
@@ -16,8 +136,50 @@
             }
         },
         {
+            "index": 19,
+            "name": "bUseRegenHealthOnRespawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "PercentHealthOnRespawn",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
             "index": 21,
             "name": "PercentShieldOnRespawn",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "PercentStaminaOnRespawn",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "RespawnDurabilityPenalty",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "SelfResurrectDurabilityPenalty",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "TeammateResurrectDurabilityPenalty",
             "mapping_type": {
                 "type": "FloatProperty"
             }

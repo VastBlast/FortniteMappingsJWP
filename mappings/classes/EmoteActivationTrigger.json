@@ -1,0 +1,36 @@
+{
+    "name": "EmoteActivationTrigger",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EmoteTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TagsToApply",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

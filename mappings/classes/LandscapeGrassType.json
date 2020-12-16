@@ -1,0 +1,72 @@
+{
+    "name": "LandscapeGrassType",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GrassVarieties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GrassVariety"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bEnableDensityScaling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GrassMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "GrassDensity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PlacementJitter",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "StartCullDistance",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EndCullDistance",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RandomRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AlignToSurface",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

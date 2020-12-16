@@ -1,0 +1,24 @@
+{
+    "name": "FortMobileHUDPresetContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HUDPresetContainerTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HUDProfilePresets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMobileHUDPreset"
+                }
+            }
+        }
+    ]
+}

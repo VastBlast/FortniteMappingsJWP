@@ -1,0 +1,28 @@
+{
+    "name": "EventRecord",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EventType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActiveUntil",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActiveSince",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        }
+    ]
+}

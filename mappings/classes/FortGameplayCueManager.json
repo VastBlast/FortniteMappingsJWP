@@ -1,0 +1,32 @@
+{
+    "name": "FortGameplayCueManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BROnlyGameplayCueNotifyPaths",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "AdditionalAlwaysLoadedCueTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bClientDelayLoadGameplayCues",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

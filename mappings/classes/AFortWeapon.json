@@ -1,0 +1,776 @@
+{
+    "name": "AFortWeapon",
+    "properties": [
+        {
+            "index": 6,
+            "name": "bIsAimingConsumable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bUseAttributeCaching",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bImpactFXAttachedToHitActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "HitNotifyAudioBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bRemoveAbilitiesWhenRemovedFromInventory",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "GrantedAbilityRemovalPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWeaponAbilityRemovalPolicy"
+            }
+        },
+        {
+            "index": 24,
+            "name": "EquippedWeaponDestroyWrapperRepCounter",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "MinimumTimeForPersistentFX",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "WeaponReduceMeshWorkSetting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWeaponReduceMeshWorkSetting"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bShouldDrawNativeReticle",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "ReticleImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "AutoFireReticleImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "ReticleDefaultColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 33,
+            "name": "ReticleEnemyColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 34,
+            "name": "ReticleBuildingColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 35,
+            "name": "ReticleNoTargetColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 36,
+            "name": "HitNotifyReticleImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "HitNotifyLocationReticleImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "HitNotifyDisplayDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "ReticleCenterImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "ReticleCenterPerfectAimImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "ReticleInvalidTargetImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "MuzzleBlockedReticleImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "ReticleAltCenterImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "ReticleOuterImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "ReticleAltOuterImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "ReticleDefaultPrimaryStrikeAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "ReticleDefaultSecondaryStrikeAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "bSupportsAutofireAtReticleTarget",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "CameraBase3PClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "CameraTargeting3PClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "CameraBase1PClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "CameraTargeting1PClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "DestroyedSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "OutOfAmmoSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "ReloadSounds",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "PrimaryFireSound1P",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "PrimaryFireSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "PrimaryFireStopSound1P",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "PrimaryFireStopSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "SecondaryFireSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "SecondaryFireStopSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "ChargeFireSound1P",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "ChargeFireSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "TargetingStartSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "TargetingEndSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "PrimaryFireSoundFadeOutTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "ImpactPhysicalSurfaceSounds",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 108,
+            "name": "ImpactPhysicalSurfaceEffects",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 135,
+            "name": "ImpactNiagaraPhysicalSurfaceEffectAssets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 136,
+            "name": "ImpactCameraShake",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 137,
+            "name": "PrimaryForceFeedbackEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 138,
+            "name": "SecondaryForceFeedbackEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 139,
+            "name": "PrimaryImpactForceFeedbackEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 140,
+            "name": "SecondaryImpactForceFeedbackEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 142,
+            "name": "DataStoreManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 147,
+            "name": "WeaponMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 148,
+            "name": "AllWeaponMeshes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 152,
+            "name": "WrapSectionMask",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 158,
+            "name": "FireFXSignificance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEffectDistanceQuality"
+            }
+        },
+        {
+            "index": 160,
+            "name": "LastFireTimeVerified",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 164,
+            "name": "InputQueueTimePercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 165,
+            "name": "bAllowTargeting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 166,
+            "name": "bIsTargeting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 167,
+            "name": "LastTargetingTransitionTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 168,
+            "name": "TargetSourceOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 169,
+            "name": "TargetSourceOffsetWhileCrouched",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 170,
+            "name": "TargetSourceOffsetWhileTargeting",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 171,
+            "name": "bTraceThroughPawns",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 172,
+            "name": "bTraceThroughWorld",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 173,
+            "name": "TraceThroughPawnsLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 174,
+            "name": "TraceThroughBuildingsLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 175,
+            "name": "bUseProjectileTrace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 176,
+            "name": "bUseWeaponTraceForReticle",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 177,
+            "name": "ProjectilePitchOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 189,
+            "name": "StartChargeGameplayCue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 190,
+            "name": "MaxChargeGameplayCue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 191,
+            "name": "CurrentShotLogIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 199,
+            "name": "bShouldFullyApplyVariantsOnEquip",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 200,
+            "name": "ChargeStatusPack",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 216,
+            "name": "MuzzleSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 217,
+            "name": "MuzzleFalloffSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 218,
+            "name": "WeaponHandSocketNameOverride",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 219,
+            "name": "LeftHandWeaponHandSocketNameOverride",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 220,
+            "name": "bForceOverrideGenerateOverlapEvents",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 221,
+            "name": "MaxWeaponSwitchNetworkWaitTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 223,
+            "name": "EquipAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 224,
+            "name": "ReloadAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 225,
+            "name": "CustomReloadAnimationPerAmmoToFill",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 226,
+            "name": "PrimaryAbilityAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 227,
+            "name": "WeaponEquipMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 228,
+            "name": "WeaponReloadMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 229,
+            "name": "CustomWeaponReloadMontagePerAmmoToFill",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 230,
+            "name": "WeaponPrimaryAbilityMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 231,
+            "name": "PoseOffsetAnimSequence",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 232,
+            "name": "PoseOffsetAnimSequenceFemaleOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 233,
+            "name": "WeaponCoreAnimation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWeaponCoreAnimation"
+            }
+        },
+        {
+            "index": 234,
+            "name": "WeaponPawnAnimSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 235,
+            "name": "WeaponPawnAnimLayerOverlayClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 236,
+            "name": "WeaponAdditiveAnimSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 237,
+            "name": "WeaponPawnAnimsetOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 238,
+            "name": "UnableToPerformActionMontageOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 240,
+            "name": "FireModeData_HipFire",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 241,
+            "name": "FireModeData_AimDownSight",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 245,
+            "name": "bFireConsumableAnalyticEvent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 247,
+            "name": "HudKeyActionData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WeaponHudData"
+                }
+            }
+        }
+    ]
+}

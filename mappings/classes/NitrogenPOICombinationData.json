@@ -1,0 +1,27 @@
+{
+    "name": "NitrogenPOICombinationData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "POIConnections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NitrogenPOIConnectionData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "FareDistanceValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NitrogenFareDistanceValue"
+                }
+            }
+        }
+    ]
+}

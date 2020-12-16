@@ -1,0 +1,30 @@
+{
+    "name": "FortTrackedObjectCostOverrideListData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ObjectPtr",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ClassPtr",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Overrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VersionedCostOverride"
+                }
+            }
+        }
+    ]
+}

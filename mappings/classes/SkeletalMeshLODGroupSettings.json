@@ -1,0 +1,71 @@
+{
+    "name": "SkeletalMeshLODGroupSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScreenSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LODHysteresis",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BoneFilterActionOption",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBoneFilterActionOption"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BoneList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BoneFilter"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "BonesToPrioritize",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "WeightOfPrioritization",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BakePose",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ReductionSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SkeletalMeshOptimizationSettings"
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "VoiceChatLogSubmitOptions",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bSubmitLogs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bSubmitSecondaryLogs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LogTailKb",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "IncludeRules",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VoiceChatLogUploadRule"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ExcludeRules",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VoiceChatLogUploadRule"
+                }
+            }
+        }
+    ]
+}

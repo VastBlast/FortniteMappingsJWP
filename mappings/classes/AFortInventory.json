@@ -1,0 +1,89 @@
+{
+    "name": "AFortInventory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InventoryType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortInventoryType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Inventory",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemList"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ReplayPawn",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bRequiresLocalUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bRequiresSaving",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsShuttingDown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PendingInstances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "RecentlyAdded",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "RecentlyRemoved",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "RecentlyChanged",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

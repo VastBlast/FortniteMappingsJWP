@@ -1,0 +1,119 @@
+{
+    "name": "ResonanceAudioReverbPluginSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bEnableRoomEffects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bGetTransformFromAudioVolume",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RoomPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RoomRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Quat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RoomDimensions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LeftWallMaterial",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERaMaterialName"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RightWallMaterial",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERaMaterialName"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FloorMaterial",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERaMaterialName"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CeilingMaterial",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERaMaterialName"
+            }
+        },
+        {
+            "index": 9,
+            "name": "FrontWallMaterial",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERaMaterialName"
+            }
+        },
+        {
+            "index": 10,
+            "name": "BackWallMaterial",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERaMaterialName"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ReflectionScalar",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ReverbGain",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ReverbTimeModifier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ReverbBrightness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

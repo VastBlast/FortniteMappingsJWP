@@ -1,0 +1,66 @@
+{
+    "name": "ARFilter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PackageNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PackagePaths",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ObjectPaths",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ClassNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bRecursivePaths",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bRecursiveClasses",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIncludeOnlyOnDiskAssets",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

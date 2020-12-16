@@ -1,0 +1,24 @@
+{
+    "name": "FortAILootDropModifiers",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Requirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIEncounterRequirements"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LootDropModifierRows",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DataTableRowHandle"
+                }
+            }
+        }
+    ]
+}

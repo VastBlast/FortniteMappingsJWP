@@ -1,0 +1,91 @@
+{
+    "name": "FortSpawnActorInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpawnActorID",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnActorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CollisionProfile",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CollisionProfileName"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpawnTiming",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortSpawnActorTime"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SafeZoneIndex",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SpawnAtSafeZoneIndex",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DelayBetweenSpawns",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MinActorsToSpawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MaxActorsToSpawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MinSpawnHeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MaxSpawnHeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

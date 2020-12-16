@@ -1,0 +1,145 @@
+{
+    "name": "CreativeQuestComponent",
+    "properties": [
+        {
+            "index": 1,
+            "name": "StatToTrack",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECreativeQuestStat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SharingMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECreativeQuestSharing"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TargetTeam",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TargetClass",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AssignedToTeam",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TargetDeathCause",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDeathCause"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bSelfEliminationsCount",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "QuestName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ObjectiveText",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MinigameTargetAmount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bShowQuestOnHUD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ShowProgressMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EShowProgressMode"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bShowCompleteEffects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "QuestIndividualData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CreativeQuestData"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "QuestTeamProgress",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "QuestAllProgress",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "QuestTeamActive",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "MyMinigame",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

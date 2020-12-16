@@ -1,0 +1,42 @@
+{
+    "name": "RewardCategoryTabData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TabDisplayAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "IncludeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ExcludeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bDefaultEntry",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

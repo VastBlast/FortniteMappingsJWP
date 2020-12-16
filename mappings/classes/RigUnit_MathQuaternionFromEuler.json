@@ -1,0 +1,29 @@
+{
+    "name": "RigUnit_MathQuaternionFromEuler",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Euler",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RotationOrder",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigRotationOrder"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Result",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Quat"
+            }
+        }
+    ]
+}

@@ -1,0 +1,453 @@
+{
+    "name": "AFortCreativeMoveTool",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CreativeMoveToolInputComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnHelperNewlyPlacedActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "OriginalAndSpawnedPair"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ToDuplicateActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ActorAndTransformPair"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ActiveMovementMode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsPreviewingMove",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "InteractionBehaviors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "DeleteObjectsInteractionBehavior",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "PlaysetPreviewInteractionBehavior",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "CurrentTransformationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETransformationType"
+            }
+        },
+        {
+            "index": 30,
+            "name": "SelectedActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CreativeSelectedActorInfo"
+                }
+            }
+        },
+        {
+            "index": 31,
+            "name": "ServerSelectedActorLogicalConnections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LogicalConnectionChain"
+                }
+            }
+        },
+        {
+            "index": 32,
+            "name": "ConnectedActorStates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ValidPlacementPair"
+                }
+            }
+        },
+        {
+            "index": 33,
+            "name": "ScaleModifier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 34,
+            "name": "SelectionToWorld",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 35,
+            "name": "SelectionSpaceActorsBounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bIsScaleUpPressed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "bIsMultiselectEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bIsQuickbarSupported",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "SelectionProperty",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESelectionProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bIsScaleDownPressed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bIsPushPressed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bIsPullPressed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bIsAutoTractorBeamRunning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bIsRotateClockwisePressed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bIsRotateCounterclockwisePressed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bIsScalingInsteadOfRotating",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "TargetRotationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Quat"
+            }
+        },
+        {
+            "index": 48,
+            "name": "RotationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Quat"
+            }
+        },
+        {
+            "index": 49,
+            "name": "RotationAxes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Rotator"
+                }
+            }
+        },
+        {
+            "index": 50,
+            "name": "RotationAxisIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "SelectedScaleAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EScaleAxis"
+            }
+        },
+        {
+            "index": 53,
+            "name": "ComponentsToReclaimMIDsFrom",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 54,
+            "name": "AllMIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CreativePooledMID"
+                }
+            }
+        },
+        {
+            "index": 55,
+            "name": "MaxUnhoverAnimationTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "NewlyPlacedActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "OriginalAndSpawnedPair"
+                }
+            }
+        },
+        {
+            "index": 57,
+            "name": "CutActors",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FlashCountedActorInfo"
+            }
+        },
+        {
+            "index": 59,
+            "name": "RecentlyPlacedAgingActors",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AgingActorArray"
+            }
+        },
+        {
+            "index": 60,
+            "name": "bShouldDestroyPropsWhenPlacing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "bAllowGravityOnPlace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "WantsGravityOnPlace",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CreativeOptionVariableBase"
+            }
+        },
+        {
+            "index": 63,
+            "name": "bShouldUsePrecisionGridSnapping",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "GridSnapIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "WantsPrecisionGridSnapping",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CreativeOptionVariableBase"
+            }
+        },
+        {
+            "index": 66,
+            "name": "GridSnapRatios",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 67,
+            "name": "bDoesRequireCreatePermission",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 68,
+            "name": "TraceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHitTraceType"
+            }
+        },
+        {
+            "index": 69,
+            "name": "bClientNeedsToProcessNewlyPlacedActors",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "WantedHitTraceRule",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CreativeOptionVariableBase"
+            }
+        },
+        {
+            "index": 71,
+            "name": "MoveToolActivatedTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 72,
+            "name": "ActiveRecordSpawner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "WantedIgnoreRecentlyPlacedTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CreativeOptionVariableBase"
+            }
+        },
+        {
+            "index": 74,
+            "name": "bAlwaysMoveFreely",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "WantedAlwaysMoveFreely",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CreativeOptionVariableBase"
+            }
+        },
+        {
+            "index": 76,
+            "name": "WantedCameraSpacePositioning",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CreativeOptionVariableBase"
+            }
+        }
+    ]
+}

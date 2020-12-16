@@ -1,0 +1,26 @@
+{
+    "name": "AFortAthenaMutator_SafeZoneStateBasedActorSpawner",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActorSpawningDatas",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SafeZoneStateBasedActorSpawnerData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActorSpawners",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

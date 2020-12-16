@@ -1,0 +1,56 @@
+{
+    "name": "PropertyAccessLibrary",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PathSegments",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PropertyAccessSegment"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SrcPaths",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PropertyAccessPath"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "DestPaths",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PropertyAccessPath"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "CopyBatches",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PropertyAccessCopyBatch"
+            }
+        },
+        {
+            "index": 10,
+            "name": "EventAccessIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "name": "BackendJobCompletePayload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PGS_RenderJobMessageHandle",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PGS_RenderQueueUrl",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PGS_ASGName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PGS_ExportedVideos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BackendExportedClipInfo"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "PGS_ExportedTimelines",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BackendExportedTimelineEvents"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "PGS_PayloadMeta",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PegasusJobMeta"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PGS_VideoManagerStateDurations",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "PGS_InstanceInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DriverInstanceInfo"
+            }
+        }
+    ]
+}

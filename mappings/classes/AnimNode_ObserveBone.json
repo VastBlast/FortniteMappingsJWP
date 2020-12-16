@@ -1,0 +1,120 @@
+{
+    "name": "AnimNode_ObserveBone",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BoneToObserve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DisplaySpace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBoneControlSpace"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bRelativeToRefPose",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Translation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Scale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ComponentPose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ComponentSpacePoseLink"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LODThreshold",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "AlphaInputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimAlphaInputType"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bAlphaBoolEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Alpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "AlphaScaleBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBias"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AlphaBoolBlend",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputAlphaBoolBlend"
+            }
+        },
+        {
+            "index": 14,
+            "name": "AlphaCurveName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AlphaScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        }
+    ]
+}

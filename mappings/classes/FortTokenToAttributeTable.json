@@ -1,0 +1,16 @@
+{
+    "name": "FortTokenToAttributeTable",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TokenToAttributeList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TokenAttributePair"
+                }
+            }
+        }
+    ]
+}

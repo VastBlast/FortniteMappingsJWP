@@ -1,0 +1,21 @@
+{
+    "name": "TargetBasedAccuracyCategory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TargetBasedAccuracy",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TargetBasedAccuracy"
+            }
+        }
+    ]
+}

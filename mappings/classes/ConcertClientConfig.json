@@ -1,0 +1,85 @@
+{
+    "name": "ConcertClientConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIsHeadless",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bInstallEditorToolbarButton",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAutoConnect",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bRetryAutoConnectOnError",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultServerURL",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DefaultSessionName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DefaultSessionToRestore",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DefaultSaveSessionAs",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ClientSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertClientSettings"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SourceControlSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSourceControlSettings"
+            }
+        },
+        {
+            "index": 10,
+            "name": "EndpointSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertEndpointSettings"
+            }
+        }
+    ]
+}

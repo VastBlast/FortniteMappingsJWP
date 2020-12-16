@@ -1,0 +1,90 @@
+{
+    "name": "FortBTDecorator_WeaponStatus",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WeaponStatusUpdateRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bTestIfCurrentWeaponIsValid",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bCurrentWeaponShouldBeValid",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bTestAllowedCurrentWeaponTags",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AllowedCurrentWeaponTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bTestIfCurrentWeaponIsReloading",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bCurrentWeaponShouldBeReloading",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bTestIfCurrentWeaponHasAmmoInMagazine",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bCurrentWeaponShouldHaveAmmoInMagazine",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bTestIfCurrentWeaponHasExtraAmmo",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bCurrentWeaponShouldHaveExtraAmmo",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bAllInterestedTestsMustPass",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "name": "FileManifestData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Filename",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FileHash",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SHAHashData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FileChunkParts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ChunkPartData"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "InstallTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsUnixExecutable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SymlinkTarget",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIsReadOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsCompressed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "FortMissionPlacementFoundationItem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemIdentifyingTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TagsToAddToChosenPlacementActorOrFoundationActor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlacementQuery",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BuildingFoundationToPlace",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NumLocationsToFind",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAdjustFoundationPlacementForFloors",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

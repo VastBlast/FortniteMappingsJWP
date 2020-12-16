@@ -1,0 +1,29 @@
+{
+    "name": "FortSpawnGroupEncounterTypeData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EncounterTypeTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxGroupCategoryPopulationDensityCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RespawnDelayCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        }
+    ]
+}

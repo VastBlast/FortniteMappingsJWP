@@ -1,0 +1,51 @@
+{
+    "name": "GameplayEffectQuery",
+    "properties": [
+        {
+            "index": 1,
+            "name": "OwningTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EffectTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SourceTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ModifyingAttribute",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAttribute"
+            }
+        },
+        {
+            "index": 5,
+            "name": "EffectSource",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EffectDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

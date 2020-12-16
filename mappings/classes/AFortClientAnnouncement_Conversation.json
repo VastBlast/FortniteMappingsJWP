@@ -1,0 +1,41 @@
+{
+    "name": "AFortClientAnnouncement_Conversation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ConversationData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortClientAnnouncementData_Conversation"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpeechComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAutoPlayConversation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bCurrentlyPlaying",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CurrentSentenceIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

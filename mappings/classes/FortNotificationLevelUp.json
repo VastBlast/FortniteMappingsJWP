@@ -1,0 +1,27 @@
+{
+    "name": "FortNotificationLevelUp",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Level",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HeroId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Loot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortLootNotification"
+            }
+        }
+    ]
+}

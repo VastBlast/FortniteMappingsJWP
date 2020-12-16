@@ -1,0 +1,22 @@
+{
+    "name": "FortAthenaMutator_RespawnWaveTeamData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ReplicatedTimeStamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerStates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        }
+    ]
+}

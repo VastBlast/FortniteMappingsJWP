@@ -1,0 +1,120 @@
+{
+    "name": "FortVehicleSeatWeaponComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MuzzleSocketNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "WeaponSeatDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WeaponSeatDefinition"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActiveSeatIdx",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bUseVehicleOrientationForShootingCone",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bControlledByMultipleSeats",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "TotalShotsAllowedThenShutdown",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 16,
+            "name": "CachedWeaponOverheatData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCachedWeaponOverheatData"
+            }
+        },
+        {
+            "index": 17,
+            "name": "CachedWeaponState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehicleWeapon_RetainedData"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bSaveAndRestoreWeaponData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "WeaponSkeletalMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "WeaponMeshGunComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "VehicleSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "PawnSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "AttachmentAngleOffsetYaw",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bIsStandaloneComponent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

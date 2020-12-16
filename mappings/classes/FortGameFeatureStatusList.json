@@ -1,0 +1,56 @@
+{
+    "name": "FortGameFeatureStatusList",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ProgressSummary",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CombinedFeatureProgressSummary"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Features",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameFeatureStatus"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "FeatureOptionalInstalls",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameFeatureOptionalInstallStatus"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "bHasNetworkConnection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsUsingCellularConnection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAutoLaunchFullGame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

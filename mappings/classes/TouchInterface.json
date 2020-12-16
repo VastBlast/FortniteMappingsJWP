@@ -1,0 +1,65 @@
+{
+    "name": "TouchInterface",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Controls",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TouchInputControl"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActiveOpacity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InactiveOpacity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TimeUntilDeactive",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TimeUntilReset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ActivationDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bPreventRecenter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "StartupDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

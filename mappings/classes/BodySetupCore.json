@@ -1,0 +1,36 @@
+{
+    "name": "BodySetupCore",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BoneName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PhysicsType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPhysicsType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CollisionTraceFlag",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionTraceFlag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CollisionReponse",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBodyCollisionResponse"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "FortAthenaTutorialScreenData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TutorialSteps",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAthenaTutorialStepInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "StandaloneTutorialSteps",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAthenaTutorialStandaloneStepInfo"
+                }
+            }
+        }
+    ]
+}

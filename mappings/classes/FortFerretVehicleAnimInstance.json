@@ -1,0 +1,38 @@
+{
+    "name": "FortFerretVehicleAnimInstance",
+    "properties": [
+        {
+            "index": 21,
+            "name": "ElevatorDeadZone",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "RudderDeadZone",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "VehicleType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortValetVehicleType"
+            }
+        },
+        {
+            "index": 42,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        }
+    ]
+}

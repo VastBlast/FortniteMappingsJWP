@@ -1,0 +1,29 @@
+{
+    "name": "ReplicationGraphNode_GridCell",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DynamicNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DormancyNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AllChildNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

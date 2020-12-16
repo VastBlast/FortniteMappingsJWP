@@ -1,0 +1,52 @@
+{
+    "name": "FortDynamicEntryBox",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaximumEntries",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PatternDirection",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDynamicEntryPatternDirection"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RenderOpacityPattern",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "RenderTransformPattern",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WidgetTransform"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "RenderTransformPivotPattern",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector2D"
+                }
+            }
+        }
+    ]
+}

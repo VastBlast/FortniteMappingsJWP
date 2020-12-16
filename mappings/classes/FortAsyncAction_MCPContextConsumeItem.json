@@ -1,0 +1,27 @@
+{
+    "name": "FortAsyncAction_MCPContextConsumeItem",
+    "properties": [
+        {
+            "index": 1,
+            "name": "MCPContext",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemToConsume",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TargetAccountId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        }
+    ]
+}

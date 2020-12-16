@@ -1,0 +1,46 @@
+{
+    "name": "ControlRigDrawInstruction",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PrimitiveType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigDrawSettings"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Positions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "Thickness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Transform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        }
+    ]
+}

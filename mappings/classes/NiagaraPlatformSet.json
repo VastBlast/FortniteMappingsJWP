@@ -1,0 +1,34 @@
+{
+    "name": "NiagaraPlatformSet",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QualityLevelMask",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DeviceProfileStates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraDeviceProfileStateEntry"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CVarConditions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraPlatformSetCVarCondition"
+                }
+            }
+        }
+    ]
+}

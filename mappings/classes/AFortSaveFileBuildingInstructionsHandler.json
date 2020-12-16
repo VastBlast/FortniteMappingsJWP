@@ -1,0 +1,70 @@
+{
+    "name": "AFortSaveFileBuildingInstructionsHandler",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SaveFileName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LoadedBuildingsScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LoadedBuildingsAdditionalTranslation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseAbsoluteCoordinates",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bTrackDestroyedBuildings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DefaultBuildingInstructions",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bLoadInvisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bDespawnOnBuildingsSpawned",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bSpawnBuildingsAutomaticallyAfterLoad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

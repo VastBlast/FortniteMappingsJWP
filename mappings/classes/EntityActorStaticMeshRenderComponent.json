@@ -1,0 +1,51 @@
+{
+    "name": "EntityActorStaticMeshRenderComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ShadowVar_StaticMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ShadowVar_MeshMaterials",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ShadowVar_EnableCollision",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionEnabled"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TargetMeshIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ShadowVar_Visible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ShadowVar_MaxDrawDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

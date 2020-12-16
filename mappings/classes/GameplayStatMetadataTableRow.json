@@ -1,0 +1,81 @@
+{
+    "name": "GameplayStatMetadataTableRow",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BackendName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Windows",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Metric",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEpicLeaderboardUpdateFunction"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DataType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEpicLeaderboardDataType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bPublish",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "WeeklyRefreshInterval",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bExportToBackEnd",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bShowInFrontEnd",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ReferenceHelper",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagReferenceHelper"
+            }
+        }
+    ]
+}

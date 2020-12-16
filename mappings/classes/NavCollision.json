@@ -1,0 +1,48 @@
+{
+    "name": "NavCollision",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CylinderCollision",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavCollisionCylinder"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoxCollision",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavCollisionBox"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "AreaClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bGatherConvexGeometry",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bCreateOnClient",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

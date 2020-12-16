@@ -1,0 +1,21 @@
+{
+    "name": "FortGameplayTagQueryPerDifficulty",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DifficultyInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TagQueryToMatch",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        }
+    ]
+}

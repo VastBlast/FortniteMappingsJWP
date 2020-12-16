@@ -1,0 +1,34 @@
+{
+    "name": "FortSurvivorSquadSelectorButton",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FortStatAttributes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayAttribute"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "FortTeamStatAttributes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayAttribute"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SquadManagementScreenType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

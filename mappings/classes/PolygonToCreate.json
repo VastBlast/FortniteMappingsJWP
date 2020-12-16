@@ -1,0 +1,40 @@
+{
+    "name": "PolygonToCreate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PolygonGroupID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PolygonGroupID"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PerimeterVertices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VertexAndAttributes"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "OriginalPolygonID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PolygonID"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PolygonEdgeHardness",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPolygonEdgeHardness"
+            }
+        }
+    ]
+}

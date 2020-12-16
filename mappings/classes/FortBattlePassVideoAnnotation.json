@@ -1,0 +1,48 @@
+{
+    "name": "FortBattlePassVideoAnnotation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EndTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScreenPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EntryAngle",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EntryMagnitude",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RewardItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

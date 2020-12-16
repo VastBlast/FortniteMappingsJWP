@@ -1,0 +1,51 @@
+{
+    "name": "SocialChatManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DirectChannelsByTargetUser",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "SoftObjectProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ChatRoomsById",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ReadOnlyChannelsByDisplayName",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "bEnableChatSlashCommands",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

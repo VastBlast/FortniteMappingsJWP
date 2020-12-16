@@ -1,0 +1,37 @@
+{
+    "name": "FortMeleeDeflectAnimData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EntryFromGuardAnim",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HoldAnim",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExitToGuardAnim",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TransitionsToNextDeflection",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMeleeDeflectTransitionAnimData"
+                }
+            }
+        }
+    ]
+}

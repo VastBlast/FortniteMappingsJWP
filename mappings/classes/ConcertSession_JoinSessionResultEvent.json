@@ -1,0 +1,32 @@
+{
+    "name": "ConcertSession_JoinSessionResultEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SessionServerEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ConnectionResult",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertConnectionResult"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SessionClients",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConcertSessionClientInfo"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "AudioVolumeSubmixSendSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ListenerLocationState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAudioVolumeLocationState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SourceLocationState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAudioVolumeLocationState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SubmixSends",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundSubmixSendInfo"
+                }
+            }
+        }
+    ]
+}

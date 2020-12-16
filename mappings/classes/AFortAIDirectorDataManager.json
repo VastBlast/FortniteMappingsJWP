@@ -1,0 +1,34 @@
+{
+    "name": "AFortAIDirectorDataManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OwnerObject",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EventsToTrack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AIDirectorEventData"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "FactorsToTrack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIDirectorFactorData"
+                }
+            }
+        }
+    ]
+}

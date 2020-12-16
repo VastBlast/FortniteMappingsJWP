@@ -1,0 +1,170 @@
+{
+    "name": "AccountIdAndMatchEndData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AccountId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Advance",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortQuestObjectiveCompletion"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "EarnedBadgeData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortQuestEarnedBadgeData"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "EarnedItemCaches",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "TotalScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bCriticalMatchBonus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bDidLeech",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NumMissionPoints",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ShuffledLoadoutUsed",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ShuffledLockerUsedIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TheaterNum",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TheaterItemUpdate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpProfileChangeRequest"
+            }
+        },
+        {
+            "index": 12,
+            "name": "OutpostNum",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "OutpostItemUpdate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpProfileChangeRequest"
+            }
+        },
+        {
+            "index": 14,
+            "name": "OutpostId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "OutpostInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortOutpostCoreInfo"
+            }
+        },
+        {
+            "index": 16,
+            "name": "DeployableBaseItemId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "CloudSaveInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCloudSaveInfo"
+            }
+        },
+        {
+            "index": 18,
+            "name": "LockCode",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bAbandoning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "MissionLeechScaling",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "PartyRepData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PrivacySettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyPrivacySettings"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlatformSessions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartyPlatformSessionInfo"
+                }
+            }
+        }
+    ]
+}

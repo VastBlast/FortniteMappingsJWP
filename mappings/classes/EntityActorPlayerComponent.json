@@ -1,0 +1,27 @@
+{
+    "name": "EntityActorPlayerComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerControllerCache",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerStateCache",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayerId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "CrucibleSegmentData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bRegistered",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumAI",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumTargets",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MissedTargetPenalty",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BackendStatType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCrucibleStatType"
+            }
+        }
+    ]
+}

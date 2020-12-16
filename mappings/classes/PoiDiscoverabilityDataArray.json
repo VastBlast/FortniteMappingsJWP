@@ -1,0 +1,23 @@
+{
+    "name": "PoiDiscoverabilityDataArray",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Entries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PoiDiscoverabilityDataEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Owner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "FortPhoenixLevelUpNotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Level",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Loot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortLootNotification"
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "LiveLinkMetaData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StringMetaData",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SceneTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "QualifiedFrameTime"
+            }
+        }
+    ]
+}

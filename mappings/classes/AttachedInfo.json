@@ -1,0 +1,57 @@
+{
+    "name": "AttachedInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Hit",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HitResult"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttachedToActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttachOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize10"
+            }
+        },
+        {
+            "index": 3,
+            "name": "VelocityNormalized",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantizeNormal"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NarrowPlacementAgainstVelocityThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "StickyOffsetFromPhysicsMesh",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "StickyOffsetFromBoneCenter",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

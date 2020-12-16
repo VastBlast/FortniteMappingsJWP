@@ -1,0 +1,33 @@
+{
+    "name": "CommonInputManager",
+    "properties": [
+        {
+            "index": 1,
+            "name": "ActivatablePanelStack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "GlobalInputHandler",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Operations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Operation"
+                }
+            }
+        }
+    ]
+}

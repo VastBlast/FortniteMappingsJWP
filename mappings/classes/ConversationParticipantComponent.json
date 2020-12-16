@@ -1,0 +1,29 @@
+{
+    "name": "ConversationParticipantComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ConversationsActive",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Auth_CurrentConversation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Auth_Conversations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

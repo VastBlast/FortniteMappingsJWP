@@ -1,0 +1,28 @@
+{
+    "name": "RuntimeOptionTabStateInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TabName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TabState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRuntimeOptionTabState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TargetPlayer",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRuntimeOptionTabStateTarget"
+            }
+        }
+    ]
+}

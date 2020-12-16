@@ -1,0 +1,22 @@
+{
+    "name": "FortSavedModeLoadout",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LoadoutName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SelectedGadgets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "name": "AnimNode_ApplyAdditive",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Base",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseLink"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Additive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseLink"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Alpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AlphaScaleBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBias"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LODThreshold",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AlphaBoolBlend",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputAlphaBoolBlend"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AlphaCurveName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AlphaScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AlphaInputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimAlphaInputType"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bAlphaBoolEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

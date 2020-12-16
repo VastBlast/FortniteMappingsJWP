@@ -1,0 +1,62 @@
+{
+    "name": "FortGameplayCueSpawnCondition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourceCondition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortGameplayCueSourceCondition"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AllowedSurfaces",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "DisallowedSurfaces",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ChanceToPlay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Significance",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleSignificanceLevel"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RequiredDetailMode",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bRequireVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

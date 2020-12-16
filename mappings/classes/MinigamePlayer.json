@@ -1,0 +1,85 @@
+{
+    "name": "MinigamePlayer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UniquePlayerId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bHasValidResetData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ClassSlotIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TeamBeforeMinigameStarted",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LocationBeforeMinigameStarted",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RotationBeforeMinigameStarted",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsLocationBeforeGameStartedBlocked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bWasSkydivingBeforeMinigameStarted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bWasFlyingBeforeMinigameStarted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bIsTeleportingOrRespawningForGameplay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ClaimedPlayerStart",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

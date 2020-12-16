@@ -1,0 +1,65 @@
+{
+    "name": "LevelCapture",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bAutoStartCapture",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PrerequisiteActorId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ImageCaptureProtocolType",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftClassPath"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AudioCaptureProtocolType",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftClassPath"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Settings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneCaptureSettings"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bUseSeparateProcess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bCloseEditorWhenCaptureStarts",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "AdditionalCommandLineArguments",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

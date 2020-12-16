@@ -1,0 +1,347 @@
+{
+    "name": "NiagaraDataInterfaceChaosDestruction",
+    "properties": [
+        {
+            "index": 1,
+            "name": "DataSourceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDataSourceTypeEnum"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DataProcessFrequency",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxNumberOfDataEntriesToSpawn",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DoSpawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SpawnMultiplierMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SpawnChance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ImpulseToSpawnMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SpeedToSpawnMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MassToSpawnMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ExtentMinToSpawnMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ExtentMaxToSpawnMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 12,
+            "name": "VolumeToSpawnMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 13,
+            "name": "SolverTimeToSpawnMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 14,
+            "name": "SurfaceTypeToSpawn",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "LocationFilteringMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELocationFilteringModeEnum"
+            }
+        },
+        {
+            "index": 16,
+            "name": "LocationXToSpawn",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELocationXToSpawnEnum"
+            }
+        },
+        {
+            "index": 17,
+            "name": "LocationXToSpawnMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 18,
+            "name": "LocationYToSpawn",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELocationYToSpawnEnum"
+            }
+        },
+        {
+            "index": 19,
+            "name": "LocationYToSpawnMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LocationZToSpawn",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELocationZToSpawnEnum"
+            }
+        },
+        {
+            "index": 21,
+            "name": "LocationZToSpawnMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 22,
+            "name": "DataSortingType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDataSortTypeEnum"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bGetExternalCollisionData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "DoSpatialHash",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "SpatialHashVolumeMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 26,
+            "name": "SpatialHashVolumeMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 27,
+            "name": "SpatialHashVolumeCellSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 28,
+            "name": "MaxDataPerCell",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bApplyMaterialsFilter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bGetExternalBreakingData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bGetExternalTrailingData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "RandomPositionMagnitudeMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 34,
+            "name": "InheritedVelocityMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "RandomVelocityGenerationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERandomVelocityGenerationTypeEnum"
+            }
+        },
+        {
+            "index": 36,
+            "name": "RandomVelocityMagnitudeMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 37,
+            "name": "SpreadAngleMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "VelocityOffsetMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 39,
+            "name": "VelocityOffsetMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 40,
+            "name": "FinalVelocityMagnitudeMinMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 41,
+            "name": "MaxLatency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "DebugType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDebugTypeEnum"
+            }
+        },
+        {
+            "index": 43,
+            "name": "LastSpawnedPointID",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "LastSpawnTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "SolverTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "TimeStampOfLastProcessedData",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

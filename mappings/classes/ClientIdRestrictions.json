@@ -1,0 +1,22 @@
+{
+    "name": "ClientIdRestrictions",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ClientId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RestrictedPlatforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

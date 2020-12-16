@@ -1,0 +1,50 @@
+{
+    "name": "VirtualTextureSpacePoolConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinTileSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxTileSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Formats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "SizeInMegabyte",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAllowSizeScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ScalabilityGroup",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

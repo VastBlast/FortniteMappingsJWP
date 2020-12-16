@@ -1,0 +1,42 @@
+{
+    "name": "SpawnMachineRepData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Location",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnMachineState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESpawnMachineState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpawnMachineCooldownStartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpawnMachineCooldownEndTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpawnMachineRepDataHandle",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

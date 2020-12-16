@@ -1,0 +1,66 @@
+{
+    "name": "SoundMix",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bApplyEQ",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EQPriority",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EQSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AudioEQEffect"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SoundClassEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundClassAdjuster"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "InitialDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FadeInTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FadeOutTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

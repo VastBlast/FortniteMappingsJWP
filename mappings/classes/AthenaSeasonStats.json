@@ -1,0 +1,25 @@
+{
+    "name": "AthenaSeasonStats",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CumulativeStats",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Buckets",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

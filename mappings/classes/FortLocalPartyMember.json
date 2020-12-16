@@ -1,0 +1,27 @@
+{
+    "name": "FortLocalPartyMember",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumAthenaPlayersLeftDeltaThreshold",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AthenaPlayersLeftUpdateDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MemberRepData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPartyMemberRepData"
+            }
+        }
+    ]
+}

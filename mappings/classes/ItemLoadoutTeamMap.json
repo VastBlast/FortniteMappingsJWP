@@ -1,0 +1,35 @@
+{
+    "name": "ItemLoadoutTeamMap",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TeamIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LoadoutIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UpdateOverrideType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaInventorySpawnOverride"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DropAllItemsOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLootDropOverride"
+            }
+        }
+    ]
+}

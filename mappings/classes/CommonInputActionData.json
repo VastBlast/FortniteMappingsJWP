@@ -1,0 +1,51 @@
+{
+    "name": "CommonInputActionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HoldDisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "KeyboardInputTypeInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CommonInputTypeInfo"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DefaultGamepadInputTypeInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CommonInputTypeInfo"
+            }
+        },
+        {
+            "index": 5,
+            "name": "GamepadInputTypeInfos",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CommonInputTypeInfo"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TouchInputTypeInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CommonInputTypeInfo"
+            }
+        }
+    ]
+}

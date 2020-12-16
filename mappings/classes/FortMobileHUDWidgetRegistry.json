@@ -1,0 +1,48 @@
+{
+    "name": "FortMobileHUDWidgetRegistry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HUDWidgetBehaviorRegistry",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HUDWidgetBehaviorRegistryEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "HUDWidgetRegistry",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HUDWidgetRegistryEntry"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ContextLayoutModels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ContextLayoutModelExtensions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMobileHUDContextModelExtension"
+                }
+            }
+        }
+    ]
+}

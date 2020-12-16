@@ -1,0 +1,20 @@
+{
+    "name": "VersionedBudget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Version",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELevelSaveRecordVersion"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Value",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "ANavLinkProxy",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PointLinks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavigationLink"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SegmentLinks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavigationSegmentLink"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SmartLinkComp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bSmartLinkIsRelevant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

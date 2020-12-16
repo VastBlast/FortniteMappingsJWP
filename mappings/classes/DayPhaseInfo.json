@@ -1,0 +1,109 @@
+{
+    "name": "DayPhaseInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PhaseStartAnnouncement",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TimePhaseBegins",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PercentageTransitionIn",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TransitionInTimeInMinutes",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PercentageTransitionOut",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TransitionOutTimeInMinutes",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SkyLightValues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SkyLightValues"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ThreatCloudValues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ThreatCloudValues"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ElementalCharValues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ElementalCharValues"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DirectionalLightValues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DirectionalLightValues"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ExpHeightFogValues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExponentialHeightFogValues"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SkyAtmosphereValues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SkyAtmosphereValues"
+            }
+        },
+        {
+            "index": 14,
+            "name": "SkyMaterialInstance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "StarMapMaterialInstance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "name": "FortGameplayCueAttachInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttachType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortGameplayCueAttachType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAttachToWeapon",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAttachToHitResult",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bUseUnsmoothedNetworkPosition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIgnoreScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIgnoreRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "OverrideScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 8,
+            "name": "OverrideRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        }
+    ]
+}

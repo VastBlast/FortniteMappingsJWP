@@ -1,0 +1,52 @@
+{
+    "name": "ConcertClientVRPresenceUpdateEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LeftMotionControllerPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LeftMotionControllerOrientation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Quat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RightMotionControllerPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RightMotionControllerOrientation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Quat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Lasers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertLaserData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TransactionUpdateIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

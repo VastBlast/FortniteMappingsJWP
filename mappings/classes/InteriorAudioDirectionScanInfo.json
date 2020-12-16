@@ -1,0 +1,27 @@
+{
+    "name": "InteriorAudioDirectionScanInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Building",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InteriorAudioBuildingInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SourceBusComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SourceBusActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

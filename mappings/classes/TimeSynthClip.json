@@ -1,0 +1,71 @@
+{
+    "name": "TimeSynthClip",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Sounds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TimeSynthClipSound"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "VolumeScaleDb",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PitchScaleSemitones",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FadeInTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimeSynthTimeDef"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bApplyFadeOut",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FadeOutTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimeSynthTimeDef"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ClipDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimeSynthTimeDef"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ClipQuantization",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETimeSynthEventClipQuantization"
+            }
+        }
+    ]
+}

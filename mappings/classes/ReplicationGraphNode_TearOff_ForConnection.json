@@ -1,0 +1,26 @@
+{
+    "name": "ReplicationGraphNode_TearOff_ForConnection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TearOffActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TearOffActorInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "AllChildNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

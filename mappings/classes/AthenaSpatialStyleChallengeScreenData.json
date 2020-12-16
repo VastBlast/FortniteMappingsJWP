@@ -1,0 +1,23 @@
+{
+    "name": "AthenaSpatialStyleChallengeScreenData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CharacterStyleChallenges",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaSpatialStyleCharacterData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CharacterStyleChallengesSchedule",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

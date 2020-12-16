@@ -1,0 +1,71 @@
+{
+    "name": "AFortAthenaMutator_ItemDropOnDeath",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RespawnRequirements",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERespawnRequirements"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PercentAmmoToDrop",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AmmoDespawnTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AmmoStormDespawnTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxAmmoTypeDrops",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxResourceTypeDrops",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ItemsToDrop",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemsToDropOnDeath"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "bShouldNonParticipantAIAlsoDropItems",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

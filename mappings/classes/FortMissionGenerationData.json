@@ -1,0 +1,130 @@
+{
+    "name": "FortMissionGenerationData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PrimaryMissionGenerators",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PrimaryMissionMinPowerPointsUsagePercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SecondaryMissionPowerPointsBudgetMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinSecondaryMissionPowerPointsMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxSecondaryMissionPowerPointsMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MinSecondaryMissions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxSecondaryMissions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TertiaryMissionPowerPointsBudgetMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MinTertiaryMissionPowerPointsMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MaxTertiaryMissionPowerPointsMultiplier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PowerPointsCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 11,
+            "name": "EncounterDifficultyOptionBudgets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortDifficultyOptionBudget"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "EncounterMinDifficultyOptionPointsUsagePercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MissionDifficultyOptionBudgets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortDifficultyOptionBudget"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "MissionMinDifficultyOptionPointsUsagePercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

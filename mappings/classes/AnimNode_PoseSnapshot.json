@@ -1,0 +1,28 @@
+{
+    "name": "AnimNode_PoseSnapshot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SnapshotName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Snapshot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseSnapshot"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Mode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESnapshotSourceMode"
+            }
+        }
+    ]
+}

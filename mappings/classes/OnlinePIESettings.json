@@ -1,0 +1,23 @@
+{
+    "name": "OnlinePIESettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bOnlinePIEEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Logins",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PIELoginSettingsInternal"
+                }
+            }
+        }
+    ]
+}

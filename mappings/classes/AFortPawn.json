@@ -1,0 +1,909 @@
+{
+    "name": "AFortPawn",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bUseBaseChanged",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIgnoreNextFallingDamage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsDying",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsHiddenForDeath",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bCanCapsuleBeUsedForTargeting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bUseLineTestForDamageZoneBoneDetection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bMovingEmote",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bMovingEmoteForwardOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bMovingEmoteFollowingOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bMovingEmoteSkipLandingFX",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bIsInvulnerable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bRegisterWithAISight",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bRegisterWithAimAssist",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bPrimaryInputHeld",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bSecondaryInputHeld",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bPrimaryInputQueued",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bWeaponActivated",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bSkipAnalogJump",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "FootstepTraceTypeQuery",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETraceTypeQuery"
+            }
+        },
+        {
+            "index": 23,
+            "name": "FootstepSurfaceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFootstepSurfaceType"
+            }
+        },
+        {
+            "index": 24,
+            "name": "FootstepIconOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "UroShiftBucket",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUpdateRateShiftBucket"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bUpdateMeshComponentUpdateFlagOnServer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bUROCanTieToLODs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bPostProcessNavLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bHealthSynced",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bTreatAsPawnForHitMarkers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bDisplayPawnHitMarkersForChildActors",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bUsesStats",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bAllowBuildingActorTeleport",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bIsDBNO",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bCachedIsInAthena",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bShouldUseCharacterMovementIdleFastPath",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "CurrentMovementStyle",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMovementStyle"
+            }
+        },
+        {
+            "index": 41,
+            "name": "ControlRecoveryBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortControlRecoveryBehavior"
+            }
+        },
+        {
+            "index": 43,
+            "name": "PawnStatHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 44,
+            "name": "SlidingFriction",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "SlidingBrakingDeceleration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "StormShieldComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "PushSize",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPawnPushSize"
+            }
+        },
+        {
+            "index": 56,
+            "name": "WeaponHandSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "LeftHandWeaponHandSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "SpawnSpot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "bShouldSupportSurfaceSwimming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "PickupDirectionData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPickupEntryData"
+                }
+            }
+        },
+        {
+            "index": 69,
+            "name": "bSupportsDamageNumbersAtHitLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "DeathCueTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayCueTag"
+            }
+        },
+        {
+            "index": 76,
+            "name": "TeamBeaconMaxDist",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "TeamBeaconTextColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 79,
+            "name": "LastDamagedTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "MaxFootstepDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "DBNOLandingSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 84,
+            "name": "DefaultFootstepSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 85,
+            "name": "DefaultFastFootstepSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "DefaultLandingSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "DefaultHardLandingSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "DefaultJumpSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "DefaultHitNotifyAudioBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "DefaultSwimmingAudioBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 91,
+            "name": "LineTestForDamageZoneBoneDetectionRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "DamageZones",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PawnDamageZones"
+            }
+        },
+        {
+            "index": 96,
+            "name": "DamageZoneActiveBitMask",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 97,
+            "name": "TargettingZOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "JumpFlashCountPacked",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 99,
+            "name": "LandingFlashCountPacked",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 100,
+            "name": "EmoteAudioComps",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 101,
+            "name": "FrontEndEmoteAudioAttenuation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 102,
+            "name": "InGameEmoteAudioAttenuation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "InGameEmoteSoundEffectSoundPresetChain",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 104,
+            "name": "EmoteMeshComps",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "IntProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 105,
+            "name": "EmotePropActors",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "IntProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 106,
+            "name": "EmoteParticleSystemComps",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "IntProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 113,
+            "name": "EmoteToFireCooldownTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 114,
+            "name": "EmoteWalkSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 125,
+            "name": "FootstepBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 129,
+            "name": "HealthRegenDelayGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 130,
+            "name": "HealthRegenGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 131,
+            "name": "ShieldRegenDelayGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 132,
+            "name": "ShieldRegenGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 138,
+            "name": "StaySpottedTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 139,
+            "name": "SpottedEvent",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 140,
+            "name": "DefaultFeedback",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 141,
+            "name": "ActiveSoundIndicators",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 142,
+            "name": "DefaultSoundTrackingVisual",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 143,
+            "name": "SoundTrackingVisibilityTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 144,
+            "name": "PriorityModifiers",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 147,
+            "name": "MaxHealthApplicationHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActiveGameplayEffectHandle"
+            }
+        },
+        {
+            "index": 148,
+            "name": "MaxHealthApplicationGameplayEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 149,
+            "name": "HealthSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 150,
+            "name": "ControlResistanceSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 151,
+            "name": "DamageSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 152,
+            "name": "MovementSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 153,
+            "name": "AdvancedMovementSet",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 155,
+            "name": "AbilitySystemComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 156,
+            "name": "DecisionWindowStack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortActiveMontageDecisionWindow"
+                }
+            }
+        },
+        {
+            "index": 157,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 158,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 166,
+            "name": "CurrentCalloutTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 167,
+            "name": "CalloutEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CalloutEntry"
+                }
+            }
+        },
+        {
+            "index": 168,
+            "name": "HealthBarWidth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 169,
+            "name": "HealthBarHeightMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 170,
+            "name": "SpottedBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 171,
+            "name": "SpottedIconOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 172,
+            "name": "ClientNonRenderedAnimUpdateRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 173,
+            "name": "MaxEvalRateForInterpolation",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 174,
+            "name": "AnimUpdateRateVisibleMaxDistanceFactor",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 175,
+            "name": "LODToFrameSkipMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "IntProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 176,
+            "name": "CurrentSentence",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortConversationSentence"
+            }
+        },
+        {
+            "index": 178,
+            "name": "AccumulatedBatchData_Shared",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaBatchedDamageGameplayCues_Shared"
+            }
+        },
+        {
+            "index": 179,
+            "name": "AccumulatedBatchData_NonShared",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaBatchedDamageGameplayCues_NonShared"
+            }
+        },
+        {
+            "index": 180,
+            "name": "BatchedGameplayCueParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayCueParameters"
+            }
+        },
+        {
+            "index": 181,
+            "name": "ReplayItemActions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 182,
+            "name": "HidingVisibilityTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 183,
+            "name": "HidingTransitionVisibilityTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 184,
+            "name": "PegasusTimelineCollector",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 185,
+            "name": "AILODComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 186,
+            "name": "ClientAILODSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ClientAILODSettings"
+            }
+        },
+        {
+            "index": 187,
+            "name": "DebugType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

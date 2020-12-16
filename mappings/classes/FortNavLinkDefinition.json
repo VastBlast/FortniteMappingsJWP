@@ -1,0 +1,50 @@
+{
+    "name": "FortNavLinkDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Pattern",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortNavLinkPattern"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AdditionalPatterns",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortNavLinkPattern"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "StairsRailing",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "FloorRailing",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingFloorRailing"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PatternType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortNavLinkPattern"
+            }
+        }
+    ]
+}

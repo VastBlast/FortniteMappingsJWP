@@ -1,0 +1,26 @@
+{
+    "name": "A2CSPose",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ComponentSpaceFlags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Bones",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        }
+    ]
+}

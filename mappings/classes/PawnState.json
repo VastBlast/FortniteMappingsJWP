@@ -1,0 +1,23 @@
+{
+    "name": "PawnState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PawnStateTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GameplayEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

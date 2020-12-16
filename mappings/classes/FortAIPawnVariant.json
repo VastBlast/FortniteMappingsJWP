@@ -1,0 +1,62 @@
+{
+    "name": "FortAIPawnVariant",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PawnClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PawnVariantDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIPawnVariantDefinition"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "MinPlayersToSpawnVariant",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpawnPointValueHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CachedSpawnPointValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "EncounterExpectedLifespan",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "VersionNum",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

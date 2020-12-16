@@ -1,0 +1,29 @@
+{
+    "name": "RigSpaceHierarchy",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Spaces",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RigSpace"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "NameToIndexMapping",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

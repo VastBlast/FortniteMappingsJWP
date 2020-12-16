@@ -1,0 +1,72 @@
+{
+    "name": "CrucibleCourseResults",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CalculatedScore",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CalculatedTotalPenalty",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CalculatedMissedTargets",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CalculatedSpawnedTargets",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SegmentResults",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CrucibleSegmentResults"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "FinishTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CancelTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bInputMethodWasKBMAtAnyPoint",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

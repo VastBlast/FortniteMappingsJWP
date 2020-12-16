@@ -1,0 +1,41 @@
+{
+    "name": "FortErrorInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Operation",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ErrorMessage",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ErrorCode",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ErrorSeverity",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortErrorSeverity"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ContinueButtonText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "name": "GameplayModifierInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Attribute",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAttribute"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ModifierOp",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayModOp"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Magnitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ModifierMagnitude",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEffectModifierMagnitude"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EvaluationChannelSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayModEvaluationChannelSettings"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SourceTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagRequirements"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TargetTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagRequirements"
+            }
+        }
+    ]
+}

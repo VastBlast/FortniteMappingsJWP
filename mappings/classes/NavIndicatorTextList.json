@@ -1,0 +1,23 @@
+{
+    "name": "NavIndicatorTextList",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ListName",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IndicatorTextList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        }
+    ]
+}

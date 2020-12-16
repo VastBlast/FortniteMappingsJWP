@@ -1,0 +1,27 @@
+{
+    "name": "MovieSceneEvaluationMetaData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActiveSequences",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneSequenceID"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActiveEntities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneOrderedEvaluationKey"
+                }
+            }
+        }
+    ]
+}

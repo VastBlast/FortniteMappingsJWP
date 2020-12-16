@@ -1,0 +1,135 @@
+{
+    "name": "AnimNode_Fabrik",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EffectorTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EffectorTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneSocketTarget"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TipBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RootBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Precision",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EffectorTransformSpace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBoneControlSpace"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EffectorRotationSource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBoneRotationSource"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ComponentPose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ComponentSpacePoseLink"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LODThreshold",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "AlphaInputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimAlphaInputType"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bAlphaBoolEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Alpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "AlphaScaleBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBias"
+            }
+        },
+        {
+            "index": 15,
+            "name": "AlphaBoolBlend",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputAlphaBoolBlend"
+            }
+        },
+        {
+            "index": 16,
+            "name": "AlphaCurveName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "AlphaScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        }
+    ]
+}

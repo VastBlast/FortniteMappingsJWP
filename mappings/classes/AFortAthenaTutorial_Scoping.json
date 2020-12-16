@@ -1,0 +1,44 @@
+{
+    "name": "AFortAthenaTutorial_Scoping",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ShootTargets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAthenaTutorial_TargetInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "GunToEquipItemDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScopingCameraPoint",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ScopingCameraInSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScopingCameraOutSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

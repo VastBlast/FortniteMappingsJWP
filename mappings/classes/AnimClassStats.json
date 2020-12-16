@@ -1,0 +1,25 @@
+{
+    "name": "AnimClassStats",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AnimClassName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StatValues",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
+}

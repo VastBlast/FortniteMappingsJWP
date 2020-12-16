@@ -1,0 +1,23 @@
+{
+    "name": "FortMobileHUDLayoutProfileSave",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ProfileName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ContextLayouts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMobileHUDContextLayoutSave"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "FortCosmeticEmoteMontageVariant",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EmoteOptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EmoteMontageVariantDef"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "VariantChannelTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VariantChannelName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

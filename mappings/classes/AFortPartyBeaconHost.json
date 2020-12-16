@@ -1,0 +1,33 @@
+{
+    "name": "AFortPartyBeaconHost",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerSquadMapping",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PlayerSquadMapping"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bUseSquadMappingOverride",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RegionsToUseSquadOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

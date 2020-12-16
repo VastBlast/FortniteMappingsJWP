@@ -1,0 +1,30 @@
+{
+    "name": "ProceduralScaleModifiers",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bRandomScaleEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RandomScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Modifiers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

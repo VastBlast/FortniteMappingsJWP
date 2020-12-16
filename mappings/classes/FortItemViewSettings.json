@@ -1,0 +1,65 @@
+{
+    "name": "FortItemViewSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UsesPlacementActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UsesFixedCamera",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SupportsZooming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DefaultZoomLevel",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ZoomRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatRange"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RotationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortItemViewRotationMode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CameraRotationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MeshBoundsCenterOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

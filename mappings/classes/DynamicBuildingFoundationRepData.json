@@ -1,0 +1,29 @@
+{
+    "name": "DynamicBuildingFoundationRepData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Translation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EnabledState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDynamicFoundationEnabledState"
+            }
+        }
+    ]
+}

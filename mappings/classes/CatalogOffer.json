@@ -1,0 +1,199 @@
+{
+    "name": "CatalogOffer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OfferId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DevName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MetaInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CatalogKeyValue"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "OfferType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECatalogOfferType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Prices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CatalogItemPrice"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "DynamicBundleInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CatalogDynamicBundle"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DailyLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "WeeklyLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MonthlyLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Categories",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "CatalogGroup",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "CatalogGroupPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SortPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ShortDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "AppStoreId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "MetaAssetInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CatalogMetaAssetInfo"
+            }
+        },
+        {
+            "index": 29,
+            "name": "DisplayAssetPath",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "ItemGrants",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemQuantity"
+                }
+            }
+        },
+        {
+            "index": 31,
+            "name": "Requirements",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CatalogOfferRequirement"
+                }
+            }
+        },
+        {
+            "index": 32,
+            "name": "GiftInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CatalogGiftInfo"
+            }
+        },
+        {
+            "index": 33,
+            "name": "Refundable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "DenyItemTemplateIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

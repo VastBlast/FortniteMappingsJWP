@@ -1,0 +1,36 @@
+{
+    "name": "FortItemGlobalData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RarityToMaxLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RarityToFusionXPCurveTableRow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 16,
+            "name": "LevelUpXPCostCurveTableRow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 17,
+            "name": "RarityUpgradeRecipes",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        }
+    ]
+}

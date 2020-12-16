@@ -1,0 +1,42 @@
+{
+    "name": "KairosCaptureParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FrameRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrideNumFrames",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Size",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BackgroundColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FullPathAndName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

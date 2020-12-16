@@ -1,0 +1,46 @@
+{
+    "name": "FortUserCloudRequestPayload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequestHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortUserCloudRequestHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UserNetId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Filename",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RequestType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortUserCloudRequestType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DataBuffer",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        }
+    ]
+}

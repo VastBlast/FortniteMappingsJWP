@@ -1,0 +1,56 @@
+{
+    "name": "AthenaLeaderboardData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Playlist",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAthenaPlaylist"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlaylistName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECommonInputType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Stats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaPlaylistLeaderboardData"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bExcludePlaylistNames",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PlaylistNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

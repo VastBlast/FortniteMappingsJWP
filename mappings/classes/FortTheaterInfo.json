@@ -1,0 +1,86 @@
+{
+    "name": "FortTheaterInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UniqueId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SaveVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TheaterData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTheaterMapData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Missions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTheaterMapMissionData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MissionAlerts",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTheaterMapMissionAlertData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bForceIncludeInCookIfReferenced",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "RegionColors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortEditorTheaterMapRegionColor"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "EditorTiles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTheaterTileEditorData"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "TheaterWidth",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "TheaterHeight",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

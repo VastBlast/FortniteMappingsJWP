@@ -1,0 +1,44 @@
+{
+    "name": "AimConstraintDescription",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LookAt_Axis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Axis"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LookUp_Axis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Axis"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUseLookUp",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LookUpTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AxesFilterOption",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FilterOptionPerAxis"
+            }
+        }
+    ]
+}

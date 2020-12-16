@@ -1,0 +1,52 @@
+{
+    "name": "AFortWrapSkeletalMeshActor",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WrapToApply",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WrapMaterialType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EItemWrapMaterialType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VariantData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpVariantChannelInfo"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ItemWrapModifier",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bHasSectionLimit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaterialSectionMask",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

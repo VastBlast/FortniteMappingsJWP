@@ -1,0 +1,110 @@
+{
+    "name": "EnvQueryGenerator_Donut",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InnerRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OuterRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumberOfRings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PointsPerRing",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ArcDirection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EnvDirection"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ArcAngle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseSpiralPattern",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Center",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bDefineArc",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ProjectionData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EnvTraceData"
+            }
+        },
+        {
+            "index": 10,
+            "name": "OptionName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ItemType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bAutoSortTests",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "VerNum",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

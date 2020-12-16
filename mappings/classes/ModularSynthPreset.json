@@ -1,0 +1,435 @@
+{
+    "name": "ModularSynthPreset",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bEnablePolyphony",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Osc1Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynth1OscType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Osc1Gain",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Osc1Octave",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Osc1Semitones",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Osc1Cents",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Osc1PulseWidth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Osc2Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynth1OscType"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Osc2Gain",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Osc2Octave",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Osc2Semitones",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Osc2Cents",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "Osc2PulseWidth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Portamento",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bEnableUnison",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bEnableOscillatorSync",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "Spread",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "Pan",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "LFO1Frequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "LFO1Gain",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LFO1Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthLFOType"
+            }
+        },
+        {
+            "index": 21,
+            "name": "LFO1Mode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthLFOMode"
+            }
+        },
+        {
+            "index": 22,
+            "name": "LFO1PatchType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthLFOPatchType"
+            }
+        },
+        {
+            "index": 23,
+            "name": "LFO2Frequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "LFO2Gain",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "LFO2Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthLFOType"
+            }
+        },
+        {
+            "index": 26,
+            "name": "LFO2Mode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthLFOMode"
+            }
+        },
+        {
+            "index": 27,
+            "name": "LFO2PatchType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthLFOPatchType"
+            }
+        },
+        {
+            "index": 28,
+            "name": "GainDb",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "AttackTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "DecayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "SustainGain",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "ReleaseTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "ModEnvPatchType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthModEnvPatch"
+            }
+        },
+        {
+            "index": 34,
+            "name": "ModEnvBiasPatchType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthModEnvBiasPatch"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bInvertModulationEnvelope",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bInvertModulationEnvelopeBias",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "ModulationEnvelopeDepth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "ModulationEnvelopeAttackTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "ModulationEnvelopeDecayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "ModulationEnvelopeSustainGain",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "ModulationEnvelopeReleaseTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bLegato",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bRetrigger",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "FilterFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "FilterQ",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "FilterType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthFilterType"
+            }
+        },
+        {
+            "index": 47,
+            "name": "FilterAlgorithm",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthFilterAlgorithm"
+            }
+        },
+        {
+            "index": 48,
+            "name": "bStereoDelayEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "StereoDelayMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynthStereoDelayMode"
+            }
+        },
+        {
+            "index": 50,
+            "name": "StereoDelayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "StereoDelayFeedback",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "StereoDelayWetlevel",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "StereoDelayRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "bChorusEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "ChorusDepth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "ChorusFeedback",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "ChorusFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "Patches",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EpicSynth1Patch"
+                }
+            }
+        }
+    ]
+}

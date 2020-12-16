@@ -1,0 +1,37 @@
+{
+    "name": "ExternalEmoteCategory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CategoryName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CategoryTitle",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CategoryTitleMultipage",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Emotes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EmoteActionBinding"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "DifficultyCollectionProgressionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DifficultyCollections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DifficultyRowProgression"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SelectionMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollectionSelectionMethod"
+            }
+        }
+    ]
+}

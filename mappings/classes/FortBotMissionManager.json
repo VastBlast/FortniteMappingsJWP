@@ -1,0 +1,39 @@
+{
+    "name": "FortBotMissionManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BotPawnClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BotPawns",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActiveMissionsLogicData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "PrimaryMissionLogicData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

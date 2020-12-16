@@ -1,0 +1,49 @@
+{
+    "name": "FortAthenaAISpawnerDataComponent_AIBotInventory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Items",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemAndCount"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bItemsToGiveInEditorWhenCustomizationIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EditorOnlyItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemAndCount"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ShouldDropCurrencyOnDeath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrencyPayoutRowName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

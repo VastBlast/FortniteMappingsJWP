@@ -1,0 +1,23 @@
+{
+    "name": "PowPlayerDataArray",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OwningMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Entries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PowPlayerDataEntry"
+                }
+            }
+        }
+    ]
+}

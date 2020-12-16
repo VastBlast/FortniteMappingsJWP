@@ -1,0 +1,45 @@
+{
+    "name": "FortPlayerSurveyCMSDataQuestionMultipleSelection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "C",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlayerSurveyCMSDataQuestionChoice"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "mn",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "mx",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "S",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPlayerSurveyCMSDataPresentationStyle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "T",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

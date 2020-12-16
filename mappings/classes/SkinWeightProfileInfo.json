@@ -1,0 +1,28 @@
+{
+    "name": "SkinWeightProfileInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultProfile",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformBool"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultProfileFromLODIndex",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformInt"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "PartOverrideData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Gender",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCustomGender"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PartsToSwapIn",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultParts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "CosmeticSwapTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

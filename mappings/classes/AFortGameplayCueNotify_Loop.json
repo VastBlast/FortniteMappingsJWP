@@ -1,0 +1,137 @@
+{
+    "name": "AFortGameplayCueNotify_Loop",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ApplicationBurst",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortBurstEffectData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ApplicationResult",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueSpawnResult"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultLoopingAttachment",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueAttachInfo"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LoopingParticles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayCueParticleInfo"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "LoopingSounds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayCueAudioInfo_Looping"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "LoopingForceFeedbackEffect",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueForceFeedbackInfo"
+            }
+        },
+        {
+            "index": 6,
+            "name": "LoopingCameraLensEffect",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueCameraLensEffectInfo"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LoopingCameraShake",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueCameraShakeInfo"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LoopingResult",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueSpawnResult"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RecurringBurst",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortBurstEffectData"
+            }
+        },
+        {
+            "index": 10,
+            "name": "RecurringResult",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueSpawnResult"
+            }
+        },
+        {
+            "index": 11,
+            "name": "RemovalBurst",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortBurstEffectData"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RemovalResult",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueSpawnResult"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bTickEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "TickInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "TickGroup",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETickingGroup"
+            }
+        }
+    ]
+}

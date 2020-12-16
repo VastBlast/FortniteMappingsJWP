@@ -1,0 +1,16 @@
+{
+    "name": "NetAnalyticsAggregatorConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NetAnalyticsData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NetAnalyticsDataConfig"
+                }
+            }
+        }
+    ]
+}

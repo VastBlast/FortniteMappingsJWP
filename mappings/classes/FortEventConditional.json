@@ -1,0 +1,43 @@
+{
+    "name": "FortEventConditional",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ConditionalType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortEventConditionType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StatToCompare",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RelevantPeriod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EStatRecordingPeriod"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ComparisonType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCompare"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Value",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

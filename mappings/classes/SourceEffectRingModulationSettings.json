@@ -1,0 +1,48 @@
+{
+    "name": "SourceEffectRingModulationSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ModulatorType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERingModulatorTypeSourceEffect"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Frequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Depth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DryLevel",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WetLevel",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AudioBusModulator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

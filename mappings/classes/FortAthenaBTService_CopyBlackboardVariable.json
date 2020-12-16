@@ -1,0 +1,42 @@
+{
+    "name": "FortAthenaBTService_CopyBlackboardVariable",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourceBlackboardKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DestinationBlackboardKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bCopyOnBecomeRelevant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bCopyOnCeaseRelevant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bCopyWhenSourceValueChange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

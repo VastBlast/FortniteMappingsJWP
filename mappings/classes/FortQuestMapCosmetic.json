@@ -1,0 +1,54 @@
+{
+    "name": "FortQuestMapCosmetic",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CosmeticType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECosmeticType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CosmeticBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WidgetClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CosmeticDataList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "CosmeticPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CosmeticTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WidgetTransform"
+            }
+        }
+    ]
+}

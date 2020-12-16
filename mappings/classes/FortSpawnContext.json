@@ -1,0 +1,20 @@
+{
+    "name": "FortSpawnContext",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Team",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Tags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

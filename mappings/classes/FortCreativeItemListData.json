@@ -1,0 +1,42 @@
+{
+    "name": "FortCreativeItemListData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Category",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECreativeItemCategory"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemPrimaryAssetId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryAssetId"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Count",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SortPriority",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIncluded",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

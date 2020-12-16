@@ -1,0 +1,41 @@
+{
+    "name": "StenciledActorInfoEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Actor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EndTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Data",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StenciledActorData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bReplaceExistingWhenAdded",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

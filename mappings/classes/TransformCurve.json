@@ -1,0 +1,51 @@
+{
+    "name": "TransformCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TranslationCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VectorCurve"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RotationCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VectorCurve"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScaleCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VectorCurve"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LastObservedName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Name",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SmartName"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CurveTypeFlags",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "ProceduralScatterActorContentSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bHideFromWorldOutliner",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SetActorTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Variations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

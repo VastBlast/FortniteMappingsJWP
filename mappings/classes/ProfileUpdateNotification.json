@@ -1,0 +1,38 @@
+{
+    "name": "ProfileUpdateNotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Changes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "JsonObjectWrapper"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "LockExpiration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CommandRevision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Revision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

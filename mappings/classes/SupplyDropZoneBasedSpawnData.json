@@ -1,0 +1,58 @@
+{
+    "name": "SupplyDropZoneBasedSpawnData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpawnedSupplyDrops",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumDropsRemainingInWave",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NextWaveSpawnTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NextSpawnTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrGamePhase",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaGamePhase"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CurrSubPhase",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TotalSupplyDropsSpawnedInSubPhase",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

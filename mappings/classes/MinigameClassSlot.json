@@ -1,0 +1,30 @@
+{
+    "name": "MinigameClassSlot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ClassSlotIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ClassName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InventoryItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemAndCount"
+                }
+            }
+        }
+    ]
+}

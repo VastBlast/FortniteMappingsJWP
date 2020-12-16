@@ -1,0 +1,42 @@
+{
+    "name": "RigVMMemoryContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bUseNameMap",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MemoryType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERigVMMemoryType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Registers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RigVMRegister"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "RegisterOffsets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RigVMRegisterOffset"
+                }
+            }
+        }
+    ]
+}

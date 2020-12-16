@@ -1,0 +1,582 @@
+{
+    "name": "FortOstrichAnimInstance",
+    "properties": [
+        {
+            "index": 19,
+            "name": "TurnInPlaceInput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAnimInput_TurnInPlace"
+            }
+        },
+        {
+            "index": 24,
+            "name": "SlopeWarpingAlphaSpeedInputRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 25,
+            "name": "SlopeWarpingAlphaSpeedOutputRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 26,
+            "name": "SlopeWarpingAlphaInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "LocalAimYawDeadZoneAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "LocalVelocityYawAngleInterpolator",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatRK4SpringInterpolator"
+            }
+        },
+        {
+            "index": 38,
+            "name": "LocomotionDeadZoneAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "WorldSpaceAimPoint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 99,
+            "name": "InMotionAlphaInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 100,
+            "name": "DashLeansAlphaInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "GunnerJogBounceAlphaInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 102,
+            "name": "RightArmNoAdditiveInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "JoyStickAlphaInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 104,
+            "name": "GunnerAlphaInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 105,
+            "name": "StatusStartPositionAlphaWhemIsEmptyOnFirstLoad",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 106,
+            "name": "DashLeansAlphaWhenGunner",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 107,
+            "name": "DashLeansAlphaNoGunner",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 108,
+            "name": "ShotgunShellsAlphaWhenShotgunFires",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 109,
+            "name": "ShotgunShellsAlphaNoShotgunFiring",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 110,
+            "name": "BaseAdditiveAlphaWhenMontageIsPlaying",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 111,
+            "name": "BaseAdditiveAlphaNoMontagePlaying",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 112,
+            "name": "JoyStickAlphaWithGunner",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 113,
+            "name": "GunnerAlphaWithGunner",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 114,
+            "name": "ShellOneAlphaAmmoCountAt3",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 115,
+            "name": "ShellTwoAlphaAmmoCountAt2",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 116,
+            "name": "ShellThreeAlphaAmmoCountAt1",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 117,
+            "name": "ShellFourAlphaAmmoCountAt0",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 118,
+            "name": "ShellsPlayRateWhenNoMoreAmmoAndShouldBringAmmo",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 119,
+            "name": "RecoilAmountAlphaWhenMontagePlayingAndShotgunFires",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 120,
+            "name": "LowerBodyRecoilAdditiveAlphaWithDriver",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 121,
+            "name": "LowerBodyRecoilAdditiveAlphaNoDriver",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 122,
+            "name": "JumpApexLoopAlphaNotChargingJump",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 123,
+            "name": "JumpApexLoopAlphaWhenIsChargingJump",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 124,
+            "name": "PlayRateSpeedWarpAlpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 126,
+            "name": "MechShotgunReload",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 127,
+            "name": "MechShotgunFireA",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 128,
+            "name": "MechShotgunFireB",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 129,
+            "name": "MechRocketFire",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 130,
+            "name": "MechRocketFireSettle",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 131,
+            "name": "ChargedJumpApexSeq",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 132,
+            "name": "ChargedJumpFallSeq",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 133,
+            "name": "ChargedJumpLandSeq",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 134,
+            "name": "ChargedJumpLandPredictedSeq",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 135,
+            "name": "NormalJumpApexSeq",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 136,
+            "name": "NormalJumpFallSeq",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 137,
+            "name": "NormalJumpLandSeq",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 138,
+            "name": "NormalJumpLandPredictedSeq",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 152,
+            "name": "UpperBodyLagMaxRecoverySpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 153,
+            "name": "UpperBodyLagRecoverySmoothness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 154,
+            "name": "UpperBodyLagRecoveryMass",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 155,
+            "name": "UpperBodyLagRecoveryDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 156,
+            "name": "UpperBodyLagOffsetLimitDuringTurns",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 157,
+            "name": "UpperBodyLagOffsetLimitDuringTurnsInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 158,
+            "name": "UpperBodyLagOffsetLimitWhileStill",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 159,
+            "name": "UpperBodyLagOffsetLimitWhileStillInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 163,
+            "name": "DistanceCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortDistanceCurve"
+            }
+        },
+        {
+            "index": 164,
+            "name": "PlayRateSpeedWarpAlphaCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCachedFloatCurve"
+            }
+        },
+        {
+            "index": 165,
+            "name": "PivotStateData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CachedAnimStateData"
+            }
+        },
+        {
+            "index": 166,
+            "name": "PivotAnimationLeft",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 167,
+            "name": "PivotAnimationRight",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 168,
+            "name": "PivotEarlyOutAngleThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 169,
+            "name": "PivotTurnCorrection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAnimInput_TurnCorrection"
+            }
+        },
+        {
+            "index": 174,
+            "name": "MovementStateData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CachedAnimStateData"
+            }
+        },
+        {
+            "index": 175,
+            "name": "bEnableStarts",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 176,
+            "name": "StartStateData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CachedAnimStateData"
+            }
+        },
+        {
+            "index": 177,
+            "name": "DirectionalStartAnims",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortDirectionalAnimRef"
+            }
+        },
+        {
+            "index": 178,
+            "name": "StartEarlyOutThresold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 179,
+            "name": "StartTurnCorrection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAnimInput_TurnCorrection"
+            }
+        },
+        {
+            "index": 191,
+            "name": "bShouldPredictLanding",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 194,
+            "name": "FallLookAheadSubStepping",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 195,
+            "name": "FallLookAheadMaxIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 196,
+            "name": "bDebugLandPrediction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 197,
+            "name": "bRecordJumpPositions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 203,
+            "name": "TimeForRecentlyFired",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 204,
+            "name": "TimeToReachRelaxedLevel1",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 205,
+            "name": "TimeToReachRelaxedLevel2",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 206,
+            "name": "MinTimeAfterFiredBeforeWallRelaxed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 212,
+            "name": "bLowerWeaponNearWallDuringTargeting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 219,
+            "name": "bEnableAdditiveLayer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 220,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        }
+    ]
+}

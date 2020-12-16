@@ -1,0 +1,24 @@
+{
+    "name": "ChromeRoute",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SquadStartSearchParam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSquadStartSearchParamData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FinishPOITags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayTag"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "name": "RigUnit_AimConstraint",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Joint",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AimMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAimMode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UpMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAimMode"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AimVector",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UpVector",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AimTargets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AimTarget"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "UpTargets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AimTarget"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "WorkData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigUnit_AimConstraint_WorkData"
+            }
+        }
+    ]
+}

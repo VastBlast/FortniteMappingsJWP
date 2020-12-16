@@ -1,0 +1,36 @@
+{
+    "name": "MapLocation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Text",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Font",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateFontInfo"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LocationTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

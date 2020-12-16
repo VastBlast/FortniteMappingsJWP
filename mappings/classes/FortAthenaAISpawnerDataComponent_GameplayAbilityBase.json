@@ -1,0 +1,34 @@
+{
+    "name": "FortAthenaAISpawnerDataComponent_GameplayAbilityBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InitialGameplayEffect",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "InitialGameplayEffectInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "InitialGameplayAbilitiesSet",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "LooseTagsToApplyToPawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

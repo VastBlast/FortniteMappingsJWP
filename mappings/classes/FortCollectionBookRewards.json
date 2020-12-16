@@ -1,0 +1,56 @@
+{
+    "name": "FortCollectionBookRewards",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RewardType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollectionBookRewardType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PageId",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SectionId",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "XpRequired",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsMajorReward",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Rewards",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRewardInfo"
+            }
+        }
+    ]
+}

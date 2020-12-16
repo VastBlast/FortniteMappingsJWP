@@ -1,0 +1,206 @@
+{
+    "name": "AFortTheaterMapTile",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bFocused",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bHostSelected",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bGoToPromptEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MapCoord",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortHexMapCoord"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bHasFinishedLoading",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TileType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTheaterMapTileType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ZoneThemeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TileIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RegionIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SelectionOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 10,
+            "name": "FocusOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SelectionInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "NormalBrightness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "LockedBrightness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "FocusedBrightness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "SelectedBrightnessRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "SelectedPulseSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bEnableBrightnessCode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bDisallowQuickplay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "StaticMeshMaterialID",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "InitialLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 21,
+            "name": "MissionData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAvailableMissionData"
+            }
+        },
+        {
+            "index": 22,
+            "name": "LastValidMissionData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAvailableMissionData"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ZoneDifficultyInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 24,
+            "name": "MissionAlertData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAvailableMissionAlertData"
+            }
+        },
+        {
+            "index": 25,
+            "name": "StaticMeshComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "AdjacencyMIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

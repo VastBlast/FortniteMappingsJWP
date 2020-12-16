@@ -1,0 +1,29 @@
+{
+    "name": "FortSurvivorSquadStatMatchesBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StatMatchClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bSummaryView",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StatMatches",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

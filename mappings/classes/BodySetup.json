@@ -2,11 +2,91 @@
     "name": "BodySetup",
     "properties": [
         {
+            "index": 0,
+            "name": "AggGeom",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "KAggregateGeom"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAlwaysFullAnimWeight",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bConsiderForBounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bDoubleSidedGeometry",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bGenerateNonMirroredCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bSharedCookedData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bGenerateMirroredCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bSupportUVsAndFaceRemap",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PhysMaterial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "WalkableSlopeOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WalkableSlopeOverride"
+            }
+        },
+        {
             "index": 11,
             "name": "DefaultInstance",
             "mapping_type": {
                 "type": "StructProperty",
                 "struct_type": "BodyInstance"
+            }
+        },
+        {
+            "index": 12,
+            "name": "BuildScale3D",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
             }
         }
     ]

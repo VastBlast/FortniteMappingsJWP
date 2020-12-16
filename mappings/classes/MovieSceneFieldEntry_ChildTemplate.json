@@ -1,0 +1,28 @@
+{
+    "name": "MovieSceneFieldEntry_ChildTemplate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ChildIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Flags",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESectionEvaluationFlags"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ForcedTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumber"
+            }
+        }
+    ]
+}

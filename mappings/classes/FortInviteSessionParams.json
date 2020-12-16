@@ -1,0 +1,28 @@
+{
+    "name": "FortInviteSessionParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "State",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMatchmakingState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FailureReason",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LastBeaconResponse",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPartyReservationResult"
+            }
+        }
+    ]
+}

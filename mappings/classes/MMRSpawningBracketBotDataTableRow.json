@@ -1,0 +1,30 @@
+{
+    "name": "MMRSpawningBracketBotDataTableRow",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PhaseSpawningItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MMRPhaseSpawningDataTableInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "MMRBracketLow",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MMRBracketHigh",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

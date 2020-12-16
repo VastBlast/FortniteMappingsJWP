@@ -1,0 +1,34 @@
+{
+    "name": "StaticMeshVertexColorLODData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PaintedVertices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PaintedVertex"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "VertexBufferColors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Color"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "LODIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

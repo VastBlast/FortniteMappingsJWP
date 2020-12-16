@@ -1,0 +1,191 @@
+{
+    "name": "AFortAthenaMutator_SpecialEvent",
+    "properties": [
+        {
+            "index": 6,
+            "name": "MinimumScoreBumpForAutomadeGoal",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ScoreBrackets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "bEnforceInfiniteWarmup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "WarmupIslandPlayerStartTag",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bAllowInventoryOpen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bBlockTeamIndicators",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "UIToHideWhenOnlyRelevantToSelf",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 13,
+            "name": "UIToHideWhenInInfiniteWarmup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 14,
+            "name": "EventAircraft",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "EventAircraftInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AircraftFlightInfo"
+            }
+        },
+        {
+            "index": 16,
+            "name": "EventAircraftClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "AdditionalViewpoint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bParachutesDisabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "LastCSVEventName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bPawnsOnlyRelevantToOwner",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bCanStreamBuildingFoundationsIn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "SpecialEventEmoteData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortSpecialEventEmoteData"
+                }
+            }
+        },
+        {
+            "index": 29,
+            "name": "SpecialEventsInputComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "SpecialEventOverrideParts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortSpecialEventOverrideParts"
+                }
+            }
+        },
+        {
+            "index": 31,
+            "name": "GameplayEffectToApplyOnSwapToDefault",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSpecialEventGEData"
+            }
+        },
+        {
+            "index": 33,
+            "name": "ActivePawnStates",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 34,
+            "name": "GameplayEffectsToApplyOnLogin",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortSpecialEventGEData"
+                }
+            }
+        },
+        {
+            "index": 35,
+            "name": "PawnStateData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PawnState"
+                }
+            }
+        }
+    ]
+}

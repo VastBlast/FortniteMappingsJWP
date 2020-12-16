@@ -1,0 +1,119 @@
+{
+    "name": "FortQuestObjectiveInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BackendName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StatEvent",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortQuestObjectiveStatEvent"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemEvent",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortQuestObjectiveItemEvent"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ItemReference",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HudShortDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "HudIcon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AchievedCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RequiredCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LastNotifiedCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "LastKnownMCPCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "QuestOwner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "AssistPlayerState",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bIsHelper",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

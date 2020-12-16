@@ -1,0 +1,47 @@
+{
+    "name": "FortDifficultyEncounterSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DifficultyOptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrideEncounterEnvironmentQueryInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EncounterEnvironmentQueryInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EncounterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEncounterSettings"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpawnLimitMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortEncounterSpawnLimitType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PacingMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortEncounterPacingMode"
+            }
+        }
+    ]
+}

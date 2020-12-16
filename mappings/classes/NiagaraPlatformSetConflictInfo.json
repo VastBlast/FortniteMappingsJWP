@@ -1,0 +1,30 @@
+{
+    "name": "NiagaraPlatformSetConflictInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SetAIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SetBIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Conflicts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraPlatformSetConflictEntry"
+                }
+            }
+        }
+    ]
+}

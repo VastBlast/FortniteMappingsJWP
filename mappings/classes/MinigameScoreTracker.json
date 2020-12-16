@@ -1,0 +1,35 @@
+{
+    "name": "MinigameScoreTracker",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GroupScore",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MinigameScoreData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TeamScores",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MinigameTeamScoreData"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SoloScores",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MinigameSoloScoreData"
+                }
+            }
+        }
+    ]
+}

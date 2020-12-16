@@ -1,0 +1,44 @@
+{
+    "name": "FortCampaignTeamMemberDailyBonusXpBoost",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Text_Boost",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Image_BoostIcon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TemplateIdsToTrack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "RepresentedMemberIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrentConnectionState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMemberConnectionState"
+            }
+        }
+    ]
+}

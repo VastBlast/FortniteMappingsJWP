@@ -1,0 +1,30 @@
+{
+    "name": "HUDLayoutToolV2_LinkAcrossNumericalIndicator",
+    "properties": [
+        {
+            "index": 1,
+            "name": "ActionSymbols",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LinkAcrossNumericalIndicatorActionSymbol"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Text_ActionSymbol",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Text_InstanceCounter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

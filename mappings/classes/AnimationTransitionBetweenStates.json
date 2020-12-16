@@ -1,0 +1,84 @@
+{
+    "name": "AnimationTransitionBetweenStates",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PreviousState",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NextState",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CrossfadeDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "StartNotify",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EndNotify",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "InterruptNotify",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BlendMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAlphaBlendOption"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CustomCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "BlendProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LogicType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETransitionLogicType"
+            }
+        },
+        {
+            "index": 10,
+            "name": "StateName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

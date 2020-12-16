@@ -1,0 +1,54 @@
+{
+    "name": "FortSubGameLoadingScreen",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tips",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "BackgroundImage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BackgroundDesiredSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LogoLoadingScreen",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortLogoLoadingScreen"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LoadingBlockScreen",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortLoadingBlockScreen"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SafeAreaMargin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Margin"
+            }
+        }
+    ]
+}

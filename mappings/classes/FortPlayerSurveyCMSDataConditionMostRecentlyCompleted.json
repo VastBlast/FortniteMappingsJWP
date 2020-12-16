@@ -1,0 +1,28 @@
+{
+    "name": "FortPlayerSurveyCMSDataConditionMostRecentlyCompleted",
+    "properties": [
+        {
+            "index": 0,
+            "name": "S",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPlayerSurveyCMSDataRelativeSurveyKey"
+            }
+        },
+        {
+            "index": 1,
+            "name": "O",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPlayerSurveyCMSDataBinaryComparisonOp"
+            }
+        },
+        {
+            "index": 2,
+            "name": "T",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

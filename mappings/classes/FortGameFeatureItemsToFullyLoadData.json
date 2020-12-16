@@ -1,0 +1,23 @@
+{
+    "name": "FortGameFeatureItemsToFullyLoadData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlaylistTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemsToFullyLoad",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "FortGameplayDataTrackerAccumulation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AccumulationTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Contributions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayDataTrackerAccumulationContributor"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "TrackedRanges",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayDataTrackedRange"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "ProceduralSurfaceSlopeAngleMap",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bNormalizedSlopeAngle",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SlopeAngleRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatInterval"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RemapCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ProceduralRemapFloatCurve"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseRemapCurve",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

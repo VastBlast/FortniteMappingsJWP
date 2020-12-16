@@ -1,0 +1,31 @@
+{
+    "name": "QuestRequirement",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuestDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DesiredState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortQuestState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Objectives",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ObjectiveRequirement"
+                }
+            }
+        }
+    ]
+}

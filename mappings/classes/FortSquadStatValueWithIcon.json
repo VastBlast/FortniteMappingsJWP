@@ -1,0 +1,43 @@
+{
+    "name": "FortSquadStatValueWithIcon",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Attribute",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAttribute"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TeamAttribute",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAttribute"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ImageSize",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBrushSize"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Value",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Icon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

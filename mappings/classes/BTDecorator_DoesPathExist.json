@@ -1,0 +1,79 @@
+{
+    "name": "BTDecorator_DoesPathExist",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BlackboardKeyA",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BlackboardKeyB",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUseSelf",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PathQueryType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPathExistanceQueryType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FilterClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bInverseCondition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "FlowAbortMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBTFlowAbortMode"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NodeName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TreeAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ParentNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

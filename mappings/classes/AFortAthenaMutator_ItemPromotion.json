@@ -1,0 +1,36 @@
+{
+    "name": "AFortAthenaMutator_ItemPromotion",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UpgradeTable",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HighestUpgradeTier",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRarity"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ValidWeaponTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bPromoteAllItemsOnRespawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

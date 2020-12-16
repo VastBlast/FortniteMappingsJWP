@@ -1,0 +1,55 @@
+{
+    "name": "AthenaGameMessageData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MsgType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaGameMsgType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MsgText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MsgSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MsgDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsTeamBased",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TeamIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

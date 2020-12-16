@@ -1,0 +1,82 @@
+{
+    "name": "LiveLinkCameraFrameData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FieldOfView",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AspectRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FocalLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Aperture",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FocusDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ProjectionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELiveLinkCameraProjectionMode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Transform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 7,
+            "name": "WorldTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkWorldTime"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkMetaData"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PropertyValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
+}

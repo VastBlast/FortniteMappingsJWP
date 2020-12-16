@@ -1,0 +1,40 @@
+{
+    "name": "InfiltrationPOIInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "POITag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IntelSpawnPoints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "IntelCapturePoints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "POIOverrideName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

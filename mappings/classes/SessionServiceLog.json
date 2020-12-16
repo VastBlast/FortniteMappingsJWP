@@ -1,0 +1,41 @@
+{
+    "name": "SessionServiceLog",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Category",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Data",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InstanceID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TimeSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Verbosity",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        }
+    ]
+}

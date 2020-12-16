@@ -1,0 +1,96 @@
+{
+    "name": "DistributionVectorParameterBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ParameterName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinInput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxInput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinOutput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxOutput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ParamModes",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDistributionParamMode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Constant",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bLockAxes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LockedAxes",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDistributionVectorLockFlags"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bCanBeBaked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bIsDirty",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bBakedDataSuccesfully",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

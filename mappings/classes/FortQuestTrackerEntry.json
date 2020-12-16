@@ -1,0 +1,43 @@
+{
+    "name": "FortQuestTrackerEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuestNameText",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObjectivesList",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TrackedQuest",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "HUDCachedObjectiveInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bConfigureAsHUD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

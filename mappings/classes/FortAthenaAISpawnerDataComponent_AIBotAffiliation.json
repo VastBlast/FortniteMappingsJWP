@@ -1,0 +1,43 @@
+{
+    "name": "FortAthenaAISpawnerDataComponent_AIBotAffiliation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bOverrideIsAnAthenaGameParticipant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIsAnAthenaGameParticipant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SupportsMarkerWithFaction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MarkerPropagationMaxDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FactionTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

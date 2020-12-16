@@ -1,0 +1,48 @@
+{
+    "name": "FortCreativeBudget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TotalBudget",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UsedBudget",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Category",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBudgetCategory"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bCritical",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BudgetLowend",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FixedInstanceCost",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

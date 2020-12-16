@@ -1,0 +1,48 @@
+{
+    "name": "CatalogPurchaseInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OfferId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PurchaseQuantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Currency",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EStoreCurrencyType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrencySubType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ExpectedTotalPrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "GameContext",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

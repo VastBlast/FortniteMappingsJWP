@@ -1,0 +1,65 @@
+{
+    "name": "AFortPoiVolume",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIsLargeGameVolume",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentFortPoiVolumeSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VolumeThresholdForLargeGameVolume",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LargeGameVolume",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EventsEnabledDuring",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "LocationTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AudioBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PoiCollisionComp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

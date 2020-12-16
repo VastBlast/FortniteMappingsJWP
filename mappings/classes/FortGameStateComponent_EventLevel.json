@@ -1,0 +1,55 @@
+{
+    "name": "FortGameStateComponent_EventLevel",
+    "properties": [
+        {
+            "index": 7,
+            "name": "AssignedRewardGraph",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "EventLevelCinematicOverrideClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "NavigationActorClickedData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnalyticsNavActorClickedData"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "DynamicWorlds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DynamicCompositeWorld"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "bDisableDynamicStreamingLevels",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bAlwaysLoadDynamicAsyncStreamingLevels",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

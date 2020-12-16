@@ -1,0 +1,36 @@
+{
+    "name": "RuntimeOptionScheduledNotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FireDateTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LocalTime",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Title",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeOptionLocalizableString"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Body",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeOptionLocalizableString"
+            }
+        }
+    ]
+}

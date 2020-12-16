@@ -1,0 +1,24 @@
+{
+    "name": "AthenaVariantFilterTabInfo_Primary",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PrimaryTab",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaVariantFilterTabInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SubTabs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaVariantFilterTabInfo"
+                }
+            }
+        }
+    ]
+}

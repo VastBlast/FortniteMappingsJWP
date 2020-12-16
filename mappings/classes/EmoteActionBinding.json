@@ -1,0 +1,38 @@
+{
+    "name": "EmoteActionBinding",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EmoteId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryAssetId"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bOnlyDisplayForDiscoverability",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActionName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Input",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "InputActionKeyMapping"
+                }
+            }
+        }
+    ]
+}

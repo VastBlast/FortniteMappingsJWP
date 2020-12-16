@@ -1,0 +1,76 @@
+{
+    "name": "PoseDriverTarget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BoneTransforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PoseDriverTransform"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TargetRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TargetScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DistanceMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERBFDistanceMethod"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FunctionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERBFFunctionType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bApplyCustomCurve",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CustomCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RichCurve"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DrivenName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsHidden",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "GfeSDKCreateInputParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AppName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RequiredScopes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PollForCallbacks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

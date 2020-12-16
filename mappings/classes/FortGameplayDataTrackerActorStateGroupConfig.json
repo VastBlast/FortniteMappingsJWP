@@ -1,0 +1,33 @@
+{
+    "name": "FortGameplayDataTrackerActorStateGroupConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RelevantActorClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAllowDBNOPawns",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StateConfigs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayDataTrackerActorStateConfig"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "name": "AFortTrack",
+    "properties": [
+        {
+            "index": 1,
+            "name": "ToggleSwitchText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ToggleInteractTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TrackPieceMeshesByType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bUseFloorMesh",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TrackFloorMeshesByVerticality",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ConnectorMeshConfigs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TrackConnectorMeshConfig"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "FloorCollisionResponseContainer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CollisionResponseContainer"
+            }
+        },
+        {
+            "index": 20,
+            "name": "PlacementCollision1",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "PlacementCollision2",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "SplineComp1",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "SplineComp2",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "SwitchCompBase",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

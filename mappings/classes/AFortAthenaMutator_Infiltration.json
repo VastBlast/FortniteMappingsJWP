@@ -1,0 +1,233 @@
+{
+    "name": "AFortAthenaMutator_Infiltration",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GroundTimer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "InfiltrationTeamInfos",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InfiltrationTeamInfo"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CaptureTimeRequired",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CaptureRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "IntelIconData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IconDisplayData"
+            }
+        },
+        {
+            "index": 6,
+            "name": "IntelCapturePointIconData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IconDisplayData"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Brush_UpArrow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Brush_DownArrow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 9,
+            "name": "VerticalBuffer",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TimeToBlockRespawnBetweenRounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 11,
+            "name": "NumOfActiveCapturePoints",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PerkUnlockedGameplayEffectClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ModeState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InfiltrationModeState"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CurrentSpawnPoint",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "CurrentCapturePoint",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "POIInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "InfiltrationPOIInfo"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "RoundAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 18,
+            "name": "RoundWinAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 19,
+            "name": "MostRoundsAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 20,
+            "name": "PlayedInfAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 21,
+            "name": "RoundResultsText_Attacker_Win",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "RoundResultsText_Attacker_Lose",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "RoundResultsText_Defender_Win",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "RoundResultsText_Defender_Lose",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "RoundCosmeticInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RoundCosmeticInfo"
+                }
+            }
+        },
+        {
+            "index": 26,
+            "name": "bRoundIntroEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 27,
+            "name": "DilationCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "CachedRoundHelper",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "IntelLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

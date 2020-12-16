@@ -1,0 +1,49 @@
+{
+    "name": "FortMinigameStatQuery",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Stat",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Scope",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMinigameStatScope"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAnyMatch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Operation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMinigameStatOperation"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Value",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bStaticCount",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

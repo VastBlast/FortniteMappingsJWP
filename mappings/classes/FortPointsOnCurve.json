@@ -1,0 +1,23 @@
+{
+    "name": "FortPointsOnCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Curve",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RangesForPointsOnCurve",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPointOnCurveRange"
+                }
+            }
+        }
+    ]
+}

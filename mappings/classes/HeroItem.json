@@ -1,0 +1,50 @@
+{
+    "name": "HeroItem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Item",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Quantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Replenishment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortReplenishmentType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RequiredGPTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SwapTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bShowInAbilityScreen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

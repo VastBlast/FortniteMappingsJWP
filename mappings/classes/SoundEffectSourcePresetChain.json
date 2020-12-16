@@ -1,0 +1,23 @@
+{
+    "name": "SoundEffectSourcePresetChain",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Chain",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SourceEffectChainEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bPlayEffectChainTails",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

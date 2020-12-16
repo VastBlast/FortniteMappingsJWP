@@ -1,0 +1,39 @@
+{
+    "name": "CollisionImpactData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ContactInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RigidBodyContactInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TotalNormalImpulse",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TotalFrictionImpulse",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIsVelocityDeltaUnderThreshold",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

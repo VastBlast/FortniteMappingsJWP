@@ -1,0 +1,37 @@
+{
+    "name": "TimeStretchCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SamplingRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurveValueMinPrecision",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Markers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TimeStretchCurveMarker"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Sum_dT_i_by_C_i",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

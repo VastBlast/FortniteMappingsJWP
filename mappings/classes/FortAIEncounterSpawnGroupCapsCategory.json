@@ -1,0 +1,93 @@
+{
+    "name": "FortAIEncounterSpawnGroupCapsCategory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bApplyGroupPopulationCurveToCategoryMax",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InitialSpawnGroupAvailabilityDelaySeconds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpawnGroupAvailabilityDelaySeconds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UnlockingTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SpawnGroupCapsPerPlayerCount",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIEncounterSpawnGroupCap"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "InitialSpawnGroupAvailabilityTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NumActiveCategorySpawnGroups",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SpawnGroupAvailabilityTimes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "NumSpawnGroupAvailable",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "CategorySource",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

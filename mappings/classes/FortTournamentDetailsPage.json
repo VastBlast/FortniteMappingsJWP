@@ -1,0 +1,100 @@
+{
+    "name": "FortTournamentDetailsPage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TournamentDisplayInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTournamentDisplayInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CMSTournamentData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ShowdownTournamentEntry"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Text_TimeRemaining",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Text_DebugId",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Image_PosterFront",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Image_PosterBack",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Image_LoadingScreen",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Image_PlaylistTile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TimeRemainingFormat",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bTimeRemainingShowSeconds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bTimeRemainingUppercase",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TimeRemainingFormatType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETimespanAsTextFormat"
+            }
+        },
+        {
+            "index": 12,
+            "name": "TitlePaddingMobile",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Margin"
+            }
+        }
+    ]
+}

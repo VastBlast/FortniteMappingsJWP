@@ -1,0 +1,44 @@
+{
+    "name": "GameplayCuePendingExecute",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PredictionKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PredictionKey"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PayloadType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayCuePayloadType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OwningComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FromSpec",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEffectSpecForRPC"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CueParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayCueParameters"
+            }
+        }
+    ]
+}

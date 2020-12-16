@@ -1,0 +1,21 @@
+{
+    "name": "ConcertSyncEndpointIdAndData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EndpointData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSyncEndpointData"
+            }
+        }
+    ]
+}

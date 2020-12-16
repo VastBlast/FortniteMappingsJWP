@@ -1,0 +1,23 @@
+{
+    "name": "VirtualTexturePoolConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultSizeInMegabyte",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Pools",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VirtualTextureSpacePoolConfig"
+                }
+            }
+        }
+    ]
+}

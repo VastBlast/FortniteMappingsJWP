@@ -1,0 +1,60 @@
+{
+    "name": "KAggregateGeom",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SphereElems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "KSphereElem"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoxElems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "KBoxElem"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SphylElems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "KSphylElem"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ConvexElems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "KConvexElem"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "TaperedCapsuleElems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "KTaperedCapsuleElem"
+                }
+            }
+        }
+    ]
+}

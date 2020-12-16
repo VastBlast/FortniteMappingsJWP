@@ -1,0 +1,35 @@
+{
+    "name": "ConcertPlaySessionEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EventType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertPlaySessionEventType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayPackageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIsSimulating",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

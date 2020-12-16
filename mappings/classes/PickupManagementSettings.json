@@ -1,0 +1,63 @@
+{
+    "name": "PickupManagementSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PickupsAllowedMax",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PickupsDesiredSlack",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PickupDespawnDelaySeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDebugPickupManagement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bEnablePickupManagement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NotJunkPickupThreshold",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRarity"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ImportantPickupThreshold",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRarity"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bFlagPlayerDropsAsImportant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

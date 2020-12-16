@@ -1,0 +1,37 @@
+{
+    "name": "SubscriptionModalInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ModalId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlatformId",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAppStore"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Entries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "QrCodeImage",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "FortCosmeticVariantSwapData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemToManage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Transitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCosmeticVariantTransition"
+                }
+            }
+        }
+    ]
+}

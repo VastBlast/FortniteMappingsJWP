@@ -1,0 +1,28 @@
+{
+    "name": "FortSpawnSlotData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpawnSlotLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OccupyingAI",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SlotStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRiftSlotStatus"
+            }
+        }
+    ]
+}

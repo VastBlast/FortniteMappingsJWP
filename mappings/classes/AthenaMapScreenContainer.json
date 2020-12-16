@@ -1,0 +1,75 @@
+{
+    "name": "AthenaMapScreenContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HideWithMapTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TabInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaMapScreenContainerTabInfo"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SoftCreativeScoreboardClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NextTabInputAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PreviousTabInputAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 5,
+            "name": "VisibilitySwitcher_Content",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EntryBox_TabButtons",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MobileCloseButton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Content_CreativeScoreboardContainer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

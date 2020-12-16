@@ -1,0 +1,44 @@
+{
+    "name": "PartyAssistQuestData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AssistedQuestDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AssistedPlayer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrentQuestStage",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "QuestCompleted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Objectives",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartyAssistObjectiveData"
+                }
+            }
+        }
+    ]
+}

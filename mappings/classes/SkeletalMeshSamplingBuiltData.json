@@ -1,0 +1,27 @@
+{
+    "name": "SkeletalMeshSamplingBuiltData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WholeMeshBuiltData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SkeletalMeshSamplingLODBuiltData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "RegionBuiltData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SkeletalMeshSamplingRegionBuiltData"
+                }
+            }
+        }
+    ]
+}

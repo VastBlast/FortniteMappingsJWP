@@ -1,0 +1,30 @@
+{
+    "name": "AFortAthenaMutator_GravityMultiplier",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GravityOverride",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GravityPresets",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CustomGravityData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GravityMovementData"
+                }
+            }
+        }
+    ]
+}

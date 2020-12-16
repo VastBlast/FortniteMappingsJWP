@@ -1,0 +1,43 @@
+{
+    "name": "MovieSceneSequencePlaybackParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Frame",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameTime"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Time",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MarkedFrame",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PositionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMovieScenePositionType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UpdateMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUpdatePositionMethod"
+            }
+        }
+    ]
+}

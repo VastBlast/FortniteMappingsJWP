@@ -1,0 +1,39 @@
+{
+    "name": "FortUserCloudRequestQueue",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bFreezeIncomingRequests",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FirstFrozenHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortUserCloudRequestHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ProcessingTimerHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimerHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RequestQueue",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortUserCloudRequest"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "ProfileUpdateSingle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ProfileRevision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ProfileId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ProfileChangesBaseRevision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ProfileChanges",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "JsonObjectWrapper"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "LockExpiration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Notifications",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "JsonObjectWrapper"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "ProfileCommandRevision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "GameplayFeedbackEventInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DisplayText",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EventTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MsgType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaGameMsgType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bTeamBasedEvent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FriendlyEventMessages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "HostileEventMessages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "NeutralEventMessages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        }
+    ]
+}

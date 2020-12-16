@@ -1,0 +1,37 @@
+{
+    "name": "FortUICameraFrameTargetSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FocusPointToCenter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoundingBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortUICameraFrameTargetBoundingBehavior"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BoundsToFrame",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortUICameraFrameTargetBounds"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FocusObjectRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        }
+    ]
+}

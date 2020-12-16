@@ -1,0 +1,106 @@
+{
+    "name": "ConcertServerConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bAutoArchiveOnReboot",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAutoArchiveOnShutdown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bCleanWorkingDir",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumSessionsToKeep",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ServerName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DefaultSessionName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DefaultSessionToRestore",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DefaultSessionSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSessionSettings"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ServerSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertServerSettings"
+            }
+        },
+        {
+            "index": 10,
+            "name": "EndpointSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertEndpointSettings"
+            }
+        },
+        {
+            "index": 11,
+            "name": "WorkingDir",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ArchiveDir",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "SessionRepositoryRootDir",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bMountDefaultSessionRepository",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

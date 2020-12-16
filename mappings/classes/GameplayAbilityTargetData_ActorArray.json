@@ -1,0 +1,23 @@
+{
+    "name": "GameplayAbilityTargetData_ActorArray",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourceLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilityTargetingLocationInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TargetActorArray",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        }
+    ]
+}

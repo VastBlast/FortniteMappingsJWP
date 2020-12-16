@@ -1,0 +1,793 @@
+{
+    "name": "RendererSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bMobileDisableVertexFog",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxMobileCascades",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MobileMSAASampleCount",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMobileMSAASampleCount"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bMobileUseLegacyShadingModel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bMobileAllowDitheredLODTransition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bMobileAllowSoftwareOcclusionCulling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bMobileVirtualTextures",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bDiscardUnusedQualityLevels",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bOcclusionCulling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MinScreenRadiusForLights",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MinScreenRadiusForEarlyZPass",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MinScreenRadiusForCSMdepth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bPrecomputedVisibilityWarning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bTextureStreaming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bUseDXT5NormalMaps",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bVirtualTextures",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bVirtualTexturedLightmaps",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "VirtualTextureTileSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "VirtualTextureTileBorderSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "VirtualTextureFeedbackFactor",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bVirtualTextureEnableCompressZlib",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bVirtualTextureEnableCompressCrunch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bClearCoatEnableSecondNormal",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bAnisotropicBRDF",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ReflectionCaptureResolution",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ReflectionEnvironmentLightmapMixBasedOnRoughness",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bForwardShading",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bVertexFoggingForOpaque",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bAllowStaticLighting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bUseNormalMapsForStaticLighting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "bGenerateMeshDistanceFields",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bEightBitMeshDistanceFields",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bGenerateLandscapeGIData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bCompressMeshDistanceFields",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "TessellationAdaptivePixelsPerTriangle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bSeparateTranslucency",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "TranslucentSortPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETranslucentSortPolicy"
+            }
+        },
+        {
+            "index": 37,
+            "name": "TranslucentSortAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 38,
+            "name": "CustomDepthStencil",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECustomDepthStencil"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bCustomDepthTaaJitter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bEnableAlphaChannelInPostProcessing",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAlphaChannelMode"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bDefaultFeatureBloom",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bDefaultFeatureAmbientOcclusion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bDefaultFeatureAmbientOcclusionStaticFraction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bDefaultFeatureAutoExposure",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "DefaultFeatureAutoExposure",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAutoExposureMethodUI"
+            }
+        },
+        {
+            "index": 46,
+            "name": "DefaultFeatureAutoExposureBias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "bExtendDefaultLuminanceRangeInAutoExposureSettings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "bUsePreExposure",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "bEnablePreExposureOnlyInTheEditor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "bDefaultFeatureMotionBlur",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "bDefaultFeatureLensFlare",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "bTemporalUpsampling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "bSSGI",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "DefaultFeatureAntiAliasing",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAntiAliasingMethod"
+            }
+        },
+        {
+            "index": 55,
+            "name": "DefaultLightUnits",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELightUnits"
+            }
+        },
+        {
+            "index": 56,
+            "name": "DefaultBackBufferPixelFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDefaultBackBufferPixelFormat"
+            }
+        },
+        {
+            "index": 57,
+            "name": "bRenderUnbuiltPreviewShadowsInGame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "bStencilForLODDither",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "EarlyZPass",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEarlyZPass"
+            }
+        },
+        {
+            "index": 60,
+            "name": "bEarlyZPassOnlyMaterialMasking",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "bDBuffer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "ClearSceneMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EClearSceneOptions"
+            }
+        },
+        {
+            "index": 63,
+            "name": "bBasePassOutputsVelocity",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "bVertexDeformationOutputsVelocity",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "bSelectiveBasePassOutputs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "bDefaultParticleCutouts",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 67,
+            "name": "GPUSimulationTextureSizeX",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 68,
+            "name": "GPUSimulationTextureSizeY",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "bGlobalClipPlane",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "GBufferFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGBufferFormat"
+            }
+        },
+        {
+            "index": 71,
+            "name": "bUseGPUMorphTargets",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "bNvidiaAftermathEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "bMultiView",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 74,
+            "name": "bMobilePostProcessing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "bMobileMultiView",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "bMobileUseHWsRGBEncoding",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "bRoundRobinOcclusion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "bODSCapture",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "bMeshStreaming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "WireframeCullThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "bEnableRayTracing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "bEnableRayTracingTextureLOD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "bSupportStationarySkylight",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 84,
+            "name": "bSupportLowQualityLightmaps",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 85,
+            "name": "bSupportPointLightWholeSceneShadows",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "bSupportAtmosphericFog",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "bSupportSkyAtmosphere",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "bSupportSkyAtmosphereAffectsHeightFog",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "bSupportSkinCacheShaders",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "DefaultSkinCacheBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESkinCacheDefaultBehavior"
+            }
+        },
+        {
+            "index": 91,
+            "name": "SkinCacheSceneMemoryLimitInMB",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "bMobileEnableStaticAndCSMShadowReceivers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 93,
+            "name": "bMobileEnableMovableLightCSMShaderCulling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 94,
+            "name": "bMobileAllowDistanceFieldShadows",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 95,
+            "name": "bMobileAllowMovableDirectionalLights",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 96,
+            "name": "MobileNumDynamicPointLights",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 97,
+            "name": "bMobileDynamicPointLightsUseStaticBranch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "bMobileAllowMovableSpotlights",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 99,
+            "name": "bSupport16BitBoneIndex",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 100,
+            "name": "bGPUSkinLimit2BoneInfluences",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "bSupportDepthOnlyIndexBuffers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 102,
+            "name": "bSupportReversedIndexBuffers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "bSupportMaterialLayers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 104,
+            "name": "bLPV",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 105,
+            "name": "bStreamSkeletalMeshLODs",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformBool"
+            }
+        },
+        {
+            "index": 106,
+            "name": "bDiscardSkeletalMeshOptionalLODs",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformBool"
+            }
+        },
+        {
+            "index": 107,
+            "name": "VisualizeCalibrationColorMaterialPath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 108,
+            "name": "VisualizeCalibrationCustomMaterialPath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 109,
+            "name": "VisualizeCalibrationGrayscaleMaterialPath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        }
+    ]
+}

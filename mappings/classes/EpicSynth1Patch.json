@@ -1,0 +1,24 @@
+{
+    "name": "EpicSynth1Patch",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PatchSource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESynth1PatchSource"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PatchCables",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Synth1PatchCable"
+                }
+            }
+        }
+    ]
+}

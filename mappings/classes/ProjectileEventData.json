@@ -1,0 +1,33 @@
+{
+    "name": "ProjectileEventData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpawnedProjectile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Hits",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HitResult"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExplodedActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

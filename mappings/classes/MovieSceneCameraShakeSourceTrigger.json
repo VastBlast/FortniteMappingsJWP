@@ -1,0 +1,35 @@
+{
+    "name": "MovieSceneCameraShakeSourceTrigger",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ShakeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Playspace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECameraShakePlaySpace"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UserDefinedPlaySpace",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        }
+    ]
+}

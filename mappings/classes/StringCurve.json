@@ -1,0 +1,23 @@
+{
+    "name": "StringCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultValue",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Keys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "StringCurveKey"
+                }
+            }
+        }
+    ]
+}

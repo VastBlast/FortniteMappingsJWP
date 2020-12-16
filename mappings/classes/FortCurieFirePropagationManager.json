@@ -1,0 +1,24 @@
+{
+    "name": "FortCurieFirePropagationManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PrimaryTickFunction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieFirePropagationManagerTickFunction"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActiveFires",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCurieFireEntry"
+                }
+            }
+        }
+    ]
+}

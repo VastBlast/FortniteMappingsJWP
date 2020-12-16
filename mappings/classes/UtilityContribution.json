@@ -1,0 +1,36 @@
+{
+    "name": "UtilityContribution",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaxContribution",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ContributingFactor",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCombatFactors"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ContributingAIDirectorFactor",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAIDirectorFactor"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ContributionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFactorContributionType"
+            }
+        }
+    ]
+}

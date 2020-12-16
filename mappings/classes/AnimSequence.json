@@ -1,0 +1,200 @@
+{
+    "name": "AnimSequence",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumFrames",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TrackToSkeletonMapTable",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TrackToSkeletonMap"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "BoneCompressionSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurveCompressionSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AdditiveAnimType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAdditiveAnimationType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RefPoseType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAdditiveBasePoseType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RefPoseSeq",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RefFrameIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RetargetSource",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RetargetSourceAssetReferencePose",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "Interpolation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimInterpolationType"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bEnableRootMotion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RootMotionRootLock",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERootMotionRootLock"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bForceRootLock",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bUseNormalizedRootMotionScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bRootMotionSettingsCopiedFromMontage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "AuthoredSyncMarkers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimSyncMarker"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "Notifies",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimNotifyEvent"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "SequenceLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "RateScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "RawCurveData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawCurveTracks"
+            }
+        },
+        {
+            "index": 21,
+            "name": "Skeleton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

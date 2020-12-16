@@ -1,0 +1,52 @@
+{
+    "name": "MockDataMeshTrackerComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScanWorld",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RequestNormals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RequestVertexConfidence",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "VertexColorMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMeshTrackerVertexColorMode"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BlockVertexColors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Color"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "UpdateInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "FortAIEncounterTimedModifierTags",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TimeSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

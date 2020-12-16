@@ -1,0 +1,59 @@
+{
+    "name": "FortBuildingInstructions",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Instructions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortBuildingInstruction"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Bounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoxSphereBounds"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumOfPiecesToSpawnAtOnce",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TimeBetweenSpawns",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bSetOwnerID",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bUsePlayerBuildAnimations",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MapName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

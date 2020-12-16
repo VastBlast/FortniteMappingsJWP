@@ -1,0 +1,23 @@
+{
+    "name": "ACullDistanceVolume",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CullDistances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CullDistanceSizePair"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

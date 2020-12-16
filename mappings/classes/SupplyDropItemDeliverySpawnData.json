@@ -1,0 +1,36 @@
+{
+    "name": "SupplyDropItemDeliverySpawnData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumItemsToDeliver",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QueuedSpawnTimes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "NextSpawnTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumInitialSpawns",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

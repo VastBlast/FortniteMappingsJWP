@@ -1,0 +1,152 @@
+{
+    "name": "GeometryCollection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Materials",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CollisionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionTypeEnum"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ImplicitType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EImplicitTypeEnum"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinLevelSetResolution",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxLevelSetResolution",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MinClusterLevelSetResolution",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxClusterLevelSetResolution",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CollisionObjectReductionPercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bMassAsDensity",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Mass",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MinimumMassClamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "CollisionParticlesFraction",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "MaximumCollisionParticles",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "SizeSpecificData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GeometryCollectionSizeSpecificData"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "EnableRemovePiecesOnFracture",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "RemoveOnFractureMaterials",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "PersistentGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 17,
+            "name": "StateGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 18,
+            "name": "BoneSelectedMaterialIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

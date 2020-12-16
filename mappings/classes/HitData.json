@@ -1,0 +1,35 @@
+{
+    "name": "HitData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PingOfHitter",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HittingPawn",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HitNormal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ObjectState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimeStampedPhysicsPawnState"
+            }
+        }
+    ]
+}

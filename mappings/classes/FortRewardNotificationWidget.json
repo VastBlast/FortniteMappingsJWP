@@ -1,0 +1,37 @@
+{
+    "name": "FortRewardNotificationWidget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NotificationDataList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverlayMain",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SwipeDetector",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSwipeDetector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MulchConfirmationModalClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

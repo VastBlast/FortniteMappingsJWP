@@ -1,0 +1,36 @@
+{
+    "name": "PegasusJobMeta",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PGS_VideoJobId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PGS_AdditionalTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PGS_RenderJobId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PGS_RenderJobCreationEpoch",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

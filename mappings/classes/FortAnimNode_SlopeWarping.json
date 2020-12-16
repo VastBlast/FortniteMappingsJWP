@@ -1,0 +1,107 @@
+{
+    "name": "FortAnimNode_SlopeWarping",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IKFootRootBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PelvisBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FeetDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SlopeWarpingFootDefinition"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "PelvisOffsetInterpolator",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VectorRK4SpringInterpolator"
+            }
+        },
+        {
+            "index": 5,
+            "name": "GravityDir",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CustomFloorOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 9,
+            "name": "FloorNormalInterpolator",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VectorRK4SpringInterpolator"
+            }
+        },
+        {
+            "index": 11,
+            "name": "FloorOffsetInterpolator",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VectorRK4SpringInterpolator"
+            }
+        },
+        {
+            "index": 12,
+            "name": "MaxStepHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bKeepMeshInsideOfCapsule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bPullPelvisDown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bUseCustomFloorOffset",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bUseCapsuleInfoInsteadOfFootTraces",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

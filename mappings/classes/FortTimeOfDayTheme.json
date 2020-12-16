@@ -1,0 +1,35 @@
+{
+    "name": "FortTimeOfDayTheme",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TimeOfDayCollections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "AdditionalTimeOfDayManagers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ProhibitedTimeOfDayManagers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        }
+    ]
+}

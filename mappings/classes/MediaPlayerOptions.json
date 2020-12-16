@@ -1,0 +1,37 @@
+{
+    "name": "MediaPlayerOptions",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tracks",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MediaPlayerTrackOptions"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SeekTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Timespan"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayOnOpen",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMediaPlayerOptionBooleanOverride"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Loop",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMediaPlayerOptionBooleanOverride"
+            }
+        }
+    ]
+}

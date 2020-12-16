@@ -1,0 +1,97 @@
+{
+    "name": "NiagaraSystemScalabilityOverride",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bOverrideDistanceSettings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bOverrideInstanceCountSettings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOverridePerSystemInstanceCountSettings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bOverrideTimeSinceRendererSettings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Platforms",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraPlatformSet"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bCullByDistance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bCullMaxInstanceCount",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bCullPerSystemMaxInstanceCount",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bCullByMaxTimeWithoutRender",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MaxDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MaxInstances",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MaxSystemInstances",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "MaxTimeWithoutRender",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "FOscillator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Amplitude",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Frequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InitialOffset",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInitialOscillatorOffset"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Waveform",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EOscillatorWaveform"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "GoalSelectionQueryInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GoalSelectionQuery",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RequiredGameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

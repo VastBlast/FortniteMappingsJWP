@@ -1,0 +1,165 @@
+{
+    "name": "MeshSet",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Weight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ResourceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortResourceType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bDoNotBlockBuildings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDestroyOnPlayerBuildingPlacement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bNeedsDamageOverlay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BaseMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BreakEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DeathParticles",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DeathParticleSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DeathSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ConstructedEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SwapInParticles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TaggedParticleSubstitution"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "SwapInSounds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TaggedSoundSubstitution"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "SwapInMeshes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TaggedStaticMeshSubstitution"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "SwapInLightProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TaggedInLightProperties"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "BuildingOwnedTagDelta",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AddOrRemoveGameplayTags"
+            }
+        },
+        {
+            "index": 16,
+            "name": "SearchedMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "SearchSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 18,
+            "name": "LootNoiseRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "LootSpawnLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

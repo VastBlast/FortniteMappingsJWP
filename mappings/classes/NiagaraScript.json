@@ -1,0 +1,92 @@
+{
+    "name": "NiagaraScript",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Usage",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraScriptUsage"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UsageIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UsageId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RapidIterationParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraParameterStore"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScriptExecutionParamStore",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraScriptExecutionParameterStore"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ScriptExecutionBoundParameters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraBoundParameter"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "CachedScriptVMId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVMExecutableDataId"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CachedScriptVM",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVMExecutableData"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CachedParameterCollectionReferences",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "CachedDefaultDataInterfaces",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraScriptDataInterfaceInfo"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "name": "AnimNode_RotateRootBone",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BasePose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseLink"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Pitch",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Yaw",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PitchScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        },
+        {
+            "index": 4,
+            "name": "YawScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MeshToComponent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        }
+    ]
+}

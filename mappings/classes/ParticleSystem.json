@@ -1,0 +1,272 @@
+{
+    "name": "ParticleSystem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UpdateTime_FPS",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UpdateTime_Delta",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WarmupTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WarmupTickRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Emitters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "CurveEdSetup",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LODDistanceCheckTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MacroUVRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LODDistances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "LODSettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ParticleSystemLOD"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "FixedRelativeBoundingBox",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SecondsBeforeInactive",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Delay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "DelayLow",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bOrientZAxisTowardCamera",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bUseFixedRelativeBoundingBox",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bShouldResetPeakCounts",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bUseRealtimeThumbnail",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ThumbnailImageOutOfDate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bUseDelayRange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bAllowManagedTicking",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bAutoDeactivate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bRegenerateLODDuplicate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "SystemUpdateMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleSystemUpdateMode"
+            }
+        },
+        {
+            "index": 26,
+            "name": "LODMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleSystemLODMethod"
+            }
+        },
+        {
+            "index": 27,
+            "name": "InsignificantReaction",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleSystemInsignificanceReaction"
+            }
+        },
+        {
+            "index": 28,
+            "name": "OcclusionBoundsMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleSystemOcclusionBoundsMethod"
+            }
+        },
+        {
+            "index": 29,
+            "name": "MaxSignificanceLevel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleSignificanceLevel"
+            }
+        },
+        {
+            "index": 30,
+            "name": "MinTimeBetweenTicks",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "InsignificanceDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "MacroUVPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 33,
+            "name": "CustomOcclusionBounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 35,
+            "name": "NamedMaterialSlots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NamedEmitterMaterial"
+                }
+            }
+        },
+        {
+            "index": 36,
+            "name": "MaxPoolSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "PoolPrimeSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

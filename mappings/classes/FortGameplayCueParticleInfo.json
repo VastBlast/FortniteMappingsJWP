@@ -1,0 +1,64 @@
+{
+    "name": "FortGameplayCueParticleInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Condition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueSpawnCondition"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Attachment",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueAttachInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FXType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFXType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NiagaraSystem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ParticleSystem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bCastShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bOverrideCondition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bOverrideAttachment",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

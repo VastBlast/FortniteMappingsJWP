@@ -1,0 +1,75 @@
+{
+    "name": "RecordedFrame",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Transforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TransformIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PreviousTransformIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "DisabledFlags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "CollisionS",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SolverCollisionData"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Breakings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SolverBreakingData"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "Timestamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

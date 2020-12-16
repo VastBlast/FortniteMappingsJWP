@@ -1,0 +1,841 @@
+{
+    "name": "FortGameUserSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MouseSensitivity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FortVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "UnlockConsoleFPS",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SubGameSelectCount_Athena",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SubGameLastSelectedTime_Athena",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SubGameSelectCount_Campaign",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SubGameLastSelectedTime_Campaign",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 10,
+            "name": "LastTimeSettingsSnapshotUploaded",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 11,
+            "name": "FirstLoginOnDevice",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SafeZone",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bIsSafeZoneSet",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CachedPlayerLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bShowCareerTabBang",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "CustomVoiceChatInputDevice",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "CustomVoiceChatOutputDevice",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "CustomVoiceChatInputDeviceId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "CustomVoiceChatOutputDeviceId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bMotionBlur",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bShowGrass",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bShowFPS",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bUseGPUCrashDebugging",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "UserRenderingAPI",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bLatencyTweak1",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "LatencyTweak2",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bLatencyFlash",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "DLSSQuality",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bRayTracing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "RayTracingShadowsQuality",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "RayTracingReflectionsQuality",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "RayTracingAmbientOcclusionQuality",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "RayTracingAOQuality",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "RayTracingGIQuality",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "b120FpsMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "DisplayGamma",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "UserInterfaceContrast",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "NamedCounts",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 40,
+            "name": "BattlePassOverrideTracker",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bHasSeenDonutShopSequence",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "DonutIdleGameHighScore",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "LastSeenDailyStoreVersion",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "LastSeenFeaturedStoreVersion",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "LastSeenAthenaRMTStore",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 49,
+            "name": "LastSelectedPlaylist",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PlaylistData"
+            }
+        },
+        {
+            "index": 50,
+            "name": "LastSelectedFillOption",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "CreativeOptions",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 53,
+            "name": "bHasSeenCreativePhoneTutorial",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "bHasSeenCreativeHeatmapTutorial",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "CreativeOptionLastUsedCategory",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "CreativeOptionLastUsedIndexInCategory",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "LastNewsVersionViewedBR",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "LastNewsVersionViewedCreative",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "LastNewsVersionViewedSTW",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "LastFrontEndBackPlateStageUsed",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "bEulaAccepted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "EulaAcceptedUserId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "LastEulaCheckTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 67,
+            "name": "HUDLayoutData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HUDLayoutData"
+            }
+        },
+        {
+            "index": 70,
+            "name": "ActiveHUDProfileIdentifier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMobileHUDProfileIdentifier"
+            }
+        },
+        {
+            "index": 71,
+            "name": "bTimesSeenBacchusLoadTutorial",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "bHasSeenTapToShoot",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "NumTimesSeeingPanningTip",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 74,
+            "name": "FireModeData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FireModeData"
+            }
+        },
+        {
+            "index": 75,
+            "name": "SimpleMobileStats",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSimpleGameStats"
+            }
+        },
+        {
+            "index": 77,
+            "name": "bUseHeadphoneMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "InitialBenchmarkState",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "bDisableMouseAcceleration",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "ChosenLoginType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESavedAccountType"
+            }
+        },
+        {
+            "index": 87,
+            "name": "Credentials",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SavedCredentials"
+                }
+            }
+        },
+        {
+            "index": 88,
+            "name": "SocialImportOptedOutVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "VKImportOptedOutVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "bHasSeenErebusSocialImport",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 91,
+            "name": "bHasSeenFriendImportToast",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "LastSocialImportPromptTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 93,
+            "name": "bAutoImportFriendEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 94,
+            "name": "bSeenLetoSellModal",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 95,
+            "name": "SocialImportPromptCountCurrentVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 96,
+            "name": "SocialImportPromptCountAllVersions",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 97,
+            "name": "VKImportPromptCountCurrentVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "VKImportPromptCountAllVersions",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "LastAccountItemWarningTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 102,
+            "name": "bMultiFactorAuthModalOpOut",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "LastEnableMFAModalPromptTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 104,
+            "name": "LastVKImportPromptTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 105,
+            "name": "LastAffiliateToastTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 107,
+            "name": "MobileRecommendationDismissedVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 108,
+            "name": "ShowLiveStreamPictureInPictureInMatchV2",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EShowInGamePictureInPicture"
+            }
+        },
+        {
+            "index": 109,
+            "name": "CurrentLivePiPStreamOverrideCounter",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 110,
+            "name": "SelectedFrontEnd",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 111,
+            "name": "bNeverShowMobileLink",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 116,
+            "name": "bHasMigratedDownloadSettings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 117,
+            "name": "bSendAppsFlyerEventOnInstallation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 118,
+            "name": "bAllowCellularDownload",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 120,
+            "name": "bAllowFullGameDownload",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 126,
+            "name": "bAutoLaunchFullGame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 127,
+            "name": "bAllowDownloadHighResMips",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 128,
+            "name": "bAllowLowPowerMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 129,
+            "name": "bAllowVideoPlayback",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 130,
+            "name": "bAllowMultithreadedRendering",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 131,
+            "name": "MobileFPSMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMobileFPSMode"
+            }
+        },
+        {
+            "index": 132,
+            "name": "MobileQualitySettingsResetDefaultsGUID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 133,
+            "name": "bHasSeenSamsungPressureSensorWarning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 134,
+            "name": "bNeverDisplaySamsungPressureSensorWarning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 135,
+            "name": "bHasRecentlySeenBadMatchPopup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 136,
+            "name": "MatchesSinceLastBadMatchPopup",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 137,
+            "name": "bHasAlreadyRatedOnGooglePlay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 138,
+            "name": "DaysToSnoozeBeforeNextGooglePlayRating",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 139,
+            "name": "GooglePlayRatingDelayedOccurences",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 140,
+            "name": "bShowTemperature",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 141,
+            "name": "LastGameStartNotificationSentTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 142,
+            "name": "ScheduledNotifications",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 143,
+            "name": "LastYearForcedDisplayWinterfestInfoButton",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 144,
+            "name": "RecentPlayerEncounters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RecentPlayerEncounterSerialized"
+                }
+            }
+        },
+        {
+            "index": 145,
+            "name": "bHasSeenSidekickWelcomePopup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

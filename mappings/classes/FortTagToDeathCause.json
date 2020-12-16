@@ -1,0 +1,29 @@
+{
+    "name": "FortTagToDeathCause",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DeathTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DBNOCause",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDeathCause"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DeathCause",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDeathCause"
+            }
+        }
+    ]
+}

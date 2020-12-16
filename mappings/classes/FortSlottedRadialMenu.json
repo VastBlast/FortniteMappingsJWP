@@ -1,0 +1,73 @@
+{
+    "name": "FortSlottedRadialMenu",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OrderingMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERadialOrderingMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CustomOrdering",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUseAsManySlotsAsItems",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumSlotsSupported",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EntryWidgetClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "JoystickDeadZone",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MouseDeadZoneRadiusPercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RadialBoxSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RadialBoxSettings"
+            }
+        },
+        {
+            "index": 8,
+            "name": "EntryBox_ContextRadial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

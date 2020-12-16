@@ -1,0 +1,32 @@
+{
+    "name": "CompositeFont",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultTypeface",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Typeface"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FallbackTypeface",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CompositeFallbackFont"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SubTypefaces",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CompositeSubFont"
+                }
+            }
+        }
+    ]
+}

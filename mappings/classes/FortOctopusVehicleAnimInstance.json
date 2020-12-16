@@ -1,0 +1,24 @@
+{
+    "name": "FortOctopusVehicleAnimInstance",
+    "properties": [
+        {
+            "index": 18,
+            "name": "VehicleType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortValetVehicleType"
+            }
+        },
+        {
+            "index": 19,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        }
+    ]
+}

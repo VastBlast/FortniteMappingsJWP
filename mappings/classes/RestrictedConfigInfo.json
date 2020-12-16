@@ -1,0 +1,22 @@
+{
+    "name": "RestrictedConfigInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RestrictedConfigName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Owners",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

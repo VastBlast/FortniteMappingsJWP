@@ -1,0 +1,75 @@
+{
+    "name": "FortAnimSet",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourceRootPath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DirectoryPath"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TargetRootPathList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DirectoryPath"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "FallbackSequence",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UniqueInSourceAssets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "UniqueInTargetAssets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "RandomAnimations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAnimSetRandomAnimation"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "AssetRemapping",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

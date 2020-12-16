@@ -1,0 +1,36 @@
+{
+    "name": "FortQueryGenerator_BuildingsOnCachedPath",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CachedPathSource",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIncludeWalls",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderBoolValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIncludeFloors",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderBoolValue"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIncludeCenterCell",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderBoolValue"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "DiscoCaptureIconData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrIconState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDiscoCaptureIconState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrProgressState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDiscoCaptureProgressState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrCapturePercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CapturePoint",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

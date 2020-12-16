@@ -1,0 +1,29 @@
+{
+    "name": "InteractiveGizmoManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActiveGizmos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ActiveGizmo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "GizmoBuilders",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

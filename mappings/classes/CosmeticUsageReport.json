@@ -1,0 +1,36 @@
+{
+    "name": "CosmeticUsageReport",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TrackedCosmetics",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "VariantUsageByCosmetic",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VariantUsageReport"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PrioritizedCosmeticIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

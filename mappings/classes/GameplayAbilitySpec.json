@@ -1,0 +1,59 @@
+{
+    "name": "GameplayAbilitySpec",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Handle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilitySpecHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Ability",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Level",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InputID",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SourceObject",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "DynamicAbilityTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ReplicatedInstances",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

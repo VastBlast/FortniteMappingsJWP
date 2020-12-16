@@ -1,0 +1,66 @@
+{
+    "name": "CommonInputPlatformData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bSupported",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultInputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECommonInputType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSupportsMouseAndKeyboard",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bSupportsGamepad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultGamepadType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECommonGamepadType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bCanChangeGamepadType",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bSupportsTouch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ControllerData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        }
+    ]
+}

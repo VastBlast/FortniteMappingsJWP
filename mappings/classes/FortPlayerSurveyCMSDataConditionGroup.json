@@ -1,0 +1,23 @@
+{
+    "name": "FortPlayerSurveyCMSDataConditionGroup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ID",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "C",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "JsonObjectWrapper"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "name": "TimeSynthComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuantizationSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimeSynthQuantizationSettings"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bEnableSpectralAnalysis",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FrequenciesToAnalyze",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "FFTSize",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETimeSynthFFTSize"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsFilterAEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIsFilterBEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FilterASettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimeSynthFilterSettings"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FilterBSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimeSynthFilterSettings"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bIsEnvelopeFollowerEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "EnvelopeFollowerSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "TimeSynthEnvelopeFollowerSettings"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MaxPoolSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

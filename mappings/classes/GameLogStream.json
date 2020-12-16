@@ -1,0 +1,71 @@
+{
+    "name": "GameLogStream",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DeathEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DeathEvent"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PawnSamples",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameLogPawnSample"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "BuildEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameLogBuildSample"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "StormSamples",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "StormSample"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "PlayerMetaInfoSamples",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameLogPlayerMetaSample"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "PlayerDancePartySamples",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameLogDancePartySample"
+                }
+            }
+        }
+    ]
+}

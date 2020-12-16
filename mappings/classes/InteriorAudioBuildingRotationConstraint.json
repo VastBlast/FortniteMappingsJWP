@@ -1,0 +1,42 @@
+{
+    "name": "InteriorAudioBuildingRotationConstraint",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StartingOrientation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInteriorAudioBuildingDefaultRotation"
+            }
+        },
+        {
+            "index": 1,
+            "name": "XScaleFlipRotation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "YScaleFlipRotation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Quadrant",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DotProductComparisons",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

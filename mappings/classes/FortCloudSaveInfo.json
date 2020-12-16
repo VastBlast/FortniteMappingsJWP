@@ -1,0 +1,23 @@
+{
+    "name": "FortCloudSaveInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SaveCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SavedRecords",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCloudSaveRecordInfo"
+                }
+            }
+        }
+    ]
+}

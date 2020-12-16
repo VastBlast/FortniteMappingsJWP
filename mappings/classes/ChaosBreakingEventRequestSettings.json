@@ -1,0 +1,48 @@
+{
+    "name": "ChaosBreakingEventRequestSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaxNumberOfResults",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MinSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinMass",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SortMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EChaosBreakingSortMethod"
+            }
+        }
+    ]
+}

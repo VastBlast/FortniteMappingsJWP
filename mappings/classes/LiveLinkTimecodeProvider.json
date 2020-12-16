@@ -1,0 +1,44 @@
+{
+    "name": "LiveLinkTimecodeProvider",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SubjectKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkSubjectKey"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Evaluation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELiveLinkTimecodeProviderEvaluationType",
+                "enumType": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOverrideFrameRate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OverrideFrameRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameRate"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BufferSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

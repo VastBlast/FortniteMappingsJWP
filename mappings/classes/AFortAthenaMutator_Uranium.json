@@ -1,0 +1,653 @@
+{
+    "name": "AFortAthenaMutator_Uranium",
+    "properties": [
+        {
+            "index": 5,
+            "name": "bPerkSelectBeforePOICamera",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RoundResultsText_AttackersWin",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RoundResultsText_AttackersLost",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RoundResultsText_DefendersWin",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RoundResultsText_DefendersLost",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "RoundIntroText_Attacking",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "RoundIntroText_Defending",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RoundIntroFactionSound_Attacking",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "RoundIntroFactionSound_Defending",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "MatchEndSound_Win_Attackers",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "MatchEndSound_Win_Defenders",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "MatchEndSound_Lose_Attackers",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "MatchEndSound_Lose_Defenders",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "PushCartClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "PushCart",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "StormShieldClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "StormShield",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "RespawnRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "RespawnLocationOffset_PusherTeam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 24,
+            "name": "RespawnLocationOffset_DefenderTeam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 25,
+            "name": "StartMovingRespawnCheckPointPct_PusherTeam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 26,
+            "name": "StartMovingRespawnCheckPointPct_DefenderTeam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 27,
+            "name": "StopMovingRespawnCheckPointPct_PusherTeam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 28,
+            "name": "StopMovingRespawnCheckPointPct_DefenderTeam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 29,
+            "name": "MovingRespawnOffsetMultiplier_PusherTeam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 30,
+            "name": "MovingRespawnOffsetMultiplier_DefenderTeam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 31,
+            "name": "PercentToMoveRespawnTowardCartViaTeamSize_PusherTeam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 32,
+            "name": "PercentToMoveRespawnTowardCartViaTeamSize_DefenderTeam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bAlignMovingRespawnToCart",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 34,
+            "name": "MinRespawnHeightAboveGround",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 39,
+            "name": "CurrentPOI",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UraniumPOIData"
+            }
+        },
+        {
+            "index": 40,
+            "name": "SafeZoneRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 41,
+            "name": "AircraftOffsetFromRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 42,
+            "name": "SupplyDropRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 43,
+            "name": "NumberOfRounds",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "RoundEndCondition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUraniumRoundEndCondition"
+            }
+        },
+        {
+            "index": 45,
+            "name": "CartMovementRuleOnNewRound",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUraniumCartMovementRuleOnNewRound"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bOnRoundEndSwitchTeamRoles",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 47,
+            "name": "bOnRoundSetUpResetPlayerAbilities",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 48,
+            "name": "RoundPhaseDurations",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "EndOfRoundCameraFadeOutTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "EndOfRoundCameraFadeInTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "EndOfRoundStasisDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "RoundData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UraniumRoundData"
+            }
+        },
+        {
+            "index": 67,
+            "name": "EarlyEndGame_BlowOutRoundNumberMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 68,
+            "name": "EarlyEndGame_BlowOutPointSpread",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 69,
+            "name": "EarlyEndGame_OutNumberedPercent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 70,
+            "name": "CurrentRoundPhase",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUraniumRoundPhase"
+            }
+        },
+        {
+            "index": 71,
+            "name": "bRoundTimerStarted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "MatchTimeAtStart",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 73,
+            "name": "MatchTimeAddedPerCheckpoint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 74,
+            "name": "PushersAbandonedCartOvertime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 75,
+            "name": "PushersAbandonedCartOvertimeInterval",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "PushersAbandonedCartOvertimeDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 77,
+            "name": "bPushCartIsPushableAtStart",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "PushersAbandonedCartStartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "PushersAbandonedCartDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "bPerkModeOn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "bShouldPlayFactionIntro",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "DestroyActorsOnNewRound",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 84,
+            "name": "ActorClassesToDestroy",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 85,
+            "name": "PlayersImmediatelyReenterGameplayAfterSelectingAPerk",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 86,
+            "name": "MinimapMaterialParameterCollection",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 91,
+            "name": "RoundCompleteAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 92,
+            "name": "RoundWinAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 93,
+            "name": "MatchWinAccoladeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 94,
+            "name": "bShowFullSplineOnMapUI",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 95,
+            "name": "CheckPointMarkerClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 96,
+            "name": "SplineGameplayTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 97,
+            "name": "CameraGameplayTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 98,
+            "name": "POIParentGameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 102,
+            "name": "EventTracking_TimeBetweenTicks",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 103,
+            "name": "EventTracking_TimeIsLowTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 104,
+            "name": "EventTracking_TimeIsExtraLowTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 105,
+            "name": "EventTracking_CheckPointIsNearDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 106,
+            "name": "TeleportingPlayersOutText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 107,
+            "name": "bForcePerkPickerOnCheckpoint",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 108,
+            "name": "TimeDilationManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 109,
+            "name": "EndRoundTimeDilationCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 110,
+            "name": "EndRoundTimeDilationDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 111,
+            "name": "TeleportMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 112,
+            "name": "InventoryOverrideMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 113,
+            "name": "RespawnWaveMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 114,
+            "name": "CheckpointTeleportPlayersReleased",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 115,
+            "name": "CheckpointTeleportComplete",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 116,
+            "name": "TeleportHeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        }
+    ]
+}

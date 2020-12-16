@@ -1,0 +1,72 @@
+{
+    "name": "TargetingSelectionTask_AOE",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ShapeType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETargetingAOEShape"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CollisionChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionChannel"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CollisionProfileName",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CollisionProfileName"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIgnoreSourceActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIgnoreInstigatorActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HalfExtent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Radius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "HalfHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ComponentTag",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

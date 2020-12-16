@@ -1,0 +1,41 @@
+{
+    "name": "FortFeedbackHandle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FeedbackBank",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EventName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bReadOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bBankDefined",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BroadcastFilterOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFeedbackBroadcastFilter"
+            }
+        }
+    ]
+}

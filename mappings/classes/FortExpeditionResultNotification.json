@@ -1,0 +1,23 @@
+{
+    "name": "FortExpeditionResultNotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bExpeditionSucceeded",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ExpeditionRewards",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpLootEntry"
+                }
+            }
+        }
+    ]
+}

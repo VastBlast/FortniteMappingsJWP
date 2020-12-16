@@ -1,0 +1,70 @@
+{
+    "name": "BuildingGameplayActorAbilityDeliveryBucket",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ProximityEffectBuckets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProximityBasedGEDeliveryInfoHard"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PawnPersistentAbilitySetBuckets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAbilitySetDeliveryInfo"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnabledByDefault",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bHasGEsToApplyOnTouch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bHasGEsToApplyOnExit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bHasGEsToApplyOnPulseTimer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bHasPersistentEffects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

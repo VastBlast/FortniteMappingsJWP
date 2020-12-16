@@ -1,0 +1,45 @@
+{
+    "name": "AthenaAwardGroup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RewardSource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERewardSource"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Items",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpLootEntry"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Score",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SeasonXp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BookXp",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

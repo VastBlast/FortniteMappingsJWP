@@ -1,0 +1,36 @@
+{
+    "name": "FortPersonalizeGiftTab",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PersonalizedMessageLength",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultGiftMessage",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GiftBoxes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "TileView_GiftBoxes",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

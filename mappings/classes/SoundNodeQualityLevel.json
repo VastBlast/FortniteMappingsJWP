@@ -1,0 +1,22 @@
+{
+    "name": "SoundNodeQualityLevel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CookedQualityLevelIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ChildNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

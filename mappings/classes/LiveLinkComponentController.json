@@ -1,0 +1,41 @@
+{
+    "name": "LiveLinkComponentController",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SubjectRepresentation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkSubjectRepresentation"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ControllerMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUpdateInEditor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ComponentToControl",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ComponentReference"
+            }
+        }
+    ]
+}

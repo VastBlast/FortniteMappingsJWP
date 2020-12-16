@@ -1,0 +1,87 @@
+{
+    "name": "ConcertTransactionFinalizedEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LocalIdentifierState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertLocalIdentifierState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TransactionId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OperationId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TransactionEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TransactionUpdateIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "VersionIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ModifiedPackages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "PrimaryObjectId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertObjectId"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ExportedObjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConcertExportedObject"
+                }
+            }
+        }
+    ]
+}

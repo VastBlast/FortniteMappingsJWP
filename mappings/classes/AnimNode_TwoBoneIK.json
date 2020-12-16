@@ -1,0 +1,179 @@
+{
+    "name": "AnimNode_TwoBoneIK",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IKBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StartStretchRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxStretchScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EffectorLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EffectorTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneSocketTarget"
+            }
+        },
+        {
+            "index": 5,
+            "name": "JointTargetLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "JointTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneSocketTarget"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TwistAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Axis"
+            }
+        },
+        {
+            "index": 8,
+            "name": "EffectorLocationSpace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBoneControlSpace"
+            }
+        },
+        {
+            "index": 9,
+            "name": "JointTargetLocationSpace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBoneControlSpace"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bAllowStretching",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bTakeRotationFromEffectorSpace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bMaintainEffectorRelRot",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bAllowTwist",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ComponentPose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ComponentSpacePoseLink"
+            }
+        },
+        {
+            "index": 15,
+            "name": "LODThreshold",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "AlphaInputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimAlphaInputType"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bAlphaBoolEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "Alpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "AlphaScaleBias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBias"
+            }
+        },
+        {
+            "index": 21,
+            "name": "AlphaBoolBlend",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputAlphaBoolBlend"
+            }
+        },
+        {
+            "index": 22,
+            "name": "AlphaCurveName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "AlphaScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        }
+    ]
+}

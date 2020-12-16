@@ -1,0 +1,28 @@
+{
+    "name": "RigUnit_QuaternionToAxisAndAngle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Argument",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Quat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Axis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Angle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "name": "LiveLinkPropertyData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PropertyName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FloatChannel",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneFloatChannel"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "StringChannel",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneStringChannel"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "IntegerChannel",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneIntegerChannel"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "BoolChannel",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneBoolChannel"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "ByteChannel",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneByteChannel"
+                }
+            }
+        }
+    ]
+}

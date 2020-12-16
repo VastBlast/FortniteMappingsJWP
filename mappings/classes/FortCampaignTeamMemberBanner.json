@@ -1,0 +1,34 @@
+{
+    "name": "FortCampaignTeamMemberBanner",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Banner_MemberBanner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Image_LeaderIcon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RepresentedMemberIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrentConnectionState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMemberConnectionState"
+            }
+        }
+    ]
+}

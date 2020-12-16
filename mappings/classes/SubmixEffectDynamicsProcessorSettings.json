@@ -1,0 +1,158 @@
+{
+    "name": "SubmixEffectDynamicsProcessorSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DynamicsProcessorType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubmixEffectDynamicsProcessorType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PeakMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubmixEffectDynamicsPeakMode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LinkMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubmixEffectDynamicsChannelLinkMode"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InputGainDb",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ThresholdDb",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Ratio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "KneeBandwidthDb",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LookAheadMsec",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "AttackTimeMsec",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ReleaseTimeMsec",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "KeySource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubmixEffectDynamicsKeySource"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ExternalAudioBus",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ExternalSubmix",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bChannelLinked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bAnalogMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bBypass",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bKeyAudition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "KeyGainDb",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "OutputGainDb",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "KeyHighshelf",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SubmixEffectDynamicProcessorFilterSettings"
+            }
+        },
+        {
+            "index": 20,
+            "name": "KeyLowshelf",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SubmixEffectDynamicProcessorFilterSettings"
+            }
+        }
+    ]
+}

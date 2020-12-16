@@ -1,0 +1,46 @@
+{
+    "name": "SourceEffectFilterSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FilterCircuit",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESourceEffectFilterCircuit"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FilterType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESourceEffectFilterType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CutoffFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FilterQ",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AudioBusModulation",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SourceEffectFilterAudioBusModulationSettings"
+                }
+            }
+        }
+    ]
+}

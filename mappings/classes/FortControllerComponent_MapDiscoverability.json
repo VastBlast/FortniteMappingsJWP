@@ -1,0 +1,74 @@
+{
+    "name": "FortControllerComponent_MapDiscoverability",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DiscoverabilityMPC",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DiscoveryUnmaskDuration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bFlipYInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DiscoveryUnmaskUpdateRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DiscoveryRenderTarget",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "StencilMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DiscoveredData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoiDiscoverabilityDataArray"
+            }
+        },
+        {
+            "index": 7,
+            "name": "StencilMID",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SpawnableWidgets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ComponentWidgetPairings"
+                }
+            }
+        }
+    ]
+}

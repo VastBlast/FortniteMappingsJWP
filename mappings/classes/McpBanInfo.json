@@ -1,0 +1,66 @@
+{
+    "name": "McpBanInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BanReasons",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ExploitProgramName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AdditionalInfo",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BanStartTimeUtc",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BanDurationDays",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CompetitiveBanReason",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPlayerCompetitiveBanReasons"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bRequiresUserAck",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bBanHasStarted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

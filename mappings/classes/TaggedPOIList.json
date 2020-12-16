@@ -1,0 +1,32 @@
+{
+    "name": "TaggedPOIList",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Enabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ChanceToApply",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "List",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CenterOnTaggedPOI"
+                }
+            }
+        }
+    ]
+}

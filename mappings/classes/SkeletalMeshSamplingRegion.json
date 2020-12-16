@@ -1,0 +1,48 @@
+{
+    "name": "SkeletalMeshSamplingRegion",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LODIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSupportUniformlyDistributedSampling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaterialFilters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SkeletalMeshSamplingRegionMaterialFilter"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "BoneFilters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SkeletalMeshSamplingRegionBoneFilter"
+                }
+            }
+        }
+    ]
+}

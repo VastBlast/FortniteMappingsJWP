@@ -1,0 +1,142 @@
+{
+    "name": "FortAbilityTargetSelection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Shape",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTargetSelectionShape"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CustomShapeComponentName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TestType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTargetSelectionTestType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PrimarySource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAbilityTargetingSource"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SecondarySource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAbilityTargetingSource"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Range",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "HalfExtents",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bAlignShapeEdgeToSourceLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ConeYawAngle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ConePitchAngle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ConeMinRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TargetFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTargetFilter"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bExcludeObstructedByWorld",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bShouldAttachedActorsObstructTarget",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bCreateHitResultWhenNoTargetsFound",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bUseProjectileRotationForDamageZones",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "TargetSelectionUsage",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAbilityTargetSelectionUsage"
+            }
+        },
+        {
+            "index": 17,
+            "name": "MaxTargets",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

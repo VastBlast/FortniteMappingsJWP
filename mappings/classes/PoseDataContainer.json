@@ -1,0 +1,48 @@
+{
+    "name": "PoseDataContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PoseNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SmartName"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Tracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Poses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PoseData"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "Curves",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimCurveBase"
+                }
+            }
+        }
+    ]
+}

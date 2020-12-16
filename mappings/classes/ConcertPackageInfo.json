@@ -1,0 +1,55 @@
+{
+    "name": "ConcertPackageInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PackageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NewPackageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PackageFileExtension",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PackageUpdateType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertPackageUpdateType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TransactionEventIdAtSave",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bPreSave",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bAutoSave",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

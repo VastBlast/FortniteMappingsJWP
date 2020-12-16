@@ -1,0 +1,28 @@
+{
+    "name": "ValkyrieContentServiceListInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ModuleId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Created",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Meta",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ValkyrieContentServiceListInfoMeta"
+            }
+        }
+    ]
+}

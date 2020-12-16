@@ -1,0 +1,23 @@
+{
+    "name": "LatentRepTeamDataArray",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LatentRepPlayerData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrPlayerUpdateIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

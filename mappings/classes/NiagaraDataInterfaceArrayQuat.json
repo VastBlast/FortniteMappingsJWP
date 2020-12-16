@@ -1,0 +1,23 @@
+{
+    "name": "NiagaraDataInterfaceArrayQuat",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuatData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Quat"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxElements",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

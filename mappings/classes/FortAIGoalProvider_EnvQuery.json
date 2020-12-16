@@ -1,0 +1,34 @@
+{
+    "name": "FortAIGoalProvider_EnvQuery",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GoalQuery",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AutomaticUpdatePeriodInSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpecificAssignmentContext",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIAssignmentIdentifier"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AIPawnContext",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

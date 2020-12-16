@@ -1,0 +1,27 @@
+{
+    "name": "FortLevelStreamingInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PackageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LevelState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortLevelStreamingState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bFailedToLoad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

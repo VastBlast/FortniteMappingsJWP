@@ -1,0 +1,16 @@
+{
+    "name": "ConcertDataStore_ReplicateEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Values",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConcertDataStore_KeyValuePair"
+                }
+            }
+        }
+    ]
+}

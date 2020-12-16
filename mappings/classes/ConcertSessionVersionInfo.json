@@ -1,0 +1,32 @@
+{
+    "name": "ConcertSessionVersionInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FileVersion",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertFileVersionInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EngineVersion",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertEngineVersionInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CustomVersions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConcertCustomVersionInfo"
+                }
+            }
+        }
+    ]
+}

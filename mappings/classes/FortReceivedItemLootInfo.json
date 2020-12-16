@@ -1,0 +1,41 @@
+{
+    "name": "FortReceivedItemLootInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HeaderInformation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemHeaderInformation"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GeneratedItemInstance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TemplateId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Quantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

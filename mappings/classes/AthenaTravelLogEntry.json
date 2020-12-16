@@ -1,0 +1,105 @@
+{
+    "name": "AthenaTravelLogEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Time",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaTravelEventType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "InstigatorName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "InstigatorId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 6,
+            "name": "InstigatorPlayerType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaTravelLogPlayerType"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ReceiverName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ReceiverId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ReceiverPlayerType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaTravelLogPlayerType"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Value",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Meta",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "JsonObjectWrapper"
+            }
+        },
+        {
+            "index": 12,
+            "name": "LocationPOITags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

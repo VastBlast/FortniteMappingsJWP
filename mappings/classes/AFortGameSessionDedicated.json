@@ -1,0 +1,114 @@
+{
+    "name": "AFortGameSessionDedicated",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bEnforceCrossplayRestrictions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAllowPS4InMixedConsole",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "XboxSubsystemNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "HotfixCheckTimer",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "HotfixCheckVariance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DataAssetDirectoryUpdateCheckTimer",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DataAssetDirectoryUpdateCheckVariance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ReservationAbandonmentTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ConsoleSessionRetryWaitSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ServerManifestOutputFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EServerManifestOutputFormat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ServerManifestDestination",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "IdleResetShortTimer",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ClientIdRestrictions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ClientIdRestrictions"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "CalendarEventsRequiringNewForkedMasterProcess",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "NPCSaleInventoryRow",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NPC",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LootTier",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LootLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LootTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

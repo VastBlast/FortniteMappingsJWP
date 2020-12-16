@@ -1,0 +1,34 @@
+{
+    "name": "MovieSceneLiveLinkSectionTemplate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SubjectPreset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkSubjectPreset"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ChannelMask",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SubSectionsData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LiveLinkSubSectionData"
+                }
+            }
+        }
+    ]
+}

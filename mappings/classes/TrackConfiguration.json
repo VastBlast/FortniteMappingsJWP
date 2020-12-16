@@ -1,0 +1,42 @@
+{
+    "name": "TrackConfiguration",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NeighborsByDirection",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SwitchStates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TrackSwitchStateConfig"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SwitchRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SwitchOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

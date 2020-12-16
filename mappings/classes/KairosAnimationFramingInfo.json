@@ -1,0 +1,43 @@
+{
+    "name": "KairosAnimationFramingInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "IdleMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AnimationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EKairosHeroAnimationType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SkeletonType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EKairosHeroSkeletonType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CameraTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        }
+    ]
+}

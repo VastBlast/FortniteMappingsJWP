@@ -1,0 +1,70 @@
+{
+    "name": "AIAssignmentInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentAssignment",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentGoal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIGoalInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TimeCurrentGoalWasChosen",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TimeExitedLastAssignmentOfType",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PreviousAssignment",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PreviousGoal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIGoalInfo"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bWaitingForQueryResponse",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bSuppressGoalUpdates",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bReportEnemyGoalSelection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

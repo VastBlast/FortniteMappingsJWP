@@ -1,0 +1,59 @@
+{
+    "name": "FortQuestMapPage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PageTitle",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PageIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChapterPageCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "QuestEventFlag",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CameraMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFrontEndCamera"
+            }
+        },
+        {
+            "index": 5,
+            "name": "QuestNodeLayout",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "QuestList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortQuestMapNode"
+                }
+            }
+        }
+    ]
+}

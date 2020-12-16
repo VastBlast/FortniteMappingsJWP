@@ -1,0 +1,91 @@
+{
+    "name": "MaterialExpressionCustom",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Code",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OutputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECustomMaterialOutputType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Description",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Inputs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomInput"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "AdditionalOutputs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomOutput"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "AdditionalDefines",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomDefine"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "IncludeFilePaths",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "Material",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Function",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bIsParameterExpression",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "FortMcpWorlds",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TheaterInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortActiveTheaterInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TheaterQueryRetry",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LastTheaterRefresh",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LastWorld",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

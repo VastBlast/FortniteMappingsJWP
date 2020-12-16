@@ -1,0 +1,35 @@
+{
+    "name": "FortAIEncounterSpawnPointsProfile",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EncounterTypeTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxSpawnPointsPerPlayerCount",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CurveTableRowHandle"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "MinSpawnPointsPerPlayerCount",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CurveTableRowHandle"
+                }
+            }
+        }
+    ]
+}

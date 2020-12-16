@@ -1,0 +1,63 @@
+{
+    "name": "AttenuationSubmixSendSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Submix",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SubmixSendMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESubmixSendMethod"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SubmixSendLevelMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SubmixSendLevelMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SubmixSendDistanceMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SubmixSendDistanceMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ManualSubmixSendLevel",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CustomSubmixSendCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        }
+    ]
+}

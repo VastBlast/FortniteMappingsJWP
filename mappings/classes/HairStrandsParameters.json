@@ -1,0 +1,42 @@
+{
+    "name": "HairStrandsParameters",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StrandsSize",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGroomStrandsSize"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StrandsDensity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StrandsSmoothing",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "StrandsThickness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ThicknessScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        }
+    ]
+}

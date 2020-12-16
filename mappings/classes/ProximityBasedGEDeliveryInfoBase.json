@@ -1,0 +1,21 @@
+{
+    "name": "ProximityBasedGEDeliveryInfoBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DeliveryRequirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortDeliveryInfoRequirementsFilter"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ProximityApplicationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortProximityBasedGEApplicationType"
+            }
+        }
+    ]
+}

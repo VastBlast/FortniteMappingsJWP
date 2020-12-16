@@ -1,0 +1,40 @@
+{
+    "name": "QuickHealItemPicker",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuickHealPriorities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "QuickHealPriority"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "HealingItemComparisonTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ShieldItemComparisonTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpecialActionTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

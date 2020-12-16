@@ -1,0 +1,49 @@
+{
+    "name": "LiveLinkSubjectFrameMessage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SubjectName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Transforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Curves",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LiveLinkCurveElement"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkMetaData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Time",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

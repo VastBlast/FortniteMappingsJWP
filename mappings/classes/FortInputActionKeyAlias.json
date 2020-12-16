@@ -1,0 +1,28 @@
+{
+    "name": "FortInputActionKeyAlias",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActionName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "KeyAlias",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Key"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InputActionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortInputActionType"
+            }
+        }
+    ]
+}

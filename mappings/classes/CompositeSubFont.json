@@ -1,0 +1,38 @@
+{
+    "name": "CompositeSubFont",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CharacterRanges",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Int32Range"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Cultures",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Typeface",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Typeface"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ScalingFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

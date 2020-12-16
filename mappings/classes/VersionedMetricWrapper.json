@@ -1,0 +1,28 @@
+{
+    "name": "VersionedMetricWrapper",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IntroducedVersion",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELevelSaveRecordVersion"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DeprecatedVersion",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELevelSaveRecordVersion"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Class",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

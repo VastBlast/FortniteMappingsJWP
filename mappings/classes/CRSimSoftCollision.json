@@ -1,0 +1,57 @@
+{
+    "name": "CRSimSoftCollision",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Transform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ShapeType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECRSimSoftCollisionType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MinimumDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaximumDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FalloffType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EControlRigAnimEasingType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Coefficient",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bInverted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

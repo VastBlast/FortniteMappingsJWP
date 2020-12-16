@@ -1,0 +1,61 @@
+{
+    "name": "CurieEntityStateBehavior",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequiredAttachedElements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RequiredInteractingElements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OnBeginEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CurieEffectContainer"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "OngoingEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CurieEffectContainer"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "OnEndEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CurieEffectContainer"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsConsumable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "FortCreativePlotPermissionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Permission",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCreativePlotPermission"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WhiteList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

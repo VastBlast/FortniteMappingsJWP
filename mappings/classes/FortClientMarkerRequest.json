@@ -1,0 +1,65 @@
+{
+    "name": "FortClientMarkerRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InstanceID",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MarkerType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortWorldMarkerType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BasePosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BasePositionOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WorldNormal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MarkedActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIncludeSquad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bUseHoveredMarkerDetail",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

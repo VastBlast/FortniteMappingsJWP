@@ -1,0 +1,24 @@
+{
+    "name": "InstancedStaticMeshLightMapInstanceData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Transform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MapBuildDataIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Guid"
+                }
+            }
+        }
+    ]
+}

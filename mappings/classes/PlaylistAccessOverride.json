@@ -1,0 +1,33 @@
+{
+    "name": "PlaylistAccessOverride",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Regions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Platforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "OverrideAccess",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PlaylistAccess"
+            }
+        }
+    ]
+}

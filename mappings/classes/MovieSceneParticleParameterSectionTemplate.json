@@ -1,0 +1,71 @@
+{
+    "name": "MovieSceneParticleParameterSectionTemplate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Scalars",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ScalarParameterNameAndCurve"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Bools",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BoolParameterNameAndCurve"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Vector2Ds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector2DParameterNameAndCurves"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Vectors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VectorParameterNameAndCurves"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "Colors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ColorParameterNameAndCurves"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Transforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TransformParameterNameAndCurves"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "name": "MaterialExpressionFunctionInput",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Preview",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExpressionInput"
+            }
+        },
+        {
+            "index": 1,
+            "name": "InputName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Description",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 4,
+            "name": "InputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFunctionInputType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PreviewValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector4"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUsePreviewValueAsDefault",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SortPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Material",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Function",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bIsParameterExpression",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "FortContentEncryptionCollection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Collection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CollectionReference"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Grouping",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortContentEncryptionCollectionGrouping",
+                "enumType": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AllowedReferences",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortContentEncryptionAllowedReferences",
+                "enumType": "IntProperty"
+            }
+        }
+    ]
+}

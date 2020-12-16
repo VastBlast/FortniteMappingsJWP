@@ -1,0 +1,48 @@
+{
+    "name": "FortTheaterMapMissionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionWeights",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTheaterMissionWeight"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DifficultyWeights",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTheaterDifficultyWeight"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumMissionsAvailable",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumMissionsToChange",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MissionChangeFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

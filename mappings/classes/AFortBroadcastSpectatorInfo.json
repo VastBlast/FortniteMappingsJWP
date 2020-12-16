@@ -1,0 +1,40 @@
+{
+    "name": "AFortBroadcastSpectatorInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TotalNumPlayers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TotalNumTeams",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TeamPrivateInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "PerPlayerInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortBroadcastInfoPerPlayer"
+                }
+            }
+        }
+    ]
+}

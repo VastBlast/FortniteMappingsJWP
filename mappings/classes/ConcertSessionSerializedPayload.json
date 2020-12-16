@@ -1,0 +1,29 @@
+{
+    "name": "ConcertSessionSerializedPayload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PayloadTypeName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UncompressedPayloadSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CompressedPayload",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        }
+    ]
+}

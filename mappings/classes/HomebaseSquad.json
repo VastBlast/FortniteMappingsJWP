@@ -1,0 +1,82 @@
+{
+    "name": "HomebaseSquad",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ShortDisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SquadType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortHomebaseSquadType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ManagerSynergyTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CrewSlots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HomebaseSquadSlot"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "RequiredTheaterTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxNumDefendersAllowedInLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MaxNumDefendersAllowedInGroupLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bConsiderNumPlayersForMaxNumDefenders",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bAlwaysRemoveOldestDefenderWhenReplacing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

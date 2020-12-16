@@ -1,0 +1,26 @@
+{
+    "name": "MeshNetworkComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MeshRelevancy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMeshNetworkRelevancy"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AggregationTimeouts",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
+}

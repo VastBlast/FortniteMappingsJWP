@@ -1,0 +1,57 @@
+{
+    "name": "FortCurieSpatialManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GrassFoliageTypePtrs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "IgnitablePhysicalMaterialPtrs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PrimaryTickFunction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieSpatialManagerTickFunction"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurieBuildingGrid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieBuildingGrid"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ElementSpatialGrid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieElementSpatialGrid"
+            }
+        },
+        {
+            "index": 5,
+            "name": "GrassGrid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieGrassGrid"
+            }
+        }
+    ]
+}

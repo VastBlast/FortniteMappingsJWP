@@ -1,0 +1,85 @@
+{
+    "name": "BackendAlarmPayload",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PGS_Message",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PGS_ErrorCode",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PGS_ReceivedJobPayload",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BackendJobsPayload"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PGS_RenderQueueUrl",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PGS_ASGName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PGS_JobProgress",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BackendJobCompletePayload"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PGS_SQSRecievedCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PGS_bIsVideoManagerFinished",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PGS_bIsShuttingDown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PGS_WastedSeconds",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PGS_InstanceInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DriverInstanceInfo"
+            }
+        }
+    ]
+}

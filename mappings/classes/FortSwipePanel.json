@@ -1,0 +1,35 @@
+{
+    "name": "FortSwipePanel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SwipeThreshold",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bBeginSwipeOnPointerEnter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bConsumePointerInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SwipeDetector",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSwipeDetector"
+            }
+        }
+    ]
+}

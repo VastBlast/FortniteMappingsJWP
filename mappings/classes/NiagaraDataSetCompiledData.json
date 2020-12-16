@@ -1,0 +1,71 @@
+{
+    "name": "NiagaraDataSetCompiledData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Variables",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraVariable"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "VariableLayouts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraVariableLayoutInfo"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraDataSetID"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TotalFloatComponents",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TotalInt32Components",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TotalHalfComponents",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bRequiresPersistentIDs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SimTarget",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraSimTarget"
+            }
+        }
+    ]
+}

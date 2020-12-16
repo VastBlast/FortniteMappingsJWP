@@ -1,0 +1,24 @@
+{
+    "name": "AdvanceConversationRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Choice",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConversationChoiceReference"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UserParameters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConversationNodeParameterPair"
+                }
+            }
+        }
+    ]
+}

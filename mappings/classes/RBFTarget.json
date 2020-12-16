@@ -1,0 +1,53 @@
+{
+    "name": "RBFTarget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScaleFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bApplyCustomCurve",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CustomCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RichCurve"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DistanceMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERBFDistanceMethod"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FunctionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERBFFunctionType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Values",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
+}

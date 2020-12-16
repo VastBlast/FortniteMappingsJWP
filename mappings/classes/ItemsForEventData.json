@@ -1,0 +1,52 @@
+{
+    "name": "ItemsForEventData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequiredEventName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EventItemNamedWeight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EventItemNamedWeight"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemsToLoad",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PrimaryAssetId"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "GlobalTableHotfixSyntax",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "PlaylistTableHotfixSyntax",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EventHotfixForPlaylistData"
+                }
+            }
+        }
+    ]
+}

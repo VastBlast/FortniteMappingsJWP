@@ -1,0 +1,51 @@
+{
+    "name": "ZoneLoadingScreenConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BackgroundImage",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TitleDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Headings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ZoneLoadingScreenHeadingConfig"
+            }
+        },
+        {
+            "index": 6,
+            "name": "LoadingTips",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "LoadingMusic",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

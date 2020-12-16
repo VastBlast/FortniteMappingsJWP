@@ -1,0 +1,30 @@
+{
+    "name": "AFortAthenaMutator_CustomStormMovement",
+    "properties": [
+        {
+            "index": 1,
+            "name": "SafeZoneRoutes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SafeZoneRoute"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "PhaseProgressCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SafeZoneRouteIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

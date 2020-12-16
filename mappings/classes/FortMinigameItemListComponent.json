@@ -1,0 +1,38 @@
+{
+    "name": "FortMinigameItemListComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BaseInstigatorData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PickupInstigatorData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAllowItemTracking",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAllowItemCustomization",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ItemListData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MinigameItemData"
+                }
+            }
+        }
+    ]
+}

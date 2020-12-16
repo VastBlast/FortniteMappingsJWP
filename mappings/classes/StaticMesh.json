@@ -2,6 +2,21 @@
     "name": "StaticMesh",
     "properties": [
         {
+            "index": 0,
+            "name": "MinLOD",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformInt"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LpvBiasMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
             "index": 2,
             "name": "StaticMaterials",
             "mapping_type": {
@@ -34,11 +49,152 @@
             }
         },
         {
+            "index": 6,
+            "name": "DistanceFieldSelfShadowBias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LODForCollision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bGenerateMeshDistanceField",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bStripComplexCollisionForConsole",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bHasNavigationData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bSupportUniformlyDistributedSampling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bSupportPhysicalMaterialMasks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bIsBuiltAtRuntime",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bAllowCPUAccess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bSupportGpuUniformlyDistributedSampling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "Sockets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "PositiveBoundsExtension",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 19,
+            "name": "NegativeBoundsExtension",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
             "index": 20,
             "name": "ExtendedBounds",
             "mapping_type": {
                 "type": "StructProperty",
                 "struct_type": "BoxSphereBounds"
+            }
+        },
+        {
+            "index": 21,
+            "name": "ElementToIgnoreForTexFactor",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "EditableMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "NumCinematicMipLevels",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "NeverStream",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bGlobalForceMipLevelsToBeResident",
+            "mapping_type": {
+                "type": "BoolProperty"
             }
         }
     ]

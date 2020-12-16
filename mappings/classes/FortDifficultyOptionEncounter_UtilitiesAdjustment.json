@@ -1,0 +1,20 @@
+{
+    "name": "FortDifficultyOptionEncounter_UtilitiesAdjustment",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UtilitiesAdjustmentIntervalSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CostAndAvailability",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        }
+    ]
+}

@@ -1,0 +1,241 @@
+{
+    "name": "GlobalWeatherData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WeatherEventName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RequiredCalendarEvent",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WeatherEventTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FrequencyMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FrequencyMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ChanceMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ChanceMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 7,
+            "name": "IntensityMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "IntensityMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DurationMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DurationMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 11,
+            "name": "CooldownMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 12,
+            "name": "CooldownMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ChanceToRemainActiveMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ChanceToRemainActiveMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 15,
+            "name": "BlendInMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 16,
+            "name": "BlendInMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 17,
+            "name": "BlendOutMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 18,
+            "name": "BlendOutMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 19,
+            "name": "Tags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 20,
+            "name": "BotVisibilityScale",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "PostProcessSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PostProcessSettings"
+            }
+        },
+        {
+            "index": 22,
+            "name": "PostProcessBlendWeight",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "SkylightWeatherData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SkylightWeatherData"
+            }
+        },
+        {
+            "index": 24,
+            "name": "DirectionalLightWeatherData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DirectionalLightWeatherData"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ExponentialHeightFogWeatherData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExponentialHeightFogWeatherData"
+            }
+        },
+        {
+            "index": 26,
+            "name": "SkyAtmosphereWeatherData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SkyAtmosphereWeatherData"
+            }
+        },
+        {
+            "index": 27,
+            "name": "HeightFogAltitudeWeatherData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HeightFogAltitudeWeatherData"
+            }
+        },
+        {
+            "index": 28,
+            "name": "MaterialWeatherData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MaterialWeatherData"
+            }
+        },
+        {
+            "index": 29,
+            "name": "WindWeatherData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WindWeatherData"
+            }
+        }
+    ]
+}

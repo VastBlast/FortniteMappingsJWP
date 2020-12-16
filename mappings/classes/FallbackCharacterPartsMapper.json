@@ -1,0 +1,23 @@
+{
+    "name": "FallbackCharacterPartsMapper",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequiredTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CharacterParts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        }
+    ]
+}

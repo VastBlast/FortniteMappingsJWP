@@ -1,0 +1,83 @@
+{
+    "name": "FortVehicleAudioVoice",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bFadeWhenOwnerDestroyed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FadeTimeWhenOwnerDestroyed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OneshotGates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortVehicleAudioOneshotGate"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "OneShotGateInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "VolumeParam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortVehicleAudioParam"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PitchParam",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortVehicleAudioParam"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FloatParams",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortVehicleAudioFloatParam"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "ExplicitFloatParams",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortVehicleAudioFloatParam"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ParamRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        }
+    ]
+}

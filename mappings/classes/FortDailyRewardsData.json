@@ -1,0 +1,30 @@
+{
+    "name": "FortDailyRewardsData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentLoginDays",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bCanClaim",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Schedules",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortDailyRewardsScheduleData"
+                }
+            }
+        }
+    ]
+}

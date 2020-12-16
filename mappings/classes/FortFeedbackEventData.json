@@ -1,0 +1,85 @@
+{
+    "name": "FortFeedbackEventData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Handle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortFeedbackHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ChanceToPlay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MinReplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinReplayTimeForSpeaker",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxWitnessDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bInterruptCurrentLine",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bCanBeInterrupted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bCanQue",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MultiplayerBroadcastFilter",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFeedbackBroadcastFilter"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ContextSelectionMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortFeedbackSelectionMethod"
+            }
+        },
+        {
+            "index": 10,
+            "name": "FeedbackDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

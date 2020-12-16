@@ -1,0 +1,20 @@
+{
+    "name": "ConcertSyncPackageEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PackageRevision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Package",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertPackage"
+            }
+        }
+    ]
+}

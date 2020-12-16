@@ -1,0 +1,28 @@
+{
+    "name": "NeighboringWallInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NeighboringActor",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NeighboringCellIdx",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BuildingSupportCellIndex"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WallPosition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EStructuralWallPosition"
+            }
+        }
+    ]
+}

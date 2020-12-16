@@ -1,0 +1,31 @@
+{
+    "name": "NiagaraParameterCollectionInstance",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Collection",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverridenParameters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraVariable"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ParameterStorage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraParameterStore"
+            }
+        }
+    ]
+}

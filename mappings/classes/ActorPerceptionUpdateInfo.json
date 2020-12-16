@@ -1,0 +1,27 @@
+{
+    "name": "ActorPerceptionUpdateInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TargetId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Target",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Stimulus",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIStimulus"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "ArgonHUDAlertWidget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DisplayPlayerFinishedMessageTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerFinishedMessageQueue",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ArgonFinishedPlayerInfo"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ArgonMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

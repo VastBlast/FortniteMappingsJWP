@@ -1,0 +1,46 @@
+{
+    "name": "NiagaraScriptInstanceParameterStore",
+    "properties": [
+        {
+            "index": 1,
+            "name": "SortedParameterOffsets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraVariableWithOffset"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ParameterData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "DataInterfaces",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "UObjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

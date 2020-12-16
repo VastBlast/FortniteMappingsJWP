@@ -1,0 +1,30 @@
+{
+    "name": "PreviewMeshCollection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Skeleton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SkeletalMeshes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PreviewMeshCollectionEntry"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "NativeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

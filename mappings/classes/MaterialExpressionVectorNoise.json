@@ -1,0 +1,63 @@
+{
+    "name": "MaterialExpressionVectorNoise",
+    "properties": [
+        {
+            "index": 0,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExpressionInput"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NoiseFunction",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVectorNoiseFunction"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Quality",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bTiling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TileSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Material",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Function",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsParameterExpression",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

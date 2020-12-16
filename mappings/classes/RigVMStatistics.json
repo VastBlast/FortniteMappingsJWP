@@ -1,0 +1,50 @@
+{
+    "name": "RigVMStatistics",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BytesForCDO",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BytesPerInstance",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LiteralMemory",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigVMMemoryStatistics"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WorkMemory",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigVMMemoryStatistics"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BytesForCaching",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ByteCode",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigVMByteCodeStatistics"
+            }
+        }
+    ]
+}

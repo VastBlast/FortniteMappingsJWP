@@ -1,0 +1,27 @@
+{
+    "name": "ANavSystemConfigOverride",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NavigationSystemConfig",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverridePolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENavSystemOverridePolicy"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bLoadOnClient",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

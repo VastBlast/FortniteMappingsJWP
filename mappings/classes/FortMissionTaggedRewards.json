@@ -1,0 +1,23 @@
+{
+    "name": "FortMissionTaggedRewards",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WorldItemDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        }
+    ]
+}

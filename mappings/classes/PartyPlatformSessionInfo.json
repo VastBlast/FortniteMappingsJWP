@@ -1,0 +1,27 @@
+{
+    "name": "PartyPlatformSessionInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SessionType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SessionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OwnerPrimaryId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        }
+    ]
+}

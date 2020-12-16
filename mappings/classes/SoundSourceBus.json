@@ -1,0 +1,406 @@
+{
+    "name": "SoundSourceBus",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourceBusChannels",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESourceBusChannels"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SourceBusDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AudioBus",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bAutoDeactivateWhenSilent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CompressionQuality",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "StreamingPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SampleRateQuality",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESoundwaveSampleRateSettings"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SoundGroup",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESoundGroup"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bLooping",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bStreaming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bSeekableStreaming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "LoadingBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESoundWaveLoadingBehavior"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bMature",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bManualWordWrap",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bSingleLine",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bIsAmbisonics",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "FrequenciesToAnalyze",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "CookedSpectralTimeData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundWaveSpectralTimeData"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "CookedEnvelopeTimeData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundWaveEnvelopeTimeData"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "InitialChunkSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "SpokenText",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "SubtitlePriority",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "Volume",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "Pitch",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "NumChannels",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "SampleRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "Subtitles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SubtitleCue"
+                }
+            }
+        },
+        {
+            "index": 27,
+            "name": "Curves",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "InternalCurves",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "SoundClassObject",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "bDebug",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bOverrideConcurrency",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bOutputToBusOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bHasDelayNode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bHasConcatenatorNode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bBypassVolumeScaleForPriority",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "VirtualizationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVirtualizationMode"
+            }
+        },
+        {
+            "index": 38,
+            "name": "ConcurrencyOverrides",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundConcurrencySettings"
+            }
+        },
+        {
+            "index": 39,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "MaxDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "TotalSamples",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "AttenuationSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "VolumeModulationDestination",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundModulationDestinationSettings"
+            }
+        },
+        {
+            "index": 45,
+            "name": "PitchModulationDestination",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundModulationDestinationSettings"
+            }
+        },
+        {
+            "index": 46,
+            "name": "HighpassModulationDestination",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundModulationDestinationSettings"
+            }
+        },
+        {
+            "index": 47,
+            "name": "LowpassModulationDestination",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundModulationDestinationSettings"
+            }
+        },
+        {
+            "index": 48,
+            "name": "SoundSubmixObject",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "SoundSubmixSends",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundSubmixSendInfo"
+                }
+            }
+        },
+        {
+            "index": 50,
+            "name": "SourceEffectChain",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "BusSends",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundSourceBusSendInfo"
+                }
+            }
+        },
+        {
+            "index": 52,
+            "name": "PreEffectBusSends",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundSourceBusSendInfo"
+                }
+            }
+        }
+    ]
+}

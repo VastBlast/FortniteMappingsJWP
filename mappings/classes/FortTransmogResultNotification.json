@@ -1,0 +1,27 @@
+{
+    "name": "FortTransmogResultNotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TransmoggedItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpLootEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "RecycledItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpLootEntry"
+                }
+            }
+        }
+    ]
+}

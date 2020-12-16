@@ -1,0 +1,78 @@
+{
+    "name": "EdGraphPinType",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PinCategory",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PinSubCategory",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PinSubCategoryObject",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PinSubCategoryMemberReference",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SimpleMemberReference"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PinValueType",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EdGraphTerminalType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ContainerType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPinContainerType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIsArray",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsReference",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsConst",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bIsWeakPointer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

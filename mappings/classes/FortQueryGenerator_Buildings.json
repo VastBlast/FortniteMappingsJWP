@@ -1,0 +1,68 @@
+{
+    "name": "FortQueryGenerator_Buildings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BuildingGridVolumeCenter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HorizontalBuildingCellRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BuildingCellsAbove",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BuildingCellsBelow",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIncludeWalls",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderBoolValue"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIncludeFloors",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderBoolValue"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIncludeCenterCell",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderBoolValue"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MaxBuildingActorsPerVolumeCenterToCollect",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        }
+    ]
+}

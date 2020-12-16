@@ -1,0 +1,27 @@
+{
+    "name": "PlayspaceManagerComponent",
+    "properties": [
+        {
+            "index": 1,
+            "name": "UnhandledEnterEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ActorOverlapEvent"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "UnhandledExitEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ActorOverlapEvent"
+                }
+            }
+        }
+    ]
+}

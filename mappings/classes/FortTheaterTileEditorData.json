@@ -1,0 +1,104 @@
+{
+    "name": "FortTheaterTileEditorData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "XCoordinate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "YCoordinate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ZoneTheme",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Region",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Requirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRequirementsInfo"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LinkedQuests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortLinkedQuest"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "TileType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTheaterMapTileType"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TileTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MissionWeightOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTheaterMissionWeight"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "DifficultyWeightOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTheaterDifficultyWeight"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "bCanBeMissionAlert",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bDisallowQuickplay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

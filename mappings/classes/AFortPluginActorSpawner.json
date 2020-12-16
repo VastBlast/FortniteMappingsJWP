@@ -1,0 +1,36 @@
+{
+    "name": "AFortPluginActorSpawner",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TagToPluginActor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinSpawnChance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxSpawnChance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bWaitForPlaylistLoad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

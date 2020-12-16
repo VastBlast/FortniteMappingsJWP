@@ -1,0 +1,27 @@
+{
+    "name": "MeshNetworkStatus",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bConnectedToRoot",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GameServerNodeType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMeshNetworkNodeType"
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "name": "CurveEdTab",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TabName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Curves",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CurveEdEntry"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ViewStartInput",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ViewEndInput",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ViewStartOutput",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ViewEndOutput",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

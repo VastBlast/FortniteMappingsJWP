@@ -1,0 +1,130 @@
+{
+    "name": "MovieScene",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Spawnables",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneSpawnable"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Possessables",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieScenePossessable"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ObjectBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneBinding"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "MasterTracks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "CameraCutTrack",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SelectionRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFrameRange"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PlaybackRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFrameRange"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TickResolution",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameRate"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DisplayRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameRate"
+            }
+        },
+        {
+            "index": 10,
+            "name": "EvaluationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMovieSceneEvaluationType"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ClockSource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUpdateClockSource"
+            }
+        },
+        {
+            "index": 12,
+            "name": "CustomClockSourcePath",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MarkedFrames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneMarkedFrame"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "Signature",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        }
+    ]
+}

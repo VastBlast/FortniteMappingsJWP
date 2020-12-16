@@ -1,0 +1,27 @@
+{
+    "name": "FortAthenaAIBotHealingSkillSet",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HealthItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortBotHealingItems"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ShieldItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortBotHealingItems"
+                }
+            }
+        }
+    ]
+}

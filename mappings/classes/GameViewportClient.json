@@ -1,0 +1,44 @@
+{
+    "name": "GameViewportClient",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ViewportConsole",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DebugProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DebugDisplayProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxSplitscreenPlayers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "World",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GameInstance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

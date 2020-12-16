@@ -1,0 +1,62 @@
+{
+    "name": "FortPlaysetWorldItem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlaysetToSpawn",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bUseVolumeToSpawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsTemporaryItem",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bNeedsPersistentUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bPendingPersistentDelete",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "OwnerInventory",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ItemEntry",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemEntry"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BaseRegenCooldown",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

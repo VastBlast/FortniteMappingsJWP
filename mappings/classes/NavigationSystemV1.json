@@ -1,0 +1,138 @@
+{
+    "name": "NavigationSystemV1",
+    "properties": [
+        {
+            "index": 2,
+            "name": "DefaultAgentName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CrowdManagerClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAutoCreateNavigationData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bSpawnNavDataInNavBoundsLevel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bAllowClientSideNavigation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bShouldDiscardSubLevelNavData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bTickWhilePaused",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bSupportRebuilding",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bInitialBuildingLocked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bSkipAgentHeightCheckWhenPickingNavData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bGenerateNavigationOnlyAroundNavigationInvokers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ActiveTilesUpdateInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "DataGatheringMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENavDataGatheringModeConfig"
+            }
+        },
+        {
+            "index": 15,
+            "name": "DirtyAreaWarningSizeThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "SupportedAgents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavDataConfig"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "SupportedAgentsMask",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavAgentSelector"
+            }
+        },
+        {
+            "index": 22,
+            "name": "OperationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFNavigationSystemRunMode"
+            }
+        },
+        {
+            "index": 23,
+            "name": "DirtyAreasUpdateFreq",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

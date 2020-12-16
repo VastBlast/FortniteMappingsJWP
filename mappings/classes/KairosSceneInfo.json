@@ -1,0 +1,32 @@
+{
+    "name": "KairosSceneInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SceneAppMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EKairosAppMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnedAvatars",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "KairosAvatarDisplayInfo"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "BackgroundColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "RangedWeaponSkillCategory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WeaponSkill",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RangedWeaponSkill"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Specializations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RangedWeaponSkillCategorySpecialization"
+                }
+            }
+        }
+    ]
+}

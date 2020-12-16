@@ -1,0 +1,23 @@
+{
+    "name": "PositionHistory",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Positions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Range",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

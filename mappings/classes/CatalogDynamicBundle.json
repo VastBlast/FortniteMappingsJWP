@@ -1,0 +1,60 @@
+{
+    "name": "CatalogDynamicBundle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DiscountedBasePrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RegularBasePrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FloorPrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrencyType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EStoreCurrencyType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurrencySubType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DisplayType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECatalogSaleType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BundleItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CatalogDynamicBundleItem"
+                }
+            }
+        }
+    ]
+}

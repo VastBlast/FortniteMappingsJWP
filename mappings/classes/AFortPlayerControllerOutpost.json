@@ -1,0 +1,23 @@
+{
+    "name": "AFortPlayerControllerOutpost",
+    "properties": [
+        {
+            "index": 2,
+            "name": "bOutpostRefundDialogPending",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PostDepositedResources",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortDepositedResources"
+                }
+            }
+        }
+    ]
+}

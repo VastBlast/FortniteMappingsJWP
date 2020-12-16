@@ -1,0 +1,55 @@
+{
+    "name": "CommonInputSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InputData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CommonInputPlatformData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CommonInputPlatformData"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bEnableInputMethodThrashingProtection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "InputMethodThrashingLimit",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "InputMethodThrashingWindowInSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "InputMethodThrashingCooldownInSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bAllowOutOfFocusDeviceInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "EnvQueryOption",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Generator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Tests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

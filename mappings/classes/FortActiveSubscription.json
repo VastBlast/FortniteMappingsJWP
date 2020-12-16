@@ -1,0 +1,120 @@
+{
+    "name": "FortActiveSubscription",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NextRewardDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NextRenewalRewardDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LastRenewalRewardDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NextMonthlyRewardDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NextMonthlyRewardLabel",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CurrentMonthlyRewardDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CurrentMonthlyRewardLabel",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LastStatusRefresh",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MustRefreshAuthBy",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LastAuthRefresh",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SubscriptionEndDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 11,
+            "name": "IsRetryingRenewal",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "WillAutoRenew",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AppStore",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAppStore"
+            }
+        },
+        {
+            "index": 14,
+            "name": "UniqueSubscriptionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

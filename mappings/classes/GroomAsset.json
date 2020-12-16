@@ -1,0 +1,59 @@
+{
+    "name": "GroomAsset",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HairGroupsInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HairGroupInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "HairGroupsPhysics",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HairGroupsPhysics"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "EnableGlobalInterpolation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HairInterpolationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGroomInterpolationType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "HairToGuideDensity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

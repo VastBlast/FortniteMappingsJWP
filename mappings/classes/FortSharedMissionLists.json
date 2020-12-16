@@ -1,0 +1,103 @@
+{
+    "name": "FortSharedMissionLists",
+    "properties": [
+        {
+            "index": 1,
+            "name": "NonPrimaryMissionList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortNonPrimaryMission"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "NonPrimaryMissionLists",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "NonPrimaryMissionDistributionCategories",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMissionDistributionCategory"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "WorldSetupMissionGenerationLists",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "PrimaryMissionTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TheaterTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RegionTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SharedMissionList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGlobalMission"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "QuestDrivenMissionLists",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "QuestDrivenMissionSubList"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "DisableSharedMissionListIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

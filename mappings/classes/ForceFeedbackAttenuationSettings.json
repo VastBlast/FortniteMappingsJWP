@@ -1,0 +1,66 @@
+{
+    "name": "ForceFeedbackAttenuationSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DistanceAlgorithm",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttenuationDistanceModel"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttenuationShape",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAttenuationShape"
+            }
+        },
+        {
+            "index": 2,
+            "name": "dBAttenuationAtMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FalloffMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENaturalSoundFalloffMode"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AttenuationShapeExtents",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ConeOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "FalloffDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CustomAttenuationCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        }
+    ]
+}

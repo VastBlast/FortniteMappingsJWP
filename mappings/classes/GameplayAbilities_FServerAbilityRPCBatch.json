@@ -1,0 +1,43 @@
+{
+    "name": "GameplayAbilities_FServerAbilityRPCBatch",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AbilitySpecHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilitySpecHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PredictionKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PredictionKey"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TargetData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilityTargetDataHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InputPressed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Ended",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

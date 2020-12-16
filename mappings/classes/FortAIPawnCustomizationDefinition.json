@@ -1,0 +1,38 @@
+{
+    "name": "FortAIPawnCustomizationDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SkeletalMesh",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrideMaterials",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIPawnMaterialDefinition"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "AnimationBP",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

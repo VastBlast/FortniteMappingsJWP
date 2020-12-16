@@ -1,0 +1,96 @@
+{
+    "name": "QosRegionManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumTestsPerRegion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PingTimeout",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RegionDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "QosRegionInfo"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "DatacenterDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "QosDatacenterInfo"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "LastCheckTimestamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Evaluator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "QosEvalResult",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EQosCompletionResult"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RegionOptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RegionQosInstance"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "ForceRegionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bRegionForcedViaCommandline",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SelectedRegionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

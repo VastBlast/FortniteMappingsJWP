@@ -1,0 +1,102 @@
+{
+    "name": "LiveLinkSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultRoleSettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LiveLinkRoleProjectSetting"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "FrameInterpolationProcessor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultLiveLinkPreset",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PresetSaveDir",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DirectoryPath"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ClockOffsetCorrectionStep",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DefaultMessageBusSourceMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELiveLinkSourceMode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MessageBusPingRequestFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MessageBusHeartbeatFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MessageBusHeartbeatTimeout",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MessageBusTimeBeforeRemovingInactiveSource",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TimeWithoutFrameToBeConsiderAsInvalid",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "TextSizeSource",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "TextSizeSubject",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        }
+    ]
+}

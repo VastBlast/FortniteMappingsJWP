@@ -1,0 +1,30 @@
+{
+    "name": "CombatFactorData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ContributingCombatEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CombatEventMultiplier"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DebugFactorName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "FortAbilityCost",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CostSource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAbilityCostSource"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CostValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bOnlyApplyCostOnHit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

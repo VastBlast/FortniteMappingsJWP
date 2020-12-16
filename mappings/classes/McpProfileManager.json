@@ -1,0 +1,34 @@
+{
+    "name": "McpProfileManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ServerProfileGroups",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProfileGroupEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ClientProfileGroups",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProfileGroupEntry"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxItemsProcessedInInitialUpdatesPerTick",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

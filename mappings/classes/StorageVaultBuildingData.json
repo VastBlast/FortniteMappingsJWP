@@ -1,0 +1,22 @@
+{
+    "name": "StorageVaultBuildingData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemCapacityPerLevel",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

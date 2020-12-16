@@ -1,0 +1,38 @@
+{
+    "name": "MovieSceneEvaluationField",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Ranges",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneFrameRange"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Groups",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneEvaluationGroup"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneEvaluationMetaData"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "AthenaVariantFilterTabInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Icon",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Label",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "IncludedVariantChannels",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ZoomLevel",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bDisableScrollBox",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

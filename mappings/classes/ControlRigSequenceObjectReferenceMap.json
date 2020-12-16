@@ -1,0 +1,27 @@
+{
+    "name": "ControlRigSequenceObjectReferenceMap",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BindingIds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Guid"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "References",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ControlRigSequenceObjectReferences"
+                }
+            }
+        }
+    ]
+}

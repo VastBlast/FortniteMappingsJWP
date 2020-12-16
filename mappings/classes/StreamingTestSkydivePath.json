@@ -1,0 +1,43 @@
+{
+    "name": "StreamingTestSkydivePath",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DropLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StreamingTestPOIVector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GlideLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StreamingTestPOIVector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LandingLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StreamingTestPOIVector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TargetPOI",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CalendarEvent",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

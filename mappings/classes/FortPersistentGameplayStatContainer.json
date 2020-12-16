@@ -1,0 +1,16 @@
+{
+    "name": "FortPersistentGameplayStatContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GameplayStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPersistentGameplayStatValue"
+                }
+            }
+        }
+    ]
+}

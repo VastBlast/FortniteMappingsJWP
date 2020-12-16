@@ -1,0 +1,37 @@
+{
+    "name": "FortQueryTest_TowardNextAthenaSafeZone",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SafeZoneIndex",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bCheckAcceptanceAngleTowardNextCenter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AcceptanceAngleTowardNextCenter",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ExclusionSafeZoneIndex",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

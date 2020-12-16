@@ -1,0 +1,63 @@
+{
+    "name": "NiagaraSimulationStageGeneric",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IterationSource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraIterationSource"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Iterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSpawnOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDisablePartialParticleUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DataInterface",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableDataInterfaceBinding"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Script",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SimulationStageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

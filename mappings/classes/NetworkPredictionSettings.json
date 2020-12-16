@@ -1,0 +1,63 @@
+{
+    "name": "NetworkPredictionSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PreferredTickingPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENetworkPredictionTickingPolicy"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ReplicatedManagerClassOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FixedTickFrameRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bForceEngineFixTickForcePhysics",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SimulatedProxyNetworkLOD",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENetworkLOD"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FixedTickInterpolationBufferedMS",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "IndependentTickInterpolationBufferedMS",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "IndependentTickInterpolationMaxBufferedMS",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "name": "FortPlayerScoreReport",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayerState",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PlayerTeam",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTeam"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ReplicatedStats_Campaign",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ReplicatedStatValues"
+            }
+        },
+        {
+            "index": 39,
+            "name": "ReplicatedStats_Zone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ReplicatedStatValues"
+            }
+        },
+        {
+            "index": 74,
+            "name": "InitialLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "InitialExperienceAmount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "ExperienceInfoDelta",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortExperienceDelta"
+            }
+        },
+        {
+            "index": 77,
+            "name": "LastExperienceDeltaAmount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "LastScoreDeltaAmount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "name": "ColorGradingSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Global",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ColorGradePerRangeSettings"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Shadows",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ColorGradePerRangeSettings"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Midtones",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ColorGradePerRangeSettings"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Highlights",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ColorGradePerRangeSettings"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ShadowsMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HighlightsMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

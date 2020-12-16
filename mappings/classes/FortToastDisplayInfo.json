@@ -1,0 +1,34 @@
+{
+    "name": "FortToastDisplayInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Header",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Body",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Image",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortToastType"
+            }
+        }
+    ]
+}

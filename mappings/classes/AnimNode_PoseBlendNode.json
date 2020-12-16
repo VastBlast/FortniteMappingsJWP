@@ -1,0 +1,35 @@
+{
+    "name": "AnimNode_PoseBlendNode",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourcePose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseLink"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BlendOption",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAlphaBlendOption"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CustomCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PoseAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

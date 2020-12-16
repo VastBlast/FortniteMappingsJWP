@@ -1,0 +1,44 @@
+{
+    "name": "AFortSprayDecalInstance",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SprayInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortSprayDecalRepPayload"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bDestroyOnNearbyDestruction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bDestroyOnNearbyDamageTaken",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDestroyOnNearbyBounce",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SprayMIDsThatCanBounce",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "name": "FortAbilityTask_SpawnProjectileAndWait",
+    "properties": [
+        {
+            "index": 6,
+            "name": "SpawnedProj",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RequestedBy",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SpawnLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 9,
+            "name": "SpawnRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 10,
+            "name": "SpawnDirection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 11,
+            "name": "InitialSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "EffectContainerSpecToApplyOnHit",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayEffectContainerSpec"
+            }
+        },
+        {
+            "index": 13,
+            "name": "EffectContainerSpecToApplyOnExplode",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayEffectContainerSpec"
+            }
+        },
+        {
+            "index": 14,
+            "name": "GravityScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "HomingTarget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bAllowSpawnWhenDead",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bAllowSpawnWhenDBNO",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

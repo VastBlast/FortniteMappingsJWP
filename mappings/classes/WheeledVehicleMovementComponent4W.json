@@ -1,0 +1,295 @@
+{
+    "name": "WheeledVehicleMovementComponent4W",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EngineSetup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehicleEngineData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DifferentialSetup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehicleDifferential4WData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AckermannAccuracy",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TransmissionSetup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehicleTransmissionData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SteeringCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bDeprecatedSpringOffsetMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bReverseAsBrake",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bUseRVOAvoidance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "Mass",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "WheelSetups",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WheelSetup"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "DragCoefficient",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ChassisWidth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "ChassisHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "InertiaTensorScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 22,
+            "name": "MinNormalizedTireLoad",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "MinNormalizedTireLoadFiltered",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "MaxNormalizedTireLoad",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "MaxNormalizedTireLoadFiltered",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "ThresholdLongitudinalSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "LowForwardSpeedSubStepCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "HighForwardSpeedSubStepCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "RVOAvoidanceRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "RVOAvoidanceHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "AvoidanceConsiderationRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "RVOSteeringStep",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "RVOThrottleStep",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "AvoidanceUID",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "AvoidanceGroup",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavAvoidanceMask"
+            }
+        },
+        {
+            "index": 37,
+            "name": "GroupsToAvoid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavAvoidanceMask"
+            }
+        },
+        {
+            "index": 38,
+            "name": "GroupsToIgnore",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavAvoidanceMask"
+            }
+        },
+        {
+            "index": 39,
+            "name": "AvoidanceWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "PendingLaunchVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 49,
+            "name": "IdleBrakeInput",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "StopThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "WrongDirectionThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "ThrottleInputRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehicleInputRate"
+            }
+        },
+        {
+            "index": 53,
+            "name": "BrakeInputRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehicleInputRate"
+            }
+        },
+        {
+            "index": 54,
+            "name": "HandbrakeInputRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehicleInputRate"
+            }
+        },
+        {
+            "index": 55,
+            "name": "SteeringInputRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VehicleInputRate"
+            }
+        }
+    ]
+}

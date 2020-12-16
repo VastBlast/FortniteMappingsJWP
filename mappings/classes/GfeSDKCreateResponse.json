@@ -1,0 +1,39 @@
+{
+    "name": "GfeSDKCreateResponse",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VersionMajor",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VersionMinor",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NVIDIAGfeVersion",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ScopePermissions",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "MovieSceneTrackEvaluationFieldEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Section",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Range",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumberRange"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ForcedTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumber"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Flags",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESectionEvaluationFlags"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LegacySortOrder",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

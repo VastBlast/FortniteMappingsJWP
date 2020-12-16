@@ -1,0 +1,57 @@
+{
+    "name": "CameraFocusSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FocusMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECameraFocusMethod"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ManualFocusDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TrackingFocusSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CameraTrackingFocusSettings"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DebugFocusPlaneColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bSmoothFocusChanges",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "FocusSmoothingInterpSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FocusOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

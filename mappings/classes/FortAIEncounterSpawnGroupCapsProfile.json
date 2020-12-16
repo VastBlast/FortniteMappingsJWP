@@ -1,0 +1,24 @@
+{
+    "name": "FortAIEncounterSpawnGroupCapsProfile",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EncounterTypeTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PopulationCategories",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIEncounterSpawnGroupCapsCategory"
+                }
+            }
+        }
+    ]
+}

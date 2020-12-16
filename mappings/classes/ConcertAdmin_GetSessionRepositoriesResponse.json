@@ -1,0 +1,16 @@
+{
+    "name": "ConcertAdmin_GetSessionRepositoriesResponse",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SessionRepositories",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConcertSessionRepositoryInfo"
+                }
+            }
+        }
+    ]
+}

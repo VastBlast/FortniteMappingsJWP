@@ -1,0 +1,16 @@
+{
+    "name": "FortLevelOverlayConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OverlayList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortSourceWorldAndOverlayWorld"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "name": "AFortMeatballVehicle",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WaterSkiSeatIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FxNormalizationMaxSpeedKmh",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "LandCameraShakeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "DriverCameraShakeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "GCVehicleScreenDrips",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 29,
+            "name": "GCParamsEmpty",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayCueParameters"
+            }
+        },
+        {
+            "index": 30,
+            "name": "FortMeatballVehicleConfigsClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "FortSpaghettiVehicleClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "BoostingCamera",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "WaterSkiEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 34,
+            "name": "VehicleFuelSystemState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVehicleFuelState"
+            }
+        },
+        {
+            "index": 36,
+            "name": "WaterLineStartPontoonIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "WaterLineEndPontoonIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "FuelComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "CustomFuelUI",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VehicleSpecificUIDetails"
+                }
+            }
+        }
+    ]
+}

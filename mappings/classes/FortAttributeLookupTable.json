@@ -1,0 +1,16 @@
+{
+    "name": "FortAttributeLookupTable",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AttributeInfoList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAttributeInfo"
+                }
+            }
+        }
+    ]
+}

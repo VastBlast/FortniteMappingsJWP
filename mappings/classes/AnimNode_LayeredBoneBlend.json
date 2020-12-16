@@ -1,0 +1,108 @@
+{
+    "name": "AnimNode_LayeredBoneBlend",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BasePose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseLink"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BlendPoses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PoseLink"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "LayerSetup",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "InputBlendPose"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "BlendWeights",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bMeshSpaceRotationBlend",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bMeshSpaceScaleBlend",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CurveBlendOption",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECurveBlendOption"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bBlendRootMotionBasedOnRootBone",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LODThreshold",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PerBoneBlendWeights",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PerBoneBlendWeight"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "SkeletonGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 11,
+            "name": "VirtualBoneGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        }
+    ]
+}

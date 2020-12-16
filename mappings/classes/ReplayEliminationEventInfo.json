@@ -1,0 +1,74 @@
+{
+    "name": "ReplayEliminationEventInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EventLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "InstigatorLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Victim",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Instigator",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DeathCause",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDeathCause"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bDBNO",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EventType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortReplayEventType"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EventTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "VersionNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

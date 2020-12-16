@@ -1,0 +1,34 @@
+{
+    "name": "TournamentPayoutData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RewardType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPayoutRewardType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Value",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Quantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TeamSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

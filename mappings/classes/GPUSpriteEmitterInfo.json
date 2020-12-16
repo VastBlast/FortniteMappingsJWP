@@ -1,0 +1,228 @@
+{
+    "name": "GPUSpriteEmitterInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequiredModule",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnModule",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpawnPerUnitModule",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpawnModules",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "LocalVectorField",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GPUSpriteLocalVectorFieldInfo"
+            }
+        },
+        {
+            "index": 5,
+            "name": "VectorFieldScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatDistribution"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DragCoefficient",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatDistribution"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PointAttractorStrength",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatDistribution"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Resilience",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatDistribution"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ConstantAcceleration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PointAttractorPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 11,
+            "name": "PointAttractorRadiusSq",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "OrbitOffsetBase",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 13,
+            "name": "OrbitOffsetRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 14,
+            "name": "InvMaxSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 15,
+            "name": "InvRotationRateScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "MaxLifetime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "MaxParticleCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ScreenAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleScreenAlignment"
+            }
+        },
+        {
+            "index": 19,
+            "name": "LockAxisFlag",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleAxisLock"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bEnableCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "CollisionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleCollisionMode"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bRemoveHMDRoll",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "MinFacingCameraBlendDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "MaxFacingCameraBlendDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "DynamicColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionVector"
+            }
+        },
+        {
+            "index": 26,
+            "name": "DynamicAlpha",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionFloat"
+            }
+        },
+        {
+            "index": 27,
+            "name": "DynamicColorScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionVector"
+            }
+        },
+        {
+            "index": 28,
+            "name": "DynamicAlphaScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionFloat"
+            }
+        }
+    ]
+}

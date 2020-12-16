@@ -1,0 +1,34 @@
+{
+    "name": "AthenaNewsMessages",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Messages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaNewsData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "platform_messages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaNewsPlatformData"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "_type",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

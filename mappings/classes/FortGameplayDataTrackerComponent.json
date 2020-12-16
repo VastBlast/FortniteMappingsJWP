@@ -1,0 +1,74 @@
+{
+    "name": "FortGameplayDataTrackerComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bShouldReplicateEvents",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TrackerEnabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseFirstPlayerControllerViewTargetAsAvatarActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EventsToTrack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayDataTrackerEventConfiguration"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "ActorStateGroupsToTrack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayDataTrackerActorStateGroupConfig"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "AccumulationsToTrack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayDataTrackerAccumulation"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "VislogFrequencySeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "LastVislogTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

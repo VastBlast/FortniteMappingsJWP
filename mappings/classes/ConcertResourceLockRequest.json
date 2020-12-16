@@ -1,0 +1,31 @@
+{
+    "name": "ConcertResourceLockRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ClientId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ResourceNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "LockType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertResourceLockType"
+            }
+        }
+    ]
+}

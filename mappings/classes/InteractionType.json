@@ -1,0 +1,57 @@
+{
+    "name": "InteractionType",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InteractionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETInteractionType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "InteractionBeingAttempted",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInteractionBeingAttempted"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RequestingPawn",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RequestingPlayerController",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "InteractComponent",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "OptionalObjectData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "InteractPoint",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

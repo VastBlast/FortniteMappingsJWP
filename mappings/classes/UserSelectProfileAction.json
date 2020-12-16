@@ -1,0 +1,28 @@
+{
+    "name": "UserSelectProfileAction",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PreviousProfile",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMobileHUDProfileBase"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NewProfile",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMobileHUDProfileBase"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActionName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "name": "OutpostUpgradeAndPrestigeBuildingData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaxPrestigeLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultOutpostBuildingUpgradeData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PerTheaterOutpostBuildingUpgradeData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "OutpostUpgradesPerTheaterData"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "DefaultPrestigeData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OutpostPrestigeEffects"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PrestigePerTheaterData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "OutpostPrestigeEffectsPerTheater"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "DefaultPOSTData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OutpostPOSTBoost"
+            }
+        },
+        {
+            "index": 6,
+            "name": "POSTPerTheaterData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "OutpostPOSTPerTheaterData"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "POSTBuildingGameplayEffectClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

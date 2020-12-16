@@ -1,0 +1,23 @@
+{
+    "name": "ReferencePose",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PoseName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ReferencePose",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        }
+    ]
+}

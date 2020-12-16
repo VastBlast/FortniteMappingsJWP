@@ -1,0 +1,51 @@
+{
+    "name": "ClothParameterMask_Legacy",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaskName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentTarget",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWeightMapTargetCommon"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Values",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

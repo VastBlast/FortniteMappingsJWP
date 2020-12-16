@@ -1,0 +1,27 @@
+{
+    "name": "LiveLinkPreset",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Sources",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LiveLinkSourcePreset"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Subjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LiveLinkSubjectPreset"
+                }
+            }
+        }
+    ]
+}

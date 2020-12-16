@@ -1,0 +1,72 @@
+{
+    "name": "AFortDynamicBuildingDeconstructor",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Bounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoxSphereBounds"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bDebugDrawBounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSelectiveDestruction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bIgnoreMissionActors",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bShrinkAndDestroyEffect",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NumOfPiecesToDestroyAtOnce",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TimeBetweenChunks",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SortedBuildingActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "CurrentIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

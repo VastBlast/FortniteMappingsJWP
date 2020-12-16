@@ -1,0 +1,68 @@
+{
+    "name": "FortCreativeOption",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OptionText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OptionToolTip",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CategoryTag",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DisplayIcon",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Options",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CreativeOptionData"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "VariableTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MenuListType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUFortMatchmakingKnobsDataSource"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CurrentIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

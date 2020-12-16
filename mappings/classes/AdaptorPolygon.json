@@ -1,0 +1,24 @@
+{
+    "name": "AdaptorPolygon",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PolygonGroupID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PolygonGroupID"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TriangulatedPolygonTriangleIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AdaptorTriangleID"
+                }
+            }
+        }
+    ]
+}

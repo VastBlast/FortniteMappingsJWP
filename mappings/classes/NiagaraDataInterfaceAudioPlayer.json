@@ -1,0 +1,57 @@
+{
+    "name": "NiagaraDataInterfaceAudioPlayer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SoundToPlay",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Attenuation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Concurrency",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ParameterNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bLimitPlaysPerTick",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxPlaysPerTick",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bStopWhenComponentIsDestroyed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

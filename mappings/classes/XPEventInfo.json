@@ -1,0 +1,77 @@
+{
+    "name": "XPEventInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EventName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SimulatedText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "QuestDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EXPEventPriorityType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EventXpValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TotalXpEarnedInMatch",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Accolade",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryAssetId"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RestedValuePortion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SeasonBoostValuePortion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RestedXPRemaining",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

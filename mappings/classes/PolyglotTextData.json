@@ -1,0 +1,61 @@
+{
+    "name": "PolyglotTextData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Category",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELocalizedTextSourceCategory"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NativeCulture",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Namespace",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Key",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NativeString",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "LocalizedStrings",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIsMinimalPatch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

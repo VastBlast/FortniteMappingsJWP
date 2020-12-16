@@ -1,0 +1,57 @@
+{
+    "name": "AAudioVolume",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Settings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ReverbSettings"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AmbientZoneSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InteriorSettings"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SubmixSendSettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AudioVolumeSubmixSendSettings"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "SubmixOverrideSettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AudioVolumeSubmixOverrideSettings"
+                }
+            }
+        }
+    ]
+}

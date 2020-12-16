@@ -1,0 +1,52 @@
+{
+    "name": "NiagaraDataInterfaceStaticMesh",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourceMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENDIStaticMesh_SourceMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Source",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SectionFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NDIStaticMeshSectionFilter"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bUsePhysicsBodyVelocity",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "FilteredSockets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "VehicleTransmissionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bUseGearAutoBox",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GearSwitchTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GearAutoBoxLatency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FinalRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ForwardGears",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VehicleGearData"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "ReverseGearRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NeutralGearUpRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ClutchStrength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

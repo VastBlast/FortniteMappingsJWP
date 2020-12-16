@@ -1,0 +1,70 @@
+{
+    "name": "AnimNode_BlendListByInt",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActiveChildIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BlendPose",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PoseLink"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "BlendTime",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "TransitionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBlendListTransitionType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BlendType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAlphaBlendOption"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bResetChildOnActivation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CustomBlendCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BlendProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "name": "AnimPhysConstraintSetup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LinearXLimitType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimPhysLinearConstraintType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LinearYLimitType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimPhysLinearConstraintType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LinearZLimitType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimPhysLinearConstraintType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LinearAxesMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LinearAxesMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AngularConstraintType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimPhysAngularConstraintType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TwistAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimPhysTwistAxis"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AngularTargetAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimPhysTwistAxis"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ConeAngle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "AngularLimitsMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 10,
+            "name": "AngularLimitsMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 11,
+            "name": "AngularTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

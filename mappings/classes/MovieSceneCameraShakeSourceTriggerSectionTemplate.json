@@ -1,0 +1,27 @@
+{
+    "name": "MovieSceneCameraShakeSourceTriggerSectionTemplate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TriggerTimes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FrameNumber"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TriggerValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneCameraShakeSourceTrigger"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "MMAttemptState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BestSessionIdx",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumSearchResults",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "State",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMatchmakingState"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LastBeaconResponse",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPartyReservationResult"
+            }
+        }
+    ]
+}

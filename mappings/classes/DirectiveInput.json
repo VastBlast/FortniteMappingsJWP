@@ -1,0 +1,30 @@
+{
+    "name": "DirectiveInput",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Input",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECommonInputType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Text",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ABTestingTexts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "TextProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "name": "MonoWaveTableSynthPreset",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PresetName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bLockKeyframesToGridBool",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LockKeyframesToGrid",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WaveTableResolution",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WaveTable",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RuntimeFloatCurve"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bNormalizeWaveTables",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

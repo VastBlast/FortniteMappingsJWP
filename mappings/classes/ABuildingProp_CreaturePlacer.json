@@ -1,0 +1,109 @@
+{
+    "name": "ABuildingProp_CreaturePlacer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrentMinigameState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMinigameState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnGroupVisuals",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SpawnGroupVisuals"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SelectedSpawnGroup",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SelectedSpawnLimit",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bHideVFX",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnabledOnGameState",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bDestroyPreviousOnSpawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "GameStateEnable",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMinigameState"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bCreatureVisualsDoneLoading",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TurnOnReceiverComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TurnOffReceiverComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "CreatureKilledTransmitComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bEnableCreativeCreatureSpawners",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CreatureSkeletalMeshComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

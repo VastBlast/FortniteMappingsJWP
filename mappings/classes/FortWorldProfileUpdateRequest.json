@@ -1,0 +1,22 @@
+{
+    "name": "FortWorldProfileUpdateRequest",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WorldProfilesToSave",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumberOfRequests",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

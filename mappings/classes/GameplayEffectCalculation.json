@@ -1,0 +1,16 @@
+{
+    "name": "GameplayEffectCalculation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RelevantAttributesToCapture",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectAttributeCaptureDefinition"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "name": "BiplaneDerived",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Springs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SpringConfig"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "InternalGears",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GearConfig"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "LocalFrontFrictionPt",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LocalRearFrictionPt",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FrontMassRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RearMassRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "FortAISpawnGroupUpgradeProbabilities",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIsGuaranteedUpgrade",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UpgradeProbabilities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIPawnUpgradeProbability"
+                }
+            }
+        }
+    ]
+}

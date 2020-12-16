@@ -1,0 +1,30 @@
+{
+    "name": "FortPlayerSurveyCMSDataConditionQuestState",
+    "properties": [
+        {
+            "index": 0,
+            "name": "sg",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPlayerSurveyCMSDataGameMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Q",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "st",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        }
+    ]
+}

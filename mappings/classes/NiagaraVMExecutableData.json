@@ -1,0 +1,150 @@
+{
+    "name": "NiagaraVMExecutableData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ByteCode",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumTempRegisters",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumUserPtrs",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ScriptLiterals",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Attributes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraVariable"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "DataUsage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraScriptDataUsageInfo"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DataInterfaceInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraScriptDataInterfaceCompileInfo"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "CalledVMExternalFunctions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VMExternalFunctionBindingInfo"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ReadDataSets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraDataSetID"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "WriteDataSets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraDataSetProperties"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "StatScopes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraStatScope"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "DIParamInfo",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraDataInterfaceGPUParamInfo"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "LastCompileStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraScriptCompileStatus"
+            }
+        },
+        {
+            "index": 14,
+            "name": "SimulationStageMetaData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SimulationStageMetaData"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "bReadsSignificanceIndex",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

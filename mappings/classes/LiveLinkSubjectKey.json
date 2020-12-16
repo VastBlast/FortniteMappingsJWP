@@ -1,0 +1,21 @@
+{
+    "name": "LiveLinkSubjectKey",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Source",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SubjectName",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkSubjectName"
+            }
+        }
+    ]
+}

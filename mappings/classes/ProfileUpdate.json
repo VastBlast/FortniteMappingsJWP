@@ -1,0 +1,89 @@
+{
+    "name": "ProfileUpdate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ResponseVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ServerTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MultiUpdate",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProfileUpdateSingle"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ProfileRevision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ProfileId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ProfileChangesBaseRevision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ProfileChanges",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "JsonObjectWrapper"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "LockExpiration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Notifications",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "JsonObjectWrapper"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ProfileCommandRevision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -3,7 +3,7 @@
     "properties": [
         {
             "index": 0,
-            "name": "GenderPeritted",
+            "name": "GenderPermitted",
             "mapping_type": {
                 "type": "EnumProperty",
                 "enum_type": "EFortCustomGender"
@@ -22,7 +22,23 @@
             "name": "CharacterPartType",
             "mapping_type": {
                 "type": "EnumProperty",
-                "enum_type": "FortCustomPartType"
+                "enum_type": "EFortCustomPartType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DisallowedCosmeticTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
             }
         },
         {
@@ -40,6 +56,13 @@
             }
         },
         {
+            "index": 7,
+            "name": "bIgnorePart",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 8,
             "name": "PartModifierBlueprint",
             "mapping_type": {
@@ -51,6 +74,34 @@
             "name": "AdditionalData",
             "mapping_type": {
                 "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DefaultMontageLookupTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "OverrideMontageLookupTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "FrontendAnimMontageIdleOverride",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "FrontEndBackPreviewRotationOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
             }
         },
         {
@@ -71,6 +122,27 @@
             }
         },
         {
+            "index": 16,
+            "name": "bSinglePieceMesh",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bSupportsColorSwatches",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bAllowStaticRenderPath",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
             "index": 19,
             "name": "MaterialOverrides",
             "mapping_type": {
@@ -82,10 +154,88 @@
             }
         },
         {
+            "index": 20,
+            "name": "TextureParameters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomPartTextureParameter"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "ScalarParameters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomPartScalarParameter"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "VectorParameters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomPartVectorParameter"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "FoleyLibraries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
             "index": 24,
             "name": "MaterialOverrideFlags",
             "mapping_type": {
                 "type": "IntProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "IdleEffect",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "IdleEffectNiagara",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "IdleFXSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bAutoActivate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "AuthoredData",
+            "mapping_type": {
+                "type": "ObjectProperty"
             }
         }
     ]

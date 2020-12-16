@@ -1,0 +1,28 @@
+{
+    "name": "FortWindMaterialParameterPairID",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PairIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpeedParameter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMaterialParameterID"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OffsetParameter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMaterialParameterID"
+            }
+        }
+    ]
+}

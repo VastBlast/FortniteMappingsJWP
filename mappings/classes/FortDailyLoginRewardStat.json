@@ -1,0 +1,27 @@
+{
+    "name": "FortDailyLoginRewardStat",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NextDefaultReward",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TotalDaysLoggedIn",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LastClaimDate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        }
+    ]
+}

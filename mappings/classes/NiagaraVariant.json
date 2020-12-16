@@ -1,0 +1,38 @@
+{
+    "name": "NiagaraVariant",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Object",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DataInterface",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Bytes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrentMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraVariantMode",
+                "enumType": "IntProperty"
+            }
+        }
+    ]
+}

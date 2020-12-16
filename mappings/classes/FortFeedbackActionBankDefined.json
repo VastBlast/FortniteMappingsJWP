@@ -1,0 +1,38 @@
+{
+    "name": "FortFeedbackActionBankDefined",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinReplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinReplayTimeForSpeaker",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Handle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortFeedbackHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Lines",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortFeedbackLine"
+                }
+            }
+        }
+    ]
+}

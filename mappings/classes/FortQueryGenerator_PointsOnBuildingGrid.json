@@ -1,0 +1,42 @@
+{
+    "name": "FortQueryGenerator_PointsOnBuildingGrid",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HorizontalGridSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VerticalGridSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bStartGridFromBottom",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUsePointInVerticalCenterOfCell",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GenerateAround",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

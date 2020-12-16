@@ -1,0 +1,138 @@
+{
+    "name": "FortAnimNode_SpeedWarping",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IKFootRootBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 1,
+            "name": "FeetDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SpeedWarpingFootDefinition"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "PelvisBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpeedWarpingAxisMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESpeedWarpingAxisMode"
+            }
+        },
+        {
+            "index": 5,
+            "name": "FloorNormalAxisMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESpeedWarpingAxisMode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "GravityDirAxisMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESpeedWarpingAxisMode"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SpeedScaling",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SpeedScalingScaleBiasClamp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputScaleBiasClamp"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ManualSpeedWarpingDir",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ManualFloorNormalInput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ManualGravityDirInput",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PelvisPostAdjustmentAlpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "PelvisAdjustmentMaxIter",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "PelvisAdjustmentInterp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "VectorRK4SpringInterpolator"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bAdjustThighBonesRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bClampIKUsingFKLeg",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bOrientSpeedWarpingAxisBasedOnFloorNormal",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

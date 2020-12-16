@@ -1,0 +1,36 @@
+{
+    "name": "ARTextureCameraImage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TextureType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARTextureType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Timestamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExternalTextureGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Size",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        }
+    ]
+}

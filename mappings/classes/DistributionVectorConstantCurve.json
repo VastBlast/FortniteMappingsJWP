@@ -1,0 +1,49 @@
+{
+    "name": "DistributionVectorConstantCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ConstantCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpCurveVector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bLockAxes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LockedAxes",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDistributionVectorLockFlags"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bCanBeBaked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsDirty",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bBakedDataSuccesfully",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

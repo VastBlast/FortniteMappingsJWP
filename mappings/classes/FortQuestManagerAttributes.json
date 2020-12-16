@@ -1,0 +1,28 @@
+{
+    "name": "FortQuestManagerAttributes",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DailyLoginInterval",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DailyQuestRerolls",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "QuestPoolStats",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortQuestPoolStats"
+            }
+        }
+    ]
+}

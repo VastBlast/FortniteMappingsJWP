@@ -1,0 +1,24 @@
+{
+    "name": "FortCollectionBookDirectPurchaseData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PurchaseCosts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PurchaseCatalysts",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

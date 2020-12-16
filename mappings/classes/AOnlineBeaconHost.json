@@ -1,0 +1,22 @@
+{
+    "name": "AOnlineBeaconHost",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ListenPort",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ClientActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

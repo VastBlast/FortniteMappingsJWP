@@ -1,0 +1,43 @@
+{
+    "name": "ABuildingTimeOfDayLights",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bUseTimeOfDayControlledLights",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TimeOfDayControlledLights",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "TimeOfDayControlledLightsPositions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "TimeOfDayControlledLightsInitalIntensities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
+}

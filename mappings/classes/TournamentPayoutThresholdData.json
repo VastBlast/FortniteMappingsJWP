@@ -1,0 +1,31 @@
+{
+    "name": "TournamentPayoutThresholdData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScoringType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPayoutScoringType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Threshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PayoutData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TournamentPayoutData"
+                }
+            }
+        }
+    ]
+}

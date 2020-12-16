@@ -1,0 +1,31 @@
+{
+    "name": "SoundNodeModulatorContinuous",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PitchModulationParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ModulatorContinuousParams"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VolumeModulationParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ModulatorContinuousParams"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChildNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "VehicleEngineData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TorqueCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxRPM",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MOI",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DampingRateFullThrottle",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DampingRateZeroThrottleClutchEngaged",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DampingRateZeroThrottleClutchDisengaged",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

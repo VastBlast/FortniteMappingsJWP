@@ -1,0 +1,100 @@
+{
+    "name": "AthenaNavSystemConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NavDataSetVariants",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavDataSetVariantSettings"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bUseNavDataSetVariants",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUseBuildingGridAsNavigableSpace",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bDiscardNavDataFromSublevels",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bUseNavigationInvokers",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bLazyOctree",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseNavOctTreeInclusionBounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bPrioritizeNavigationAroundSpawners",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bResetDirtyAreasOnInitialBuildingRelease",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bSupportRuntimeNavmeshDisabling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bAllowAutoRebuild",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bRebuildOnInitialUnlock",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bUsesStreamedInNavLevel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

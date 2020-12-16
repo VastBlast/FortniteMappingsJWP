@@ -1,0 +1,30 @@
+{
+    "name": "ConcertPackage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Info",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertPackageInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PackageData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "FileId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

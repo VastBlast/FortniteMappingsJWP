@@ -1,0 +1,31 @@
+{
+    "name": "StructSerializerMapTestStruct",
+    "properties": [
+        {
+            "index": 0,
+            "name": "IntToStr",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "IntProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "StrToStr",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

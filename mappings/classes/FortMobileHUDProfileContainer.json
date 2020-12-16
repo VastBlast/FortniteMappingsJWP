@@ -1,0 +1,24 @@
+{
+    "name": "FortMobileHUDProfileContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActiveHUDProfileIdentifier",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMobileHUDProfileIdentifier"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CustomHUDProfiles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMobileCustomHUDProfile"
+                }
+            }
+        }
+    ]
+}

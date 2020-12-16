@@ -1,0 +1,16 @@
+{
+    "name": "FortTooltipDisplayStatsList",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TooltipCategories",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTooltipDisplayStatsCategory"
+                }
+            }
+        }
+    ]
+}

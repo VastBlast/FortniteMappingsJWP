@@ -1,0 +1,38 @@
+{
+    "name": "BuildingNeighboringActorInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NeighboringWallInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NeighboringWallInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "NeighboringFloorInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NeighboringFloorInfo"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "NeighboringCenterCellInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NeighboringCenterCellInfo"
+                }
+            }
+        }
+    ]
+}

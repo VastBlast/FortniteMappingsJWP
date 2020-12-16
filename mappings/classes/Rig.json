@@ -1,0 +1,27 @@
+{
+    "name": "Rig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TransformBases",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TransformBase"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Nodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Node"
+                }
+            }
+        }
+    ]
+}

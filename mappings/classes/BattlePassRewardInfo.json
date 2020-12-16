@@ -1,0 +1,48 @@
+{
+    "name": "BattlePassRewardInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Level",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsFree",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "QuantityRewarded",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UnlockableSource",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBattlePassRewardSource"
+            }
+        },
+        {
+            "index": 5,
+            "name": "UnlockableSourceItemDef",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

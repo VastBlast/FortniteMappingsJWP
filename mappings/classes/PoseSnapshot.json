@@ -1,0 +1,47 @@
+{
+    "name": "PoseSnapshot",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LocalTransforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoneNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SkeletalMeshName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SnapshotName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsValid",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

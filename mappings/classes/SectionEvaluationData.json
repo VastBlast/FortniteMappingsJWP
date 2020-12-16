@@ -1,0 +1,28 @@
+{
+    "name": "SectionEvaluationData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ImplIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ForcedTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumber"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Flags",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESectionEvaluationFlags"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "RigUnit_TransformConstraint_WorkData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ConstraintData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConstraintData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ConstraintDataToTargets",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "IntProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

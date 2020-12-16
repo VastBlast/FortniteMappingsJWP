@@ -1,0 +1,27 @@
+{
+    "name": "FortRejoinCheck",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bAbandonAfterCheck",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAttemptingAbandon",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrentJoinState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EJoinServerState"
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "name": "ARTextureCameraDepth",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DepthQuality",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARDepthQuality"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DepthAccuracy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARDepthAccuracy"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsTemporallySmoothed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TextureType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARTextureType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Timestamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ExternalTextureGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Size",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        }
+    ]
+}

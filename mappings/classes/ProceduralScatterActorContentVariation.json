@@ -1,0 +1,52 @@
+{
+    "name": "ProceduralScatterActorContentVariation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Weight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PivotMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EProceduralScatterContentPivotMode"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AdditionalPivotOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FootprintBoundingBoxRatio",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SetActorTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "name": "AthenaCustomizationParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Category",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaCustomizationCategory"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CategorySubslotIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CategoryDisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ItemDisplayTypeName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAllowUnownedItems",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bOneItemPerSlot",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "OverrideSlotImage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

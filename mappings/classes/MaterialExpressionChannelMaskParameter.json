@@ -1,0 +1,63 @@
+{
+    "name": "MaterialExpressionChannelMaskParameter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaskChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EChannelMaskParameterColor"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUseCustomPrimitiveData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PrimitiveDataIndex",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ParameterName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ExpressionGUID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Material",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Function",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bIsParameterExpression",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "name": "LinearDriveConstraint",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PositionTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VelocityTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "XDrive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConstraintDrive"
+            }
+        },
+        {
+            "index": 3,
+            "name": "YDrive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConstraintDrive"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ZDrive",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConstraintDrive"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnablePositionDrive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

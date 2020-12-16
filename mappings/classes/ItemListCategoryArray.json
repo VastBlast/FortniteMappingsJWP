@@ -1,0 +1,23 @@
+{
+    "name": "ItemListCategoryArray",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemEntry"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CategoryTitle",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "name": "AthenaItemShopConfiguration",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SubscriptionOfferId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemShopSectionDisplayDataList",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaItemShopSectionDisplayData"
+            }
+        },
+        {
+            "index": 10,
+            "name": "CatabaConfig",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaCatabaConfiguration"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ItemShopReloadMtxInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaItemShopReloadMtxInfo"
+            }
+        },
+        {
+            "index": 12,
+            "name": "BattlePassSectionId",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "SubscriptionSectionId",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "TileViolatorTextTable",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "SubscriptionManagementScreenClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "DefaultItemShopOrdering",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        }
+    ]
+}

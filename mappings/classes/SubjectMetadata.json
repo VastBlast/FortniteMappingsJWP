@@ -1,0 +1,34 @@
+{
+    "name": "SubjectMetadata",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StringMetaData",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SceneTimecode",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Timecode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SceneFramerate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameRate"
+            }
+        }
+    ]
+}

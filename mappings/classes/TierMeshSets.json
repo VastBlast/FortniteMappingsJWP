@@ -1,0 +1,23 @@
+{
+    "name": "TierMeshSets",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tier",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MeshSets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MeshSet"
+                }
+            }
+        }
+    ]
+}

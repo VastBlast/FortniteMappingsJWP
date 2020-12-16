@@ -1,0 +1,27 @@
+{
+    "name": "LiveLinkTimeCode",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Seconds",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Frames",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FrameRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkFrameRate"
+            }
+        }
+    ]
+}

@@ -10,9 +10,36 @@
         },
         {
             "index": 1,
+            "name": "QueryConfig",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AIDynamicParam"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "EQSQueryBlackboardKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 3,
             "name": "RunMode",
             "mapping_type": {
-                "type": "ByteProperty"
+                "type": "EnumProperty",
+                "enum_type": "EEnvQueryRunMode"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bUseBBKeyForQueryTemplate",
+            "mapping_type": {
+                "type": "BoolProperty"
             }
         }
     ]

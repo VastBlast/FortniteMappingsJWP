@@ -1,0 +1,29 @@
+{
+    "name": "BuildingEditAnalyticEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BuildingType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBuildingType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ResourceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortResourceType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Location",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

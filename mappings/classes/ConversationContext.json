@@ -1,0 +1,51 @@
+{
+    "name": "ConversationContext",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ConversationRegistry",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActiveConversation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ClientParticipant",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TaskBeingConsidered",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ReturnScopeStack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConversationNodeHandle"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bServer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

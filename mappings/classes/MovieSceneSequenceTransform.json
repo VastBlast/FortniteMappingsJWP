@@ -1,0 +1,24 @@
+{
+    "name": "MovieSceneSequenceTransform",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LinearTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneTimeTransform"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NestedTransforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneNestedSequenceTransform"
+                }
+            }
+        }
+    ]
+}

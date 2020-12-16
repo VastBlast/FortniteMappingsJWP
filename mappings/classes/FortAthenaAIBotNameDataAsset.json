@@ -1,0 +1,30 @@
+{
+    "name": "FortAthenaAIBotNameDataAsset",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultNameDataTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ChinaNameDataTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RegionData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAthenaAIBotNameRegionData"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "ArgonLeaderboardWidget",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LeaderboardEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ArgonLeaderboardData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ArgonMutator",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

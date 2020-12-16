@@ -1,0 +1,56 @@
+{
+    "name": "CustomDynamicColorSwatch",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ColorPairs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ColorSwatchPair"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TextureParameters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CustomPartTextureParameter"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpecificIconography",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "GenderPermitted",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCustomGender"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ColorSwatchType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EColorSwatchType"
+            }
+        }
+    ]
+}

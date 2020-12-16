@@ -1,0 +1,35 @@
+{
+    "name": "RigidBodyContactInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ContactPosition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ContactNormal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ContactPenetration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PhysMaterial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

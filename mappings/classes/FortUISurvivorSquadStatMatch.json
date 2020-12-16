@@ -1,0 +1,57 @@
+{
+    "name": "FortUISurvivorSquadStatMatch",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Icons",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMultiSizeBrush"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MagnitudeText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AttributeDisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumMembersMeetingCriteria",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NumMembersRequired",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MatchType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortUISurvivorSquadMatchType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PreviewEffect",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBuffState"
+            }
+        }
+    ]
+}

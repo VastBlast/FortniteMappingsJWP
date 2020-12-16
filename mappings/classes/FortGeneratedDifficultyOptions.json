@@ -1,0 +1,66 @@
+{
+    "name": "FortGeneratedDifficultyOptions",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GameDifficultyAtGeneration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DifficultyOptionPointsAvailableAtGeneration",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxEncounterSpawnPointsAtGeneration",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MinDifficultyOptionPointsToUse",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GeneratedEncounterSequences",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGeneratedEncounterSequence"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "MissionOptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGeneratedMissionOption"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "GeneratedEncounterProfiles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGeneratedEncounterProfile"
+                }
+            }
+        }
+    ]
+}

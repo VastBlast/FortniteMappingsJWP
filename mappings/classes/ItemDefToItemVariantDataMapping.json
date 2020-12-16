@@ -1,0 +1,28 @@
+{
+    "name": "ItemDefToItemVariantDataMapping",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemDefinitionTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemVariantData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ItemVariantTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

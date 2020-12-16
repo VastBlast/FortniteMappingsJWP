@@ -1,0 +1,675 @@
+{
+    "name": "ABuildingSMActor",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TextureData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "StaticMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AlternateMeshes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TierMeshSets"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "bForceReplicateSubObjects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bNoPhysicsCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bNoCameraCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bNoPawnCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bNoAIPawnCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bBlocksCeilingPlacement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bBlocksAttachmentPlacement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bUsePhysicalSurfaceForFootstep",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bRandomYawOnPlacement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bRandomScaleOnPlacement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bClearMIDWhenReturningToUndamagedState",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "NumFrameSubObjects",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ResourceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortResourceType"
+            }
+        },
+        {
+            "index": 19,
+            "name": "RandomScaleRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 20,
+            "name": "DestructionLootTierGroup",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "WindSpeedCurve",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "WindPannerSpeedCurve",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "WindAudio",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ShieldBuffMaterialParamValue1",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ShieldBuffMaterialParamValue2",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "AnimatingDistanceFieldSelfShadowBias",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "AnimatingSubObjects",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "PlayerGridSnapSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "AltMeshIdx",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "bAllowBuildingCheat",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bMirrored",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bNoCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bSupportsRepairing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "bIsForPreviewing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bUnderConstruction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bUnderRepair",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bCameraOnlyCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "bNoWeaponCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bNoRangedWeaponCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bNoProjectileCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bDoNotBlockInteract",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "bAllowResourceDrop",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "bHideOnDeath",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "bPlayDestructionEffects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "bSkipConstructionSounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "bForciblyStructurallySupported",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "bRegisterWithStructuralGrid",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "bAllowWeakSpots",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "bUseComplexForWeakSpots",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "bCanSpawnAtLowerQuotaLevels",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "bNeedsWindMaterialParameters",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "bPlayBounce",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "bPropagateBounce",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "bPropagatesBounceEffects",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "bNeedsDamageOverlay",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "bDeriveCurieIdentifierFromResourceType",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "bAllowCustomMaterial",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "bUseSingleMeshCullDistance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "SavedDirectlySupportedStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESavedSupportStatus"
+            }
+        },
+        {
+            "index": 67,
+            "name": "MaximumQuotaLevelBound",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELootQuotaLevel"
+            }
+        },
+        {
+            "index": 68,
+            "name": "BuildingAnimation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingAnim"
+            }
+        },
+        {
+            "index": 74,
+            "name": "InfluenceMapWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "NavObstacles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BuildingNavObstacle"
+                }
+            }
+        },
+        {
+            "index": 77,
+            "name": "BuildingPlacementDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 79,
+            "name": "EditorOnlyInstanceMaterialParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EditorOnlyBuildingInstanceMaterialParameters"
+            }
+        },
+        {
+            "index": 80,
+            "name": "StaticMeshComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "BaseMaterial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "MinimalReplicationProxy",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BuildingActorMinimalReplicationProxy"
+            }
+        },
+        {
+            "index": 85,
+            "name": "DestructionLootTierKey",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "BuildingResourceAmountOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 88,
+            "name": "IntenseWindMaterials",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 89,
+            "name": "BreakEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "DeathParticles",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "DeathParticleSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 93,
+            "name": "DeathSound",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 94,
+            "name": "ConstructedEffect",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 95,
+            "name": "RandomDayphaseFXList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RandomDayphaseFX"
+                }
+            }
+        },
+        {
+            "index": 105,
+            "name": "EditModePatternData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 108,
+            "name": "AnimatingMaterialMappings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimatingMaterialPair"
+                }
+            }
+        },
+        {
+            "index": 109,
+            "name": "DamagedButNotAnimatingMaterialMappings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimatingMaterialPair"
+                }
+            }
+        },
+        {
+            "index": 110,
+            "name": "EditModeSupportClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 121,
+            "name": "BlueprintMICs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 125,
+            "name": "BuildingAttachmentPointOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 126,
+            "name": "BuildingAttachmentRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 127,
+            "name": "BuildingAttachmentSlot",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingAttachmentSlot"
+            }
+        },
+        {
+            "index": 128,
+            "name": "BuildingAttachmentType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingAttachmentType"
+            }
+        },
+        {
+            "index": 129,
+            "name": "BuildingPlacementType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPlacementType"
+            }
+        },
+        {
+            "index": 131,
+            "name": "ParentActorToAttachTo",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 138,
+            "name": "DamagerOwner",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 139,
+            "name": "RelevantBASE",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 140,
+            "name": "LastRelevantBASE",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 141,
+            "name": "ProxyGameplayCueDamage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ProxyGameplayCueDamage"
+            }
+        }
+    ]
+}

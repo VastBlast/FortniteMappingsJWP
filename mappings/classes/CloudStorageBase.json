@@ -1,0 +1,33 @@
+{
+    "name": "CloudStorageBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LocalCloudFiles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bSuppressDelegateCalls",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AllDelegates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DelegateArray"
+                }
+            }
+        }
+    ]
+}

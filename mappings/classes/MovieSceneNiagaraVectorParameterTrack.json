@@ -1,0 +1,30 @@
+{
+    "name": "MovieSceneNiagaraVectorParameterTrack",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ChannelsUsed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Parameter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariable"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Sections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

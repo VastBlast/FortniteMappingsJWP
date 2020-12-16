@@ -1,0 +1,27 @@
+{
+    "name": "NamedInterfaces",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NamedInterfaces",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NamedInterface"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "NamedInterfaceDefs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NamedInterfaceDef"
+                }
+            }
+        }
+    ]
+}

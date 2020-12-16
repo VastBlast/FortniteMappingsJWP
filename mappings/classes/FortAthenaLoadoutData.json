@@ -1,0 +1,27 @@
+{
+    "name": "FortAthenaLoadoutData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SlotName",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaCustomizationCategory"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemToSlot",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "IndexWithinSlot",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

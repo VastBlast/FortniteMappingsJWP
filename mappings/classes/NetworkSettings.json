@@ -1,0 +1,44 @@
+{
+    "name": "NetworkSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bVerifyPeer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bEnableMultiplayerWorldOriginRebasing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxRepArraySize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MaxRepArrayMemory",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NetworkEmulationProfiles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NetworkEmulationProfileDescription"
+                }
+            }
+        }
+    ]
+}

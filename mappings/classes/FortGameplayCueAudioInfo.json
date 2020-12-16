@@ -1,0 +1,49 @@
+{
+    "name": "FortGameplayCueAudioInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Condition",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueSpawnCondition"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Attachment",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueAttachInfo"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SoundCue",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DelayBeforePlayInSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bOverrideCondition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bOverrideAttachment",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

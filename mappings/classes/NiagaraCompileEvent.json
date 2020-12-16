@@ -1,0 +1,47 @@
+{
+    "name": "NiagaraCompileEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Severity",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFNiagaraCompileEventSeverity"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Message",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NodeGUID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PinGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 4,
+            "name": "StackGuids",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Guid"
+                }
+            }
+        }
+    ]
+}

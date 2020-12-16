@@ -1,0 +1,322 @@
+{
+    "name": "NiagaraSpriteRendererProperties",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Material",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SourceMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraRendererSourceDataMode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaterialUserParamBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraUserParameterBinding"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Alignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraSpriteAlignment"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FacingMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraSpriteFacingMode"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PivotInUVSpace",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SortMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraSortMode"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SubImageSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bSubImageBlend",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bRemoveHMDRollInVR",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bSortOnlyWhenTranslucent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bGpuLowLatencyTranslucency",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "MinFacingCameraBlendDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MaxFacingCameraBlendDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bEnableCameraDistanceCulling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "MinCameraDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "MaxCameraDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "RendererVisibility",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "PositionBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 19,
+            "name": "ColorBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 20,
+            "name": "VelocityBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 21,
+            "name": "SpriteRotationBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 22,
+            "name": "SpriteSizeBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 23,
+            "name": "SpriteFacingBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 24,
+            "name": "SpriteAlignmentBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 25,
+            "name": "SubImageIndexBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 26,
+            "name": "DynamicMaterialBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 27,
+            "name": "DynamicMaterial1Binding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 28,
+            "name": "DynamicMaterial2Binding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 29,
+            "name": "DynamicMaterial3Binding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 30,
+            "name": "CameraOffsetBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 31,
+            "name": "UVScaleBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 32,
+            "name": "MaterialRandomBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 33,
+            "name": "CustomSortingBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 34,
+            "name": "NormalizedAgeBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 35,
+            "name": "RendererVisibilityTagBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 36,
+            "name": "MaterialParameterBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraMaterialAttributeBinding"
+                }
+            }
+        },
+        {
+            "index": 37,
+            "name": "Platforms",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraPlatformSet"
+            }
+        },
+        {
+            "index": 38,
+            "name": "SortOrderHint",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bMotionBlurEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

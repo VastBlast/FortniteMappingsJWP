@@ -1,0 +1,35 @@
+{
+    "name": "ARTraceResult",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DistanceFromCamera",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TraceChannel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARLineTraceChannels"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LocalToTrackingTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TrackedGeometry",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

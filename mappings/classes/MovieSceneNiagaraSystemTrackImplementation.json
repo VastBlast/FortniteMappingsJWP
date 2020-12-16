@@ -1,0 +1,56 @@
+{
+    "name": "MovieSceneNiagaraSystemTrackImplementation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpawnSectionStartFrame",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumber"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpawnSectionEndFrame",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumber"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SpawnSectionStartBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraSystemSpawnSectionStartBehavior",
+                "enumType": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpawnSectionEvaluateBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraSystemSpawnSectionEvaluateBehavior",
+                "enumType": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpawnSectionEndBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraSystemSpawnSectionEndBehavior",
+                "enumType": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AgeUpdateMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraAgeUpdateMode"
+            }
+        }
+    ]
+}

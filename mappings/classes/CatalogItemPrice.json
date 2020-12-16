@@ -1,0 +1,65 @@
+{
+    "name": "CatalogItemPrice",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CurrencyType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EStoreCurrencyType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrencySubType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RegularPrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FinalPrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PriceTextOverride",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SaleType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECatalogSaleType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "SaleExpiration",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AppStoreId",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAppStore"
+            }
+        }
+    ]
+}

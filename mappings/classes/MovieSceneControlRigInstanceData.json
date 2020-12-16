@@ -1,0 +1,43 @@
+{
+    "name": "MovieSceneControlRigInstanceData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bAdditive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bApplyBoneFilter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BoneFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InputBlendPose"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Weight",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFloatChannel"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Operand",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneEvaluationOperand"
+            }
+        }
+    ]
+}

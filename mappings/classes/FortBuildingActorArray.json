@@ -1,0 +1,16 @@
+{
+    "name": "FortBuildingActorArray",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActorRecords",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortDestroyedActorRecord"
+                }
+            }
+        }
+    ]
+}

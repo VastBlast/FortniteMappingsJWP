@@ -1,0 +1,107 @@
+{
+    "name": "AEQSTestingPawn",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QueryTemplate",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QueryParams",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EnvNamedValue"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "QueryConfig",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AIDynamicParam"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "TimeLimitPerStep",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "StepToDebugDraw",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HighlightMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvQueryHightlightMode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bDrawLabels",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bDrawFailedItems",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bReRunQueryOnlyOnFinishedMove",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bShouldBeVisibleInGame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bTickDuringGame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "QueryingMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvQueryRunMode"
+            }
+        },
+        {
+            "index": 12,
+            "name": "NavAgentProperties",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavAgentProperties"
+            }
+        }
+    ]
+}

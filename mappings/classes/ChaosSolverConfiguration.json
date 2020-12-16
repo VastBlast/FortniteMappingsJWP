@@ -1,0 +1,93 @@
+{
+    "name": "ChaosSolverConfiguration",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CollisionIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PushOutIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PushOutPairIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ClusterConnectionFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ClusterUnionConnectionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EClusterUnionMethod"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bGenerateCollisionData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CollisionFilterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SolverCollisionFilterSettings"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bGenerateBreakData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "BreakingFilterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SolverBreakingFilterSettings"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bGenerateTrailingData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TrailingFilterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SolverTrailingFilterSettings"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bGenerateContactGraph",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "APartyBeaconClient",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DestSessionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PendingReservation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyReservation"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RequestType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EClientRequestType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bPendingReservationSent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bCancelReservation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "LiveLinkTestSkelMeshTrackerComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TranslationProfile",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SkelMeshComp",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ComponentReference"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WeakSkelMeshComp",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BonesToTrack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BoneReference"
+                }
+            }
+        }
+    ]
+}

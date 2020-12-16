@@ -1,0 +1,24 @@
+{
+    "name": "FortMinigamePlayerStats",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Player",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Stats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMinigameStat"
+                }
+            }
+        }
+    ]
+}

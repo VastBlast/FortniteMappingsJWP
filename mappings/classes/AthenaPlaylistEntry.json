@@ -1,0 +1,86 @@
+{
+    "name": "AthenaPlaylistEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlaylistName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DisplayName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DisplaySubName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Description",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Violator",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Image",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ExtraImages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "CropOffset",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "SpecialBorderId",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMatchmakingTileStyle"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bShowRevealAnimation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bIsCMSDataHidden",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "WorkerPersonalityData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PersonalityTypeTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PersonalityName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SelectionWeight",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "GenderData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WorkerGenderData"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "FortCreativeKeyLockComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InitialState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECreativeKeyLockState"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CurrentState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECreativeKeyLockState"
+            }
+        },
+        {
+            "index": 7,
+            "name": "RequiredKeysToUnlockAmount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RemainingKeysToUnlockAmount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bRequireAllKeysAtOnce",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "UnlockKeyDefinitionSoftPointer",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

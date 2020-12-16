@@ -1,0 +1,74 @@
+{
+    "name": "ARTrackedImage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EstimatedSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 1,
+            "name": "UniqueId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LocalToTrackingTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LocalToAlignedTrackingTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TrackingState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARTrackingState"
+            }
+        },
+        {
+            "index": 5,
+            "name": "UnderlyingMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ObjectClassification",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EARObjectClassification"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LastUpdateFrameNumber",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DebugName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

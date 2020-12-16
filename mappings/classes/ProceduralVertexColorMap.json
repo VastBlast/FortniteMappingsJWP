@@ -1,0 +1,28 @@
+{
+    "name": "ProceduralVertexColorMap",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Channel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EProceduralTextureColorChannel"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RemapCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ProceduralRemapFloatCurve"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUseRemapCurve",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

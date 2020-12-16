@@ -1,0 +1,112 @@
+{
+    "name": "LiveLinkSourceBufferManagementSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bValidEngineTimeEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ValidEngineTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EngineTimeOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EngineTimeClockOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TimecodeFrameRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameRate"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bGenerateSubFrame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseTimecodeSmoothLatest",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SourceTimecodeFrameRate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameRate"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bValidTimecodeFrameEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ValidTimecodeFrame",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TimecodeFrameOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "TimecodeClockOffset",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "LatestOffset",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "MaxNumberOfFrameToBuffered",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bKeepAtLeastOneFrame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

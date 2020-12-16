@@ -1,0 +1,42 @@
+{
+    "name": "FontData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FontFilename",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Hinting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFontHinting"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LoadingPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFontLoadingPolicy"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SubFaceIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FontFaceAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

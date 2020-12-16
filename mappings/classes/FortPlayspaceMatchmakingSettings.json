@@ -1,0 +1,33 @@
+{
+    "name": "FortPlayspaceMatchmakingSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MatchmakingRule",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPlayspaceMatchmakingRules"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpecificPlaylists",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExcludedPlaylists",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

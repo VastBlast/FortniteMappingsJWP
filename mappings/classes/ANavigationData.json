@@ -1,0 +1,81 @@
+{
+    "name": "ANavigationData",
+    "properties": [
+        {
+            "index": 1,
+            "name": "NavDataConfig",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavDataConfig"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bForceRebuildOnLoad",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAutoDestroyWhenNoNavigation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bCanBeMainNavData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bCanSpawnOnRebuild",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bRebuildAtRuntime",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RuntimeGeneration",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERuntimeGenerationType"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ObservedPathsTickInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DataVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SupportedAreas",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SupportedAreaData"
+                }
+            }
+        }
+    ]
+}

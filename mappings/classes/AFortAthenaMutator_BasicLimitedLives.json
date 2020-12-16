@@ -1,0 +1,44 @@
+{
+    "name": "AFortAthenaMutator_BasicLimitedLives",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LimitedLifeByTeamData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LiveData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LimitedLifeDataArray"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bShouldCalculateRespawnLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAlwaysShowSquadInfo",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RespawnLogicData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortRespawnLogicData"
+            }
+        }
+    ]
+}

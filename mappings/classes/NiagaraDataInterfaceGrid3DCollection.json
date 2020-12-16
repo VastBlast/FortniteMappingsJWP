@@ -1,0 +1,74 @@
+{
+    "name": "NiagaraDataInterfaceGrid3DCollection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumAttributes",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RenderTargetUserParameter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraUserParameterBinding"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OverrideBufferFormat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraGpuBufferFormat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bOverrideFormat",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NumCells",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntVector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CellSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NumCellsMaxAxis",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SetResolutionMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESetResolutionMethod",
+                "enumType": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "WorldBBoxSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

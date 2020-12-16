@@ -1,0 +1,24 @@
+{
+    "name": "FortDifficultyOptionEncounter_TimedModifierTags",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TimedModifierTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIEncounterTimedModifierTags"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CostAndAvailability",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        }
+    ]
+}

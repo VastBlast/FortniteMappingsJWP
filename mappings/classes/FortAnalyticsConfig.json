@@ -1,0 +1,33 @@
+{
+    "name": "FortAnalyticsConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AltDomains",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "UrlEndpoint",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EventBlacklist",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAnalyticsEventBlacklistEntry"
+                }
+            }
+        }
+    ]
+}

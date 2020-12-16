@@ -1,0 +1,27 @@
+{
+    "name": "FortItemDeliverySupplyDropMutatorData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bShouldApplyMutator",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumDeliveryItemsToSpawn",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SupplyDropPlacementQuery",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

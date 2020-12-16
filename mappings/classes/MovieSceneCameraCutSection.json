@@ -1,0 +1,43 @@
+{
+    "name": "MovieSceneCameraCutSection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bLockPreviousCamera",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CameraGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CameraBindingID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneObjectBindingID"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InitialCameraCutTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bHasInitialCameraCutTransform",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,170 @@
+{
+    "name": "MeshProxySettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScreenSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "VoxelSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaterialSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MaterialProxySettings"
+            }
+        },
+        {
+            "index": 3,
+            "name": "MergeDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UnresolvedGeometryColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MaxRayCastDist",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "HardAngleThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "LightMapResolution",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "NormalCalculationMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EProxyNormalComputationMethod"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LandscapeCullingPrecision",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELandscapeCullingPrecision"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bCalculateCorrectLODModel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bOverrideVoxelSize",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bOverrideTransferDistance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bUseHardAngleThreshold",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bComputeLightMapResolution",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bRecalculateNormals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bUseLandscapeCulling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bAllowAdjacency",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bAllowDistanceField",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bReuseMeshLightmapUVs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bCreateCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bAllowVertexColors",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bGenerateLightmapUVs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

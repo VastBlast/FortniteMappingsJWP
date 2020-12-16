@@ -1,0 +1,58 @@
+{
+    "name": "BTTask_BlueprintBase",
+    "properties": [
+        {
+            "index": 2,
+            "name": "TickInterval",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntervalCountdown"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bShowPropertyDetails",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Services",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIgnoreRestartSelf",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NodeName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TreeAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ParentNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

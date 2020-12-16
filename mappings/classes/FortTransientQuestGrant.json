@@ -1,0 +1,37 @@
+{
+    "name": "FortTransientQuestGrant",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TemplateId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Objectives",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortQuestObjectiveCompletion"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExpirationTime",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CreationTime",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "name": "CRSimPointContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Points",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CRSimPoint"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Springs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CRSimLinearSpring"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Forces",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CRSimPointForce"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "CollisionVolumes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CRSimSoftCollision"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "Constraints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CRSimPointConstraint"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "PreviousStep",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CRSimPoint"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "TimeStep",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AccumulatedTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TimeLeftForStep",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "CommonInputTypeInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Key",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Key"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverrrideState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInputActionState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bActionRequiresHold",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HoldTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OverrideBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        }
+    ]
+}

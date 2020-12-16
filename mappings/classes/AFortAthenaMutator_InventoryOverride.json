@@ -1,0 +1,184 @@
+{
+    "name": "AFortAthenaMutator_InventoryOverride",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bWantsAutoTDMActivation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bRunForAthenaGameParticipantsOnly",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSelectRandomLoadoutOnce",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bSelectRandomLoadoutForAll",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bSelectRandomLoadoutPerPlayer",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bNoRepeat",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DropAllItemsOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLootDropOverride"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TrapDropOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLootDropOverride"
+            }
+        },
+        {
+            "index": 8,
+            "name": "WeaponDropOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLootDropOverride"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MaterialDropOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLootDropOverride"
+            }
+        },
+        {
+            "index": 10,
+            "name": "GadgetDropOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLootDropOverride"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ConsumableDropOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLootDropOverride"
+            }
+        },
+        {
+            "index": 12,
+            "name": "AmmoDropOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLootDropOverride"
+            }
+        },
+        {
+            "index": 13,
+            "name": "InventoryUpdateOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaInventorySpawnOverride"
+            }
+        },
+        {
+            "index": 14,
+            "name": "InventoryLoadouts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemLoadoutContainer"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "AlwaysGiveLoadout",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ItemLoadoutContainer"
+            }
+        },
+        {
+            "index": 16,
+            "name": "InventoryLoadoutIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "TeamLoadouts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemLoadoutTeamMap"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "ItemTypesToRemoveOnReset",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "bKeepUnchangedItemsOnReset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 21,
+            "name": "LoadoutIndexMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "EntityActorCustomReplicationComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ReplicationOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEntityActorReplicationOverrideType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ReplicationRelevancyBucketType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEntityActorReplicationRelevancyBucketType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CustomReplicationRelevancyRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

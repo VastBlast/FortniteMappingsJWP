@@ -1,0 +1,113 @@
+{
+    "name": "AnimUpdateRateParameters",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ShiftBucket",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUpdateRateShiftBucket"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bInterpolateSkippedFrames",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bShouldUseLodMap",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bShouldUseMinLod",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bSkipUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bSkipEvaluation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "UpdateRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EvaluationRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "BaseNonRenderedUpdateRate",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MaxEvalRateForInterpolation",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "BaseVisibleDistanceFactorThesholds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "LODToFrameSkipMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "IntProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "SkippedUpdateFrames",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "SkippedEvalFrames",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

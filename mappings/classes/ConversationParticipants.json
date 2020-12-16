@@ -1,0 +1,16 @@
+{
+    "name": "ConversationParticipants",
+    "properties": [
+        {
+            "index": 0,
+            "name": "List",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConversationParticipantEntry"
+                }
+            }
+        }
+    ]
+}

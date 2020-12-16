@@ -1,0 +1,23 @@
+{
+    "name": "AAthenaNavMesh",
+    "properties": [
+        {
+            "index": 0,
+            "name": "HotSpotPathfindingMaxSearchNodes",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SerializedDirtyAreas",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Box"
+                }
+            }
+        }
+    ]
+}

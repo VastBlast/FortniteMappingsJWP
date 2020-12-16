@@ -1,0 +1,16 @@
+{
+    "name": "GameplayTagTableManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Tables",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ManagedGameplayTagDataTableItem"
+                }
+            }
+        }
+    ]
+}

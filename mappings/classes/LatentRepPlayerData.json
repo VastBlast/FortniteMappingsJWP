@@ -1,0 +1,42 @@
+{
+    "name": "LatentRepPlayerData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerState",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LastRepLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize100"
+            }
+        },
+        {
+            "index": 13,
+            "name": "LastRepYaw",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "PawnStateMask",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPawnState"
+            }
+        },
+        {
+            "index": 18,
+            "name": "CurieStateBitfield",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

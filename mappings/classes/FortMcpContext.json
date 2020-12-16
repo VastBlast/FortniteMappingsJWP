@@ -1,0 +1,37 @@
+{
+    "name": "FortMcpContext",
+    "properties": [
+        {
+            "index": 8,
+            "name": "PrivacySettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpPrivacySettings"
+            }
+        },
+        {
+            "index": 33,
+            "name": "MinTimeBetweenFriendCodeRequestsSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "FriendCodeMessageBody",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "EUCountryCodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "name": "FortDefenderSlotItemPicker",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefenderSlotType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortDefenderSlotType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SortTypesList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrentSortType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EInventoryContentSortType"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PickerTileView",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ItemListViewWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bConfirmSelectionIfAlreadySelectedAfterOneClick",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "NewlySelectedItem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

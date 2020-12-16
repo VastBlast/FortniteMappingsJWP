@@ -1,0 +1,23 @@
+{
+    "name": "RigUnit_PointSimulation_WorkData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Simulation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CRSimPointContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoneIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

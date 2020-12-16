@@ -1,0 +1,91 @@
+{
+    "name": "WorldTileGroup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TileID",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bOnlyPlaceDiagonalWithAdjacent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "FlatMapInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TileGroupMapInfo"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "InnerMapInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TileGroupMapInfo"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "OuterMapInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TileGroupMapInfo"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "StraightMapInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TileGroupMapInfo"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "Sim_FlatWorld",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Sim_InnerWorld",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Sim_OuterWorld",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Sim_StraightWorld",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "OverlapRestrictions",
+    "properties": [
+        {
+            "index": 0,
+            "name": "OverlapsPerActor",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OverlapActorTagRestrictions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

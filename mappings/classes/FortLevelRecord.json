@@ -1,0 +1,59 @@
+{
+    "name": "FortLevelRecord",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ParentLevelIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BoundActorGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PackageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SavedActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortActorRecord"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "X_Loc",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Y_Loc",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        }
+    ]
+}

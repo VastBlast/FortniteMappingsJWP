@@ -1,0 +1,41 @@
+{
+    "name": "CameraShakeUpdateParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DeltaTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DynamicScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BlendingWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TotalScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "POV",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MinimalViewInfo"
+            }
+        }
+    ]
+}

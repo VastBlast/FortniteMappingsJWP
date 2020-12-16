@@ -1,0 +1,49 @@
+{
+    "name": "FortDayPhaseInfoOverride",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DayPhaseInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DayPhaseInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bUseAltitudeAdjustmentsOverride",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AltitudeAdjustments",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CameraAltitudeAdjustments"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseAltitudeAdjustmentsForSecondFogOverride",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AltitudeAdjustmentsForSecondFog",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CameraAltitudeAdjustments"
+                }
+            }
+        }
+    ]
+}

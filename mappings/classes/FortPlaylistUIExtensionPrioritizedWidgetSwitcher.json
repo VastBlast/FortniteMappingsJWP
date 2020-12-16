@@ -1,0 +1,38 @@
+{
+    "name": "FortPlaylistUIExtensionPrioritizedWidgetSwitcher",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ContentHorizontalAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHorizontalAlignment"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ContentVerticalAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVerticalAlignment"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExtensionSlots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "CachingTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

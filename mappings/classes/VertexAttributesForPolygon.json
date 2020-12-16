@@ -1,0 +1,35 @@
+{
+    "name": "VertexAttributesForPolygon",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PolygonID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PolygonID"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PerimeterVertexAttributeLists",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MeshElementAttributeList"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "VertexAttributeListsForEachHole",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VertexAttributesForPolygonHole"
+                }
+            }
+        }
+    ]
+}

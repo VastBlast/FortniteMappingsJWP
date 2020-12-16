@@ -1,0 +1,36 @@
+{
+    "name": "AnimPhysSphericalLimit",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DrivingBone",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoneReference"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SphereLocalOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LimitRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LimitType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESphericalLimitType"
+            }
+        }
+    ]
+}

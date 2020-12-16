@@ -1,0 +1,20 @@
+{
+    "name": "FortPlayerSurveyAnswerFreeFormText",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AnswerText",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TimeSpentAnswering",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Timespan"
+            }
+        }
+    ]
+}

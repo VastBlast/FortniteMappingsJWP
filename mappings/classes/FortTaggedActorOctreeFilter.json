@@ -1,0 +1,56 @@
+{
+    "name": "FortTaggedActorOctreeFilter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Bounds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BoxSphereBounds"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinDistanceFromBoundsCenter",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OptionalSubclasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "RequiredProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortFinderProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "TagsToLookFor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bHasAllTags",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

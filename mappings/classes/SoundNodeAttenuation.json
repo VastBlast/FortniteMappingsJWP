@@ -1,0 +1,37 @@
+{
+    "name": "SoundNodeAttenuation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AttenuationSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AttenuationOverrides",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundAttenuationSettings"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOverrideAttenuation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ChildNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

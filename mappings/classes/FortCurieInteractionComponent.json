@@ -1,0 +1,23 @@
+{
+    "name": "FortCurieInteractionComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CollisionComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ExecutionEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortCurieExecutionEntry"
+                }
+            }
+        }
+    ]
+}

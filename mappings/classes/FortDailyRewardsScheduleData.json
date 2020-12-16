@@ -1,0 +1,83 @@
+{
+    "name": "FortDailyRewardsScheduleData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScheduleTitle",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ScheduleDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScheduleItemDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ScheduleEpicItemDescription",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "WeekOffset",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RewardsGiven",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "RewardsAllowed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CalendarItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortDailyRewardsItemData"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "HighValueItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortDailyRewardsItemData"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ClaimedToday",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

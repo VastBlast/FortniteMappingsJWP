@@ -1,0 +1,21 @@
+{
+    "name": "PlayerLastSelectedPreferredProvider",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LocalUserId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PreferredProvider",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAppStore"
+            }
+        }
+    ]
+}

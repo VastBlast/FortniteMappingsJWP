@@ -1,0 +1,47 @@
+{
+    "name": "FortItemListView",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bShouldShowNullItemListEntry",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAutomaticallyLoadItemDetails",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DisplayType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EItemListViewDisplayType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "CustomItemList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "ItemsForListView",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        }
+    ]
+}

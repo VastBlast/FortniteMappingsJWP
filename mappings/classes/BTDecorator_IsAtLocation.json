@@ -1,0 +1,93 @@
+{
+    "name": "BTDecorator_IsAtLocation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AcceptableRadius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ParametrizedAcceptableRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GeometricDistanceType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFAIDistanceType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseParametrizedRadius",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bUseNavAgentGoalLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bPathFindingBasedTest",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BlackboardKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bInverseCondition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FlowAbortMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBTFlowAbortMode"
+            }
+        },
+        {
+            "index": 9,
+            "name": "NodeName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TreeAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ParentNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "CommunityVoteInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ElectionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LastVoteGranted",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 3,
+            "name": "VotesRemaining",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

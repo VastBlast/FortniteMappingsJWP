@@ -1,0 +1,66 @@
+{
+    "name": "FortCreativeItemListTabPanel",
+    "properties": [
+        {
+            "index": 2,
+            "name": "CreativeTileView_ItemOptions",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrentItemEntry",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemEntry"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TabName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TabLabel",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Items",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemEntry"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "SourceItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemEntry"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "LastFilters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

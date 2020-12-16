@@ -1,0 +1,27 @@
+{
+    "name": "AIDiscouragedGoalTimer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DiscouragedGoalInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIGoalInfo"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ExpirationTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumberOfTimesMarkedForDiscouragement",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

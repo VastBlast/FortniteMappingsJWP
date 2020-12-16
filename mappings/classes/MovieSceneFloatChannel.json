@@ -1,0 +1,65 @@
+{
+    "name": "MovieSceneFloatChannel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PreInfinityExtrap",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERichCurveExtrapolation"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PostInfinityExtrap",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERichCurveExtrapolation"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Times",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FrameNumber"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Values",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneFloatValue"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bHasDefaultValue",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TickResolution",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameRate"
+            }
+        }
+    ]
+}

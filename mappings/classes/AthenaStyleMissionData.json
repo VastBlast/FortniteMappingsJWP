@@ -1,0 +1,36 @@
+{
+    "name": "AthenaStyleMissionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StyleDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "OptionalAdditionalStyleDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "Mission",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OverrideIdleAnimation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

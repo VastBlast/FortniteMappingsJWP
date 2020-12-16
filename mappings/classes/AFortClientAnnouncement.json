@@ -1,0 +1,88 @@
+{
+    "name": "AFortClientAnnouncement",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AnnouncementID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DisplayWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TimeToLive",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bRetrigger",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bDestroyOnAllClientsStopped",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Channel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAnnouncementChannel"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bInterrupt",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ClientDeliveryStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAnnouncementDelivery"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ClientDeliveryTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RecipientControllers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

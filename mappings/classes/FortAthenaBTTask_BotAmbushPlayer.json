@@ -1,0 +1,50 @@
+{
+    "name": "FortAthenaBTTask_BotAmbushPlayer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FacingPrecision",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WeaponCooldown",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bClearBlackboardOnFinished",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TargetedPlayerKeySelector",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MaxLocationErrorKeySelector",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MinLocationErrorKeySelector",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlackboardKeySelector"
+            }
+        }
+    ]
+}

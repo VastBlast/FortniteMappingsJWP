@@ -1,0 +1,30 @@
+{
+    "name": "FortCampaignTeamMemberItemTracker",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TemplateIdsToTrack",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "RepresentedMemberIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurrentConnectionState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMemberConnectionState"
+            }
+        }
+    ]
+}

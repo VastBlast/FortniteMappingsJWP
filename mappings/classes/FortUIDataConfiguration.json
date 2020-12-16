@@ -1,0 +1,1233 @@
+{
+    "name": "FortUIDataConfiguration",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultUIDataConfigurationPath",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultBROnlyUIDataConfigurationPath",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MobileBROnlyUIDataConfigurationPath",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "StateWidgetClasses",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StateWidgetEntry"
+            }
+        },
+        {
+            "index": 16,
+            "name": "CampaignFrontEndWidget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StateWidgetEntry"
+            }
+        },
+        {
+            "index": 17,
+            "name": "CachedWidgetClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "StartupStateWidget_Login",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "StartupStateWidget_SubgameSelect",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "AthenaStateWidget_Frontend",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "AthenaStateWidget_MobileFrontend",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "AthenaStateWidget_NightNightMode",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "AthenaStateWidget_HUD",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "AthenaStateWidget_MobileHUD",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "HUDLayoutToolV2SoftClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "AthenaStateWidget_Replay",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "StandardImageBrushSizes",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 28,
+            "name": "PowerRatingIconMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "FilledTierPipMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "UnfilledTierPipMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "PreviewingTierPipMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "PromotedTierPipMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "UpgradeArrowMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "ComparisonUpArrowMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "InventoryOverflowIndicatorMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "TrackedSchematicIndicatorMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "FavoritedItemIndicatorMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "VariantToWidgetMaping",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 43,
+            "name": "PlayerSurveyDispatcherClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bEnableSocialFeatures",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bEnableChat",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bEnablePartyFeatures",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "SocialPanelClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "TeamMemberManageClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "UnlockedSquadSlotBorderMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "LockedSquadSlotBorderMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "ReadOnlySquadSlotBorderMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "DefenderIconMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "AssaultDefenderIconMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "PistolDefenderIconMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "MeleeDefenderIconMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "SniperDefenderIconMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "ShotgunDefenderIconMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "LeadSurvivorIconMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "SurvivorIconMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "TrapIconMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "KeybindWidgetClass",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "HiddenCursorWidget",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "VirtualCursorWidget",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "UIScaleCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 66,
+            "name": "FrontEndUIScaleCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RuntimeFloatCurve"
+            }
+        },
+        {
+            "index": 67,
+            "name": "ReturnToFrontendBehavior",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortReturnToFrontendBehavior"
+            }
+        },
+        {
+            "index": 68,
+            "name": "EventsStyleDataTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "DefaultDivisionRoundIcon",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "DivisionRoundToIcons",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "IntProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 71,
+            "name": "DivisionRoundToFancyIcons",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "IntProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 72,
+            "name": "UpgradesDisplayDataTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "ItemCardPowerRatingTextStylesByBrushSize",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 74,
+            "name": "ItemCardStackCountTextStylesByBrushSize",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 75,
+            "name": "ItemCardLevelMeterMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "ItemCardDurabilityMeterMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "ItemCardBackgroundPlateBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 78,
+            "name": "ItemCardRarityGradientBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 79,
+            "name": "ItemCardDefenderPortraitBackgroundBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 80,
+            "name": "ItemCardHeroPortraitBackgroundBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 81,
+            "name": "ItemCardLeadSurvivorPortraitBackgroundBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 82,
+            "name": "ItemCardSchematicBackgroundBrush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 83,
+            "name": "ItemCardRewardTraitsBackgroundMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 84,
+            "name": "ItemCardSchematicTraitsBackgroundMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 85,
+            "name": "FrontendItemManagementScreenType",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "FrontendItemInspectionScreenType",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "HeroSquadManagementScreenType",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "HeroLoadoutScreenType",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "SurvivorSquadManagementScreenType",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "DefenderSquadManagementScreenType",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 91,
+            "name": "MatchReadyDesktopPopupWidgetType",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "MainTabSet",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 93,
+            "name": "OutpostPermissionsWidget",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 94,
+            "name": "PlayerFeedbackModalWidget",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 95,
+            "name": "bLimitedToES2Features",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 96,
+            "name": "FrontEndFFPostProcessMaterials",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WeightedBlendables"
+            }
+        },
+        {
+            "index": 97,
+            "name": "bUseSpecificPinataWeapon",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "bQuestVOEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "PersonnelAndSchematicItemCardMaterial",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 102,
+            "name": "CardPackItemCardMaterial",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 103,
+            "name": "InstanceItemCardMaterial",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 104,
+            "name": "TransformKeyItemCardMaterial",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 105,
+            "name": "CosmeticItemCardMaterial",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 106,
+            "name": "ItemTypesWhoseImagesReplaceCardBackgrounds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 108,
+            "name": "ItemCardDetailAreaMaterial",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 109,
+            "name": "FavoriteBookmarkMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 110,
+            "name": "PermanentTransformKeykMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 111,
+            "name": "ConsumableTransformKeykMultiSizeBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 113,
+            "name": "EnchantedCustomRatingBlockBackgroundMaterial",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 114,
+            "name": "NormalCustomRatingBlockBackgroundMaterial",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 115,
+            "name": "CustomRatingBlockBackgroundBrushMargin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Margin"
+            }
+        },
+        {
+            "index": 116,
+            "name": "UniversalItemCardDurabilityMeterMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 117,
+            "name": "UniversalItemCardLevelMeterMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 118,
+            "name": "UniversalItemCardTraitIconMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 119,
+            "name": "UniversalItemCardUnearnedTierIconMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 120,
+            "name": "UniversalItemCardAvailableTierIconMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 121,
+            "name": "UniversalItemCardEarnedTierIconMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 122,
+            "name": "UniversalItemCardPromotedTierIconMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 123,
+            "name": "MysteryItemDefinition",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 124,
+            "name": "LoadingCardTexture",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 125,
+            "name": "ItemCardConfig_XXL_PersonnelAndSchematics",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XL_PersonnelAndSchematics_Configuration"
+            }
+        },
+        {
+            "index": 126,
+            "name": "ItemCardConfig_XXL_ItemInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XL_ItemInstance_Configuration"
+            }
+        },
+        {
+            "index": 127,
+            "name": "ItemCardConfig_XXL_TransformKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XL_TransformKey_Configuration"
+            }
+        },
+        {
+            "index": 128,
+            "name": "ItemCardConfig_XL_PersonnelAndSchematics",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XL_PersonnelAndSchematics_Configuration"
+            }
+        },
+        {
+            "index": 129,
+            "name": "ItemCardConfig_XL_ItemInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XL_ItemInstance_Configuration"
+            }
+        },
+        {
+            "index": 130,
+            "name": "ItemCardConfig_XL_TransformKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XL_TransformKey_Configuration"
+            }
+        },
+        {
+            "index": 131,
+            "name": "ItemCardConfig_L_PersonnelAndSchematics",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_L_PersonnelAndSchematics_Configuration"
+            }
+        },
+        {
+            "index": 132,
+            "name": "ItemCardConfig_L_ItemInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_L_ItemInstance_Configuration"
+            }
+        },
+        {
+            "index": 133,
+            "name": "ItemCardConfig_L_TransformKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_L_TransformKey_Configuration"
+            }
+        },
+        {
+            "index": 134,
+            "name": "ItemCardConfig_M_PersonnelAndSchematics",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_M_PersonnelAndSchematics_Configuration"
+            }
+        },
+        {
+            "index": 135,
+            "name": "ItemCardConfig_M_ItemInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_M_ItemInstance_Configuration"
+            }
+        },
+        {
+            "index": 136,
+            "name": "ItemCardConfig_M_TransformKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_M_TransformKey_Configuration"
+            }
+        },
+        {
+            "index": 137,
+            "name": "ItemCardConfig_S_PersonnelAndSchematics",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_S_PersonnelAndSchematics_Configuration"
+            }
+        },
+        {
+            "index": 138,
+            "name": "ItemCardConfig_S_ItemInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_S_ItemInstance_Configuration"
+            }
+        },
+        {
+            "index": 139,
+            "name": "ItemCardConfig_S_TransformKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_S_TransformKey_Configuration"
+            }
+        },
+        {
+            "index": 140,
+            "name": "ItemCardConfig_XS_PersonnelAndSchematics",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XS_PersonnelAndSchematics_Configuration"
+            }
+        },
+        {
+            "index": 141,
+            "name": "ItemCardConfig_XS_ItemInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XS_ItemInstance_Configuration"
+            }
+        },
+        {
+            "index": 142,
+            "name": "ItemCardConfig_XS_TransformKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XS_TransformKey_Configuration"
+            }
+        },
+        {
+            "index": 143,
+            "name": "ItemCardConfig_XXS_PersonnelAndSchematics",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XS_PersonnelAndSchematics_Configuration"
+            }
+        },
+        {
+            "index": 144,
+            "name": "ItemCardConfig_XXS_ItemInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XXS_ItemInstance_Configuration"
+            }
+        },
+        {
+            "index": 145,
+            "name": "ItemCardConfig_XXS_TransformKey",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemCard_XS_TransformKey_Configuration"
+            }
+        },
+        {
+            "index": 146,
+            "name": "HealthyGamingDataTable",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 147,
+            "name": "TrapPickerGameplayTagSettings",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 148,
+            "name": "TrapPickerSortScores",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortUIPickerTrapSortScores"
+            }
+        },
+        {
+            "index": 149,
+            "name": "ObjClassToTooltipStatsMap",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 150,
+            "name": "LoadingScreenBacchusTutorialWidget",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 151,
+            "name": "LoadingScreenReturnToKairosWidget",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 152,
+            "name": "ActorCanvasArrowBrush",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 153,
+            "name": "UITutorialData",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 154,
+            "name": "PawnHealthBarPowerRatingBacking",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 155,
+            "name": "ProfileStatStyleSets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 156,
+            "name": "LegacyNativeUIBrushMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 157,
+            "name": "LegacyNativeUIAssetMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 158,
+            "name": "ItemShopConfiguration",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 159,
+            "name": "AnalogRotateSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 160,
+            "name": "DragRotateSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 161,
+            "name": "TouchSwipeRotateRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 162,
+            "name": "MouseWheelZoomSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 163,
+            "name": "DragZoomSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 164,
+            "name": "TriggerZoomSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 165,
+            "name": "TouchZoomPinchRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 166,
+            "name": "ItemViewCompetingAxisInputThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 167,
+            "name": "ItemTypesToUseVaultCamera",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 168,
+            "name": "FrontendItemViewSettingsManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 169,
+            "name": "VideoDisplayData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 170,
+            "name": "SocialDisplayData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 171,
+            "name": "ChallengeDisplayData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 172,
+            "name": "SquadStyleData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 173,
+            "name": "StoreDisplayData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 174,
+            "name": "ItemPresentationDisplayData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 175,
+            "name": "PipTest",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

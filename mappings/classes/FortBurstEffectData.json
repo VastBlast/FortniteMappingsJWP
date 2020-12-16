@@ -1,0 +1,59 @@
+{
+    "name": "FortBurstEffectData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BurstParticles",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayCueParticleInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "BurstSounds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayCueAudioInfo"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "BurstCameraShake",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueCameraShakeInfo"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BurstCameraLensEffect",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueCameraLensEffectInfo"
+            }
+        },
+        {
+            "index": 4,
+            "name": "BurstForceFeedbackEffect",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueForceFeedbackInfo"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BurstDecal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayCueDecalInfo"
+            }
+        }
+    ]
+}

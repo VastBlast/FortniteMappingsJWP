@@ -1,0 +1,35 @@
+{
+    "name": "NiagaraDataInterfaceExport",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CallbackHandlerParameter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraUserParameterBinding"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GPUAllocationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENDIExport_GPUAllocationMode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "GPUAllocationFixedSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "GPUAllocationPerParticleSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

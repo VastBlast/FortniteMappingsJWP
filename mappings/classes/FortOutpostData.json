@@ -1,0 +1,44 @@
+{
+    "name": "FortOutpostData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StructureLimitNotificationThreshold",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "StormShieldData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OutpostBuildingData"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HarvestingOptimizerData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HarvestingOptimizerBuildingData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "StorageVaultData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StorageVaultBuildingData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OutpostUpgradeAndPrestigeData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OutpostUpgradeAndPrestigeBuildingData"
+            }
+        }
+    ]
+}

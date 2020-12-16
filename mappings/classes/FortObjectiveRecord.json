@@ -1,0 +1,22 @@
+{
+    "name": "FortObjectiveRecord",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ObjectiveClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObjectiveData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        }
+    ]
+}

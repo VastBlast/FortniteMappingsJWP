@@ -1,0 +1,47 @@
+{
+    "name": "VoteResponderComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SupportedVoteSelections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VoteSelection"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bShouldLockVotingAfterCasted",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "RequestedVoteSessionIds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 11,
+            "name": "RequestedVoteIds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RequestedVoteSelectionIds",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

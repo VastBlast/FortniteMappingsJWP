@@ -1,0 +1,60 @@
+{
+    "name": "CrucibleLeaderboardData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LeaderboardId",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCrucibleLeaderboardId"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurrentState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortCrucibleLeaderboardState"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LeaderboardName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrentCompiledResults",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CrucibleLeaderboardEntry"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "bHasBeenRequestedByUser",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bHasHadWorkQueued",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NumQueries",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

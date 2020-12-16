@@ -1,0 +1,27 @@
+{
+    "name": "ClientConversationMessage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SpeakerID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ParticipantDisplayName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Text",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

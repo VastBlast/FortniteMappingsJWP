@@ -1,0 +1,38 @@
+{
+    "name": "FortSocialParty",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PartyRepData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPartyRepData"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PartySquads",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPartySquad"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bSendSocialFriendsActiveAnalytics",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bPromoteMemberWhenBackgrounding",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

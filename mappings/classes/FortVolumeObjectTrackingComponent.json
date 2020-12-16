@@ -1,0 +1,116 @@
+{
+    "name": "FortVolumeObjectTrackingComponent",
+    "properties": [
+        {
+            "index": 1,
+            "name": "TransientTracker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCreativeClassInstanceTracker"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ObjectTracker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ObjectTracker_Legacy"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BudgetTracker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCreativeBudgetTracker"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ClassTracker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCreativeClassInstanceTracker"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bRunNewVersion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bHeatmapEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ObjectTrackingHeatmapSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bUseHeatmapHighPrecision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ObjectTrackingHeatmap",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "ObjectTrackingHeatmapHighPrecision",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "ThermalGroupMatrixSizeX",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ThermalGroupMatrixSizeY",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ThermalGroupCostMatrix",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "SpatialThermometerCellSize",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

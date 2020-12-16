@@ -1,0 +1,22 @@
+{
+    "name": "TeamSetupDataEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TeamNum",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PartsToSwapIn",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

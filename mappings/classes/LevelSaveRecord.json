@@ -1,0 +1,113 @@
+{
+    "name": "LevelSaveRecord",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PackageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SaveVersion",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bCompressed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Center",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CreateVersion",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ObjectCostVersion"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HalfBoundsExtent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Rotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Scale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LastRecordID",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "InstanceRecords_LEGACY",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ActorInstanceRecord"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "DeleteActorRecords_LEGACY",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DeleteActorRecord"
+                }
+            }
+        },
+        {
+            "index": 30,
+            "name": "CreativeAssetPathRedirects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AssetManagerRedirect"
+                }
+            }
+        },
+        {
+            "index": 31,
+            "name": "bRequiresGridPlacement",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "StaticMeshSourceModel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BuildSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MeshBuildSettings"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ReductionSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MeshReductionSettings"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LODDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ScreenSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformFloat"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SourceImportFilename",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

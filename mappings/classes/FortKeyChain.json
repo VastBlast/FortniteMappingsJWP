@@ -1,0 +1,23 @@
+{
+    "name": "FortKeyChain",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Hash",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Keys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortEncryptionKey"
+                }
+            }
+        }
+    ]
+}

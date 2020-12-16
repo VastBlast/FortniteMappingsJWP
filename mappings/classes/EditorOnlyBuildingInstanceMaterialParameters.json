@@ -1,0 +1,38 @@
+{
+    "name": "EditorOnlyBuildingInstanceMaterialParameters",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScalarParams",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ScalarParameterValue"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "VectorParams",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VectorParameterValue"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "TextureParams",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TextureParameterValue"
+                }
+            }
+        }
+    ]
+}

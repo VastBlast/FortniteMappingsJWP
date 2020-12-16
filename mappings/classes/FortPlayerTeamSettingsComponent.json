@@ -1,0 +1,460 @@
+{
+    "name": "FortPlayerTeamSettingsComponent",
+    "properties": [
+        {
+            "index": 1,
+            "name": "TeamName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TeamColorIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bRunOutTimeToWin",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DefaultClassSlot",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "RespawnWaveType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECreativeRespawnWaveType"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxHealth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "StartingHealth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MaxShield",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "StartingShield",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DBNOSetting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDBNOMutatorType"
+            }
+        },
+        {
+            "index": 11,
+            "name": "RespawnHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RespawnTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "SpawnLocationSetting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMinigamePlayerSpawnLocationSetting"
+            }
+        },
+        {
+            "index": 14,
+            "name": "SpawnImmunityTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "DropAllItemsOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLootDropOverride"
+            }
+        },
+        {
+            "index": 16,
+            "name": "DropAllResourcesOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAthenaLootDropOverride"
+            }
+        },
+        {
+            "index": 17,
+            "name": "InventoryItems",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemAndCount"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "CharacterOverride",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "PickaxeOverride",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "BackpackOverride",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "GliderOverride",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "HealthSiphonValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "WoodSiphonValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "StoneSiphonValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "MetalSiphonValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "GoldSiphonValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "DamageToDeal",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bRequiresNonZeroDamage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "TargetQueryIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "WeaponQueryIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "FallDamageMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "GravityOverride",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "PlayerLives",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "TeamToMoveToWhenOutOfSpawns",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "EliminationsToScoreMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "AssistsToScoreMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "HarvestRateMutliplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "ResourceRateOverrideIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "BuildingMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingMode"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bAimAssistAllowed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bIsPlayerTriggeredRespawnAllowed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "OnlyAllowRespawningIfPlayerStartPadsFound",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bInstantReload",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bInfiniteAmmo",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bInfiniteResources",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bAllowItemDrop",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "bAllowItemPickUp",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "MaxItemSlots",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "bWoodResourceWidgetVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "bStoneResourceWidgetVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "bMetalResourceWidgetVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "bGoldCurrencyResourceWidgetVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "bApplyJumpPenalty",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "bGliderRedeploy",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "bFlyEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "bAllowFlightSprint",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "FlySpeedModifierIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "bAllowFriendlyFire",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "MaximumResources",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "NameplateDisplayMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EIndicatorDisplayMode"
+            }
+        },
+        {
+            "index": 61,
+            "name": "PlayerHealthIndicatorDisplayMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPlayerIndicatorDisplayMode"
+            }
+        },
+        {
+            "index": 62,
+            "name": "CreativeBossHealthDisplayMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECreativeBossDisplayMode"
+            }
+        },
+        {
+            "index": 63,
+            "name": "AbilitySetOptionData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PropertyOverrideData"
+            }
+        }
+    ]
+}

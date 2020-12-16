@@ -1,0 +1,62 @@
+{
+    "name": "GeneralChatReturn",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GlobalChatRooms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GeneralChatRoom"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "FounderChatRooms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GeneralChatRoom"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bNeedsPaidAccessForGlobalChat",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bNeedsPaidAccessForFounderChat",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIsGlobalChatDisabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsFounderChatDisabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIsSubGameGlobalChatDisabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

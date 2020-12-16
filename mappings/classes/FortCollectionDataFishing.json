@@ -1,0 +1,29 @@
+{
+    "name": "FortCollectionDataFishing",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TwoStarRating",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ThreeStarRating",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Entries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

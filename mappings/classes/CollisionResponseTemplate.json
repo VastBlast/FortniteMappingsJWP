@@ -1,0 +1,45 @@
+{
+    "name": "CollisionResponseTemplate",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Name",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CollisionEnabled",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECollisionEnabled"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bCanModify",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ObjectTypeName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CustomResponses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ResponseChannel"
+                }
+            }
+        }
+    ]
+}

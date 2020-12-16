@@ -1,0 +1,224 @@
+{
+    "name": "ParticleModuleCollision",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DampingFactor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionVector"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DampingFactorRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionVector"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxCollisions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionFloat"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CollisionCompletionOption",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleCollisionComplete"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CollisionTypes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bApplyPhysics",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIgnoreTriggerVolumes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ParticleMass",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DirScalar",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bPawnsDoNotDecrementCount",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bOnlyVerticalNormalsDecrementCount",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "VerticalFudgeFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "DelayAmount",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionFloat"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bDropDetail",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bCollideOnlyIfVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bIgnoreSourceActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "MaxCollisionDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bSpawnModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bUpdateModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bFinalUpdateModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bUpdateForGPUEmitter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bCurvesAsColor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "b3DDrawMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bSupported3DDrawMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bEditable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "LODDuplicate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bSupportsRandomSeed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bRequiresLoopingNotification",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "LODValidity",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        }
+    ]
+}

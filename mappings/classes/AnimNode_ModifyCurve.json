@@ -1,0 +1,48 @@
+{
+    "name": "AnimNode_ModifyCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourcePose",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PoseLink"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CurveValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "CurveNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Alpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ApplyMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EModifyCurveApplyMode"
+            }
+        }
+    ]
+}

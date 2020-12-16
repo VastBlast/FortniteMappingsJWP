@@ -1,0 +1,35 @@
+{
+    "name": "FortServerBrowserActionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ActionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortServerBrowserAction"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TileImage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        }
+    ]
+}

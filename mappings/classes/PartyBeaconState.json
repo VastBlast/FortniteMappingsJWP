@@ -1,0 +1,33 @@
+{
+    "name": "PartyBeaconState",
+    "properties": [
+        {
+            "index": 8,
+            "name": "bRestrictCrossConsole",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "PlatformCrossplayRestrictions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "PlatformTypeMapping",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartyBeaconCrossplayPlatformMapping"
+                }
+            }
+        }
+    ]
+}

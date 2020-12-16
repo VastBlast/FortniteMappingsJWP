@@ -1,0 +1,80 @@
+{
+    "name": "AnimNode_BlendListByEnum",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EnumToPoseIndex",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ActiveEnumValue",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BlendPose",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PoseLink"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "BlendTime",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "TransitionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBlendListTransitionType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BlendType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAlphaBlendOption"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bResetChildOnActivation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CustomBlendCurve",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "BlendProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

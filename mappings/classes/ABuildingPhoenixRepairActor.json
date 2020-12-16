@@ -1,0 +1,37 @@
+{
+    "name": "ABuildingPhoenixRepairActor",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ResourceWhitelist",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bCallOnLocalInteract",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bCurrentInteractionSuccess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RepairedWeaponRarity",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRarity"
+            }
+        }
+    ]
+}

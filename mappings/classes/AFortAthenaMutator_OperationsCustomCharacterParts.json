@@ -1,0 +1,27 @@
+{
+    "name": "AFortAthenaMutator_OperationsCustomCharacterParts",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FactionCustomizations_Alter",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartOverrideData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "FactionCustomizations_Ego",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartOverrideData"
+                }
+            }
+        }
+    ]
+}

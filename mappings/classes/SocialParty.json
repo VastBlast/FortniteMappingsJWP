@@ -1,0 +1,56 @@
+{
+    "name": "SocialParty",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ReservationBeaconClientClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpectatorBeaconClientClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "OwningLocalUserId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrentLeaderId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnableAutomaticPartyRejoin",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ReservationBeaconClient",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "SpectatorBeaconClient",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

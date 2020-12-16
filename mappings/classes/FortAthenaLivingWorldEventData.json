@@ -1,0 +1,56 @@
+{
+    "name": "FortAthenaLivingWorldEventData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TimeOfDayFilters",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "WaterLevelIndexMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "WaterLevelIndexMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ProviderFiltersTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ProviderFiltersEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PointProviderFilterEntry"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "ActorDescriptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAthenaLivingWorldEventDataActorSpawnDescription"
+                }
+            }
+        }
+    ]
+}

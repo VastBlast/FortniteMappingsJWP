@@ -1,0 +1,49 @@
+{
+    "name": "AKairosHeroBase",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlayerId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIsBeingCaptured",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SceneCaptureComponent2D",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrentAnimationState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EKairosHeroAnimationState"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SkeletonType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EKairosHeroSkeletonType"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CapturePawn",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

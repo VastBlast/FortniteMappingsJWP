@@ -1,0 +1,30 @@
+{
+    "name": "IntegralCurve",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Keys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "IntegralKey"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUseDefaultValueBeforeFirstKey",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

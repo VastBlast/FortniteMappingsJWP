@@ -1,0 +1,98 @@
+{
+    "name": "AFortTheaterMapViewer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionAvailabilityList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAvailableTheaterMissions"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "MissionAlertAvailabilityList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAvailableMissionAlerts"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "HexMapSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Box"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HexTileWidth",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "HexTileHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "HexMap",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "CurrentTheaterId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TheaterList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTheaterMapData"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "NumValidHexMapTiles",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "CurrentTileIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bDisplayTheaterComplete",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

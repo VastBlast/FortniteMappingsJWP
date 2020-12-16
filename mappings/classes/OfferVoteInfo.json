@@ -1,0 +1,28 @@
+{
+    "name": "OfferVoteInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FirstVoteAt",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LastVoteAt",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VoteCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

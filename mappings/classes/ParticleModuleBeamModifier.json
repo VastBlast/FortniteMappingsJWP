@@ -1,0 +1,159 @@
+{
+    "name": "ParticleModuleBeamModifier",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ModifierType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBeamModifierType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PositionOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BeamModifierOptions"
+            }
+        },
+        {
+            "index": 2,
+            "name": "position",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionVector"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TangentOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BeamModifierOptions"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Tangent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionVector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAbsoluteTangent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "StrengthOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BeamModifierOptions"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Strength",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RawDistributionFloat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bSpawnModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bUpdateModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bFinalUpdateModule",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bUpdateForGPUEmitter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bCurvesAsColor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "b3DDrawMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bSupported3DDrawMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bEditable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "LODDuplicate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bSupportsRandomSeed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bRequiresLoopingNotification",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "LODValidity",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        }
+    ]
+}

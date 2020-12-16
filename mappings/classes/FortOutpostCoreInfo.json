@@ -1,0 +1,33 @@
+{
+    "name": "FortOutpostCoreInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlacedBuildings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlacedBuilding"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "AccountsWithEditPermission",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "HighestEnduranceWaveReached",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "name": "AthenaCollectionScreenContainer",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TabInfos",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AthenaCollectionScreenContainerTabInfo"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "NextTabInputAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PreviousTabInputAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "VisibilitySwitcher_Content",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EntryBox_TabButtons",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Text_TabTitle",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MobileCloseButton",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

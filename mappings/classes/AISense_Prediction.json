@@ -1,0 +1,52 @@
+{
+    "name": "AISense_Prediction",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RegisteredEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AIPredictionEvent"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultExpirationAge",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NotifyType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAISenseNotifyType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bWantsNewPawnNotification",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bAutoRegisterAllPawnsAsSources",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PerceptionSystemInstance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

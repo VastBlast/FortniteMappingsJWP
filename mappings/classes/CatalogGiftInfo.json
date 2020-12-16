@@ -1,0 +1,30 @@
+{
+    "name": "CatalogGiftInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ForcedGiftBoxTemplateId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PurchaseRequirements",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CatalogOfferRequirement"
+                }
+            }
+        }
+    ]
+}

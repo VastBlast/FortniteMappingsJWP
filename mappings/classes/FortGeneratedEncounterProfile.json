@@ -1,0 +1,67 @@
+{
+    "name": "FortGeneratedEncounterProfile",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EncounterDifficultyLevel",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EncounterOptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGeneratedEncounterOption"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "EncounterModeSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEncounterModeSettings"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EncounterTypeTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DifficultyOptionPointsAvailableAtGeneration",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MinDifficultyOptionPointsToUse",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bShouldReselectOptionsPerInstance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "GeneratedEncounterIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

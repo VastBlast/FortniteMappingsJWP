@@ -1,0 +1,52 @@
+{
+    "name": "GameplayEffectExecutionDefinition",
+    "properties": [
+        {
+            "index": 0,
+            "name": "CalculationClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PassedInTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CalculationModifiers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectExecutionScopedModifierInfo"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ConditionalGameplayEffectClasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ConditionalGameplayEffects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConditionalGameplayEffect"
+                }
+            }
+        }
+    ]
+}

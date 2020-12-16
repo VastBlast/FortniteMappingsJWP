@@ -1,0 +1,43 @@
+{
+    "name": "MediaSoundComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Channels",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMediaSoundChannels",
+                "enumType": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DynamicRateAdjustment",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RateAdjustmentFactor",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RateAdjustmentRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FloatRange"
+            }
+        },
+        {
+            "index": 4,
+            "name": "MediaPlayer",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

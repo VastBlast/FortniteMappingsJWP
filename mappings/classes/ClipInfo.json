@@ -1,0 +1,121 @@
+{
+    "name": "ClipInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "StartTimestamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayerId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 3,
+            "name": "S3KeyName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "S3Bucket",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DatabaseId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DatabaseParitionKey",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "CameraType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESpectatorCameraType"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MessageSettings",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EClipMessageSettings"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MessageNotificationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECameraShotNotificationTypes"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MessageDisplayTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MessageString",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "FeatureScores",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ByteProperty"
+                },
+                "value_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "PlayerName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CameraShotPrefab",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SavedSpectatorCameraShot"
+            }
+        }
+    ]
+}

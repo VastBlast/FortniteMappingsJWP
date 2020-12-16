@@ -1,0 +1,57 @@
+{
+    "name": "FortMobileHUDContextModel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ContextLayoutName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DisplayOrderPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsEditingContextByDefault",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ContextIcon",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ContextLayoutSaveTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ContextFilter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortMobileContextFilter"
+            }
+        },
+        {
+            "index": 6,
+            "name": "UseableHUDWidgetTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

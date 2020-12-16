@@ -1,0 +1,49 @@
+{
+    "name": "AFortProjectileAthena",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FireStartLoc",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PawnHitResult",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HitResult"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bExplodeOnPawnHit",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bNoCollisionForNonOwningClients",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bIgnoreActorsAttachedToFiringPawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TimeToWaitForPawnHitBeforeKillOnServer",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

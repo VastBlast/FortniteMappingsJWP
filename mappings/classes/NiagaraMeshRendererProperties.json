@@ -1,0 +1,291 @@
+{
+    "name": "NiagaraMeshRendererProperties",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ParticleMesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SortMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraSortMode"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOverrideMaterials",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bSortOnlyWhenTranslucent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OverrideMaterials",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NiagaraMeshMaterialOverride"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "SubImageSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bSubImageBlend",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FacingMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraMeshFacingMode"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bLockedAxisEnable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LockedAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 10,
+            "name": "LockedAxisSpace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraMeshLockedAxisSpace"
+            }
+        },
+        {
+            "index": 11,
+            "name": "PivotOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PivotOffsetSpace",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraMeshPivotOffsetSpace"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bEnableFrustumCulling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bEnableCameraDistanceCulling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "MinCameraDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "MaxCameraDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "RendererVisibility",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "PositionBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 19,
+            "name": "ColorBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 20,
+            "name": "VelocityBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 21,
+            "name": "MeshOrientationBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ScaleBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 23,
+            "name": "SubImageIndexBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 24,
+            "name": "DynamicMaterialBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 25,
+            "name": "DynamicMaterial1Binding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 26,
+            "name": "DynamicMaterial2Binding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 27,
+            "name": "DynamicMaterial3Binding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 28,
+            "name": "MaterialRandomBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 29,
+            "name": "CustomSortingBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 30,
+            "name": "NormalizedAgeBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 31,
+            "name": "CameraOffsetBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 32,
+            "name": "RendererVisibilityTagBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraVariableAttributeBinding"
+            }
+        },
+        {
+            "index": 33,
+            "name": "Platforms",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraPlatformSet"
+            }
+        },
+        {
+            "index": 34,
+            "name": "SortOrderHint",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bMotionBlurEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

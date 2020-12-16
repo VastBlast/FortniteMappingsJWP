@@ -1,0 +1,44 @@
+{
+    "name": "GizmoAxisTranslationParameterSource",
+    "properties": [
+        {
+            "index": 2,
+            "name": "Parameter",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LastChange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GizmoFloatParameterChange"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CurTranslationAxis",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 5,
+            "name": "CurTranslationOrigin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "InitialTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Transform"
+            }
+        }
+    ]
+}

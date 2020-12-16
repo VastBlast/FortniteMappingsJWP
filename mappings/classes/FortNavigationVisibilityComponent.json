@@ -1,0 +1,108 @@
+{
+    "name": "FortNavigationVisibilityComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WeakActor",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bEnableCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bCustomSkipCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ValidActiveCameraTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ExcludedActiveCameraTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 11,
+            "name": "Quests",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "QuestRequirement"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "Items",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ItemRequirement"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "CalendarEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CalendarRequirement"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "ProfileStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProfileStatRequirement"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "DebugTrackingName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bShouldLogFails",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ActorResponse",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVisibilityResponse"
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "FortHelpItemEntry",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortHelpItemType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemId",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HeaderName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BodyText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AdditionalContent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortHelpAdditionalContent"
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "RigVM",
+    "properties": [
+        {
+            "index": 0,
+            "name": "WorkMemory",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigVMMemoryContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LiteralMemory",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigVMMemoryContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ByteCode",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RigVMByteCode"
+            }
+        },
+        {
+            "index": 4,
+            "name": "FunctionNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Parameters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RigVMParameter"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "ParametersNameMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "NameProperty"
+                },
+                "value_type": {
+                    "type": "IntProperty"
+                }
+            }
+        }
+    ]
+}

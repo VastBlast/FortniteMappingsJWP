@@ -1,0 +1,63 @@
+{
+    "name": "AISenseConfig_Hearing",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Implementation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HearingRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LoSHearingRange",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bUseLoSHearing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DetectionByAffiliation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AISenseAffiliationFilter"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DebugColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Color"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MaxAge",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bStartsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

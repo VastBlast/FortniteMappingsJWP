@@ -1,0 +1,25 @@
+{
+    "name": "LocalizedOverlays",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultOverlays",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LocaleToOverlaysMap",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

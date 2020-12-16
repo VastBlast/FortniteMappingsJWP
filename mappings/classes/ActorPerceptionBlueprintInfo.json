@@ -1,0 +1,30 @@
+{
+    "name": "ActorPerceptionBlueprintInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Target",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "LastSensedStimuli",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AIStimulus"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "bIsHostile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

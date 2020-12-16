@@ -1,0 +1,40 @@
+{
+    "name": "MovieSceneStringChannel",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Times",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FrameNumber"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "Values",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultValue",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bHasDefaultValue",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "FortGameplayMessageDispatcherComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NumBoundReceivers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumBoundTriggers",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "EnqueuedMessages",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortTriggeredGameplayMessage"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "ActiveMessage",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortTriggeredGameplayMessage"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ActiveMessageReceivers",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortGameplayMessageReceiverList"
+            }
+        }
+    ]
+}

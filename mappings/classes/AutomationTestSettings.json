@@ -1,0 +1,148 @@
+{
+    "name": "AutomationTestSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EngineTestModules",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "EditorTestModules",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "AutomationTestmap",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftObjectPath"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EditorPerformanceTestMaps",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EditorMapPerformanceTestDefinition"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "AssetsToOpen",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoftObjectPath"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "MapsToPIETest",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "BuildPromotionTest",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BuildPromotionTestSettings"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MaterialEditorPromotionTest",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MaterialEditorPromotionSettings"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ParticleEditorPromotionTest",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ParticleEditorPromotionSettings"
+            }
+        },
+        {
+            "index": 9,
+            "name": "BlueprintEditorPromotionTest",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BlueprintEditorPromotionSettings"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TestLevelFolders",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "ExternalTools",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ExternalToolDefinition"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "ImportExportTestDefinitions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "EditorImportExportTestDefinition"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "LaunchOnSettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LaunchOnTestSettings"
+                }
+            }
+        },
+        {
+            "index": 14,
+            "name": "DefaultScreenshotResolution",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntPoint"
+            }
+        }
+    ]
+}

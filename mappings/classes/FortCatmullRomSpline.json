@@ -1,0 +1,30 @@
+{
+    "name": "FortCatmullRomSpline",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ControlPoints",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

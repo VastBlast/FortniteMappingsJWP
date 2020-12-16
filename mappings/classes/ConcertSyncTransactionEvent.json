@@ -1,0 +1,13 @@
+{
+    "name": "ConcertSyncTransactionEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Transaction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertTransactionFinalizedEvent"
+            }
+        }
+    ]
+}

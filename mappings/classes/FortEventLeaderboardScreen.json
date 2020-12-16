@@ -1,0 +1,81 @@
+{
+    "name": "FortEventLeaderboardScreen",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EventDisplayType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETournamentDisplayType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TabViewLeftAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TabViewRightAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EntryBox_ViewButtons",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ActionWidget_TabLeft",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ActionWidget_TabRight",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Button_ViewLiveGames",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TimeDelayToShowDetails",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "LeaderboardEntries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 13,
+            "name": "ActivatableContent_LeaderboardTab",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

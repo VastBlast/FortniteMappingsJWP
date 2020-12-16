@@ -1,0 +1,101 @@
+{
+    "name": "ParticleEmitter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "EmitterName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EmitterRenderMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEmitterRenderMode"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SignificanceLevel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EParticleSignificanceLevel"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bUseLegacySpawningBehavior",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ConvertedModules",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bCookedOut",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bDisabledLODsKeepEmitterAlive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bDisableWhenInsignficant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "LODLevels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "PeakActiveParticles",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "InitialAllocationCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "QualityLevelSpawnRateScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "DetailModeBitmask",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

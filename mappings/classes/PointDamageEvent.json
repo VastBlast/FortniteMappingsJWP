@@ -1,0 +1,35 @@
+{
+    "name": "PointDamageEvent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Damage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ShotDirection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantizeNormal"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HitInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HitResult"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DamageTypeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "FortDifficultyOptionEncounter_Distance",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinSpawnDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxSpawnDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CostAndAvailability",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        }
+    ]
+}

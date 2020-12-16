@@ -1,0 +1,58 @@
+{
+    "name": "FortReplayContext",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PlaybackState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortReplayPlaybackState"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EffectsState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortReplayFXState"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TimeBeforeEvent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "InteractiveMapIcons",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 26,
+            "name": "UniqueMapIconVisibility",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "ObjectProperty"
+                },
+                "value_type": {
+                    "type": "BoolProperty"
+                }
+            }
+        },
+        {
+            "index": 27,
+            "name": "SpectatingPC",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

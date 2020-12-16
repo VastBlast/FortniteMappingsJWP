@@ -1,0 +1,56 @@
+{
+    "name": "MagicLeapARPinComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "UserIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AutoPinType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMagicLeapAutoPinType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bShouldPinActor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PinDataClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PinnedCFUID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PinnedSceneComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "PinData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

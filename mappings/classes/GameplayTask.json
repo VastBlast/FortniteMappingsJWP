@@ -1,0 +1,27 @@
+{
+    "name": "GameplayTask",
+    "properties": [
+        {
+            "index": 0,
+            "name": "InstanceName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ResourceOverlapPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETaskResourceOverlapPolicy"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChildTask",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

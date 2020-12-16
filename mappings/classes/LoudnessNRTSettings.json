@@ -1,0 +1,41 @@
+{
+    "name": "LoudnessNRTSettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AnalysisPeriod",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinimumFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaximumFrequency",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurveType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELoudnessNRTCurveTypeEnum"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NoiseFloorDb",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

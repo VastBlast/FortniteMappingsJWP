@@ -1,0 +1,35 @@
+{
+    "name": "FortMissionPlacementItems",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TagsToAddToChosenPlacementActors",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AdditionalWorldFoundations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMissionPlacementFoundationItem"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ActorsAndLocations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortMissionPlacementActorItem"
+                }
+            }
+        }
+    ]
+}

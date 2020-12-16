@@ -1,0 +1,23 @@
+{
+    "name": "FortDailyRewardsNotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DaysLoggedIn",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Items",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "McpLootEntry"
+                }
+            }
+        }
+    ]
+}

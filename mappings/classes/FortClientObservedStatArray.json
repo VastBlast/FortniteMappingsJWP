@@ -1,0 +1,23 @@
+{
+    "name": "FortClientObservedStatArray",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MyStatManager",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObservedStats",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortClientObservedStat"
+                }
+            }
+        }
+    ]
+}

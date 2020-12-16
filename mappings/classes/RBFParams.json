@@ -1,0 +1,88 @@
+{
+    "name": "RBFParams",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TargetDimensions",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SolverType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERBFSolverType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Radius",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Function",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERBFFunctionType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DistanceMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERBFDistanceMethod"
+            }
+        },
+        {
+            "index": 5,
+            "name": "TwistAxis",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBoneAxis"
+            }
+        },
+        {
+            "index": 6,
+            "name": "WeightThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NormalizeMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERBFNormalizeMethod"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MedianReference",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MedianMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MedianMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

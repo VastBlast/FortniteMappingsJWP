@@ -1,0 +1,35 @@
+{
+    "name": "FortCreativeMessageDispatcherErrorMessage",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ErrorMessageType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMessageDispatcherErrorMessageType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MessageName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ChannelId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LimitValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

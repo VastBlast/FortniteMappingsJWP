@@ -1,0 +1,28 @@
+{
+    "name": "NavAgentData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AgentName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BuildingActorHealthToNavAreaStrengthHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PlayerBuiltBuildingActorHealthToNavAreaStrengthHandle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        }
+    ]
+}

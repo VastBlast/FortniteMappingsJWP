@@ -1,0 +1,20 @@
+{
+    "name": "FortQueryTest_PerceptionExists",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Sense",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECorePerceptionTypes"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SenseClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

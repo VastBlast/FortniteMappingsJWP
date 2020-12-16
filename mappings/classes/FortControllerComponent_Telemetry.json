@@ -1,0 +1,24 @@
+{
+    "name": "FortControllerComponent_Telemetry",
+    "properties": [
+        {
+            "index": 14,
+            "name": "IgnoreTelemetryCapForConsumedItems",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 15,
+            "name": "PawnsConverted",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PawnConvertedInfos"
+                }
+            }
+        }
+    ]
+}

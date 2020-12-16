@@ -1,0 +1,82 @@
+{
+    "name": "MovieSceneEvaluationTrack",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ObjectBindingID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 1,
+            "name": "EvaluationPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EvaluationMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEvaluationMethod"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SourceTrack",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ChildTemplates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MovieSceneEvalTemplatePtr"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "TrackTemplate",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneTrackImplementationPtr"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EvaluationGroup",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bEvaluateInPreroll",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bEvaluateInPostroll",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bTearDownPriority",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

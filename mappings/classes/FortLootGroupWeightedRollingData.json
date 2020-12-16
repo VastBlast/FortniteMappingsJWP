@@ -1,0 +1,32 @@
+{
+    "name": "FortLootGroupWeightedRollingData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinGroupsToPick",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxGroupsToPick",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LootGroupWeightData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortLootGroupWeightData"
+                }
+            }
+        }
+    ]
+}

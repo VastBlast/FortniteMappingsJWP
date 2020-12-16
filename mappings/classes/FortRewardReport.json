@@ -1,0 +1,51 @@
+{
+    "name": "FortRewardReport",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MissionName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TheaterName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Difficulty",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "DifficultyValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RewardActivities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortRewardActivity"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsFinalized",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

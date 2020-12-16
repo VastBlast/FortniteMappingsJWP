@@ -1,0 +1,23 @@
+{
+    "name": "FortPlayerSurveyAnalyticsAnswerMultipleSelection",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AnswerList",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlayerSurveyAnalyticsAnswerMultipleSelectionSingleAnswer"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "TimeTaken",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

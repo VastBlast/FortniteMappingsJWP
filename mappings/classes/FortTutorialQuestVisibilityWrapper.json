@@ -1,0 +1,42 @@
+{
+    "name": "FortTutorialQuestVisibilityWrapper",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuestItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QuestObjectiveStat",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "BangType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortBangType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TutorialNameID",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ContentSlot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

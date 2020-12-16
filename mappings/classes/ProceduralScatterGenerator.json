@@ -1,0 +1,104 @@
+{
+    "name": "ProceduralScatterGenerator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ScatterMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EProceduralScatterMethod"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TileSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ProceduralScatterTileSettings"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NumUniqueSourcePointPatterns",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GridSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 5,
+            "name": "GridJitter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 6,
+            "name": "GridRotation",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "GridOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ScatterSettingsElements",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ProceduralScatterSettingsElement"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "BlockingActorTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "bAllScatterPointsBlocking",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bLocalDistribution",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "BlockingScatterPointTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        }
+    ]
+}

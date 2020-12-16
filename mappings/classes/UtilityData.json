@@ -1,0 +1,51 @@
+{
+    "name": "UtilityData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ContributingFactors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "UtilityContribution"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ContributionsTotal",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bApplyRecentSelectionPenalty",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RecentlySelectedPenaltyPercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PenaltyFallOffRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "DebugGraphName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

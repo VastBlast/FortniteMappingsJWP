@@ -1,0 +1,184 @@
+{
+    "name": "DialogueSoundWaveProxy",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SoundClassObject",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bDebug",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bOverrideConcurrency",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bOutputToBusOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bHasDelayNode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bHasConcatenatorNode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bBypassVolumeScaleForPriority",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "VirtualizationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVirtualizationMode"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ConcurrencyOverrides",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundConcurrencySettings"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "MaxDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "TotalSamples",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "AttenuationSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "VolumeModulationDestination",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundModulationDestinationSettings"
+            }
+        },
+        {
+            "index": 16,
+            "name": "PitchModulationDestination",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundModulationDestinationSettings"
+            }
+        },
+        {
+            "index": 17,
+            "name": "HighpassModulationDestination",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundModulationDestinationSettings"
+            }
+        },
+        {
+            "index": 18,
+            "name": "LowpassModulationDestination",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoundModulationDestinationSettings"
+            }
+        },
+        {
+            "index": 19,
+            "name": "SoundSubmixObject",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "SoundSubmixSends",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundSubmixSendInfo"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "SourceEffectChain",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "BusSends",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundSourceBusSendInfo"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "PreEffectBusSends",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoundSourceBusSendInfo"
+                }
+            }
+        }
+    ]
+}

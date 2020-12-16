@@ -1,0 +1,36 @@
+{
+    "name": "CatalogItemSalePrice",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SalePrice",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SaleType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECatalogSaleType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EndTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        }
+    ]
+}

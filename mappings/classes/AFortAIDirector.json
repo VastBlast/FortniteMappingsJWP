@@ -1,0 +1,601 @@
+{
+    "name": "AFortAIDirector",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaxAliveCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinAliveCurve",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CurveTableRowHandle"
+            }
+        },
+        {
+            "index": 2,
+            "name": "IntensityInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "IntensityData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AIDirectorPIDController",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIEncounterPIDController"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PIDControllerSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIEncounterPIDControllerSettings"
+            }
+        },
+        {
+            "index": 5,
+            "name": "UtilityContributionData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UtilityData"
+            }
+        },
+        {
+            "index": 21,
+            "name": "UnreachableLocationPathCost",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "PlayerPerformanceEstimateSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPlayerPerformanceEstimateSettings"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bUsePrototypeEnemies",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bForceByPassNavMeshForAISpawning",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "DespawnAIType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDespawnAIType"
+            }
+        },
+        {
+            "index": 27,
+            "name": "DespawnDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "DespawnInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "BurstSpawnThreatVisualsEndDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "EncounterSpawnGroupCapSettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIEncounterSpawnGroupCapsProfile"
+                }
+            }
+        },
+        {
+            "index": 33,
+            "name": "EncounterSpawnPointsSettings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIEncounterSpawnPointsProfile"
+                }
+            }
+        },
+        {
+            "index": 34,
+            "name": "EncounterPawnDifficultyLevelModifiers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAIEncounterPawnDifficultyLevelModifier"
+                }
+            }
+        },
+        {
+            "index": 35,
+            "name": "SpawnGroupUpgrades",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAISpawnGroupUpgradeData"
+                }
+            }
+        },
+        {
+            "index": 36,
+            "name": "GuaranteedUpgradeGroupUtilityBonus",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "DiscreteEncounterUtilityDesireMappings",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "InitialDynamicUtilities",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortAIUtility"
+            }
+        },
+        {
+            "index": 45,
+            "name": "SpawnLocationPlacementQueries",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EncounterEnvironmentQueryInfo"
+            }
+        },
+        {
+            "index": 49,
+            "name": "SpawnLocationActorSearchQueries",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EncounterEnvironmentQueryInfo"
+            }
+        },
+        {
+            "index": 53,
+            "name": "DataTrackingSettings",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "BaseLootDropData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DataTableRowHandle"
+                }
+            }
+        },
+        {
+            "index": 55,
+            "name": "LootDropModifiers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAILootDropModifiers"
+                }
+            }
+        },
+        {
+            "index": 56,
+            "name": "LootDropDenialQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 57,
+            "name": "bDebugEncounterQueries",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "NonPlayerBotPawns",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 67,
+            "name": "PlayerBotPawns",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 68,
+            "name": "PlayerPawns",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 69,
+            "name": "FortAIPawns",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 70,
+            "name": "bUseLODSettings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "bAsyncProcessUpdateAliveAIs",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "bAllowProcessPlayerTargeting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 74,
+            "name": "MaxNumLODAIProcessPerFrame",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "DefaultEncounterPawnCaps",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEncounterPawnNumberCaps"
+            }
+        },
+        {
+            "index": 76,
+            "name": "IntensityGraph",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "UtilitiesGraph",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "PIDValuesGraph",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "PIDContributionsGraph",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "bAIDisabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "bRegisteredForDayPhaseChange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 84,
+            "name": "NightCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 85,
+            "name": "NightEncounterFailureBreatherTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "EncounterPawnSpawnInterval",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "DefaultNightEncounter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "DummyDebugEncounter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "BaseEncounterClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "MaxActiveAlive",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 91,
+            "name": "NumActiveAlive",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "NumPendingCapRelevantAI",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 93,
+            "name": "PendingSpawns",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PendingSpawnInfo"
+                }
+            }
+        },
+        {
+            "index": 94,
+            "name": "MaxAISpawnedPerFrame",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 95,
+            "name": "MaxAIDespawnedPerFrame",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 96,
+            "name": "DespawnAllAIMaxAIDespawnedPerFrame",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "NumWorldSubdivides",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 99,
+            "name": "MinAISpawnDistanceFromPlayers",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 100,
+            "name": "AmbientThreatPreferredPlacementActorTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 101,
+            "name": "AmbientThreatRequiredPlacementActorTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 102,
+            "name": "ActiveEncounters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 103,
+            "name": "InactiveEncounters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 104,
+            "name": "PendingStoppedEncounters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPendingStoppedEncounterData"
+                }
+            }
+        },
+        {
+            "index": 105,
+            "name": "ActiveDefaultEncounter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 106,
+            "name": "ActiveDummyDebugEncounter",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 107,
+            "name": "EncounterSequences",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 108,
+            "name": "EQSRenderingComp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 109,
+            "name": "DebugGraphUpdateFrequency",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 110,
+            "name": "MaxNormalLODDistanceToPlayer",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 111,
+            "name": "AIRelevantDistanceToPlayer",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 112,
+            "name": "EncounterRelevantDistanceToPlayer",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 113,
+            "name": "EncounterRelevantDistanceToDefender",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 119,
+            "name": "DebugEncounterSpawnPointsCurves",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 120,
+            "name": "bDebugAllowEncounterModifierTags",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 122,
+            "name": "MaxNumberOfEncounterGroups",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "FortAnimNotifyState_AudioComponentParameters",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Source",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortNotifyAudioParamsStoreSource"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DataStoreName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AudioParams",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortBasicAudioParam"
+                }
+            }
+        }
+    ]
+}

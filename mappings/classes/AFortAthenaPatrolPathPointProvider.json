@@ -1,0 +1,41 @@
+{
+    "name": "AFortAthenaPatrolPathPointProvider",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FiltersTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AssociatedPatrolPath",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bStartEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bSpawnOnPatrolPath",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bDisableOnSuccessfulSpawn",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

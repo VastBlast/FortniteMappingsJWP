@@ -1,0 +1,47 @@
+{
+    "name": "AFortAthenaMutator_DeimosSurvival",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AdjustSafezoneCentersQuery",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObjectivesData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortAthenaMutator_SurvivalObjectiveData"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "GameMsg_Intro",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "GameMsg_CompleteObjective",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GameMsg_DownTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaGameMessageData"
+            }
+        }
+    ]
+}

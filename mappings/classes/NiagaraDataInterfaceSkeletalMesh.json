@@ -1,0 +1,94 @@
+{
+    "name": "NiagaraDataInterfaceSkeletalMesh",
+    "properties": [
+        {
+            "index": 0,
+            "name": "SourceMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENDISkeletalMesh_SourceMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Source",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MeshUserParameter",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NiagaraUserParameterBinding"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SkinningMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENDISkeletalMesh_SkinningMode"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SamplingRegions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "WholeMeshLOD",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "FilteredBones",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "FilteredSockets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ExcludeBoneName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bExcludeBone",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bRequireCurrentFrameData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

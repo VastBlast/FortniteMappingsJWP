@@ -1,0 +1,49 @@
+{
+    "name": "Recipe",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RecipeResults",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIsConsumed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RecipeCosts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortItemQuantityPair"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "RequiredCatalysts",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Score",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

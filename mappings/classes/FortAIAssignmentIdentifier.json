@@ -1,0 +1,29 @@
+{
+    "name": "FortAIAssignmentIdentifier",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AssignmentType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAssignmentType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AssignmentGameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AssignmentTeam",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortTeam"
+            }
+        }
+    ]
+}

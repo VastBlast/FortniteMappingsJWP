@@ -1,0 +1,48 @@
+{
+    "name": "FortCreativeWorldItem",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bIsTemporaryItem",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bNeedsPersistentUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bPendingPersistentDelete",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OwnerInventory",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ItemEntry",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortItemEntry"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BaseRegenCooldown",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "AFortCurieGrassFireReplicator",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PackedDataArray",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCuriePackedGrassDataArray"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinGrassGridIndex",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieSpatialCellIndex"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MaxGrassGridIndex",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortCurieSpatialCellIndex"
+            }
+        },
+        {
+            "index": 3,
+            "name": "GrassGridOrigin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "GrassGridCellSize",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        }
+    ]
+}

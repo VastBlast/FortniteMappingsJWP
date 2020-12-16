@@ -1,0 +1,38 @@
+{
+    "name": "RawAnimSequenceTrack",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PosKeys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "RotKeys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Quat"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScaleKeys",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "AFortAthenaMutator_CustomCharacterParts",
+    "properties": [
+        {
+            "index": 0,
+            "name": "PartOverrideCustomizations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartOverrideData"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "ShouldSwapSkins",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScalableFloat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SkinMetaTagsToSkip",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        }
+    ]
+}

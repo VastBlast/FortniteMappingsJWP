@@ -1,0 +1,32 @@
+{
+    "name": "AFortGameplayMutator_AIEncounterModifierTags",
+    "properties": [
+        {
+            "index": 0,
+            "name": "GameplayTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TagsToReplace",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortEncounterMutatorReplacedTag"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "RequiredEncounterAssociatedMissionType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortMissionType"
+            }
+        }
+    ]
+}

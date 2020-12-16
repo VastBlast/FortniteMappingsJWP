@@ -1,0 +1,67 @@
+{
+    "name": "FortMissionTimerComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bShowTimeElapsed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bUpdateQuestsTimeElapsed",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "DisplayData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MissionTimeDisplayData"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "TimerData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MissionTimerData"
+            }
+        },
+        {
+            "index": 6,
+            "name": "TimerLabelText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bDisplayInTimeFormat",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TimerVisibilityOverrideSetting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETimerOverrideSetting"
+            }
+        },
+        {
+            "index": 9,
+            "name": "TimerVisibilityShowAtEndTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "name": "ConcertSyncConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bInteractiveHotReload",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bShowPresenceInPIE",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SnapshotTransactionsPerSecond",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "IncludeObjectClassFilters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TransactionClassFilter"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "ExcludeTransactionClassFilters",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TransactionClassFilter"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "AllowedTransientProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        }
+    ]
+}

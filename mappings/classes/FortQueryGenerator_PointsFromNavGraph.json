@@ -1,0 +1,138 @@
+{
+    "name": "FortQueryGenerator_PointsFromNavGraph",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinPathDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MaxPathDistance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Density",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ExploreDirectionYaw",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ExploreDirection",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EnvDirection"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ExploreAngleDot",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ExploreInnerRadius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bLimitExplorationDirection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bOnlyFlatSurface",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bUseParameterizedDirection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bUseHeightCheck",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bFilterAllowTerrain",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bFilterAllowBuildings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bFilterAllowDropdown",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bFilterAllowClimbup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bFilterAllowSmash",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "PathDistanceFilterOperator",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortPointsFromNavGraphGoalPathDistanceFilterOperator"
+            }
+        },
+        {
+            "index": 17,
+            "name": "GenerateAround",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

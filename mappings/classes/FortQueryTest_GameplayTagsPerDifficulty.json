@@ -1,0 +1,16 @@
+{
+    "name": "FortQueryTest_GameplayTagsPerDifficulty",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TagQueriesPerDifficulty",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortGameplayTagQueryPerDifficulty"
+                }
+            }
+        }
+    ]
+}

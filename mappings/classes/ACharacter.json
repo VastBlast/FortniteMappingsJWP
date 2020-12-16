@@ -1,0 +1,150 @@
+{
+    "name": "ACharacter",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Mesh",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "CharacterMovement",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CapsuleComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "BasedMovement",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BasedMovementInfo"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ReplicatedBasedMovement",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BasedMovementInfo"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AnimRootMotionTranslationScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "BaseTranslationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 7,
+            "name": "BaseRotationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Quat"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ReplicatedServerLastTransformUpdateTimeStamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ReplayLastTransformUpdateTimeStamp",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ReplicatedMovementMode",
+            "mapping_type": {
+                "type": "ByteProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bInBaseReplication",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "CrouchedEyeHeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bIsCrouched",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bPressedJump",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bSimGravityDisabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "JumpMaxHoldTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "JumpMaxCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "JumpCurrentCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "RepRootMotion",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RepRootMotionMontage"
+            }
+        }
+    ]
+}

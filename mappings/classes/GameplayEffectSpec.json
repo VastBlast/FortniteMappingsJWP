@@ -1,0 +1,104 @@
+{
+    "name": "GameplayEffectSpec",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Def",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ModifiedAttributes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectModifiedAttribute"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "Duration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Period",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ChanceToApplyToTarget",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DynamicGrantedTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DynamicAssetTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Modifiers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ModifierSpec"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "StackCount",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "GrantedAbilitySpecs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayAbilitySpecDef"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "EffectContext",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEffectContextHandle"
+            }
+        },
+        {
+            "index": 17,
+            "name": "Level",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "name": "FortQueryGenerator_TerrainDonut",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Center",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Radius",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RadiusWidth",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 3,
+            "name": "SpacingArc",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 4,
+            "name": "NumRings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderIntValue"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bFilterAllowTerrain",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bFilterAllowBuildings",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

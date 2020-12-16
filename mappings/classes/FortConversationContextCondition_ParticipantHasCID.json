@@ -1,0 +1,24 @@
+{
+    "name": "FortConversationContextCondition_ParticipantHasCID",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ParticipantID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AllowedCIDs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SoftObjectPath"
+                }
+            }
+        }
+    ]
+}

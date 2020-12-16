@@ -1,0 +1,35 @@
+{
+    "name": "AnimationSetup",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AnimSequence",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AnimBlueprint",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumRandomizedInstances",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformInt"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Enabled",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PerPlatformBool"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "MinigameActivityStartedData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MinigameActivityName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Stat",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMinigameActivityStat"
+            }
+        },
+        {
+            "index": 2,
+            "name": "InitialStatValue",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InitialScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "TotalScore",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

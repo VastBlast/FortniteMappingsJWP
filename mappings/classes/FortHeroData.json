@@ -1,0 +1,81 @@
+{
+    "name": "FortHeroData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "DefaultHeroName",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DefaultHero",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "CommanderPerkDefaultRequirements",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "HeroPerkDefaultRequirements"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bTeamPerkDependsOnSupportTierUnlocks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "CombinedStatGEs",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectApplicationInfo"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "HeroAttributeDataForSubclasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HeroSubclassAttributeData"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "HeroKeywordDisplayData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "HeroKeywordDisplayData"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "HeroPerkDuplicatedText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "HeroTierTooLowForPerkText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

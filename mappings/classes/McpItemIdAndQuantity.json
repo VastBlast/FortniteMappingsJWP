@@ -1,0 +1,41 @@
+{
+    "name": "McpItemIdAndQuantity",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ItemType",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemGuid",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Quantity",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Attributes",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "JsonObjectWrapper"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ItemProfile",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

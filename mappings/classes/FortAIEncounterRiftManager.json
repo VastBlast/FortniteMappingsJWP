@@ -1,0 +1,88 @@
+{
+    "name": "FortAIEncounterRiftManager",
+    "properties": [
+        {
+            "index": 2,
+            "name": "CurrentSpawnArea",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIEncounterSpawnArea"
+            }
+        },
+        {
+            "index": 3,
+            "name": "FutureSpawnArea",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIEncounterSpawnArea"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UpdateIntervalTimeSeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "NumRiftsToUse",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MinRiftsToUse",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EncounterSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortEncounterSettings"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ExtraSpawnLocationPercentage",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "CurrentEnvironmentQueryInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EncounterEnvironmentQueryInfo"
+            }
+        },
+        {
+            "index": 10,
+            "name": "FallbackEnvironmentQueryInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "EncounterEnvironmentQueryInfo"
+            }
+        },
+        {
+            "index": 11,
+            "name": "EncounterQueryDirectionTracker",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAIEncounterQueryDirectionTracker"
+            }
+        },
+        {
+            "index": 12,
+            "name": "RiftClassTemplate",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
+}

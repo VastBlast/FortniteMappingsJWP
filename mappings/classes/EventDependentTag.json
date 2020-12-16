@@ -1,0 +1,20 @@
+{
+    "name": "EventDependentTag",
+    "properties": [
+        {
+            "index": 0,
+            "name": "RequiredEventFlag",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RelatedTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTag"
+            }
+        }
+    ]
+}

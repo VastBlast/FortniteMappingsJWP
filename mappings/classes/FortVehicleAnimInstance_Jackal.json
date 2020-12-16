@@ -1,0 +1,59 @@
+{
+    "name": "FortVehicleAnimInstance_Jackal",
+    "properties": [
+        {
+            "index": 31,
+            "name": "InPlaceLeansBlendSpaceAlpha",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "CombatLeanYawMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "SlopeCheckPitchThresholdDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "SlopeCheckYawThresholdDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "AdditiveLeansSpeedThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "VehicleType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortValetVehicleType"
+            }
+        },
+        {
+            "index": 55,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        }
+    ]
+}

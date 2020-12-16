@@ -1,0 +1,66 @@
+{
+    "name": "PlaysetLevelStreamComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaxStreamInDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAutoLoadLevel",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAllowUnload",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "CurrentPlayset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ClientPlaysetData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortPlaysetStreamingData"
+            }
+        },
+        {
+            "index": 5,
+            "name": "PlayersWithValidPlaysetData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "UniqueNetIdRepl"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "StreamedLevel",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ClientLoadedPackageName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        }
+    ]
+}

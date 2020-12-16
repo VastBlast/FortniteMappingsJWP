@@ -1,0 +1,66 @@
+{
+    "name": "AthenaPlayerMatchReport",
+    "properties": [
+        {
+            "index": 3,
+            "name": "InitialLevelInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaLevelInfo"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bHasMatchStats",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MatchStats",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaMatchStats"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bHasTeamStats",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "TeamStats",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaMatchTeamStats"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bHasRewards",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "EndOfMatchResults",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaRewardResult"
+            }
+        },
+        {
+            "index": 10,
+            "name": "TravelRecord",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AthenaTravelRecord"
+            }
+        }
+    ]
+}

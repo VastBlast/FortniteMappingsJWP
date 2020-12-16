@@ -1,0 +1,41 @@
+{
+    "name": "SmartObjectComponent",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Config",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RegisteredID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SmartObjectID"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExecutionPriorityOverride",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bRichSmartObjectOwner",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bRichSmartObjectComponent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

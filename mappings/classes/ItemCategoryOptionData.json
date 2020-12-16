@@ -1,0 +1,42 @@
+{
+    "name": "ItemCategoryOptionData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "TemplatePrefix",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BuildingAttachmentType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingAttachmentType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Label",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Brush",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateBrush"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SoftIcon",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

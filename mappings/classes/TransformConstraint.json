@@ -1,0 +1,41 @@
+{
+    "name": "TransformConstraint",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Operator",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConstraintDescription"
+            }
+        },
+        {
+            "index": 1,
+            "name": "SourceNode",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "TargetNode",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Weight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bMaintainOffset",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

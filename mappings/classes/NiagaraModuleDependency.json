@@ -1,0 +1,35 @@
+{
+    "name": "NiagaraModuleDependency",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ID",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Type",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraModuleDependencyType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ScriptConstraint",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ENiagaraModuleDependencyScriptConstraint"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        }
+    ]
+}

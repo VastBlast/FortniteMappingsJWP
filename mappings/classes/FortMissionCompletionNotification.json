@@ -1,0 +1,27 @@
+{
+    "name": "FortMissionCompletionNotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bWasCritical",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MissionName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LootGranted",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "McpLootResult"
+            }
+        }
+    ]
+}

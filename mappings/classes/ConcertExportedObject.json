@@ -1,0 +1,49 @@
+{
+    "name": "ConcertExportedObject",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ObjectId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertObjectId"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ObjectPathDepth",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ObjectData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ConcertSerializedObjectData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PropertyDatas",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ConcertSerializedPropertyData"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "SerializedAnnotationData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ByteProperty"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "InGameAdManager",
+    "properties": [
+        {
+            "index": 0,
+            "name": "bShouldPauseWhileAdOpen",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ClickedBannerDelegates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ClosedAdDelegates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "DebugProperty"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "AllDelegates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "DelegateArray"
+                }
+            }
+        }
+    ]
+}

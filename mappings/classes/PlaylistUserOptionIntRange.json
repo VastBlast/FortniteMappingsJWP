@@ -3,14 +3,14 @@
     "properties": [
         {
             "index": 0,
-            "name": "Min",
+            "name": "min",
             "mapping_type": {
                 "type": "IntProperty"
             }
         },
         {
             "index": 1,
-            "name": "Max",
+            "name": "max",
             "mapping_type": {
                 "type": "IntProperty"
             }
@@ -20,6 +20,20 @@
             "name": "DefaultValue",
             "mapping_type": {
                 "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "IncrementValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OptionScope",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
             }
         },
         {
@@ -71,6 +85,20 @@
             "mapping_type": {
                 "type": "EnumProperty",
                 "enum_type": "EUFortMatchmakingKnobsDataSource"
+            }
+        },
+        {
+            "index": 12,
+            "name": "WeightOffset",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "EditWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
             }
         }
     ]

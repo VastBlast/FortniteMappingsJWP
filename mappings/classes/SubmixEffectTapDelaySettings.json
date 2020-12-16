@@ -1,0 +1,30 @@
+{
+    "name": "SubmixEffectTapDelaySettings",
+    "properties": [
+        {
+            "index": 0,
+            "name": "MaximumDelayLength",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "InterpolationTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Taps",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TapDelayInfo"
+                }
+            }
+        }
+    ]
+}

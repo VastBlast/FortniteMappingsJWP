@@ -1,0 +1,22 @@
+{
+    "name": "EnvQuery",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QueryName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Options",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        }
+    ]
+}

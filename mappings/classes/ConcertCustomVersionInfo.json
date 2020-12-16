@@ -1,0 +1,27 @@
+{
+    "name": "ConcertCustomVersionInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FriendlyName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Key",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Version",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
+}

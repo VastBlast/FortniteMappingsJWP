@@ -1,0 +1,41 @@
+{
+    "name": "CatalogReceiptInfo",
+    "properties": [
+        {
+            "index": 0,
+            "name": "AppStore",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAppStore"
+            }
+        },
+        {
+            "index": 1,
+            "name": "AppStoreId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ReceiptId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ReceiptInfo",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PurchaseCorrelationId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        }
+    ]
+}

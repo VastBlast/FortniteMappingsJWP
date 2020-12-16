@@ -1,0 +1,16 @@
+{
+    "name": "FortClientEventData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ClientEventNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortClientEventName"
+                }
+            }
+        }
+    ]
+}

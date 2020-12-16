@@ -1,0 +1,27 @@
+{
+    "name": "ALobbyBeaconClient",
+    "properties": [
+        {
+            "index": 0,
+            "name": "LobbyState",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "PlayerState",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LobbyJoinServerState",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELobbyBeaconJoinState"
+            }
+        }
+    ]
+}

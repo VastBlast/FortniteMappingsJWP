@@ -1,0 +1,23 @@
+{
+    "name": "TireConfig",
+    "properties": [
+        {
+            "index": 0,
+            "name": "FrictionScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "TireFrictionScales",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TireConfigMaterialFriction"
+                }
+            }
+        }
+    ]
+}

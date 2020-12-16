@@ -1,0 +1,16 @@
+{
+    "name": "FortConversation",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Sentences",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortConversationSentence"
+                }
+            }
+        }
+    ]
+}

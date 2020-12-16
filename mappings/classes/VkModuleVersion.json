@@ -1,0 +1,30 @@
+{
+    "name": "VkModuleVersion",
+    "properties": [
+        {
+            "index": 0,
+            "name": "ModuleId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Version",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Artifacts",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VkArtifactOption"
+                }
+            }
+        }
+    ]
+}

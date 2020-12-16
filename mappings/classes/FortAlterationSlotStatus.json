@@ -1,0 +1,27 @@
+{
+    "name": "FortAlterationSlotStatus",
+    "properties": [
+        {
+            "index": 0,
+            "name": "Alteration",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "MinRequiredLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MinHostItemRarity",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortRarity"
+            }
+        }
+    ]
+}

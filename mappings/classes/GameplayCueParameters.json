@@ -1,0 +1,108 @@
+{
+    "name": "GameplayCueParameters",
+    "properties": [
+        {
+            "index": 0,
+            "name": "NormalizedMagnitude",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RawMagnitude",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "EffectContext",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEffectContextHandle"
+            }
+        },
+        {
+            "index": 5,
+            "name": "AggregatedSourceTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 6,
+            "name": "AggregatedTargetTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Location",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantize10"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Normal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector_NetQuantizeNormal"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Instigator",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "EffectCauser",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SourceObject",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PhysicalMaterial",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "GameplayEffectLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "AbilityLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "TargetAttachComponent",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}

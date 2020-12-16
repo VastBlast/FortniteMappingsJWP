@@ -1,0 +1,43 @@
+{
+    "name": "FortQuestMapNode",
+    "properties": [
+        {
+            "index": 0,
+            "name": "QuestItemDefinitionId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PrimaryAssetId"
+            }
+        },
+        {
+            "index": 1,
+            "name": "QuestItemDefinition",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NodeType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortQuestMapNodeType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LabelPosition",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortQuestMapNodeLabelPosition"
+            }
+        },
+        {
+            "index": 4,
+            "name": "UseHighContrastMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
+}

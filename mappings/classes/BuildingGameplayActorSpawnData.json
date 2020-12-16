@@ -1,0 +1,41 @@
+{
+    "name": "BuildingGameplayActorSpawnData",
+    "properties": [
+        {
+            "index": 0,
+            "name": "BGAIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "NumSpawnedBGAs",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NumBGAsToSpawn",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NextSpawnTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LastSpawnSide",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EBuildingGameplayActorAircraftSpawnSide"
+            }
+        }
+    ]
+}

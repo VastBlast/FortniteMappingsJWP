@@ -1,0 +1,71 @@
+{
+    "name": "FortMissionVoteUINotification",
+    "properties": [
+        {
+            "index": 0,
+            "name": "VoteType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortVoteType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bHasVoteEnded",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "VoteResult",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bHasAction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "NotificationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortNotificationType"
+            }
+        },
+        {
+            "index": 7,
+            "name": "IdToRepresent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DisplayAsset",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
+}
