@@ -57,6 +57,241 @@
             "mapping_type": {
                 "type": "FloatProperty"
             }
+        },
+        {
+            "index": 10,
+            "name": "FOV",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "CameraSpaceForwardDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bClampCameraPitch",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bClampCameraYaw",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "CameraPitchMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "CameraPitchMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "CameraYawMin",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "CameraYawMax",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "CameraOrigin",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECameraOrigin"
+            }
+        },
+        {
+            "index": 19,
+            "name": "CameraOriginSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "CameraOriginInterpSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 21,
+            "name": "ViewTargetSpaceViewOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpOffset"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ViewTargetSpaceViewOffset_Crouch",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpOffset"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ViewTargetSpaceViewOffseInterpSpeed",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 24,
+            "name": "CameraSpaceViewOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "InterpOffset"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ViewTargetAlignmentFlipInterpDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bScaleViewOffsetByViewTargetScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bSupportsShoulderSwap",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "PenetrationBlendInTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "PenetrationBlendOutTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bPreventPenetration",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bDoPredictiveAvoidance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "CollisionPushOutDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "HidePawnPenetrationPercent",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "PenetrationAvoidanceFeelers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PenetrationAvoidanceFeeler"
+                }
+            }
+        },
+        {
+            "index": 42,
+            "name": "TransitionTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "TransitionOutTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bOverrideTransitionOutTime",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "TransitionParams",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ViewTargetTransitionParams"
+            }
+        },
+        {
+            "index": 47,
+            "name": "bShouldAllowBlendingWhenActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "bShouldAllowBlendingWhenInactive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "bShouldPassViewTargetCheckOnTransition",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

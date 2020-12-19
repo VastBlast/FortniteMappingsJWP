@@ -45,6 +45,96 @@
                     "type": "NameProperty"
                 }
             }
+        },
+        {
+            "index": 5,
+            "name": "NumReplicatedProperties",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bHasNativizedParent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bHasCookedComponentInstancingData",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "DynamicBindingObjects",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ComponentTemplates",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "Timelines",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 11,
+            "name": "ComponentClassOverrides",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "BPComponentClassOverride"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "SimpleConstructionScript",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "InheritableComponentHandler",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "UberGraphFramePointerProperty",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "UberGraphFunction",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
         }
     ]
 }

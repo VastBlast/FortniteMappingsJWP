@@ -7,6 +7,43 @@
             "mapping_type": {
                 "type": "ObjectProperty"
             }
+        },
+        {
+            "index": 1,
+            "name": "Template",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "SocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "LocationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 4,
+            "name": "RotationOffset",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bDestroyAtEnd",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

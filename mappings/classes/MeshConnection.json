@@ -1,4 +1,127 @@
 {
     "name": "MeshConnection",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "SocketErrorDisconnectDelay",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "Driver",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PackageMapClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "PackageMap",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "OpenChannels",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "SentTemporaries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "ViewTarget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "OwningActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MaxPacket",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "InternalAck",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "PlayerId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 12,
+            "name": "LastReceiveTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "ChannelsToTick",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "CurrentNetSpeed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "ConfiguredInternetSpeed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ConfiguredLanSpeed",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
 }

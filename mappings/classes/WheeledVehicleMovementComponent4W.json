@@ -290,6 +290,241 @@
                 "type": "StructProperty",
                 "struct_type": "VehicleInputRate"
             }
+        },
+        {
+            "index": 56,
+            "name": "NavAgentProps",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavAgentProperties"
+            }
+        },
+        {
+            "index": 57,
+            "name": "FixedPathBrakingDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "bUpdateNavAgentWithOwnersCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "bUseAccelerationForPaths",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "bUseFixedBrakingDistanceForPaths",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "MovementState",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovementProperties"
+            }
+        },
+        {
+            "index": 62,
+            "name": "PathFollowingComp",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "Velocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 66,
+            "name": "PlaneConstraintNormal",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 67,
+            "name": "PlaneConstraintOrigin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 68,
+            "name": "bUpdateOnlyIfRendered",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "bAutoUpdateTickRegistration",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "bTickBeforeOwner",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 71,
+            "name": "bAutoRegisterUpdatedComponent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "bConstrainToPlane",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "bSnapToPlaneAtStart",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 74,
+            "name": "bAutoRegisterPhysicsVolumeUpdates",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "bComponentShouldUpdatePhysicsVolume",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "PlaneConstraintAxisSetting",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPlaneConstraintAxisSetting"
+            }
+        },
+        {
+            "index": 77,
+            "name": "PrimaryComponentTick",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActorComponentTickFunction"
+            }
+        },
+        {
+            "index": 78,
+            "name": "ComponentTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 79,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 80,
+            "name": "UCSSerializationIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "bNetAddressable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "bReplicates",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "bAutoActivate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 85,
+            "name": "bEditableWhenInherited",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "bCanEverAffectNavigation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "bIsEditorOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "CreationMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EComponentCreationMethod"
+            }
+        },
+        {
+            "index": 91,
+            "name": "UCSModifiedProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SimpleMemberReference"
+                }
+            }
         }
     ]
 }

@@ -7,6 +7,42 @@
             "mapping_type": {
                 "type": "BoolProperty"
             }
+        },
+        {
+            "index": 1,
+            "name": "LastUpdateCheck",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bUpdateCheckPending",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "UpdateCheckLimitSeconds",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bFailOnError",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

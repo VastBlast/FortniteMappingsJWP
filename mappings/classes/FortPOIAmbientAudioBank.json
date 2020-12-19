@@ -19,6 +19,42 @@
                     "struct_type": "FortPOIAmbientAudioOneShot"
                 }
             }
+        },
+        {
+            "index": 5,
+            "name": "LoopingSounds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AmbientAudioLoop"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "OneShotSounds",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AmbientAudioOneShot"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "TagCrossfadeTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "NativeClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
         }
     ]
 }

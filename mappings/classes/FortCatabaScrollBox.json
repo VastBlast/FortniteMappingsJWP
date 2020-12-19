@@ -14,6 +14,269 @@
             "mapping_type": {
                 "type": "BoolProperty"
             }
+        },
+        {
+            "index": 2,
+            "name": "WidgetStyle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScrollBoxStyle"
+            }
+        },
+        {
+            "index": 3,
+            "name": "WidgetBarStyle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ScrollBarStyle"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Style",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BarStyle",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Orientation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EOrientation"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ScrollBarVisibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ConsumeMouseWheel",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConsumeMouseWheel"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ScrollbarThickness",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ScrollbarPadding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Margin"
+            }
+        },
+        {
+            "index": 11,
+            "name": "AlwaysShowScrollbar",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "AlwaysShowScrollbarTrack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "AllowOverscroll",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bAnimateWheelScrolling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "NavigationDestination",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDescendantScrollDestination"
+            }
+        },
+        {
+            "index": 16,
+            "name": "NavigationScrollPadding",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ScrollWhenFocusChanges",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EScrollWhenFocusChanges"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bAllowRightClickDragScrolling",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "WheelScrollMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "Slots",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "Slot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ToolTipText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "ToolTipWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "RenderTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WidgetTransform"
+            }
+        },
+        {
+            "index": 30,
+            "name": "RenderTransformPivot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bIsVariable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bOverride_Cursor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "AccessibleWidgetData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bIsVolatile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "Cursor",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMouseCursor"
+            }
+        },
+        {
+            "index": 38,
+            "name": "Clipping",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWidgetClipping"
+            }
+        },
+        {
+            "index": 39,
+            "name": "Visibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 40,
+            "name": "RenderOpacity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "Navigation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 42,
+            "name": "FlowDirectionPreference",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFlowDirectionPreference"
+            }
         }
     ]
 }

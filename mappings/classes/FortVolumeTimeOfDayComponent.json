@@ -84,6 +84,102 @@
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
+        },
+        {
+            "index": 14,
+            "name": "PrimaryComponentTick",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActorComponentTickFunction"
+            }
+        },
+        {
+            "index": 15,
+            "name": "ComponentTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "UCSSerializationIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bNetAddressable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bReplicates",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bAutoActivate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bEditableWhenInherited",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bCanEverAffectNavigation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bIsEditorOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "CreationMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EComponentCreationMethod"
+            }
+        },
+        {
+            "index": 28,
+            "name": "UCSModifiedProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SimpleMemberReference"
+                }
+            }
         }
     ]
 }

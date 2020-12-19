@@ -411,6 +411,27 @@
                     "type": "EnumProperty"
                 }
             }
+        },
+        {
+            "index": 56,
+            "name": "DebugExecBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "KeyBind"
+                }
+            }
+        },
+        {
+            "index": 57,
+            "name": "InvertedAxis",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
         }
     ]
 }

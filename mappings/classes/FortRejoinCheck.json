@@ -22,6 +22,28 @@
                 "type": "EnumProperty",
                 "enum_type": "EJoinServerState"
             }
+        },
+        {
+            "index": 3,
+            "name": "LastKnownStatus",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERejoinStatus"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bRejoinAfterCheck",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAttemptingRejoin",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

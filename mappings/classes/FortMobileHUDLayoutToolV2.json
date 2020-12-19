@@ -286,6 +286,301 @@
             "mapping_type": {
                 "type": "ObjectProperty"
             }
+        },
+        {
+            "index": 48,
+            "name": "bConsumeAllActions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "bExposeActionsExternally",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "bShouldBypassStack",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "bAutoActivate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "bIsBackHandler",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "bSupportsActivationFocus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "bIsModal",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "bAutoRestoreFocus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "bSetVisibilityOnActivated",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "ActivatedVisibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 58,
+            "name": "bSetVisibilityOnDeactivated",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "DeactivatedVisibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 62,
+            "name": "bIsActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "bConsumePointerInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "ForegroundColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateColor"
+            }
+        },
+        {
+            "index": 69,
+            "name": "Padding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Margin"
+            }
+        },
+        {
+            "index": 73,
+            "name": "NamedSlotBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NamedSlotBinding"
+                }
+            }
+        },
+        {
+            "index": 75,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "bSupportsKeyboardFocus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "bIsFocusable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "bStopAction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "bHasScriptImplementedTick",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "bHasScriptImplementedPaint",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "TickFrequency",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWidgetTickFrequency"
+            }
+        },
+        {
+            "index": 82,
+            "name": "Slot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 84,
+            "name": "ToolTipText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "ToolTipWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "RenderTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WidgetTransform"
+            }
+        },
+        {
+            "index": 90,
+            "name": "RenderTransformPivot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 91,
+            "name": "bIsVariable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 93,
+            "name": "bIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 94,
+            "name": "bOverride_Cursor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 95,
+            "name": "AccessibleWidgetData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 96,
+            "name": "bIsVolatile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 97,
+            "name": "Cursor",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMouseCursor"
+            }
+        },
+        {
+            "index": 98,
+            "name": "Clipping",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWidgetClipping"
+            }
+        },
+        {
+            "index": 99,
+            "name": "Visibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 100,
+            "name": "RenderOpacity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "Navigation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 102,
+            "name": "FlowDirectionPreference",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFlowDirectionPreference"
+            }
         }
     ]
 }

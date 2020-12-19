@@ -16,6 +16,341 @@
                 "type": "StructProperty",
                 "struct_type": "GameplayAbilityRepSharedAnim"
             }
+        },
+        {
+            "index": 3,
+            "name": "DefaultStartingData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AttributeDefaults"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpawnedAttributes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "AffectedAnimInstanceTag",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "OutgoingDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "IncomingDuration",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ClientDebugStrings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "ServerDebugStrings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 10,
+            "name": "UserAbilityActivationInhibited",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "ReplicationProxyEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bSuppressGrantAbility",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bSuppressGameplayCues",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "SpawnedTargetActors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "OwnerActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "AvatarActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "ActivatableAbilities",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilitySpecContainer"
+            }
+        },
+        {
+            "index": 18,
+            "name": "AllReplicatedInstancedAbilities",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "RepAnimMontageInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilityRepAnimMontage"
+            }
+        },
+        {
+            "index": 20,
+            "name": "bCachedIsNetSimulated",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bPendingMontageRep",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "LocalAnimMontageInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilityLocalAnimMontage"
+            }
+        },
+        {
+            "index": 23,
+            "name": "ActiveGameplayEffects",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActiveGameplayEffectsContainer"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ActiveGameplayCues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActiveGameplayCueContainer"
+            }
+        },
+        {
+            "index": 25,
+            "name": "MinimalReplicationGameplayCues",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActiveGameplayCueContainer"
+            }
+        },
+        {
+            "index": 27,
+            "name": "MinimalReplicationTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MinimalReplicationTagCountMap"
+            }
+        },
+        {
+            "index": 28,
+            "name": "ReplicatedPredictionKeyMap",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ReplicatedPredictionKeyMap"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bIsNetDirty",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "SimulatedTasks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 31,
+            "name": "TaskPriorityQueue",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 32,
+            "name": "TickingTasks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 35,
+            "name": "PrimaryComponentTick",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActorComponentTickFunction"
+            }
+        },
+        {
+            "index": 36,
+            "name": "ComponentTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 37,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 38,
+            "name": "UCSSerializationIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bNetAddressable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bReplicates",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "bAutoActivate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bEditableWhenInherited",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bCanEverAffectNavigation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bIsEditorOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "CreationMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EComponentCreationMethod"
+            }
+        },
+        {
+            "index": 49,
+            "name": "UCSModifiedProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SimpleMemberReference"
+                }
+            }
         }
     ]
 }

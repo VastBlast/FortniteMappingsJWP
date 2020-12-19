@@ -8,6 +8,43 @@
                 "type": "StructProperty",
                 "struct_type": "FortMoveConfig"
             }
+        },
+        {
+            "index": 3,
+            "name": "MoveRequest",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIMoveRequest"
+            }
+        },
+        {
+            "index": 4,
+            "name": "OwnerController",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "InstanceName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ResourceOverlapPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETaskResourceOverlapPolicy"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ChildTask",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
         }
     ]
 }

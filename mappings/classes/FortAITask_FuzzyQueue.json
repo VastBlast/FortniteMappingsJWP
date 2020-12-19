@@ -1,4 +1,42 @@
 {
     "name": "FortAITask_FuzzyQueue",
-    "properties": []
+    "properties": [
+        {
+            "index": 2,
+            "name": "MoveRequest",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIMoveRequest"
+            }
+        },
+        {
+            "index": 3,
+            "name": "OwnerController",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "InstanceName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ResourceOverlapPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETaskResourceOverlapPolicy"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ChildTask",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
 }

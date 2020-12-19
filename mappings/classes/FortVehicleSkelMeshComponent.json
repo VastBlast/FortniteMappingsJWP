@@ -1,4 +1,1352 @@
 {
     "name": "FortVehicleSkelMeshComponent",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "bAutoRegisterWithBudgetAllocator",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "bAutoCalculateSignificance",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bShouldUseActorRenderedFlag",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "AnimBlueprintGeneratedClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "AnimClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "AnimationData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SingleAnimationPlayData"
+            }
+        },
+        {
+            "index": 9,
+            "name": "LineCheckBoundsScale",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 13,
+            "name": "GlobalAnimRateScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "KinematicBonesUpdateType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EKinematicBonesUpdateToPhysics"
+            }
+        },
+        {
+            "index": 15,
+            "name": "PhysicsTransformUpdateMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EPhysicsTransformUpdateMode"
+            }
+        },
+        {
+            "index": 16,
+            "name": "AnimationMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAnimationMode"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bDisablePostProcessBlueprint",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bUpdateOverlapsOnAnimationFinalize",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bEnablePhysicsOnDedicatedServer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bUpdateJointsFromAnimation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "bDisableClothSimulation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bDisableRigidBodyAnimNode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bAllowAnimCurveEvaluation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bDisableAnimCurves",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bCollideWithEnvironment",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "bCollideWithAttachedChildren",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "bLocalSpaceSimulation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "bResetAfterTeleport",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "bDeferKinematicBoneUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bNoSkeletonUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bPauseAnims",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bUseRefPoseOnInitAnim",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bEnablePerPolyCollision",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bForceRefpose",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 39,
+            "name": "bOldForceRefPose",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 40,
+            "name": "bShowPrePhysBones",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 43,
+            "name": "bIncludeComponentLocationIntoBounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 44,
+            "name": "bEnableLineCheckWithBounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 45,
+            "name": "bUseBendingElements",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bUseTetrahedralConstraints",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 47,
+            "name": "bUseThinShellVolumeConstraints",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 48,
+            "name": "bUseSelfCollisions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "bUseContinuousCollisionDetection",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "bPropagateCurvesToSlaves",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "bSkipKinematicUpdateWhenInterpolating",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "bSkipBoundsUpdateWhenInterpolating",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "MassMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EClothMassMode"
+            }
+        },
+        {
+            "index": 56,
+            "name": "UniformMass",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 57,
+            "name": "TotalMass",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "Density",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "MinPerParticleMass",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "ClothBlendWeight",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "EdgeStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 62,
+            "name": "BendingStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 63,
+            "name": "AreaStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "VolumeStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 65,
+            "name": "StrainLimitingStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 66,
+            "name": "ShapeTargetStiffness",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 67,
+            "name": "bWaitForParallelClothTask",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 71,
+            "name": "ClothingSimulationFactory",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "TeleportDistanceThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 73,
+            "name": "TeleportRotationThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "MasterPoseComponent",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 78,
+            "name": "SkinCacheUsage",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "EnumProperty"
+                }
+            }
+        },
+        {
+            "index": 79,
+            "name": "PhysicsAssetOverride",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "ForcedLodModel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "MinLodModel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "StreamingDistanceMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 84,
+            "name": "VisibilityBasedAnimTickOption",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVisibilityBasedAnimTickOption"
+            }
+        },
+        {
+            "index": 85,
+            "name": "bOverrideMinLod",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 86,
+            "name": "bUseBoundsFromMasterPoseComponent",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "bForceWireframe",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 88,
+            "name": "bDisplayBones",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 89,
+            "name": "bDisableMorphTarget",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 90,
+            "name": "bHideSkin",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 91,
+            "name": "bPerBoneMotionBlur",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 92,
+            "name": "bComponentUseFixedSkelBounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 93,
+            "name": "bConsiderAllBodiesForBounds",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 94,
+            "name": "bSyncAttachParentLOD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 97,
+            "name": "bCastCapsuleDirectShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 98,
+            "name": "bCastCapsuleIndirectShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 100,
+            "name": "bEnableUpdateRateOptimizations",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "bDisplayDebugUpdateRateOptimizations",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 102,
+            "name": "bRenderStatic",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "bIgnoreMasterPoseComponentLOD",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 106,
+            "name": "CapsuleIndirectShadowMinVisibility",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 107,
+            "name": "OverrideMaterials",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 108,
+            "name": "bEnableMaterialParameterCaching",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 109,
+            "name": "MinDrawDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 110,
+            "name": "LDMaxDrawDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 111,
+            "name": "CachedMaxDrawDistance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 112,
+            "name": "DepthPriorityGroup",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESceneDepthPriorityGroup"
+            }
+        },
+        {
+            "index": 113,
+            "name": "ViewOwnerDepthPriorityGroup",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESceneDepthPriorityGroup"
+            }
+        },
+        {
+            "index": 114,
+            "name": "IndirectLightingCacheQuality",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EIndirectLightingCacheQuality"
+            }
+        },
+        {
+            "index": 115,
+            "name": "LightmapType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELightmapType"
+            }
+        },
+        {
+            "index": 116,
+            "name": "bUseMaxLODAsImposter",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 117,
+            "name": "bBatchImpostersAsInstances",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 118,
+            "name": "bNeverDistanceCull",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 119,
+            "name": "bAlwaysCreatePhysicsState",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 120,
+            "name": "bGenerateOverlapEvents",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 121,
+            "name": "bMultiBodyOverlap",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 122,
+            "name": "bTraceComplexOnMove",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 123,
+            "name": "bReturnMaterialOnMove",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 124,
+            "name": "bUseViewOwnerDepthPriorityGroup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 125,
+            "name": "bAllowCullDistanceVolume",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 126,
+            "name": "bHasMotionBlurVelocityMeshes",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 127,
+            "name": "bVisibleInReflectionCaptures",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 128,
+            "name": "bVisibleInRealTimeSkyCaptures",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 129,
+            "name": "bVisibleInRayTracing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 130,
+            "name": "bRenderInMainPass",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 131,
+            "name": "bRenderInDepthPass",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 132,
+            "name": "bReceivesDecals",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 133,
+            "name": "bOwnerNoSee",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 134,
+            "name": "bOnlyOwnerSee",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 135,
+            "name": "bTreatAsBackgroundForOcclusion",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 136,
+            "name": "bUseAsOccluder",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 137,
+            "name": "bSelectable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 138,
+            "name": "bForceMipStreaming",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 139,
+            "name": "bHasPerInstanceHitProxies",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 140,
+            "name": "CastShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 141,
+            "name": "bAffectDynamicIndirectLighting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 142,
+            "name": "bAffectDistanceFieldLighting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 143,
+            "name": "bCastDynamicShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 144,
+            "name": "bCastStaticShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 145,
+            "name": "bCastVolumetricTranslucentShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 146,
+            "name": "bCastContactShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 147,
+            "name": "bSelfShadowOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 148,
+            "name": "bCastFarShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 149,
+            "name": "bCastInsetShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 150,
+            "name": "bCastCinematicShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 151,
+            "name": "bCastHiddenShadow",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 152,
+            "name": "bCastShadowAsTwoSided",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 153,
+            "name": "bLightAsIfStatic",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 154,
+            "name": "bLightAttachmentsAsGroup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 155,
+            "name": "bExcludeFromLightAttachmentGroup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 156,
+            "name": "bReceiveMobileCSMShadows",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 157,
+            "name": "bSingleSampleShadowFromStationaryLights",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 158,
+            "name": "bIgnoreRadialImpulse",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 159,
+            "name": "bIgnoreRadialForce",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 160,
+            "name": "bApplyImpulseOnDamage",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 161,
+            "name": "bReplicatePhysicsToAutonomousProxy",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 162,
+            "name": "bFillCollisionUnderneathForNavmesh",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 163,
+            "name": "AlwaysLoadOnClient",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 164,
+            "name": "AlwaysLoadOnServer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 165,
+            "name": "bUseEditorCompositing",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 166,
+            "name": "bRenderCustomDepth",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 167,
+            "name": "bHasCustomNavigableGeometry",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHasCustomNavigableGeometry"
+            }
+        },
+        {
+            "index": 168,
+            "name": "CanCharacterStepUpOn",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECanBeCharacterBase"
+            }
+        },
+        {
+            "index": 169,
+            "name": "LightingChannels",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LightingChannels"
+            }
+        },
+        {
+            "index": 170,
+            "name": "CustomDepthStencilWriteMask",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERendererStencilMask"
+            }
+        },
+        {
+            "index": 171,
+            "name": "CustomDepthStencilValue",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 172,
+            "name": "CustomPrimitiveData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "CustomPrimitiveData"
+            }
+        },
+        {
+            "index": 174,
+            "name": "TranslucencySortPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 175,
+            "name": "VisibilityId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 176,
+            "name": "RuntimeVirtualTextures",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 177,
+            "name": "VirtualTextureLodBias",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 178,
+            "name": "VirtualTextureCullMips",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 179,
+            "name": "VirtualTextureMinCoverage",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 180,
+            "name": "VirtualTextureRenderPassType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERuntimeVirtualTextureMainPassType"
+            }
+        },
+        {
+            "index": 181,
+            "name": "LpvBiasMultiplier",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 182,
+            "name": "BoundsScale",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 185,
+            "name": "BodyInstance",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "BodyInstance"
+            }
+        },
+        {
+            "index": 199,
+            "name": "LODParentPrimitive",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 201,
+            "name": "AttachParent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 202,
+            "name": "AttachSocketName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 205,
+            "name": "RelativeLocation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 206,
+            "name": "RelativeRotation",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Rotator"
+            }
+        },
+        {
+            "index": 207,
+            "name": "RelativeScale3D",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 208,
+            "name": "ComponentVelocity",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 210,
+            "name": "bAbsoluteLocation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 211,
+            "name": "bAbsoluteRotation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 212,
+            "name": "bAbsoluteScale",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 213,
+            "name": "bVisible",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 217,
+            "name": "bShouldUpdatePhysicsVolume",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 218,
+            "name": "bHiddenInGame",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 219,
+            "name": "bBoundsChangeTriggersStreamingDataRebuild",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 220,
+            "name": "bUseAttachParentBound",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 221,
+            "name": "Mobility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EComponentMobility"
+            }
+        },
+        {
+            "index": 222,
+            "name": "DetailMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDetailMode"
+            }
+        },
+        {
+            "index": 224,
+            "name": "PrimaryComponentTick",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ActorComponentTickFunction"
+            }
+        },
+        {
+            "index": 225,
+            "name": "ComponentTags",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "NameProperty"
+                }
+            }
+        },
+        {
+            "index": 226,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 227,
+            "name": "UCSSerializationIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 228,
+            "name": "bNetAddressable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 229,
+            "name": "bReplicates",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 230,
+            "name": "bAutoActivate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 232,
+            "name": "bEditableWhenInherited",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 233,
+            "name": "bCanEverAffectNavigation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 234,
+            "name": "bIsEditorOnly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 235,
+            "name": "CreationMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EComponentCreationMethod"
+            }
+        },
+        {
+            "index": 238,
+            "name": "UCSModifiedProperties",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "SimpleMemberReference"
+                }
+            }
+        }
+    ]
 }

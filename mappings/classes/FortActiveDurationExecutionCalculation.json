@@ -1,4 +1,23 @@
 {
     "name": "FortActiveDurationExecutionCalculation",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "bRequiresPassedInTags",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "RelevantAttributesToCapture",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectAttributeCaptureDefinition"
+                }
+            }
+        }
+    ]
 }

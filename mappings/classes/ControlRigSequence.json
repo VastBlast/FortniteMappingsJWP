@@ -21,6 +21,81 @@
             "mapping_type": {
                 "type": "FloatProperty"
             }
+        },
+        {
+            "index": 3,
+            "name": "MovieScene",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ObjectReferences",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LevelSequenceObjectReferenceMap"
+            }
+        },
+        {
+            "index": 5,
+            "name": "BindingReferences",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LevelSequenceBindingReferences"
+            }
+        },
+        {
+            "index": 7,
+            "name": "DirectorClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "CompiledData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DefaultCompletionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMovieSceneCompletionMode"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bParentContextsAreSignificant",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bPlayableDirectly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "SequenceFlags",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMovieSceneSequenceFlags"
+            }
+        },
+        {
+            "index": 13,
+            "name": "Signature",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
         }
     ]
 }

@@ -15,6 +15,24 @@
             "mapping_type": {
                 "type": "ObjectProperty"
             }
+        },
+        {
+            "index": 2,
+            "name": "Entries",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RandomPlayerSequenceEntry"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "bShuffleMode",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

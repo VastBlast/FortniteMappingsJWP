@@ -39,6 +39,173 @@
             "mapping_type": {
                 "type": "BoolProperty"
             }
+        },
+        {
+            "index": 5,
+            "name": "PhysMaterialMask",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PhysMaterial",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PhysicalMaterialMap",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "Parent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bHasStaticPermutationResource",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bOverrideSubsurfaceProfile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ScalarParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ScalarParameterValue"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "VectorParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "VectorParameterValue"
+                }
+            }
+        },
+        {
+            "index": 20,
+            "name": "TextureParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "TextureParameterValue"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "RuntimeVirtualTextureParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "RuntimeVirtualTextureParameterValue"
+                }
+            }
+        },
+        {
+            "index": 22,
+            "name": "FontParameterValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FontParameterValue"
+                }
+            }
+        },
+        {
+            "index": 23,
+            "name": "BasePropertyOverrides",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MaterialInstanceBasePropertyOverrides"
+            }
+        },
+        {
+            "index": 24,
+            "name": "StaticParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "StaticParameterSet"
+            }
+        },
+        {
+            "index": 25,
+            "name": "CachedLayerParameters",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MaterialCachedParameters"
+            }
+        },
+        {
+            "index": 26,
+            "name": "CachedReferencedTextures",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 27,
+            "name": "SubsurfaceProfile",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "LightmassSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LightmassMaterialInterfaceSettings"
+            }
+        },
+        {
+            "index": 29,
+            "name": "TextureStreamingData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "MaterialTextureInfo"
+                }
+            }
+        },
+        {
+            "index": 30,
+            "name": "AssetUserData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
         }
     ]
 }

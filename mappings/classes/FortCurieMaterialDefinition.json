@@ -133,6 +133,30 @@
             "mapping_type": {
                 "type": "IntProperty"
             }
+        },
+        {
+            "index": 19,
+            "name": "ElementalImmunities",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ElementAttachmentImmunities",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 21,
+            "name": "ElementsAllowedWhenCannotBeDamaged",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
         }
     ]
 }

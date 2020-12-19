@@ -484,6 +484,247 @@
                 "type": "StructProperty",
                 "struct_type": "GameplayTagContainer"
             }
+        },
+        {
+            "index": 73,
+            "name": "AbilityTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 74,
+            "name": "bReplicateInputDirectly",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "RemoteInstanceEnded",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "ReplicationPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayAbilityReplicationPolicy"
+            }
+        },
+        {
+            "index": 77,
+            "name": "InstancingPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayAbilityInstancingPolicy"
+            }
+        },
+        {
+            "index": 78,
+            "name": "bServerRespectsRemoteAbilityCancellation",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 79,
+            "name": "bRetriggerInstancedAbility",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 80,
+            "name": "CurrentActivationInfo",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayAbilityActivationInfo"
+            }
+        },
+        {
+            "index": 81,
+            "name": "CurrentEventData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayEventData"
+            }
+        },
+        {
+            "index": 82,
+            "name": "NetExecutionPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayAbilityNetExecutionPolicy"
+            }
+        },
+        {
+            "index": 83,
+            "name": "NetSecurityPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EGameplayAbilityNetSecurityPolicy"
+            }
+        },
+        {
+            "index": 84,
+            "name": "CostGameplayEffectClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 85,
+            "name": "AbilityTriggers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AbilityTriggerData"
+                }
+            }
+        },
+        {
+            "index": 86,
+            "name": "CooldownGameplayEffectClass",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 87,
+            "name": "CancelAbilitiesMatchingTagQuery",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagQuery"
+            }
+        },
+        {
+            "index": 88,
+            "name": "CancelAbilitiesWithTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 89,
+            "name": "BlockAbilitiesWithTag",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 90,
+            "name": "ActivationOwnedTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 91,
+            "name": "ActivationRequiredTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 92,
+            "name": "ActivationBlockedTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 93,
+            "name": "SourceRequiredTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 94,
+            "name": "SourceBlockedTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 95,
+            "name": "TargetRequiredTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 96,
+            "name": "TargetBlockedTags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "GameplayTagContainer"
+            }
+        },
+        {
+            "index": 97,
+            "name": "ActiveTasks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 98,
+            "name": "CurrentMontage",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 99,
+            "name": "bIsActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 100,
+            "name": "bIsAbilityEnding",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 101,
+            "name": "bIsCancelable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 102,
+            "name": "bIsBlockingOtherAbilities",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 103,
+            "name": "bMarkPendingKillOnAbilityEnd",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

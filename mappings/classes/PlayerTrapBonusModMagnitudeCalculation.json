@@ -15,6 +15,24 @@
             "mapping_type": {
                 "type": "FloatProperty"
             }
+        },
+        {
+            "index": 2,
+            "name": "bAllowNonNetAuthorityDependencyRegistration",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "RelevantAttributesToCapture",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectAttributeCaptureDefinition"
+                }
+            }
         }
     ]
 }

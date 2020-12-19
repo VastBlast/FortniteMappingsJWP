@@ -21,6 +21,64 @@
             "mapping_type": {
                 "type": "TextProperty"
             }
+        },
+        {
+            "index": 3,
+            "name": "ParameterName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ExpressionGUID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 5,
+            "name": "Group",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Coordinates",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ExpressionInput"
+            }
+        },
+        {
+            "index": 7,
+            "name": "Texture",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Material",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "Function",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bIsParameterExpression",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

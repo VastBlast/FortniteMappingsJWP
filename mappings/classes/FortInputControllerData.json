@@ -1,4 +1,57 @@
 {
     "name": "FortInputControllerData",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "InputType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECommonInputType"
+            }
+        },
+        {
+            "index": 1,
+            "name": "GamepadType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECommonGamepadType"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ControllerTexture",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ControllerButtonMaskTexture",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "InputBrushDataMap",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CommonInputKeyBrushConfiguration"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "InputBrushKeySets",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "CommonInputKeySetBrushConfiguration"
+                }
+            }
+        }
+    ]
 }

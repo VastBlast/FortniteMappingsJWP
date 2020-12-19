@@ -47,6 +47,36 @@
                 "type": "StructProperty",
                 "struct_type": "ConcertSessionFilter"
             }
+        },
+        {
+            "index": 6,
+            "name": "ConcertEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MessageID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MessageOrderIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ChannelId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
         }
     ]
 }

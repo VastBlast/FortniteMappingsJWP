@@ -1,4 +1,43 @@
 {
     "name": "FortBTTask_Sleep",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "Services",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "bIgnoreRestartSelf",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "NodeName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "TreeAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ParentNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
 }

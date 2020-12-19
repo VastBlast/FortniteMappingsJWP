@@ -1,4 +1,21 @@
 {
     "name": "AISenseBlueprintListener",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "Status",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EUserDefinedStructureStatus"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Guid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        }
+    ]
 }

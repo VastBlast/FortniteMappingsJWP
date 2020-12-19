@@ -16,6 +16,34 @@
                 "type": "StructProperty",
                 "struct_type": "EmptyServerReservation"
             }
+        },
+        {
+            "index": 10,
+            "name": "bRestrictCrossConsole",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "PlatformCrossplayRestrictions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 12,
+            "name": "PlatformTypeMapping",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartyBeaconCrossplayPlatformMapping"
+                }
+            }
         }
     ]
 }

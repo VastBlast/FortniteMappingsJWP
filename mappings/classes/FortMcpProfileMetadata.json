@@ -1,4 +1,83 @@
 {
     "name": "FortMcpProfileMetadata",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "AllowSubscriptionToNotificationsService",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DebugName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bProfileLockOperationPending",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "bProfileUnlockOperationPending",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bEnableMocks",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ProfileGroup",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "ProfileId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ProfileRevision",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "FullProfileQueryQueued",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bProfileWriteLocked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ProfileWriteLockExpireTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DateTime"
+            }
+        }
+    ]
 }

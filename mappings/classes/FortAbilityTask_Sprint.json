@@ -1,4 +1,41 @@
 {
     "name": "FortAbilityTask_Sprint",
-    "properties": []
+    "properties": [
+        {
+            "index": 1,
+            "name": "Ability",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AbilitySystemComponent",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "InstanceName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ResourceOverlapPolicy",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ETaskResourceOverlapPolicy"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ChildTask",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
 }

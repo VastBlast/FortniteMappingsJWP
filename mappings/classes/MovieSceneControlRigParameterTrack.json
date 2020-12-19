@@ -31,6 +31,45 @@
             "mapping_type": {
                 "type": "NameProperty"
             }
+        },
+        {
+            "index": 4,
+            "name": "EvalOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneTrackEvalOptions"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsEvalDisabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EvaluationFieldGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EvaluationField",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneTrackEvaluationField"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Signature",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
         }
     ]
 }

@@ -1,4 +1,47 @@
 {
     "name": "MeshReplicationGraphConnection",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "NetConnection",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "DebugActor",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "LastGatherLocations",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "LastLocationGatherInfo"
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "ConnectionGraphNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "TearOffNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
 }

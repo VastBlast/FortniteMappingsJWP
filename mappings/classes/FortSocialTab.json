@@ -43,6 +43,393 @@
             "mapping_type": {
                 "type": "ObjectProperty"
             }
+        },
+        {
+            "index": 6,
+            "name": "MinWidth",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MinHeight",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Style",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bHideInputAction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "PressedSlateSoundOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateSound"
+            }
+        },
+        {
+            "index": 11,
+            "name": "HoveredSlateSoundOverride",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateSound"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bApplyAlphaOnDisable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bSelectable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "bShouldSelectUponReceivingFocus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "bInteractableWhenSelected",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bToggleable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bDisplayInputActionWhenNotInteractable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "bHideInputActionWithKeyboard",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bShouldUseFallbackDefaultInputAction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "ClickMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EButtonClickMethod"
+            }
+        },
+        {
+            "index": 21,
+            "name": "TouchMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EButtonTouchMethod"
+            }
+        },
+        {
+            "index": 22,
+            "name": "PressMethod",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EButtonPressMethod"
+            }
+        },
+        {
+            "index": 23,
+            "name": "InputPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "TriggeringInputAction",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "DataTableRowHandle"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bIsPersistentBinding",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "InputModeOverride",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECommonInputMode"
+            }
+        },
+        {
+            "index": 33,
+            "name": "NormalStyle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ButtonStyle"
+            }
+        },
+        {
+            "index": 34,
+            "name": "SelectedStyle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ButtonStyle"
+            }
+        },
+        {
+            "index": 35,
+            "name": "DisabledStyle",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "ButtonStyle"
+            }
+        },
+        {
+            "index": 37,
+            "name": "InputActionWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 38,
+            "name": "bConsumePointerInput",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 41,
+            "name": "ForegroundColor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateColor"
+            }
+        },
+        {
+            "index": 44,
+            "name": "Padding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Margin"
+            }
+        },
+        {
+            "index": 48,
+            "name": "NamedSlotBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NamedSlotBinding"
+                }
+            }
+        },
+        {
+            "index": 50,
+            "name": "Priority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "bSupportsKeyboardFocus",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "bIsFocusable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 53,
+            "name": "bStopAction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 54,
+            "name": "bHasScriptImplementedTick",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 55,
+            "name": "bHasScriptImplementedPaint",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 56,
+            "name": "TickFrequency",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWidgetTickFrequency"
+            }
+        },
+        {
+            "index": 57,
+            "name": "Slot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "ToolTipText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "ToolTipWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 64,
+            "name": "RenderTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WidgetTransform"
+            }
+        },
+        {
+            "index": 65,
+            "name": "RenderTransformPivot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 66,
+            "name": "bIsVariable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 68,
+            "name": "bIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 69,
+            "name": "bOverride_Cursor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 70,
+            "name": "AccessibleWidgetData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 71,
+            "name": "bIsVolatile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 72,
+            "name": "Cursor",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMouseCursor"
+            }
+        },
+        {
+            "index": 73,
+            "name": "Clipping",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWidgetClipping"
+            }
+        },
+        {
+            "index": 74,
+            "name": "Visibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 75,
+            "name": "RenderOpacity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 76,
+            "name": "Navigation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 77,
+            "name": "FlowDirectionPreference",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFlowDirectionPreference"
+            }
         }
     ]
 }

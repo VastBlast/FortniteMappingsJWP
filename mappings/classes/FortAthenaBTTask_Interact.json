@@ -37,6 +37,44 @@
             "mapping_type": {
                 "type": "NameProperty"
             }
+        },
+        {
+            "index": 5,
+            "name": "Services",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "bIgnoreRestartSelf",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "NodeName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "TreeAsset",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ParentNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
         }
     ]
 }

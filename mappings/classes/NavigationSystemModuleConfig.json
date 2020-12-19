@@ -28,6 +28,36 @@
             "mapping_type": {
                 "type": "BoolProperty"
             }
+        },
+        {
+            "index": 4,
+            "name": "NavigationSystemClass",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SoftClassPath"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SupportedAgentsMask",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavAgentSelector"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DefaultAgentName",
+            "mapping_type": {
+                "type": "NameProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bIsOverriden",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

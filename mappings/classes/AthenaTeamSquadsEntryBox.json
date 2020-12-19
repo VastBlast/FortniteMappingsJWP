@@ -14,6 +14,190 @@
             "mapping_type": {
                 "type": "BoolProperty"
             }
+        },
+        {
+            "index": 2,
+            "name": "EntryBoxType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EDynamicBoxType"
+            }
+        },
+        {
+            "index": 3,
+            "name": "EntrySpacing",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 4,
+            "name": "SpacingPattern",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector2D"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "EntrySizeRule",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "SlateChildSize"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EntryHorizontalAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EHorizontalAlignment"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EntryVerticalAlignment",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EVerticalAlignment"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MaxElementSize",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "RadialBoxSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "RadialBoxSettings"
+            }
+        },
+        {
+            "index": 10,
+            "name": "Slot",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "ToolTipText",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "ToolTipWidget",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "RenderTransform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "WidgetTransform"
+            }
+        },
+        {
+            "index": 18,
+            "name": "RenderTransformPivot",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bIsVariable",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "bIsEnabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "bOverride_Cursor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "AccessibleWidgetData",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bIsVolatile",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "Cursor",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMouseCursor"
+            }
+        },
+        {
+            "index": 26,
+            "name": "Clipping",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EWidgetClipping"
+            }
+        },
+        {
+            "index": 27,
+            "name": "Visibility",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ESlateVisibility"
+            }
+        },
+        {
+            "index": 28,
+            "name": "RenderOpacity",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "Navigation",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "FlowDirectionPreference",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFlowDirectionPreference"
+            }
         }
     ]
 }

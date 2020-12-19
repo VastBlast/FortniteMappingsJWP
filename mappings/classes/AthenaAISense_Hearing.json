@@ -1,4 +1,59 @@
 {
     "name": "AthenaAISense_Hearing",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "NoiseEvents",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AINoiseEvent"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SpeedOfSoundSq",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "DefaultExpirationAge",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NotifyType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EAISenseNotifyType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "bWantsNewPawnNotification",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bAutoRegisterAllPawnsAsSources",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PerceptionSystemInstance",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
 }

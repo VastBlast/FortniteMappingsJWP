@@ -8,6 +8,59 @@
                 "type": "EnumProperty",
                 "enum_type": "EConcertSessionRepositoryMountResponseCode"
             }
+        },
+        {
+            "index": 1,
+            "name": "RequestMessageId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ResponseCode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertResponseCode"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Reason",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 4,
+            "name": "ConcertEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 5,
+            "name": "MessageID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MessageOrderIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ChannelId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
         }
     ]
 }

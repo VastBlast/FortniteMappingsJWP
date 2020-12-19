@@ -8,6 +8,53 @@
                 "type": "StructProperty",
                 "struct_type": "CachedAnimStateArray"
             }
+        },
+        {
+            "index": 1,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "RootMotionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERootMotionMode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "bUseMultiThreadedAnimationUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bUsingCopyPoseFromMesh",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "bReceiveNotifiesFromLinkedInstances",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bPropagateNotifiesToLinkedInstances",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

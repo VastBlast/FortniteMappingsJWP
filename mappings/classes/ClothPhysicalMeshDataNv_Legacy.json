@@ -40,6 +40,83 @@
                     "type": "FloatProperty"
                 }
             }
+        },
+        {
+            "index": 4,
+            "name": "Vertices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "Normals",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Vector"
+                }
+            }
+        },
+        {
+            "index": 6,
+            "name": "Indices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
+        },
+        {
+            "index": 7,
+            "name": "InverseMasses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "BoneData",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "ClothVertBoneData"
+                }
+            }
+        },
+        {
+            "index": 9,
+            "name": "NumFixedVerts",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "MaxBoneWeights",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "SelfCollisionIndices",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "IntProperty"
+                }
+            }
         }
     ]
 }

@@ -1,4 +1,51 @@
 {
     "name": "LevelSequencePlayer",
-    "properties": []
+    "properties": [
+        {
+            "index": 6,
+            "name": "Status",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EMovieScenePlayerStatus"
+            }
+        },
+        {
+            "index": 7,
+            "name": "bReversePlayback",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumber"
+            }
+        },
+        {
+            "index": 10,
+            "name": "DurationFrames",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "PlaybackSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSequencePlaybackSettings"
+            }
+        },
+        {
+            "index": 14,
+            "name": "NetSyncProps",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSequenceReplProperties"
+            }
+        }
+    ]
 }

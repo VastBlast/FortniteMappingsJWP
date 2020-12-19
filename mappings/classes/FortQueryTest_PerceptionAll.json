@@ -74,6 +74,161 @@
                     "struct_type": "FortAIAssignmentIdentifier"
                 }
             }
+        },
+        {
+            "index": 15,
+            "name": "TestOrder",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "TestPurpose",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvTestPurpose"
+            }
+        },
+        {
+            "index": 17,
+            "name": "TestComment",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "MultipleContextFilterOp",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvTestFilterOperator"
+            }
+        },
+        {
+            "index": 19,
+            "name": "MultipleContextScoreOp",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvTestScoreOperator"
+            }
+        },
+        {
+            "index": 20,
+            "name": "FilterType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvTestFilterType"
+            }
+        },
+        {
+            "index": 21,
+            "name": "BoolValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderBoolValue"
+            }
+        },
+        {
+            "index": 22,
+            "name": "FloatValueMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 23,
+            "name": "FloatValueMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 24,
+            "name": "ScoringEquation",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvTestScoreEquation"
+            }
+        },
+        {
+            "index": 25,
+            "name": "ClampMinType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvQueryTestClamping"
+            }
+        },
+        {
+            "index": 26,
+            "name": "ClampMaxType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEnvQueryTestClamping"
+            }
+        },
+        {
+            "index": 27,
+            "name": "NormalizationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EEQSNormalizationType"
+            }
+        },
+        {
+            "index": 28,
+            "name": "ScoreClampMin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 29,
+            "name": "ScoreClampMax",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 30,
+            "name": "ScoringFactor",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 31,
+            "name": "ReferenceValue",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "AIDataProviderFloatValue"
+            }
+        },
+        {
+            "index": 32,
+            "name": "bDefineReferenceValue",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "bWorkOnFloatValues",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "VerNum",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
         }
     ]
 }

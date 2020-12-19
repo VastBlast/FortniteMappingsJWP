@@ -8,6 +8,24 @@
                 "type": "StructProperty",
                 "struct_type": "GameplayTag"
             }
+        },
+        {
+            "index": 1,
+            "name": "bRequiresPassedInTags",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "RelevantAttributesToCapture",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "GameplayEffectAttributeCaptureDefinition"
+                }
+            }
         }
     ]
 }

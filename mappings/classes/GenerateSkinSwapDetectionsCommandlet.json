@@ -1,4 +1,88 @@
 {
     "name": "GenerateSkinSwapDetectionsCommandlet",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "HelpDescription",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "HelpUsage",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "HelpWebLink",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "HelpParamNames",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "HelpParamDescriptions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 5,
+            "name": "IsServer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "IsClient",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "IsEditor",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "LogToConsole",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "ShowErrorCount",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ShowProgress",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        }
+    ]
 }

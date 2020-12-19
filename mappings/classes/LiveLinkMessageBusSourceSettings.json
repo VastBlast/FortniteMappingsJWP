@@ -1,4 +1,35 @@
 {
     "name": "LiveLinkMessageBusSourceSettings",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "Mode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ELiveLinkSourceMode"
+            }
+        },
+        {
+            "index": 1,
+            "name": "BufferSettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkSourceBufferManagementSettings"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ConnectionString",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Factory",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
 }

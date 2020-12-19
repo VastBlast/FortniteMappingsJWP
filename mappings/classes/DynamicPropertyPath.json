@@ -1,4 +1,23 @@
 {
     "name": "DynamicPropertyPath",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "Segments",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PropertyPathSegment"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "CachedFunction",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
 }

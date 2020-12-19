@@ -15,6 +15,17 @@
                 "type": "StructProperty",
                 "struct_type": "FortPlayerSurveyConditionsContextLegacy"
             }
+        },
+        {
+            "index": 6,
+            "name": "Answers",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "FortPlayerSurveyAnswer"
+                }
+            }
         }
     ]
 }

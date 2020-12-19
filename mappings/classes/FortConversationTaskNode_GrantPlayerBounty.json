@@ -137,6 +137,41 @@
             "mapping_type": {
                 "type": "SoftObjectProperty"
             }
+        },
+        {
+            "index": 18,
+            "name": "SubNodes",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 19,
+            "name": "OutputConnections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Guid"
+                }
+            }
+        },
+        {
+            "index": 21,
+            "name": "NodeName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "ParentNode",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
         }
     ]
 }

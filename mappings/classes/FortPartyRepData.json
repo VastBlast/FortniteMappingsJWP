@@ -146,6 +146,25 @@
                     "struct_type": "FortPartySquadAssignment"
                 }
             }
+        },
+        {
+            "index": 19,
+            "name": "PrivacySettings",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "PartyPrivacySettings"
+            }
+        },
+        {
+            "index": 20,
+            "name": "PlatformSessions",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "PartyPlatformSessionInfo"
+                }
+            }
         }
     ]
 }

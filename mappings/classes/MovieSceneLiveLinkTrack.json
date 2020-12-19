@@ -7,6 +7,70 @@
             "mapping_type": {
                 "type": "ObjectProperty"
             }
+        },
+        {
+            "index": 1,
+            "name": "SectionToKey",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "PropertyBinding",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieScenePropertyBinding"
+            }
+        },
+        {
+            "index": 3,
+            "name": "Sections",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "EvalOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneTrackEvalOptions"
+            }
+        },
+        {
+            "index": 5,
+            "name": "bIsEvalDisabled",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 6,
+            "name": "EvaluationFieldGuid",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 7,
+            "name": "EvaluationField",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneTrackEvaluationField"
+            }
+        },
+        {
+            "index": 8,
+            "name": "Signature",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
         }
     ]
 }

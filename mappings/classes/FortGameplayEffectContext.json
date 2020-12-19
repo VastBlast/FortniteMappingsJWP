@@ -121,6 +121,73 @@
             "mapping_type": {
                 "type": "FloatProperty"
             }
+        },
+        {
+            "index": 17,
+            "name": "Instigator",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "EffectCauser",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "AbilityCDO",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "AbilityLevel",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "SourceObject",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "Actors",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "SoftObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 25,
+            "name": "WorldOrigin",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bHasWorldOrigin",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bReplicateSourceObject",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

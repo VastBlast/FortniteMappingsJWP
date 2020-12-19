@@ -1,4 +1,49 @@
 {
     "name": "FortFriendSubscriptionNudge",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "Title",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "Description",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bHasAction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "NotificationType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortNotificationType"
+            }
+        },
+        {
+            "index": 4,
+            "name": "IdToRepresent",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 6,
+            "name": "DisplayAsset",
+            "mapping_type": {
+                "type": "SoftObjectProperty"
+            }
+        }
+    ]
 }

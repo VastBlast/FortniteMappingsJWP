@@ -98,6 +98,52 @@
             "mapping_type": {
                 "type": "StrProperty"
             }
+        },
+        {
+            "index": 14,
+            "name": "DirectChannelsByTargetUser",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "SoftObjectProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 15,
+            "name": "ChatRoomsById",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "ReadOnlyChannelsByDisplayName",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 17,
+            "name": "bEnableChatSlashCommands",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

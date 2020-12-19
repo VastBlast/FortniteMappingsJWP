@@ -35,6 +35,61 @@
             "mapping_type": {
                 "type": "FloatProperty"
             }
+        },
+        {
+            "index": 28,
+            "name": "VehicleType",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EFortValetVehicleType"
+            }
+        },
+        {
+            "index": 29,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        },
+        {
+            "index": 33,
+            "name": "RootMotionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERootMotionMode"
+            }
+        },
+        {
+            "index": 34,
+            "name": "bUseMultiThreadedAnimationUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 35,
+            "name": "bUsingCopyPoseFromMesh",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 36,
+            "name": "bReceiveNotifiesFromLinkedInstances",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 37,
+            "name": "bPropagateNotifiesToLinkedInstances",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

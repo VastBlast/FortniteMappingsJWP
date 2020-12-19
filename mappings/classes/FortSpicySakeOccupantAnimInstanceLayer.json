@@ -28,6 +28,53 @@
             "mapping_type": {
                 "type": "FloatProperty"
             }
+        },
+        {
+            "index": 4,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        },
+        {
+            "index": 8,
+            "name": "RootMotionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERootMotionMode"
+            }
+        },
+        {
+            "index": 9,
+            "name": "bUseMultiThreadedAnimationUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bUsingCopyPoseFromMesh",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bReceiveNotifiesFromLinkedInstances",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "bPropagateNotifiesToLinkedInstances",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

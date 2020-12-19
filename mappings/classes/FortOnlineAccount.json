@@ -83,6 +83,142 @@
                     "type": "StrProperty"
                 }
             }
+        },
+        {
+            "index": 12,
+            "name": "AvailabilityServiceGameName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "bRequireLightswitchAtStartup",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "EulaKey",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "EulaKeyMapping",
+            "mapping_type": {
+                "type": "MapProperty",
+                "key_type": {
+                    "type": "StrProperty"
+                },
+                "value_type": {
+                    "type": "StrProperty"
+                }
+            }
+        },
+        {
+            "index": 16,
+            "name": "bEnableWaitingRoom",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "WebCreateEpicAccountUrl",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "WebEnvUrl"
+                }
+            }
+        },
+        {
+            "index": 18,
+            "name": "bAllowLocalLogout",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "bAllowLocalLogoutKairos",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "RedeemAccessUrl",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "RequestFreeAccessUrl",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "RealGameAccessUrl",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "SkipRedeemOfflinePurchasesChance",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "bUseFreeAccessInsteadOfGameAccess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "bShouldGrantFreeAccess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "bAllowHomeSharingAccess",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "bRequireUGCPrivilege",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "AccessGrantDelaySeconds",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "bAutoCreateHeadlessAccount",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

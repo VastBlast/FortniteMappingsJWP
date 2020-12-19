@@ -30,6 +30,59 @@
             "mapping_type": {
                 "type": "StrProperty"
             }
+        },
+        {
+            "index": 4,
+            "name": "RequestMessageId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ResponseCode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertResponseCode"
+            }
+        },
+        {
+            "index": 6,
+            "name": "Reason",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 7,
+            "name": "ConcertEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 8,
+            "name": "MessageID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 9,
+            "name": "MessageOrderIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "ChannelId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
         }
     ]
 }

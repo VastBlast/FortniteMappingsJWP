@@ -1,4 +1,29 @@
 {
     "name": "FortAIPerceptionSystem",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "Senses",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "ObjectProperty"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "PerceptionAgingRate",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "AISystem",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        }
+    ]
 }

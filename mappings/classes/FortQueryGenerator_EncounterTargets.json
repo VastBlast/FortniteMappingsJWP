@@ -1,4 +1,33 @@
 {
     "name": "FortQueryGenerator_EncounterTargets",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "OptionName",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 1,
+            "name": "ItemType",
+            "mapping_type": {
+                "type": "ObjectProperty"
+            }
+        },
+        {
+            "index": 2,
+            "name": "bAutoSortTests",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 3,
+            "name": "VerNum",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        }
+    ]
 }

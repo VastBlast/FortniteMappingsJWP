@@ -24,6 +24,273 @@
                 "type": "StructProperty",
                 "struct_type": "Rotator"
             }
+        },
+        {
+            "index": 3,
+            "name": "RightHandIKTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAnimInput_SocketBasedIKTarget"
+            }
+        },
+        {
+            "index": 4,
+            "name": "LeftHandIKTarget",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FortAnimInput_SocketBasedIKTarget"
+            }
+        },
+        {
+            "index": 9,
+            "name": "DriveStartPlayRateSpeedRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Vector2D"
+            }
+        },
+        {
+            "index": 18,
+            "name": "ReversingSpeedThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 19,
+            "name": "BrakingDeltaThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 20,
+            "name": "MovingThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 21,
+            "name": "MovingForwardThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 22,
+            "name": "MovingFastThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 23,
+            "name": "SteeringLeftThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 24,
+            "name": "SteeringRightThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 25,
+            "name": "StartAimYawLerpingDeltaThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 26,
+            "name": "StopAimYawLerpingDeltaThreshold",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 27,
+            "name": "AimYawSmoothSpeed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "PawnToVehicleDeltaYawAngleDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 29,
+            "name": "AimCardDirDeadZoneAngleDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 30,
+            "name": "AimCardDirAngleOffsetDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 31,
+            "name": "AimFWDDeltaAngleDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 32,
+            "name": "AimBWDDeltaAngleDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 33,
+            "name": "AimLFTDeltaAngleDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 34,
+            "name": "AimRGTDeltaAngleDegrees",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 46,
+            "name": "bShouldPredictLanding",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 49,
+            "name": "FallLookAheadSubStepping",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 50,
+            "name": "FallLookAheadMaxIterations",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 51,
+            "name": "bDebugLandPrediction",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 52,
+            "name": "bRecordJumpPositions",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 58,
+            "name": "TimeForRecentlyFired",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 59,
+            "name": "TimeToReachRelaxedLevel1",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 60,
+            "name": "TimeToReachRelaxedLevel2",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 61,
+            "name": "MinTimeAfterFiredBeforeWallRelaxed",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 67,
+            "name": "bLowerWeaponNearWallDuringTargeting",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 74,
+            "name": "bEnableAdditiveLayer",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 75,
+            "name": "AnimPropertyGameplayTagBindings",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "AnimTagProperty"
+                }
+            }
+        },
+        {
+            "index": 79,
+            "name": "RootMotionMode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ERootMotionMode"
+            }
+        },
+        {
+            "index": 80,
+            "name": "bUseMultiThreadedAnimationUpdate",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 81,
+            "name": "bUsingCopyPoseFromMesh",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 82,
+            "name": "bReceiveNotifiesFromLinkedInstances",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 83,
+            "name": "bPropagateNotifiesToLinkedInstances",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
         }
     ]
 }

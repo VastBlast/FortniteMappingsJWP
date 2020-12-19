@@ -1,4 +1,32 @@
 {
     "name": "FortNavigationFilter_TetherZone",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "Areas",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavigationFilterArea"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "IncludeFlags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavigationFilterFlags"
+            }
+        },
+        {
+            "index": 2,
+            "name": "ExcludeFlags",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "NavigationFilterFlags"
+            }
+        }
+    ]
 }

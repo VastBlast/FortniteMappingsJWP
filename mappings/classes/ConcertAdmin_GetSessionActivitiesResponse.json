@@ -11,6 +11,59 @@
                     "struct_type": "ConcertSessionSerializedPayload"
                 }
             }
+        },
+        {
+            "index": 2,
+            "name": "RequestMessageId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 3,
+            "name": "ResponseCode",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "EConcertResponseCode"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Reason",
+            "mapping_type": {
+                "type": "TextProperty"
+            }
+        },
+        {
+            "index": 5,
+            "name": "ConcertEndpointId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 6,
+            "name": "MessageID",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
+        },
+        {
+            "index": 7,
+            "name": "MessageOrderIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 8,
+            "name": "ChannelId",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
         }
     ]
 }

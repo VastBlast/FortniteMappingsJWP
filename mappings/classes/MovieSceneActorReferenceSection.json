@@ -26,6 +26,132 @@
                     "type": "StrProperty"
                 }
             }
+        },
+        {
+            "index": 3,
+            "name": "EvalOptions",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneSectionEvalOptions"
+            }
+        },
+        {
+            "index": 4,
+            "name": "Easing",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneEasingSettings"
+            }
+        },
+        {
+            "index": 5,
+            "name": "SectionRange",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "MovieSceneFrameRange"
+            }
+        },
+        {
+            "index": 6,
+            "name": "PreRollFrames",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumber"
+            }
+        },
+        {
+            "index": 7,
+            "name": "PostRollFrames",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "FrameNumber"
+            }
+        },
+        {
+            "index": 8,
+            "name": "RowIndex",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 9,
+            "name": "OverlapPriority",
+            "mapping_type": {
+                "type": "IntProperty"
+            }
+        },
+        {
+            "index": 10,
+            "name": "bIsActive",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 11,
+            "name": "bIsLocked",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 12,
+            "name": "StartTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 13,
+            "name": "EndTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 14,
+            "name": "PrerollTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 15,
+            "name": "PostrollTime",
+            "mapping_type": {
+                "type": "FloatProperty"
+            }
+        },
+        {
+            "index": 16,
+            "name": "bIsInfinite",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 17,
+            "name": "bSupportsInfiniteRange",
+            "mapping_type": {
+                "type": "BoolProperty"
+            }
+        },
+        {
+            "index": 18,
+            "name": "BlendType",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "OptionalMovieSceneBlendType"
+            }
+        },
+        {
+            "index": 19,
+            "name": "Signature",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "Guid"
+            }
         }
     ]
 }

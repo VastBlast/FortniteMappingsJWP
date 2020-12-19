@@ -1,4 +1,42 @@
 {
     "name": "LSALiveLinkFrameData",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "Transforms",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "Transform"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "WorldTime",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkWorldTime"
+            }
+        },
+        {
+            "index": 2,
+            "name": "MetaData",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "LiveLinkMetaData"
+            }
+        },
+        {
+            "index": 3,
+            "name": "PropertyValues",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "FloatProperty"
+                }
+            }
+        }
+    ]
 }

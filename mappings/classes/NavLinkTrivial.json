@@ -1,4 +1,27 @@
 {
     "name": "NavLinkTrivial",
-    "properties": []
+    "properties": [
+        {
+            "index": 0,
+            "name": "Links",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavigationLink"
+                }
+            }
+        },
+        {
+            "index": 1,
+            "name": "SegmentLinks",
+            "mapping_type": {
+                "type": "ArrayProperty",
+                "sub_type": {
+                    "type": "StructProperty",
+                    "struct_type": "NavigationSegmentLink"
+                }
+            }
+        }
+    ]
 }

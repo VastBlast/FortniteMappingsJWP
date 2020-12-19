@@ -194,6 +194,37 @@
                 "type": "StructProperty",
                 "struct_type": "PartyMemberBattlePassInfo"
             }
+        },
+        {
+            "index": 25,
+            "name": "Platform",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UserPlatform"
+            }
+        },
+        {
+            "index": 26,
+            "name": "PlatformUniqueId",
+            "mapping_type": {
+                "type": "StructProperty",
+                "struct_type": "UniqueNetIdRepl"
+            }
+        },
+        {
+            "index": 27,
+            "name": "PlatformSessionId",
+            "mapping_type": {
+                "type": "StrProperty"
+            }
+        },
+        {
+            "index": 28,
+            "name": "CrossplayPreference",
+            "mapping_type": {
+                "type": "EnumProperty",
+                "enum_type": "ECrossplayPreference"
+            }
         }
     ]
 }
